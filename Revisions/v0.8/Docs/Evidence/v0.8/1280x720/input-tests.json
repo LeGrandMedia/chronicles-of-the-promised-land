@@ -1,0 +1,361 @@
+{
+	"schema_version": 1,
+	"suite": "viewport_mouse_input",
+	"passed": true,
+	"elapsed_seconds": 36.898228500038385,
+	"stage": 172,
+	"cases": [
+		{
+			"name": "menu_solo_single_click",
+			"passed": true,
+			"detail": "One mouse down/up through SceneViewport entered the lobby."
+		},
+		{
+			"name": "lobby_ready_single_click",
+			"passed": true,
+			"detail": "The lobby snapshot confirms ready after a pointer click."
+		},
+		{
+			"name": "v07.lobby_settings_pointer_roundtrip",
+			"passed": true,
+			"detail": "Viewport clicks changed all four settings, reset readiness, replicated values, and restored Standard / 1x / Normal / Fog On."
+		},
+		{
+			"name": "lobby_ready_single_click",
+			"passed": true,
+			"detail": "The lobby snapshot confirms ready after a pointer click."
+		},
+		{
+			"name": "lobby_start_single_click",
+			"passed": true,
+			"detail": "The authoritative world and client snapshot both entered the match."
+		},
+		{
+			"name": "separate_selection_context_hitboxes",
+			"passed": true,
+			"detail": "Resource and structure right-click targets are larger than their compact selection bounds."
+		},
+		{
+			"name": "unit_single_click_selection",
+			"passed": true,
+			"detail": "Selected worker 7."
+		},
+		{
+			"name": "v07.target_ping_center",
+			"passed": true,
+			"detail": "Actual resource right-click placed the order indicator at the target center."
+		},
+		{
+			"name": "resource_right_click_gather",
+			"passed": true,
+			"detail": "Worker 7 is gathering from resource 8."
+		},
+		{
+			"name": "gather_cargo_and_delivery",
+			"passed": true,
+			"detail": "Observed food cargo, then 10.00 Food delivered to the settlement."
+		},
+		{
+			"name": "drag_box_owned_workers",
+			"passed": true,
+			"detail": "Mouse down/move/move/up selected all 6 owned workers."
+		},
+		{
+			"name": "v07.portrait_shift_remove",
+			"passed": true,
+			"detail": "Viewport Shift+click removed one member of the actual drag selection."
+		},
+		{
+			"name": "v07.portrait_ctrl_isolate",
+			"passed": true,
+			"detail": "Viewport Ctrl+click isolated exactly the clicked entity."
+		},
+		{
+			"name": "idle_worker_button",
+			"passed": true,
+			"detail": "Viewport click selected exactly one idle villager."
+		},
+		{
+			"name": "next_idle_keyboard_chord",
+			"passed": true,
+			"detail": "Viewport keyboard chord cycled to another idle worker: ."
+		},
+		{
+			"name": "all_idle_keyboard_chord",
+			"passed": true,
+			"detail": "Selected all idle workers using the saved modifier chord: Ctrl+."
+		},
+		{
+			"name": "build_card_single_click",
+			"passed": true,
+			"detail": "A single viewport down/up on the build card armed Tents and Habitations."
+		},
+		{
+			"name": "build_keyboard_shortcut",
+			"passed": true,
+			"detail": "Saved construction-menu key then habitation shortcut (defaults Q then D) armed Tents and Habitations without changing preferences."
+		},
+		{
+			"name": "headquarters_single_click",
+			"passed": true,
+			"detail": "Selected only the headquarters after selecting an army."
+		},
+		{
+			"name": "building_context_commands",
+			"passed": true,
+			"detail": "Headquarters exposes no attack-move or patrol command."
+		},
+		{
+			"name": "headquarters_right_click_economic_rally",
+			"passed": true,
+			"detail": "Right-click set the economic rally on server and client."
+		},
+		{
+			"name": "headquarters_split_economic_military_rallies",
+			"passed": true,
+			"detail": "Viewport Economic Rally targeted a resource while the original military destination remained unchanged."
+		},
+		{
+			"name": "rotated_projection_inverse",
+			"passed": true,
+			"detail": "Actual viewport Shift+wheel changed rotation; four inverse projections and cursor anchoring matched."
+		},
+		{
+			"name": "v08.rotated_minimap_projection_inverse",
+			"passed": true,
+			"detail": "Rendered minimap roundtrips nine edge/interior points, follows camera heading and rejects outside-world clicks."
+		},
+		{
+			"name": "shift_number_append_group",
+			"passed": true,
+			"detail": "Viewport Ctrl+9 saved HQ, Shift+9 appended a worker, and 9 recalled both."
+		},
+		{
+			"name": "v07.double_tap_control_group",
+			"passed": true,
+			"detail": "First viewport number key preserved camera; second centered the recalled group average."
+		},
+		{
+			"name": "idle_military_banner",
+			"passed": true,
+			"detail": "A viewport click selected the isolated idle soldier, excluding busy and civilian units."
+		},
+		{
+			"name": "v07.attack_building_ping_center",
+			"passed": true,
+			"detail": "Viewport right-click assigned the soldier to the enemy structure and centered its order indicator on that structure."
+		},
+		{
+			"name": "hero_age_choice_card_prerequisites",
+			"passed": true,
+			"detail": "Only current faction age choices appear as age actions; generic ages, future choices, duplicate research and unchosen hero retrain are absent."
+		},
+		{
+			"name": "selected_building_named_queue",
+			"passed": true,
+			"detail": "Selected HQ exposes its second queue item and explicit cancel button while the corner queue remains available."
+		},
+		{
+			"name": "production_queue_right_click_index",
+			"passed": true,
+			"detail": "Right-clicking square card index 1 cancelled the distinct age choice and retained the first worker job."
+		},
+		{
+			"name": "click_resource_workforce_count",
+			"passed": true,
+			"detail": "Clicking the Food workforce count selects and centers an assigned gatherer without interrupting work."
+		},
+		{
+			"name": "shift_click_train_five",
+			"passed": true,
+			"detail": "Actual viewport Shift+click on a visible unit card appended five paid training jobs."
+		},
+		{
+			"name": "friendly_stealth_opacity",
+			"passed": true,
+			"detail": "Friendly stealth uses a reduced positive opacity and normal visibility restores full opacity."
+		},
+		{
+			"name": "right_click_garrison_panel",
+			"passed": true,
+			"detail": "Right-click boarded a land soldier; selecting the carrier exposed its replicated passenger ID and icon."
+		},
+		{
+			"name": "carrier_e_unload",
+			"passed": true,
+			"detail": "Viewport E unloaded the carrier without targeting the world or sending passengers to map origin."
+		},
+		{
+			"name": "global_age_choices_hidden",
+			"passed": true,
+			"detail": "All age-up hero choice cards disappear at the civilization's global Age IV, independent of headquarters instance."
+		},
+		{
+			"name": "construction_q_opens_then_selects_first_slot",
+			"passed": true,
+			"detail": "Saved menu shortcut opened construction; saved first-slot shortcut armed its building without closing the menu (default Q, Q)."
+		},
+		{
+			"name": "wall_two_endpoints_continuous_orders",
+			"passed": true,
+			"detail": "First click only anchored; second click created all authoritative foundation/queued samples at 2*radius+0.15m spacing."
+		},
+		{
+			"name": "wall_shift_endpoint_chain",
+			"passed": true,
+			"detail": "Shift+third click appended the next continuous wall leg and kept construction armed at the third endpoint."
+		},
+		{
+			"name": "galavant_button_first_waypoint",
+			"passed": true,
+			"detail": "Viewport Galavant button and first world click created exactly one authoritative route point."
+		},
+		{
+			"name": "galavant_shift_append_route",
+			"passed": true,
+			"detail": "Actual viewport Shift+click appended the second server waypoint, preserved the first, and left route editing armed."
+		},
+		{
+			"name": "market_default_galavant_route",
+			"passed": true,
+			"detail": "Actual Market route button, first world click and Shift second click set and replicate the default route."
+		},
+		{
+			"name": "market_new_trader_inherits_route",
+			"passed": true,
+			"detail": "Viewport-trained trader inherited both Market default waypoints and started Galavant; test shortened only its queue duration."
+		},
+		{
+			"name": "lamanite_temple_order_visible_clickable",
+			"passed": true,
+			"detail": "Selected Lamanite temple displayed both upgrades and accepted an actual viewport click on Order of the Nehors."
+		},
+		{
+			"name": "lamanite_temple_pride_visible_clickable",
+			"passed": true,
+			"detail": "After researching Order, viewport click queued Pride; selected temple shows its named item and nonzero progress."
+		},
+		{
+			"name": "v07.tooltip_full_frame_inside_viewport",
+			"passed": true,
+			"detail": "1280x720 viewport: 7 drawn lines; frame X=831.200 Y=12.000 to X=1143.200 Y=128.000."
+		},
+		{
+			"name": "religion_authoritative_counts_hover",
+			"passed": true,
+			"detail": "Actual viewport hover on Anger displays authoritative unit/structure counts, gathering bonus and attack-speed bonus."
+		},
+		{
+			"name": "selected_building_queue_explicit_cancel",
+			"passed": true,
+			"detail": "Viewport click on the selected temple's queue x cancelled its technology while retaining the corner queue interface."
+		},
+		{
+			"name": "v07.live_animation_pair_0",
+			"passed": true,
+			"detail": "move rig=humanoid: mesh hashes 2554420113/79114614, nonrigid displacement 0.00402/0.02360, triangles 48."
+		},
+		{
+			"name": "v07.live_animation_pair_1",
+			"passed": true,
+			"detail": "attack rig=humanoid: mesh hashes 1135930776/1094906168, nonrigid displacement 0.00694/0.02443, triangles 48."
+		},
+		{
+			"name": "v07.live_animation_pair_2",
+			"passed": true,
+			"detail": "gather_timber rig=humanoid: mesh hashes 1100122326/2373275621, nonrigid displacement 0.02583/0.02373, triangles 48."
+		},
+		{
+			"name": "v07.live_animation_pair_3",
+			"passed": true,
+			"detail": "convert rig=humanoid: mesh hashes 469179046/3774013580, nonrigid displacement 0.00730/0.00694, triangles 48."
+		},
+		{
+			"name": "v07.live_animation_pair_4",
+			"passed": true,
+			"detail": "move rig=quadruped: mesh hashes 1086165086/1877713783, nonrigid displacement 0.01838/0.01746, triangles 48."
+		},
+		{
+			"name": "v07.live_animation_pair_5",
+			"passed": true,
+			"detail": "move rig=ship: mesh hashes 38626419/2402127011, nonrigid displacement 0.01841/0.00557, triangles 48."
+		},
+		{
+			"name": "v08.laban_locked_great_spacious_build_card",
+			"passed": true,
+			"detail": "Build-menu keyboard input exposed the unavailable Age-IV structure card and its Roman numeral overlay."
+		},
+		{
+			"name": "v08.laban_locked_age3_unit_card",
+			"passed": true,
+			"detail": "Age-II barracks displays the locked King's Chariot with its III overlay."
+		},
+		{
+			"name": "v08.winery_trains_concubine",
+			"passed": true,
+			"detail": "Viewport training card produced a Drunken Concubine from the Winery; only queue duration was shortened."
+		},
+		{
+			"name": "v08.unselected_concubine_aura_and_laban_district",
+			"passed": true,
+			"detail": "Unselected Concubine retains its aura; normal-zoom screenshot includes Laban structures, Seat, and small homes."
+		},
+		{
+			"name": "v08.laban_district_far_zoom",
+			"passed": true,
+			"detail": "Captured the same Laban district at far zoom for structure and housing scale review."
+		},
+		{
+			"name": "v08.storehouse_raid_card_target",
+			"passed": true,
+			"detail": "Raid Rally card and enemy-site click set and replicate the Storehouse's separate raid destination."
+		},
+		{
+			"name": "v08.storehouse_raid_keyboard_ground",
+			"passed": true,
+			"detail": "Y armed Raid Rally; viewport ground click replaced and replicated the destination independently of production rallies."
+		},
+		{
+			"name": "v08.lawyer_bribe_card_hover",
+			"passed": true,
+			"detail": "Actual viewport hover labels the Lawyer's conversion action Bribe."
+		},
+		{
+			"name": "v08.hideout_public_right_click_garrison",
+			"passed": true,
+			"detail": "Viewport right-click boarded the robber, replicated its garrison portrait, and produced no false death event."
+		},
+		{
+			"name": "v08.explicit_unit_building_death_animation_pair",
+			"passed": true,
+			"detail": "Authoritative Kill events rendered separate death/destruction states and two changing mesh poses, captured as a screenshot pair."
+		},
+		{
+			"name": "v08.death_animation_expiry",
+			"passed": true,
+			"detail": "Both explicit death and destruction presentations expired after their bounded lifetime."
+		},
+		{
+			"name": "hotkey_overlay_view",
+			"passed": true,
+			"detail": "Opened and photographed hotkey settings without editing or saving preferences."
+		}
+	],
+	"input_route": "FSceneViewport mouse handlers -> UGameViewportClient -> ARTSController",
+	"mouse_down_events": 67,
+	"mouse_up_events": 67,
+	"mouse_move_events": 79,
+	"keyboard_down_events": 32,
+	"keyboard_up_events": 32,
+	"worker_id": 7,
+	"resource_id": 8,
+	"headquarters_id": 354,
+	"gather_cargo_observed": true,
+	"food_delivered": 10,
+	"gameplay_screenshot": "Screenshots/input-gameplay.png",
+	"hotkeys_screenshot": "Screenshots/input-hotkeys.png",
+	"mouse_capture_mode": 3,
+	"viewport_width": 1280,
+	"viewport_height": 720,
+	"geometry_scale": 1
+}

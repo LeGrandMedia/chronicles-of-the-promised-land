@@ -1,0 +1,16 @@
+**/Builds/
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/Toolchain/
+**/__pycache__/
+**/.obsidian/workspace*.json
+.vs/
+*.pdb
+*.pyc
+*.zip
+.env
+.env.*
+*.local.json
+*.local.ps1

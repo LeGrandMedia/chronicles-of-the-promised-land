@@ -1,0 +1,451 @@
+{
+	"passed": 74,
+	"failed": 0,
+	"total": 74,
+	"assertions": [
+		{
+			"name": "controls.original_file_backed_up",
+			"passed": true,
+			"expected": "existing bytes preserved or file absent",
+			"actual": "file absent"
+		},
+		{
+			"name": "controls.default_build.1",
+			"passed": true,
+			"expected": "build.encampment_of_war",
+			"actual": "build.encampment_of_war / Q"
+		},
+		{
+			"name": "controls.default_build.2",
+			"passed": true,
+			"expected": "build.fields_of_grain",
+			"actual": "build.fields_of_grain / W"
+		},
+		{
+			"name": "controls.default_build.3",
+			"passed": true,
+			"expected": "build.gathering_of_flocks",
+			"actual": "build.gathering_of_flocks / E"
+		},
+		{
+			"name": "controls.default_build.4",
+			"passed": true,
+			"expected": "build.hill_of_ore",
+			"actual": "build.hill_of_ore / R"
+		},
+		{
+			"name": "controls.default_build.5",
+			"passed": true,
+			"expected": "build.house_of_curious_workmanship",
+			"actual": "build.house_of_curious_workmanship / T"
+		},
+		{
+			"name": "controls.default_build.6",
+			"passed": true,
+			"expected": "build.place_of_many_waters",
+			"actual": "build.place_of_many_waters / U"
+		},
+		{
+			"name": "controls.default_build.7",
+			"passed": true,
+			"expected": "build.place_of_trade",
+			"actual": "build.place_of_trade / I"
+		},
+		{
+			"name": "controls.default_build.8",
+			"passed": true,
+			"expected": "build.rameumptom",
+			"actual": "build.rameumptom / O"
+		},
+		{
+			"name": "controls.default_build.9",
+			"passed": true,
+			"expected": "build.seat_of_the_people",
+			"actual": "build.seat_of_the_people / P"
+		},
+		{
+			"name": "controls.default_build.10",
+			"passed": true,
+			"expected": "build.storehouse_of_provisions",
+			"actual": "build.storehouse_of_provisions / A"
+		},
+		{
+			"name": "controls.default_build.11",
+			"passed": true,
+			"expected": "build.temple_of_the_land",
+			"actual": "build.temple_of_the_land / S"
+		},
+		{
+			"name": "controls.default_build.12",
+			"passed": true,
+			"expected": "build.tents_and_habitations",
+			"actual": "build.tents_and_habitations / D"
+		},
+		{
+			"name": "controls.default_build.13",
+			"passed": true,
+			"expected": "build.tower_of_watchmen",
+			"actual": "build.tower_of_watchmen / F"
+		},
+		{
+			"name": "controls.default_build.14",
+			"passed": true,
+			"expected": "build.works_of_defense",
+			"actual": "build.works_of_defense / G"
+		},
+		{
+			"name": "controls.default_build.15",
+			"passed": true,
+			"expected": "build.secret_combination_lodge",
+			"actual": "build.secret_combination_lodge / J"
+		},
+		{
+			"name": "controls.default_build.16",
+			"passed": true,
+			"expected": "build.winery",
+			"actual": "build.winery / Z"
+		},
+		{
+			"name": "controls.default_build.17",
+			"passed": true,
+			"expected": "build.cement_wall",
+			"actual": "build.cement_wall / K"
+		},
+		{
+			"name": "controls.default_build.18",
+			"passed": true,
+			"expected": "build.cement_tower",
+			"actual": "build.cement_tower / L"
+		},
+		{
+			"name": "controls.default_construction_menu_q",
+			"passed": true,
+			"expected": "Q opens construction; Q remains first build card in build context",
+			"actual": "Q"
+		},
+		{
+			"name": "controls.default_idle_next",
+			"passed": true,
+			"expected": "Period -> idle.next",
+			"actual": "."
+		},
+		{
+			"name": "controls.default_idle_all",
+			"passed": true,
+			"expected": "Ctrl+Period -> idle.all",
+			"actual": "Ctrl+."
+		},
+		{
+			"name": "controls.context_separates_defaults",
+			"passed": true,
+			"expected": "build key not returned in idle context",
+			"actual": ""
+		},
+		{
+			"name": "controls.cross_context_rebind",
+			"passed": true,
+			"expected": "same chord resolves by context",
+			"actual": "Hotkey saved. Any conflicting shortcut was swapped."
+		},
+		{
+			"name": "controls.conflict_swaps_chords",
+			"passed": true,
+			"expected": "fields=E and gathering=W",
+			"actual": "E / W"
+		},
+		{
+			"name": "controls.notice_is_player_facing",
+			"passed": true,
+			"expected": "generic readable notice",
+			"actual": "Hotkey saved. Any conflicting shortcut was swapped."
+		},
+		{
+			"name": "controls.unbound_action_clears_displaced",
+			"passed": true,
+			"expected": "encampment=W, fields unbound",
+			"actual": "W / "
+		},
+		{
+			"name": "controls.reject_backspace",
+			"passed": true,
+			"expected": "rejected",
+			"actual": "Choose an available keyboard key."
+		},
+		{
+			"name": "controls.reject_idle_space",
+			"passed": true,
+			"expected": "rejected",
+			"actual": "Space and number keys are reserved for headquarters and control groups."
+		},
+		{
+			"name": "controls.reject_idle_number",
+			"passed": true,
+			"expected": "rejected",
+			"actual": "Space and number keys are reserved for headquarters and control groups."
+		},
+		{
+			"name": "controls.reject_delete_reserved",
+			"passed": true,
+			"expected": "Delete reserved for hold-to-delete",
+			"actual": "Choose an available keyboard key."
+		},
+		{
+			"name": "controls.construction_menu_editable",
+			"passed": true,
+			"expected": "construction menu can be rebound to B",
+			"actual": "Hotkey saved. Any conflicting shortcut was swapped."
+		},
+		{
+			"name": "controls.numpad_supported",
+			"passed": true,
+			"expected": "numeric keypad accepted",
+			"actual": "Hotkey saved. Any conflicting shortcut was swapped."
+		},
+		{
+			"name": "controls.save_load_chord",
+			"passed": true,
+			"expected": "Ctrl+Shift+Z",
+			"actual": "Ctrl+Shift+Z"
+		},
+		{
+			"name": "controls.save_load_clear",
+			"passed": true,
+			"expected": "unbound",
+			"actual": ""
+		},
+		{
+			"name": "controls.malformed_json_written",
+			"passed": true,
+			"expected": "test fixture written",
+			"actual": "../../../Chronicles/Saved/Config/RTSControls.json"
+		},
+		{
+			"name": "controls.malformed_json_uses_defaults",
+			"passed": true,
+			"expected": "defaults retained",
+			"actual": "Q"
+		},
+		{
+			"name": "controls.invalid_mappings_fixture_written",
+			"passed": true,
+			"expected": "test fixture written",
+			"actual": "../../../Chronicles/Saved/Config/RTSControls.json"
+		},
+		{
+			"name": "controls.unknown_and_unsafe_entries_ignored",
+			"passed": true,
+			"expected": "safe defaults retained",
+			"actual": "Q / W / E / ."
+		},
+		{
+			"name": "controls.chained_saved_conflicts_restore_unique_defaults",
+			"passed": true,
+			"expected": "Q/W/E remain unique after chained collisions",
+			"actual": "build.encampment_of_war / build.fields_of_grain / build.gathering_of_flocks"
+		},
+		{
+			"name": "controls.unknown_action_not_matchable",
+			"passed": true,
+			"expected": "no action",
+			"actual": ""
+		},
+		{
+			"name": "controls.singleton_state_restored",
+			"passed": true,
+			"expected": "original in-memory bindings",
+			"actual": "restored"
+		},
+		{
+			"name": "controls.original_file_bytes_restored",
+			"passed": true,
+			"expected": "file remains absent",
+			"actual": "restored"
+		},
+		{
+			"name": "names.resource_wealth_default",
+			"passed": true,
+			"expected": "Precious Things",
+			"actual": "Precious Things"
+		},
+		{
+			"name": "names.resource_metadata_id_preserved",
+			"passed": true,
+			"expected": "ore",
+			"actual": "ore"
+		},
+		{
+			"name": "names.unit_metadata_id_preserved",
+			"passed": true,
+			"expected": "man_of_the_sword",
+			"actual": "man_of_the_sword"
+		},
+		{
+			"name": "names.faction_metadata_id_preserved",
+			"passed": true,
+			"expected": "nephites",
+			"actual": "nephites"
+		},
+		{
+			"name": "v05.lamanite_temple_research_whitelist",
+			"passed": true,
+			"expected": "both temple research IDs in Lamanite civilization whitelist",
+			"actual": "Order 1 / Pride 1"
+		},
+		{
+			"name": "v05.lamanite_temple_research_producers",
+			"passed": true,
+			"expected": "Rameumptom Order Age II / Pride Age III after Order",
+			"actual": "temple_of_the_land / temple_of_the_land"
+		},
+		{
+			"name": "v04.faction_laborer_names",
+			"passed": true,
+			"expected": "Laban Henpecked Gentile / Gadianton Conspiring Civilian",
+			"actual": "Henpecked Gentile / Conspiring Civilian"
+		},
+		{
+			"name": "v04.laban_headquarters_name",
+			"passed": true,
+			"expected": "faction-specific Laban headquarters",
+			"actual": "Laban's Crib"
+		},
+		{
+			"name": "v04.band_of_kishkumen_name",
+			"passed": true,
+			"expected": "Band of Kishkumen",
+			"actual": "Band of Kishkumen"
+		},
+		{
+			"name": "v04.independent_beast_progression",
+			"passed": true,
+			"expected": "Curelom HQ I, Cumelom Flocks III, Elephant Flocks IV",
+			"actual": "ages 1/3/4"
+		},
+		{
+			"name": "v07.band_age_two_storehouse_training",
+			"passed": true,
+			"expected": "Age II storehouse Band recruitment",
+			"actual": "storehouse_of_provisions"
+		},
+		{
+			"name": "v04.judgment_removed.nephites",
+			"passed": true,
+			"expected": "Judgment Seat absent from civilization",
+			"actual": "nephites"
+		},
+		{
+			"name": "v04.four_age_choice_progression.nephites",
+			"passed": true,
+			"expected": "hero choices advance Ages I-II, II-III and III-IV",
+			"actual": "nephites"
+		},
+		{
+			"name": "v04.cement_is_jaredite_only.nephites",
+			"passed": true,
+			"expected": "Cement defenses excluded",
+			"actual": "nephites"
+		},
+		{
+			"name": "v04.judgment_removed.lamanites",
+			"passed": true,
+			"expected": "Judgment Seat absent from civilization",
+			"actual": "lamanites"
+		},
+		{
+			"name": "v04.four_age_choice_progression.lamanites",
+			"passed": true,
+			"expected": "hero choices advance Ages I-II, II-III and III-IV",
+			"actual": "lamanites"
+		},
+		{
+			"name": "v04.cement_is_jaredite_only.lamanites",
+			"passed": true,
+			"expected": "Cement defenses excluded",
+			"actual": "lamanites"
+		},
+		{
+			"name": "v04.judgment_removed.gadianton",
+			"passed": true,
+			"expected": "Judgment Seat absent from civilization",
+			"actual": "gadianton"
+		},
+		{
+			"name": "v04.four_age_choice_progression.gadianton",
+			"passed": true,
+			"expected": "hero choices advance Ages I-II, II-III and III-IV",
+			"actual": "gadianton"
+		},
+		{
+			"name": "v04.cement_is_jaredite_only.gadianton",
+			"passed": true,
+			"expected": "Cement defenses excluded",
+			"actual": "gadianton"
+		},
+		{
+			"name": "v04.judgment_removed.coriantumr",
+			"passed": true,
+			"expected": "Judgment Seat absent from civilization",
+			"actual": "coriantumr"
+		},
+		{
+			"name": "v04.four_age_choice_progression.coriantumr",
+			"passed": true,
+			"expected": "hero choices advance Ages I-II, II-III and III-IV",
+			"actual": "coriantumr"
+		},
+		{
+			"name": "v04.judgment_removed.shiz",
+			"passed": true,
+			"expected": "Judgment Seat absent from civilization",
+			"actual": "shiz"
+		},
+		{
+			"name": "v04.four_age_choice_progression.shiz",
+			"passed": true,
+			"expected": "hero choices advance Ages I-II, II-III and III-IV",
+			"actual": "shiz"
+		},
+		{
+			"name": "v04.judgment_removed.laban",
+			"passed": true,
+			"expected": "Judgment Seat absent from civilization",
+			"actual": "laban"
+		},
+		{
+			"name": "v04.four_age_choice_progression.laban",
+			"passed": true,
+			"expected": "hero choices advance Ages I-II, II-III and III-IV",
+			"actual": "laban"
+		},
+		{
+			"name": "v04.cement_is_jaredite_only.laban",
+			"passed": true,
+			"expected": "Cement defenses excluded",
+			"actual": "laban"
+		},
+		{
+			"name": "v07.all_military_units_age_locked",
+			"passed": true,
+			"expected": "all military unavailable in Age I and available by Age IV",
+			"actual": "valid"
+		},
+		{
+			"name": "v07.larger_civilizations_have_expanded_hero_choices",
+			"passed": true,
+			"expected": "Nephites and Lamanites each have a tier with more than two choices",
+			"actual": "expanded"
+		},
+		{
+			"name": "v04.cement_defense_costs",
+			"passed": true,
+			"expected": "Cement defenses carry explicit resource costs",
+			"actual": "wall 40 tower 100"
+		},
+		{
+			"name": "v04.carrier_capacities",
+			"passed": true,
+			"expected": "chariot six population / elephant ten",
+			"actual": "6 / 10"
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+  "generation_mode": "built-in tool",
+  "cost_status": "Actual tool charges unavailable; not represented as zero.",
+  "assets": [
+    {
+      "id": "great_spacious_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. A monumental, extremely tall extravagant Great and Spacious Building: tiered ivory tower with a slender gold-tipped spire, deep purple hanging curtains, broad projecting upper balconies, very wide ceremonial stairs at base. Silhouette much taller than all other structures; no dome, no tent roof. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/great_spacious_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "9b0012d21ea165c13a543f817bdbd0d4249137d21293700b8b24b746bd360cf9",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "temple_of_the_land@laban"
+    },
+    {
+      "id": "winery_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. A winery as a religious pleasure-house: two enormous round wooden wine vats visibly protruding from a low L-shaped sandstone winepress shed, angular pergola, big purple grape bunch crest and purple cloth, clay amphorae. Very low wide silhouette with two unmistakable circular vats; no tower or palace. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/winery_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "f43fac3248277296e4d8c36b6f621ea766abba8559177b56ed5b02793f8991aa",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "winery"
+    },
+    {
+      "id": "headquarters_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. Laban's Crib headquarters: massive broad symmetrical royal palace with two blocky square corner towers and a broad flat raised roof, central open courtyard and huge front stairway. Dominant wide silhouette, less tall than a tiered spire palace; ivory sandstone, warm gold, purple standards. No dome. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/headquarters_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "4fddf6c705ce51c6a3c72ad8ca416e0132d58d4d3e0689a5697efea610528769",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "seat_of_the_people@laban"
+    },
+    {
+      "id": "homes_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. Small Labanite Quarters house: one compact single-story cream adobe cottage, single distinct rounded terracotta dome, purple doorway curtain, tiny attached courtyard. Very simple compact round silhouette, no columns or towers, no palace details. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/homes_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "3823ab167e9641c9bf551a7c665a940f612a46f37ad3843bea33935aaba36f74",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "tents_and_habitations@laban"
+    },
+    {
+      "id": "market_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. Laban's Market: open-air triangular sail canopy colored purple over three low merchant stalls arranged in a horseshoe, crates and amphorae. Extremely low and airy broad triangular silhouette, no stone palace walls, no tower. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/market_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "81fdaf62377ef20d7003e77e8abf9fcca726579a4e1dc390510131e84958b04c",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "place_of_trade@laban"
+    },
+    {
+      "id": "storehouse_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. Laban's Storehouse: three tall narrow cylindrical grain silos joined to one tiny low rectangular storeroom with a flat roof, large sealed jars and sacks at front. Clear trio of cylinders silhouette, ivory plaster and ochre bronze trim, small purple banner, no columns or broad palace. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/storehouse_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "79de032795e633af9ce349cdb7968312effc7e3d066f35c4e69c30f5b599f792",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "storehouse_of_provisions@laban"
+    },
+    {
+      "id": "armory_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. Laban's Armory: squat dark sandstone forge with one very tall bent chimney, a visible orange furnace opening and oversized bronze shield rack outdoors. Asymmetric L-shaped heavy angular roof, black stone and gold accents, single purple flag. No palace, no symmetrical towers. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/armory_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "7750b9d6458a41634a5e0b650b8958c6883a4dfe6b070c7207d39d065905dbee",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "house_of_curious_workmanship@laban"
+    },
+    {
+      "id": "guard_camp_v08",
+      "prompt": "Use case: stylized-concept. Asset type: transparent isolated isometric strategy-game building sprite. Laban's Guard Camp: broad low circular palisade training yard with a pair of tall crossed spear standards rising in the center, one long purple ridge tent on the back side, bronze shields around the fence. Recognizable ring silhouette and spears, no palace or stone towers. Match a cohesive original low-poly toon RTS in an ancient Book of Mormon-inspired world. Heroic monumental forms and warm dramatic light inspired by Arnold Friberg, without copying any existing painting. Strong faceted planes, simplified large masses, readable when rendered 100 pixels tall. Isometric orthographic camera from above, front and right sides visible, 30 degree elevation. Center entire building with 6% clear padding, bottom ground contact at 90% image height. Transparent background, no environment, no terrain tile, no people, no text, no labels, no watermark. Square canvas.",
+      "source": "[local generation/working path omitted from public copy]",
+      "output": "Game/Content/Data/Art/buildings/guard_camp_v08.png",
+      "tool": "built-in image_gen",
+      "charge": null,
+      "sha256": "16ae6074eb7be7438723fd3a1e5f0e5be063b7b0d784ac58b8e7f22fd4f980b7",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha_verified": true,
+      "runtime_key": "encampment_of_war@laban"
+    }
+  ]
+}

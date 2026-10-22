@@ -1,0 +1,7 @@
+{
+  "id": "resource.timber",
+  "generator": "built-in image_gen",
+  "full_prompt": "Use case: stylized-concept. Asset type: square transparent RTS resource badge, clearly readable at 32 pixels. Primary request: Two cross-cut logs with visible wood grain. Render the subject as: Two cross-cut logs with visible wood grain. Style/medium: original low-poly toon 3D with chunky faceted forms, monumental sculpted silhouette, clean material shapes, restrained miniature diorama detail. Composition: one centered large icon, tightly framed with breathing room, no pedestal or border. Lighting: warm upper-left key light and cool soft shadows. Palette: colors that clearly communicate Timber, rich but restrained ancient-world materials. Background: genuinely transparent. Constraints: no text, letters, numerals, labels, watermark, UI, frame, clutter, or cropped subject.",
+  "source_png_path": "[local generation/working path omitted from public copy]",
+  "project_png_path": "Game/Content/Data/Art/icons/stats/timber.png"
+}

@@ -1,0 +1,482 @@
+{
+	"passed": 119,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "animation.non_looping_finite_pose.aaron",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.akish",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.alma",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.amalickiah",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.ammon",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.ammonite_covenant_keeper",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.ammoron",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.band_captain",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.bowman",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.brother_of_jared",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.captain_moroni",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.chief_captain",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.cimeter_bearer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.cumelom",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.curelom",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.drunken_concubine",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.elephant",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.emer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.gadianton",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.gadianton_robber",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.giddianhi",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.gilead",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.hagoths_vessel",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.helaman",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.industrious_laborer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.jacob_gadianton",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.jared",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.jaredite_archer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.jaredite_barge",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.jaredite_shield_bearer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.jaredite_warrior",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.keeper_of_flocks",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.king_noah",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.kings_chariot",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.kishkumen",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.korihor",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.laban",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.laman",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.laman_and_lemuel",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.lawyer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.lemuel",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.lib",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.man_of_moroni",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.man_of_the_sword",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.morianton",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.mormon",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.moroni_son",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.nehor",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.nephi",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.oath_keeper",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.omer",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.one_of_the_fifty",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.pahoran",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.priestcrafter",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.sam",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.shared",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.sheep",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.shiz",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.slinger_of_stones",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.stripling_warrior",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.teacher_of_the_word",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.tiller_of_the_earth",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.trader_in_precious_things",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.tubaloth",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.wilderness_spy",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.worker_in_ore",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.zemnarihah",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.zerahemnah",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.zoram",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.zoramite_captain",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.lehi",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.amulek",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.teancum",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.cement_tower",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.cement_wall",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.encampment_of_war",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.fields_of_grain",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.gathering_of_flocks",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.hill_of_ore",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.house_of_curious_workmanship",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.place_of_many_waters",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.place_of_trade",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.seat_of_the_people",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.secret_combination_lodge",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.storehouse_of_provisions",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.temple_of_the_land",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.tents_and_habitations",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.tower_of_watchmen",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.winery",
+			"passed": true
+		},
+		{
+			"name": "animation.non_looping_finite_pose.works_of_defense",
+			"passed": true
+		},
+		{
+			"name": "art.headquarters_and_housing_hierarchy.nephites",
+			"passed": true
+		},
+		{
+			"name": "art.headquarters_and_housing_hierarchy.lamanites",
+			"passed": true
+		},
+		{
+			"name": "art.headquarters_and_housing_hierarchy.gadianton",
+			"passed": true
+		},
+		{
+			"name": "art.headquarters_and_housing_hierarchy.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "art.headquarters_and_housing_hierarchy.shiz",
+			"passed": true
+		},
+		{
+			"name": "art.headquarters_and_housing_hierarchy.laban",
+			"passed": true
+		},
+		{
+			"name": "art.great_spacious_building_larger_than_headquarters",
+			"passed": true
+		},
+		{
+			"name": "ages.chief_chariot_fifty",
+			"passed": true
+		},
+		{
+			"name": "ages.great_spacious_override_preserves_other_temples",
+			"passed": true
+		},
+		{
+			"name": "laban.winery_is_concubine_producer",
+			"passed": true
+		},
+		{
+			"name": "teancum.active_ability_has_catalog_binding",
+			"passed": true
+		},
+		{
+			"name": "laban.gates_are_available",
+			"passed": true
+		},
+		{
+			"name": "death.authority_removes_collision_and_delivers_only_entitled_event",
+			"passed": true
+		},
+		{
+			"name": "death.duplicate_event_is_idempotent",
+			"passed": true
+		},
+		{
+			"name": "destruction.visible_enemy_receives_building_event",
+			"passed": true
+		},
+		{
+			"name": "death.boarding_or_fog_snapshot_does_not_create_death",
+			"passed": true
+		},
+		{
+			"name": "death.compact_wire_round_trip_and_225_bit_event",
+			"passed": true
+		},
+		{
+			"name": "death.sixteen_event_batch_payload_under_one_kib",
+			"passed": true
+		},
+		{
+			"name": "death.presentation_projection_discards_private_state",
+			"passed": true
+		},
+		{
+			"name": "death.oversized_incoming_batch_rejected",
+			"passed": true
+		},
+		{
+			"name": "death.queue_keeps_all_events_until_presentation_capacity",
+			"passed": true
+		},
+		{
+			"name": "death.mass_casualty_queue_bounded_and_drops_oldest_only",
+			"passed": true
+		},
+		{
+			"name": "death.duplicate_pending_event_does_not_drop_another_casualty",
+			"passed": true
+		},
+		{
+			"name": "death.phase_two_flush_bounded_to_four_small_batches",
+			"passed": true
+		},
+		{
+			"name": "death.phase_two_eventually_drains_fifo_without_exceeding_cap",
+			"passed": true
+		},
+		{
+			"name": "death.match_clock_reset_discards_old_pending_events",
+			"passed": true
+		},
+		{
+			"name": "death.lobby_return_discards_old_pending_events",
+			"passed": true
+		},
+		{
+			"name": "death.completed_match_snapshot_still_flushes_pending_events",
+			"passed": true
+		}
+	]
+}

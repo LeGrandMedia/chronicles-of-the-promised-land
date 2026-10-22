@@ -1,0 +1,8 @@
+{
+  "id": "coriantumr_storehouse_beast_income_2",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small leather ledger with a simple stylized curelom horn and a few gold coins, symbolizing improved Jaredite livestock income. Style: crisp low-poly toon 3D game art matching a painterly, faceted medieval strategy game; warm brown leather and gold. Composition: central close-up, bold silhouette, readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+  "source_path": "[local generation/working path omitted from public copy]",
+  "saved_path": "Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\coriantumr_storehouse_beast_income_2.png"
+}

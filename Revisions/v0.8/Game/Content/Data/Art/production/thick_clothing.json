@@ -1,0 +1,7 @@
+{
+  "id": "thick_clothing",
+  "generator": "built-in image_gen",
+  "full_prompt": "Use case: stylized-concept. Asset type: square transparent research icon for an RTS, readable at 32 pixels. Primary request: Layered woven tunic and sturdy leather shoulder covering displayed on a simple form. Render the subject as: Layered woven tunic and sturdy leather shoulder covering displayed on a simple form. Style/medium: original low-poly toon 3D asset with visibly faceted triangular planes, chunky simplified monumental shapes, clean sculpted silhouettes, miniature diorama quality; not photorealistic, no gritty microtexture. Composition: one centered large subject, icon close-up, no pedestal, no frame. Lighting: warm upper-left key light and cool soft shadows. Palette: #9A754E, #4F6672, #C2A67A. Background: genuinely transparent. Constraints: no text, letters, numerals, labels, watermark, UI, tiny clutter, extra unrelated objects, or cropped subject.",
+  "source_png_path": "[local generation/working path omitted from public copy]",
+  "project_png_path": "Game/Content/Data/Art/icons/thick_clothing.png"
+}

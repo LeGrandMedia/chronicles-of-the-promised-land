@@ -1,0 +1,8 @@
+{
+  "id": "actions/rally_economic",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: transparent RTS command icon. Create one original crisp LOW-POLY TOON 3D game icon with large flat angular polygon planes, chunky simple forms, monumental weight, no fine texture. Warm earth colors and bronze with cool teal accents, dramatic warm light upper left and cool shadows. Orthographic 3/4 view. Single centered compact composition, strong silhouette readable at only32 pixels, all objects fully visible with 10% empty margin, square canvas. Genuinely transparent background. No surrounding scene, pedestal, ground plane, cast shadow, text, letters, numbers, border, signature, corner mark, logo, seal or watermark. Subject: A worker carrying grain toward a marked drop-off",
+  "source_path": "[local generation/working path omitted from public copy]",
+  "saved_path": "Revisions\\v0.6\\Game\\Content\\Data\\Art\\icons\\actions\\rally_economic.png"
+}

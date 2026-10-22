@@ -1,0 +1,202 @@
+{
+	"passed": 49,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "favor.industrious_laborer.at_0",
+			"passed": true
+		},
+		{
+			"name": "favor.industrious_laborer.at_50",
+			"passed": true
+		},
+		{
+			"name": "favor.industrious_laborer.at_75",
+			"passed": true
+		},
+		{
+			"name": "favor.industrious_laborer.at_100",
+			"passed": true
+		},
+		{
+			"name": "favor.man_of_moroni.at_0",
+			"passed": true
+		},
+		{
+			"name": "favor.man_of_moroni.at_50",
+			"passed": true
+		},
+		{
+			"name": "favor.man_of_moroni.at_75",
+			"passed": true
+		},
+		{
+			"name": "favor.man_of_moroni.at_100",
+			"passed": true
+		},
+		{
+			"name": "favor.teancum.at_0",
+			"passed": true
+		},
+		{
+			"name": "favor.teancum.at_50",
+			"passed": true
+		},
+		{
+			"name": "favor.teancum.at_75",
+			"passed": true
+		},
+		{
+			"name": "favor.teancum.at_100",
+			"passed": true
+		},
+		{
+			"name": "favor.ammonite_covenant_keeper.at_0",
+			"passed": true
+		},
+		{
+			"name": "favor.ammonite_covenant_keeper.at_50",
+			"passed": true
+		},
+		{
+			"name": "favor.ammonite_covenant_keeper.at_75",
+			"passed": true
+		},
+		{
+			"name": "favor.ammonite_covenant_keeper.at_100",
+			"passed": true
+		},
+		{
+			"name": "favor.jaredite_barge.at_0",
+			"passed": true
+		},
+		{
+			"name": "favor.jaredite_barge.at_50",
+			"passed": true
+		},
+		{
+			"name": "favor.jaredite_barge.at_75",
+			"passed": true
+		},
+		{
+			"name": "favor.jaredite_barge.at_100",
+			"passed": true
+		},
+		{
+			"name": "favor.buildings_excluded",
+			"passed": true
+		},
+		{
+			"name": "conversion.sixty_seconds_hostility_rejects_early_command_and_auto",
+			"passed": true
+		},
+		{
+			"name": "conversion.sixty_seconds_boundary_accepts_innate_conversion",
+			"passed": true
+		},
+		{
+			"name": "conversion.population_required_at_command_and_auto_start",
+			"passed": true
+		},
+		{
+			"name": "conversion.population_available_starts_channel",
+			"passed": true
+		},
+		{
+			"name": "conversion.population_lost_before_completion_leaves_target_unchanged",
+			"passed": true
+		},
+		{
+			"name": "conversion.capacity_restored_preserves_identity_and_health_fraction",
+			"passed": true
+		},
+		{
+			"name": "conversion.concurrent_channels_never_overbook_population",
+			"passed": true
+		},
+		{
+			"name": "conversion.concurrent_ammonite_channels_never_exceed_twelve",
+			"passed": true
+		},
+		{
+			"name": "conversion.only_one_effective_channel_per_target",
+			"passed": true
+		},
+		{
+			"name": "conversion.target_damage_does_not_reset_channel",
+			"passed": true
+		},
+		{
+			"name": "conversion.movement_order_resets_channel",
+			"passed": true
+		},
+		{
+			"name": "bribe.fixture_lawyer_initially_stealthed",
+			"passed": true
+		},
+		{
+			"name": "bribe.command_immediately_leaves_stealth",
+			"passed": true
+		},
+		{
+			"name": "bribe.channel_exposed_without_target_attacking",
+			"passed": true
+		},
+		{
+			"name": "bribe.completion_retains_class_disguise_and_recovery",
+			"passed": true
+		},
+		{
+			"name": "bribe.brief_recovery_then_returns_to_stealth",
+			"passed": true
+		},
+		{
+			"name": "bribe.interruption_also_keeps_brief_exposure",
+			"passed": true
+		},
+		{
+			"name": "laban.concubine_aura_innate_during_other_orders",
+			"passed": true
+		},
+		{
+			"name": "laban.winery_and_spacious_baseline_drunkenness_ratio",
+			"passed": true
+		},
+		{
+			"name": "laban.fermented_reserves_preserves_fivefold_ratio",
+			"passed": true
+		},
+		{
+			"name": "laban.spacious_building_also_gives_laborer_aura",
+			"passed": true
+		},
+		{
+			"name": "laban.spacious_preserves_enemy_weakening_and_health_fraction",
+			"passed": true
+		},
+		{
+			"name": "laban.foundation_has_no_aura_or_generation",
+			"passed": true
+		},
+		{
+			"name": "priestcrafter.outside_attack_aura_restored",
+			"passed": true
+		},
+		{
+			"name": "priestcrafter.context_occupancy_enables_stronger_aura",
+			"passed": true
+		},
+		{
+			"name": "priestcrafter.only_one_occupant_strongest_aura_does_not_stack",
+			"passed": true
+		},
+		{
+			"name": "teancum.night_raid_ten_seconds_stealth_forty_bonus_fortyfive_cooldown",
+			"passed": true
+		},
+		{
+			"name": "teancum.first_attack_consumes_night_raid_bonus",
+			"passed": true
+		}
+	]
+}

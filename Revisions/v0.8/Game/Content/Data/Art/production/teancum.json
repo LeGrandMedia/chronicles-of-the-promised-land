@@ -1,0 +1,8 @@
+{
+  "id": "teancum",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: single transparent game unit sprite for an RTS. Subject: Teancum, an agile Nephite captain, focused Middle Eastern man in his early thirties with dark hair tied back, cream tunic, dark teal and brown military sash, leather bracers, holding a short bronze sword low at his side. Style/medium: crisp low-poly toon 3D game art, large flat angular polygon planes, faceted sculpted surfaces, warm earth colors, readable lighting. Composition: orthographic three-quarter front view, full body, centered, feet visible, 8% clear margins, square canvas, strong silhouette readable at 48 pixels tall. Lighting: warm upper-left key light, cool shadows. Background: genuinely transparent. Constraints: no terrain, pedestal, cast shadow, environment, text, border, or watermark.",
+  "source_path": "[local generation/working path omitted from public copy]",
+  "saved_path": "Revisions\\v0.7\\Game\\Content\\Data\\Art\\units\\teancum.png"
+}

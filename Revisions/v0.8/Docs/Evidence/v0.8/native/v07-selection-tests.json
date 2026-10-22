@@ -1,0 +1,126 @@
+{
+	"passed": 30,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "fixture.catalog_definition_exists.teacher_of_the_word",
+			"passed": true
+		},
+		{
+			"name": "convert.innate_order_in_age_one_without_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.priestcrafter",
+			"passed": true
+		},
+		{
+			"name": "convert.innate_order_in_age_one_without_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.priestcrafter",
+			"passed": true
+		},
+		{
+			"name": "convert.innate_order_in_age_one_without_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.priestcrafter",
+			"passed": true
+		},
+		{
+			"name": "convert.innate_order_in_age_one_without_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.drunken_concubine",
+			"passed": true
+		},
+		{
+			"name": "convert.innate_order_in_age_one_without_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.lawyer",
+			"passed": true
+		},
+		{
+			"name": "convert.innate_order_in_age_one_without_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.ammonite_covenant_keeper",
+			"passed": true
+		},
+		{
+			"name": "prostrate.locked_before_mighty_change",
+			"passed": true
+		},
+		{
+			"name": "prostrate.unlocked_after_research",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.tents_and_habitations",
+			"passed": true
+		},
+		{
+			"name": "hideout.completed_gadianton_house_can_unload",
+			"passed": true
+		},
+		{
+			"name": "hideout.foundation_has_no_unload",
+			"passed": true
+		},
+		{
+			"name": "hideout.other_civilization_house_is_not_carrier_ui",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.curelom",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.industrious_laborer",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.trader_in_precious_things",
+			"passed": true
+		},
+		{
+			"name": "idle.builders_beasts_excluded_real_workers_retained",
+			"passed": true
+		},
+		{
+			"name": "portrait.individual_selection_preserves_entity_identity",
+			"passed": true
+		},
+		{
+			"name": "portrait.stale_entity_cannot_enter_selection",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.industrious_laborer",
+			"passed": true
+		},
+		{
+			"name": "construction.gadianton_menu_keeps_food_buildings_unavailable",
+			"passed": true
+		},
+		{
+			"name": "fixture.catalog_definition_exists.priestcrafter",
+			"passed": true
+		},
+		{
+			"name": "construction.priest_not_builder_before_pride",
+			"passed": true
+		},
+		{
+			"name": "construction.pride_priest_can_open_temple_build_menu",
+			"passed": true
+		}
+	]
+}

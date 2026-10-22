@@ -1,0 +1,7 @@
+{
+  "id": "nephites",
+  "generator": "built-in image_gen",
+  "full_prompt": "Use case: stylized-concept. Asset type: square transparent faction emblem for an RTS, immediately readable at 32 pixels. Primary request: Gold sunburst over a blue shield. Render the subject as: Gold sunburst over a blue shield. Style/medium: original low-poly toon 3D, chunky monumental shapes with crisp faceted planes, sculpted high-contrast silhouette, ancient-world heraldic craft. Composition: single centered emblem, close crop with breathing room, no text, no shield border unless integral to the subject. Lighting: warm upper-left key light and cool soft shadows. Palette: distinctive faction colors matching this design: Gold sunburst over a blue shield. Background: genuinely transparent. Constraints: no words, letters, numerals, labels, watermark, UI, pedestal, unrelated clutter, or cropped emblem.",
+  "source_png_path": "[local generation/working path omitted from public copy]",
+  "project_png_path": "Game/Content/Data/Art/icons/factions/nephites.png"
+}

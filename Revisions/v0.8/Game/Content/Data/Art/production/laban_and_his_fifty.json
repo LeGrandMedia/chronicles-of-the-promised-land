@@ -1,0 +1,7 @@
+{
+  "id": "laban_and_his_fifty",
+  "generator": "built-in image_gen",
+  "full_prompt": "Use case: stylized-concept. Asset type: square transparent research icon for an RTS, readable at 32 pixels. Primary request: Armored commander in front of a compact group of fifty-style guards, shown as five clear figures. Render the subject as: Armored commander in front of a compact group of fifty-style guards, shown as five clear figures. Style/medium: original low-poly toon 3D asset with visibly faceted triangular planes, chunky simplified monumental shapes, clean sculpted silhouettes, miniature diorama quality; not photorealistic, no gritty microtexture. Composition: one centered large subject, icon close-up, no pedestal, no frame. Lighting: warm upper-left key light and cool soft shadows. Palette: #D6C9A6, #51423D, #9C7045. Background: genuinely transparent. Constraints: no text, letters, numerals, labels, watermark, UI, tiny clutter, extra unrelated objects, or cropped subject.",
+  "source_png_path": "[local generation/working path omitted from public copy]",
+  "project_png_path": "Game/Content/Data/Art/icons/laban_and_his_fifty.png"
+}

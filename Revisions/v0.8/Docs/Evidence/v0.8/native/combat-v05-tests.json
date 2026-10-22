@@ -1,0 +1,345 @@
+{
+	"passed": 30,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "laban.concubine_receives_one_armor",
+			"passed": true
+		},
+		{
+			"name": "laban.military_no_longer_receives_armor",
+			"passed": true
+		},
+		{
+			"name": "laban.age_choice_boosts_concubines_not_military",
+			"passed": true
+		},
+		{
+			"name": "laban.concubine_aura_reaches_seven_metres",
+			"passed": true
+		},
+		{
+			"name": "laban.extra_aura_range_ends_when_hero_leaves",
+			"passed": true
+		},
+		{
+			"name": "laban.buffs_preserve_exact_five_second_seduction",
+			"passed": true
+		},
+		{
+			"name": "combat.ranged_units_auto_acquire_enemy_religious_units",
+			"passed": true
+		},
+		{
+			"name": "combat.damage_interrupts_conversion_without_cooldown",
+			"passed": true
+		},
+		{
+			"name": "combat.hold_position_does_not_chase",
+			"passed": true
+		},
+		{
+			"name": "combat.idle_melee_closes_on_ranged_threat",
+			"passed": true
+		},
+		{
+			"name": "combat.stationary_stealth_prevents_auto_acquisition",
+			"passed": true
+		},
+		{
+			"name": "combat.tower_detection_enables_ranged_attack",
+			"passed": true
+		},
+		{
+			"name": "religion.hover_counts_and_values.nephites",
+			"passed": true
+		},
+		{
+			"name": "religion.hover_counts_and_values.lamanites",
+			"passed": true
+		},
+		{
+			"name": "religion.hover_counts_and_values.gadianton",
+			"passed": true
+		},
+		{
+			"name": "religion.hover_counts_and_values.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "religion.hover_counts_and_values.shiz",
+			"passed": true
+		},
+		{
+			"name": "religion.hover_counts_and_values.laban",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.melee_vs_bows_equal_units",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.melee_vs_bows_reversed_sides",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.bows_vs_religion_equal_units",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.melee_vs_religion_equal_units",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.raiders_vs_line_infantry",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.concubines_vs_melee",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.elephants_vs_melee",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.elite_guard_vs_melee",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.nephite_vs_lamanite_equal_units",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.nephite_vs_lamanite_rough_equal_cost",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.shiz_vs_coriantumr_equal_infantry",
+			"passed": true
+		},
+		{
+			"name": "engagement.finite_state.elephant_vs_watchtower",
+			"passed": true
+		}
+	],
+	"combat_matches": [
+		{
+			"scenario": "melee_vs_bows_equal_units",
+			"faction_a": "lamanites",
+			"unit_a": "cimeter_bearer",
+			"start_a": 6,
+			"faction_b": "lamanites",
+			"unit_b": "bowman",
+			"start_b": 6,
+			"seconds": 7.5999951362609863,
+			"survivors_a": 6,
+			"survivors_b": 0,
+			"health_a": 300.00003051757812,
+			"health_b": 0,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 300,
+			"combined_resource_cost_b": 336,
+			"result": "A wins"
+		},
+		{
+			"scenario": "melee_vs_bows_reversed_sides",
+			"faction_a": "lamanites",
+			"unit_a": "cimeter_bearer",
+			"start_a": 6,
+			"faction_b": "lamanites",
+			"unit_b": "bowman",
+			"start_b": 6,
+			"seconds": 7.5999951362609863,
+			"survivors_a": 6,
+			"survivors_b": 0,
+			"health_a": 300.00003051757812,
+			"health_b": 0,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 300,
+			"combined_resource_cost_b": 336,
+			"result": "A wins"
+		},
+		{
+			"scenario": "bows_vs_religion_equal_units",
+			"faction_a": "lamanites",
+			"unit_a": "bowman",
+			"start_a": 4,
+			"faction_b": "lamanites",
+			"unit_b": "priestcrafter",
+			"start_b": 4,
+			"seconds": 7.5999951362609863,
+			"survivors_a": 4,
+			"survivors_b": 0,
+			"health_a": 280,
+			"health_b": 0,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 224,
+			"combined_resource_cost_b": 364,
+			"result": "A wins"
+		},
+		{
+			"scenario": "melee_vs_religion_equal_units",
+			"faction_a": "lamanites",
+			"unit_a": "cimeter_bearer",
+			"start_a": 4,
+			"faction_b": "lamanites",
+			"unit_b": "priestcrafter",
+			"start_b": 4,
+			"seconds": 8.7999973297119141,
+			"survivors_a": 4,
+			"survivors_b": 0,
+			"health_a": 340,
+			"health_b": 0,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 200,
+			"combined_resource_cost_b": 364,
+			"result": "A wins"
+		},
+		{
+			"scenario": "raiders_vs_line_infantry",
+			"faction_a": "gadianton",
+			"unit_a": "gadianton_robber",
+			"start_a": 6,
+			"faction_b": "lamanites",
+			"unit_b": "cimeter_bearer",
+			"start_b": 6,
+			"seconds": 5.4999971389770508,
+			"survivors_a": 0,
+			"survivors_b": 6,
+			"health_a": 0,
+			"health_b": 390,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 390,
+			"combined_resource_cost_b": 300,
+			"result": "B wins"
+		},
+		{
+			"scenario": "concubines_vs_melee",
+			"faction_a": "laban",
+			"unit_a": "drunken_concubine",
+			"start_a": 4,
+			"faction_b": "lamanites",
+			"unit_b": "cimeter_bearer",
+			"start_b": 4,
+			"seconds": 9.8000011444091797,
+			"survivors_a": 0,
+			"survivors_b": 4,
+			"health_a": 0,
+			"health_b": 340,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 600,
+			"combined_resource_cost_b": 200,
+			"result": "B wins"
+		},
+		{
+			"scenario": "elephants_vs_melee",
+			"faction_a": "coriantumr",
+			"unit_a": "elephant",
+			"start_a": 2,
+			"faction_b": "lamanites",
+			"unit_b": "cimeter_bearer",
+			"start_b": 12,
+			"seconds": 20.700042724609375,
+			"survivors_a": 0,
+			"survivors_b": 10,
+			"health_a": 0,
+			"health_b": 790,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 900,
+			"combined_resource_cost_b": 600,
+			"result": "B wins"
+		},
+		{
+			"scenario": "elite_guard_vs_melee",
+			"faction_a": "laban",
+			"unit_a": "one_of_the_fifty",
+			"start_a": 4,
+			"faction_b": "lamanites",
+			"unit_b": "cimeter_bearer",
+			"start_b": 12,
+			"seconds": 14.600019454956055,
+			"survivors_a": 0,
+			"survivors_b": 9,
+			"health_a": 0,
+			"health_b": 487,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 840,
+			"combined_resource_cost_b": 600,
+			"result": "B wins"
+		},
+		{
+			"scenario": "nephite_vs_lamanite_equal_units",
+			"faction_a": "nephites",
+			"unit_a": "cimeter_bearer",
+			"start_a": 8,
+			"faction_b": "lamanites",
+			"unit_b": "cimeter_bearer",
+			"start_b": 8,
+			"seconds": 2.5999996662139893,
+			"survivors_a": 0,
+			"survivors_b": 8,
+			"health_a": 0,
+			"health_b": 576,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 760,
+			"combined_resource_cost_b": 400,
+			"result": "B wins"
+		},
+		{
+			"scenario": "nephite_vs_lamanite_rough_equal_cost",
+			"faction_a": "nephites",
+			"unit_a": "cimeter_bearer",
+			"start_a": 6,
+			"faction_b": "lamanites",
+			"unit_b": "cimeter_bearer",
+			"start_b": 11,
+			"seconds": 2.0000002384185791,
+			"survivors_a": 0,
+			"survivors_b": 11,
+			"health_a": 0,
+			"health_b": 857,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 570,
+			"combined_resource_cost_b": 550,
+			"result": "B wins"
+		},
+		{
+			"scenario": "shiz_vs_coriantumr_equal_infantry",
+			"faction_a": "shiz",
+			"unit_a": "cimeter_bearer",
+			"start_a": 8,
+			"faction_b": "coriantumr",
+			"unit_b": "cimeter_bearer",
+			"start_b": 8,
+			"seconds": 8.5999965667724609,
+			"survivors_a": 0,
+			"survivors_b": 6,
+			"health_a": 0,
+			"health_b": 174.00001525878906,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 600,
+			"combined_resource_cost_b": 600,
+			"result": "B wins"
+		},
+		{
+			"scenario": "elephant_vs_watchtower",
+			"faction_a": "coriantumr",
+			"unit_a": "elephant",
+			"start_a": 1,
+			"faction_b": "lamanites",
+			"unit_b": "tower_of_watchmen",
+			"start_b": 1,
+			"seconds": 138.09922790527344,
+			"survivors_a": 0,
+			"survivors_b": 1,
+			"health_a": 0,
+			"health_b": 146.00007629394531,
+			"converted_survivors": 0,
+			"combined_resource_cost_a": 450,
+			"combined_resource_cost_b": 140,
+			"result": "B wins"
+		}
+	],
+	"method": "Native simulation, 0.1s ticks, clear ground, 8m starting gap, Age III, initial religious stat20, no upgrades or micromanagement, 240s maximum. Results are balance observations, not assertions that every matchup is fair."
+}

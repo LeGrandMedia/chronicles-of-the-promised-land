@@ -1,0 +1,9 @@
+{
+  "asset_id": "crate",
+  "prompt": "Use case: stylized-concept. Create ONE production-ready transparent RTS resource sprite. Low-poly toon 3D render, chunky flat polygon planes, bold readable silhouette, original design, monumental clear shapes, warm earthy Arnold Friberg-inspired palette and dramatic upper-left warm light with cool shadows. Orthographic isometric camera 30 degrees down, full entire subject centered on square canvas filling 80–85 percent. Genuine transparent background with clean alpha. No terrain slab, no pedestal, no ground plane, no external cast shadow, no people, no writing, no labels, no border, no watermark.  Subject: Subject: ONE closed cedar cargo crate, a bound wooden box with broad planks, diagonal braces and two thick dark bronze binding straps. Three visible faces, readable box silhouette, no writing.",
+  "source": "[local generation/working path omitted from public copy]",
+  "destination": "Revisions/v0.6/Game/Content/Data/Art/resources/crate.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "visual_review": "Generated image displayed for visual inspection; native alpha preserved without image editing."
+}

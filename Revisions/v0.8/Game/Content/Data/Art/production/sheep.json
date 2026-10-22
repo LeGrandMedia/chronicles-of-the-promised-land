@@ -1,0 +1,8 @@
+{
+  "id": "sheep",
+  "category": "units",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: single transparent sprite for an isometric Book of Mormon RTS. Style: original character design inspired by Arnold Friberg's monumental anatomy, weighty drapery, earth colors and dramatic light, translated into crisp LOW-POLY TOON 3D render, large flat angular polygon planes, no fine texture. Camera orthographic three-quarter front isometric, looking DOWN 30 degrees, subject faces bottom-right. Full body head to feet including all equipment, entire silhouette visible and uncropped, centered with 8% clear margins, feet near bottom edge. Square image. Warm light upper left with cool shaded planes. Neutral warm skin tone; do not encode allegiance through skin color. Strong silhouette readable at 48 pixels tall, simplified large shapes. Transparent background, NO terrain, NO pedestal, NO cast shadow, NO environment, NO lettering, NO border, NO watermark. Single game unit only (paired units/vehicles expressly specified are one asset). Subject: Sheep, one plump ivory wool sheep, large chunky polygon tufts, small beige face and ears, dark brown hooves, mild friendly expression, all four legs visible, no accessories.",
+  "source": "[local generation/working path omitted from public copy]",
+  "destination": "Revisions/v0.6/Game/Content/Data/Art/units/sheep.png"
+}

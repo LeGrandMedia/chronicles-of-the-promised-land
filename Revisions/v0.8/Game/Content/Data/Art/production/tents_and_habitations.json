@@ -1,0 +1,9 @@
+{
+  "asset_id": "tents_and_habitations",
+  "prompt": "Use case: stylized-concept. Create ONE production-ready transparent RTS building sprite, a low-poly toon 3D render with chunky flat polygon planes and bold readable silhouette. Original ancient Book of Mormon-inspired design, with Arnold Friberg-inspired monumental massing, warm earth colors and dramatic warm upper-left light with cool blue shadows. Warm cream sandstone, cedar, bronze, muted teal/ochre/crimson accents. Orthographic isometric camera 30 degrees down. Full entire structure centered, square canvas, structure fills 80–85 percent of canvas, front entrance faces bottom-right. Transparent background with clean alpha, no terrain slab, no pedestal, no ground plane, no external cast shadow, no people, no writing, no readable text, no labels, no border, no watermark. Use broad simple details legible at game zoom, not intricate ornament. Subject: a compact ancient dwelling cluster, one substantial cream-stucco family house with a cedar flat roof and attached small ochre canvas shelter, one arched dark entrance, simple wood shutters. Distinct low domestic silhouette.",
+  "source": "[local generation/working path omitted from public copy]",
+  "destination": "Revisions/v0.6/Game/Content/Data/Art/buildings/tents_and_habitations.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "visual_review": "Distinct complete structure, coherent palette and isometric view. Generated canvas occupancy is larger than requested; full structure remains visible."
+}

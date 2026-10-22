@@ -1,0 +1,7 @@
+{
+  "id": "gadianton_storehouse_wild_food",
+  "generator": "built-in image_gen",
+  "full_prompt": "Use case: stylized-concept. Asset type: square transparent research icon for an RTS, readable at 32 pixels. Primary request: Cloaked forager gathering berries and a small game animal at a forest edge. Render the subject as: Cloaked forager gathering berries and a small game animal at a forest edge. Style/medium: original low-poly toon 3D asset with visibly faceted triangular planes, chunky simplified monumental shapes, clean sculpted silhouettes, miniature diorama quality; not photorealistic, no gritty microtexture. Composition: one centered large subject, icon close-up, no pedestal, no frame. Lighting: warm upper-left key light and cool soft shadows. Palette: #3E5141, #8D493D, #A88147. Background: genuinely transparent. Constraints: no text, letters, numerals, labels, watermark, UI, tiny clutter, extra unrelated objects, or cropped subject.",
+  "source_png_path": "[local generation/working path omitted from public copy]",
+  "project_png_path": "Game/Content/Data/Art/icons/gadianton_storehouse_wild_food.png"
+}

@@ -1,0 +1,289 @@
+{
+	"all_active_poses_non_rigid": true,
+	"mesh_never_folds": true,
+	"all_units_smaller_buildings_unchanged": true,
+	"work_state_routing": true,
+	"poses": [
+		{
+			"type": "cimeter_bearer",
+			"state": "move",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 2327204623,
+			"pose_b_hash": 1136655581,
+			"non_rigid_rms": 0.023868195712566376,
+			"triangles": 48
+		},
+		{
+			"type": "cimeter_bearer",
+			"state": "attack",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 1379971026,
+			"pose_b_hash": 1716013395,
+			"non_rigid_rms": 0.035439975559711456,
+			"triangles": 48
+		},
+		{
+			"type": "cimeter_bearer",
+			"state": "build",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "cimeter_bearer",
+			"state": "gather_food",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 228212397,
+			"pose_b_hash": 2170467338,
+			"non_rigid_rms": 0.017030363902449608,
+			"triangles": 48
+		},
+		{
+			"type": "cimeter_bearer",
+			"state": "gather_timber",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "cimeter_bearer",
+			"state": "gather_ore",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "cimeter_bearer",
+			"state": "convert",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3286703966,
+			"pose_b_hash": 1178171430,
+			"non_rigid_rms": 0.008610081858932972,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "move",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 2327204623,
+			"pose_b_hash": 1136655581,
+			"non_rigid_rms": 0.023868195712566376,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "attack",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 1379971026,
+			"pose_b_hash": 1716013395,
+			"non_rigid_rms": 0.035439975559711456,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "build",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "gather_food",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 228212397,
+			"pose_b_hash": 2170467338,
+			"non_rigid_rms": 0.017030363902449608,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "gather_timber",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "gather_ore",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "industrious_laborer",
+			"state": "convert",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3286703966,
+			"pose_b_hash": 1178171430,
+			"non_rigid_rms": 0.008610081858932972,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "move",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 2327204623,
+			"pose_b_hash": 1136655581,
+			"non_rigid_rms": 0.023868195712566376,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "attack",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 1379971026,
+			"pose_b_hash": 1716013395,
+			"non_rigid_rms": 0.035439975559711456,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "build",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "gather_food",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 228212397,
+			"pose_b_hash": 2170467338,
+			"non_rigid_rms": 0.017030363902449608,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "gather_timber",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "gather_ore",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3257640734,
+			"pose_b_hash": 4054729423,
+			"non_rigid_rms": 0.024498803541064262,
+			"triangles": 48
+		},
+		{
+			"type": "teacher_of_the_word",
+			"state": "convert",
+			"rig": "humanoid",
+			"changed_pose": true,
+			"pose_a_hash": 3286703966,
+			"pose_b_hash": 1178171430,
+			"non_rigid_rms": 0.008610081858932972,
+			"triangles": 48
+		},
+		{
+			"type": "elephant",
+			"state": "move",
+			"rig": "quadruped",
+			"changed_pose": true,
+			"pose_a_hash": 621385481,
+			"pose_b_hash": 1921624265,
+			"non_rigid_rms": 0.017998924478888512,
+			"triangles": 48
+		},
+		{
+			"type": "elephant",
+			"state": "attack",
+			"rig": "quadruped",
+			"changed_pose": true,
+			"pose_a_hash": 2448099600,
+			"pose_b_hash": 2658158771,
+			"non_rigid_rms": 0.035125982016324997,
+			"triangles": 48
+		},
+		{
+			"type": "elephant",
+			"state": "build",
+			"rig": "quadruped",
+			"changed_pose": true,
+			"pose_a_hash": 1894675261,
+			"pose_b_hash": 3311255562,
+			"non_rigid_rms": 0.009395260363817215,
+			"triangles": 48
+		},
+		{
+			"type": "elephant",
+			"state": "gather_food",
+			"rig": "quadruped",
+			"changed_pose": true,
+			"pose_a_hash": 1894675261,
+			"pose_b_hash": 3311255562,
+			"non_rigid_rms": 0.009395260363817215,
+			"triangles": 48
+		},
+		{
+			"type": "elephant",
+			"state": "gather_timber",
+			"rig": "quadruped",
+			"changed_pose": true,
+			"pose_a_hash": 1894675261,
+			"pose_b_hash": 3311255562,
+			"non_rigid_rms": 0.009395260363817215,
+			"triangles": 48
+		},
+		{
+			"type": "elephant",
+			"state": "gather_ore",
+			"rig": "quadruped",
+			"changed_pose": true,
+			"pose_a_hash": 1894675261,
+			"pose_b_hash": 3311255562,
+			"non_rigid_rms": 0.009395260363817215,
+			"triangles": 48
+		},
+		{
+			"type": "jaredite_barge",
+			"state": "move",
+			"rig": "ship",
+			"changed_pose": true,
+			"pose_a_hash": 2464397302,
+			"pose_b_hash": 1228118102,
+			"non_rigid_rms": 0.017110975459218025,
+			"triangles": 48
+		}
+	],
+	"method": "Same weighted UV mesh used by Canvas drawing; two distinct poses per activity plus 24-sample signed-area checks. World scale 0.66, ships0.70, UI icons unchanged. Rendered pose metrics available via GetPoseMetrics(entityId)."
+}

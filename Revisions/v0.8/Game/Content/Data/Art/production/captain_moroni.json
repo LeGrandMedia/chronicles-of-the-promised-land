@@ -1,0 +1,8 @@
+{
+  "id": "captain_moroni",
+  "category": "units",
+  "mode": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Asset type: single transparent game sprite for an isometric Book of Mormon RTS. Subject: Captain Moroni, a powerful adult commander, bronze lamellar breastplate and arm shields, cream tunic, deep teal cape, leather sandals, angular dark hair and close beard, short sword held low in right hand, plain ivory torn cloth standard on a wooden pole in left hand, no lettering. Original character design drawing inspiration from Arnold Friberg's monumental heroic anatomy, weighty drapery, warm earth colors and dramatic light, translated into a crisp low-poly toon 3D render. Camera: orthographic isometric three-quarter front, looking down 30 degrees, facing bottom-right. Full body including feet and complete pole visible, strong readable silhouette, centered, fills 85% of image, generous uncropped margins. Broad flat polygon faces, restrained detail readable at 48 pixels tall, warm light upper left, cool shaded planes, no painterly grain or outlines. Transparent background, no terrain, no pedestal, no cast shadow, no environment, no text, no border, no watermark. One single character only. Square image.",
+  "source": "[local generation/working path omitted from public copy]",
+  "destination": "Revisions/v0.6/Game/Content/Data/Art/units/captain_moroni.png"
+}

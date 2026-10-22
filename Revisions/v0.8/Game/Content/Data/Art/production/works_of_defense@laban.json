@@ -1,0 +1,12 @@
+{
+  "asset_id": "works_of_defense@laban",
+  "base_id": "works_of_defense",
+  "faction": "laban",
+  "display_name": "Laban’s Defenses",
+  "prompt": "Use case: stylized-concept. Create ONE production-ready transparent RTS building sprite, a low-poly toon 3D render with chunky flat polygon planes and bold readable silhouette. Original ancient Book of Mormon-inspired design, with Arnold Friberg-inspired monumental massing, warm earth colors and dramatic warm upper-left light with cool blue shadows. Warm cream sandstone, cedar, bronze, muted teal/ochre/crimson accents. Orthographic isometric camera 30 degrees down. Full entire structure centered, square canvas, structure fills 80–85 percent of canvas, front entrance faces bottom-right. Transparent background with clean alpha, no terrain slab, no pedestal, no ground plane, no external cast shadow, no people, no writing, no readable text, no labels, no border, no watermark. Use broad simple details legible at game zoom, not intricate ornament.  Keep a generous transparent margin of at least 8% on every edge; do not let roof corners or stairs touch the canvas edges.  FINAL FRAMING REQUIREMENT: leave a full 20% completely transparent safety border on ALL FOUR SIDES. The building must occupy only the central 60% of the canvas. No roof, stair, wall, corner, foliage, or accessory may touch or approach any image edge. Full complete uncut silhouette is mandatory. Subject: one section of Laban's defenses, a broad cream-stone wall between two half-round buttresses, a monumental bronze gate and restrained purple cloth accents. This asset is specifically Laban’s Defenses. Give this variant its own functional architecture and silhouette, not a recolor. Keep forms broad and low-poly, omit fine decoration and microtexture.",
+  "source": "[local generation/working path omitted from public copy]",
+  "destination": "Revisions/v0.6/Game/Content/Data/Art/buildings/works_of_defense@laban.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "visual_review": "Generated image displayed for visual inspection; original alpha preserved."
+}

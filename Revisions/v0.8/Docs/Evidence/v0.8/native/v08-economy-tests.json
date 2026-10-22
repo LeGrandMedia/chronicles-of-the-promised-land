@@ -1,0 +1,154 @@
+{
+	"passed": 37,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "galavant.public_route_moves_between_laborers_and_pays_repeatedly",
+			"passed": true
+		},
+		{
+			"name": "galavant.overlapping_traders_share_laborer_cooldown",
+			"passed": true
+		},
+		{
+			"name": "galavant.shared_cooldown_prevents_early_repeat",
+			"passed": true
+		},
+		{
+			"name": "galavant.shared_cooldown_allows_later_repeat",
+			"passed": true
+		},
+		{
+			"name": "galavant.market_public_training_inherits_two_waypoint_route",
+			"passed": true
+		},
+		{
+			"name": "galavant.market_center_waypoint_does_not_stall_newborn_income",
+			"passed": true
+		},
+		{
+			"name": "raid.direct_laborer_requires_setup",
+			"passed": true
+		},
+		{
+			"name": "raid.direct_laborer_cargo_is_conserved_before_dropoff",
+			"passed": true
+		},
+		{
+			"name": "raid.empty_laborer_triggers_return_and_friendly_dropoff",
+			"passed": true
+		},
+		{
+			"name": "raid.allied_laborer_is_rejected_without_theft",
+			"passed": true
+		},
+		{
+			"name": "raid_move.acquires_loaded_enemy_laborer_then_delivers",
+			"passed": true
+		},
+		{
+			"name": "raid.laborer_theft_capacity_and_explicit_bonus_preserve_base_debit",
+			"passed": true
+		},
+		{
+			"name": "storehouse.public_raid_route_is_inherited_by_trained_robber",
+			"passed": true
+		},
+		{
+			"name": "storehouse.inherited_raid_route_delivers_and_repeats",
+			"passed": true
+		},
+		{
+			"name": "storehouse.point_route_inherits_raid_move_and_home_dropoff",
+			"passed": true
+		},
+		{
+			"name": "hideout.public_context_accepts_civilian_spy_and_robber_up_to_five_population",
+			"passed": true
+		},
+		{
+			"name": "hideout.unload_places_every_passenger_on_walkable_land",
+			"passed": true
+		},
+		{
+			"name": "hideout.unloaded_units_can_walk_away",
+			"passed": true
+		},
+		{
+			"name": "attack_move.structure_never_receives_unit_order_or_rally",
+			"passed": true
+		},
+		{
+			"name": "attack_move.military_unit_receives_movement_order",
+			"passed": true
+		},
+		{
+			"name": "construction.public_elephant_placement_creates_foundation",
+			"passed": true
+		},
+		{
+			"name": "construction.foundation_locks_original_builder_tier",
+			"passed": true
+		},
+		{
+			"name": "construction.nearby_wrong_tiers_cannot_resume_foundation",
+			"passed": true
+		},
+		{
+			"name": "construction.original_tier_resumes_proximity_construction",
+			"passed": true
+		},
+		{
+			"name": "construction.lower_beast_repairs_completed_cement_without_tier_or_hp_rescale",
+			"passed": true
+		},
+		{
+			"name": "gadianton.gathering_is_thirty_five_percent_of_ordinary_rate",
+			"passed": true
+		},
+		{
+			"name": "gadianton.quiet_completed_hq_and_encampment_are_concealed",
+			"passed": true
+		},
+		{
+			"name": "gadianton.hidden_hq_requires_detector_even_with_live_sight",
+			"passed": true
+		},
+		{
+			"name": "gadianton.damage_reveals_hidden_building_for_five_seconds",
+			"passed": true
+		},
+		{
+			"name": "gadianton.building_concealment_recovers_after_damage",
+			"passed": true
+		},
+		{
+			"name": "gadianton.tower_detects_concealed_hq_in_line_of_sight",
+			"passed": true
+		},
+		{
+			"name": "winery.baseline_has_zero_passive_food",
+			"passed": true
+		},
+		{
+			"name": "winery.abundance_food_cannot_activate_before_age_three",
+			"passed": true
+		},
+		{
+			"name": "winery.age_three_abundance_adds_three_food_per_second",
+			"passed": true
+		},
+		{
+			"name": "great_spacious.age_three_placement_is_rejected_without_charge",
+			"passed": true
+		},
+		{
+			"name": "great_spacious.age_four_public_placement_creates_charged_foundation",
+			"passed": true
+		},
+		{
+			"name": "great_spacious.build_limit_counts_foundations",
+			"passed": true
+		}
+	]
+}

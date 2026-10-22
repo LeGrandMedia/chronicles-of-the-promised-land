@@ -1,0 +1,9 @@
+{
+  "id": "alma",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Single transparent game unit sprite; original design inspired by Arnold Friberg monumental anatomy, weighty drapery, earth colors, dramatic light translated to a crisp LOW-POLY TOON 3D render: large flat angular polygon planes, no fine texture. Orthographic 3/4 front looking DOWN 30 degrees, facing bottom right; full body including all props uncropped, centered with 8% clear margins, feet near bottom edge, square canvas. Warm light upper left, cool shadows. Strong silhouette readable at 48 pixels tall. Genuinely transparent background. NO terrain, pedestal, cast shadow, environment, text, border, or watermark. Subject: Alma, elder teacher with silver beard, cream robe and teal mantle, carved wooden staff and open bronze-bound book, dignified upright stance",
+  "source_path": "[local generation/working path omitted from public copy]",
+  "saved_path": "Revisions\\v0.6\\Game\\Content\\Data\\Art\\units\\alma.png"
+}

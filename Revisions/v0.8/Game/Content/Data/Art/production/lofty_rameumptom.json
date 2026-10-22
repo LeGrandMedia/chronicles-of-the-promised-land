@@ -1,0 +1,8 @@
+{
+  "id": "lofty_rameumptom",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small stepped stone tower with a bright gold eye-like beacon and two expanding subtle arcs, symbolizing increased sight and conversion range. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, sandstone, bronze, and restrained crimson. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+  "source_path": "[local generation/working path omitted from public copy]",
+  "saved_path": "Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\lofty_rameumptom.png"
+}

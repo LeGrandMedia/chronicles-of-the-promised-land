@@ -1,0 +1,9 @@
+{
+  "asset_id": "berries",
+  "prompt": "Use case: stylized-concept. Create ONE production-ready transparent RTS resource sprite. Low-poly toon 3D render, chunky flat polygon planes, bold readable silhouette, original design, monumental clear shapes, warm earthy Arnold Friberg-inspired palette and dramatic upper-left warm light with cool shadows. Orthographic isometric camera 30 degrees down, full entire subject centered on square canvas filling 80–85 percent. Genuine transparent background with clean alpha. No terrain slab, no pedestal, no ground plane, no external cast shadow, no people, no writing, no labels, no border, no watermark.  Subject: Subject: ONE compact red berry bush, a coarse rounded crown of dark olive polygon leaves carrying large simple clusters of bright crimson berries, a few visible short woody stems. No pot, no scenery.",
+  "source": "[local generation/working path omitted from public copy]",
+  "destination": "Revisions/v0.6/Game/Content/Data/Art/resources/berries.png",
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "visual_review": "Generated image displayed for visual inspection; native alpha preserved without image editing."
+}

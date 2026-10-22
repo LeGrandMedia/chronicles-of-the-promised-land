@@ -1,0 +1,133 @@
+{
+  "master": "Use case: stylized-concept. Create ONE production-ready transparent RTS building sprite, a low-poly toon 3D render with chunky flat polygon planes and bold readable silhouette. Original ancient Book of Mormon-inspired design, with Arnold Friberg-inspired monumental massing, warm earth colors and dramatic warm upper-left light with cool blue shadows. Warm cream sandstone, cedar, bronze, muted teal/ochre/crimson accents. Orthographic isometric camera 30 degrees down. Full entire structure centered, square canvas, structure fills 80–85 percent of canvas, front entrance faces bottom-right. Transparent background with clean alpha, no terrain slab, no pedestal, no ground plane, no external cast shadow, no people, no writing, no readable text, no labels, no border, no watermark. Use broad simple details legible at game zoom, not intricate ornament.  Keep a generous transparent margin of at least 8% on every edge; do not let roof corners or stairs touch the canvas edges.  FINAL FRAMING REQUIREMENT: leave a full 20% completely transparent safety border on ALL FOUR SIDES. The building must occupy only the central 60% of the canvas. No roof, stair, wall, corner, foliage, or accessory may touch or approach any image edge. Full complete uncut silhouette is mandatory.",
+  "assets": [
+    {
+      "id": "hill_of_ore@coriantumr",
+      "kind": "buildings",
+      "base_id": "hill_of_ore",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Ore Hill",
+      "subject": "a Jaredite ore quarry structure with one huge round-arched tunnel in faceted rock, a massive circular cedar winch and thick stone lifting supports; broad golden ore veins"
+    },
+    {
+      "id": "house_of_curious_workmanship@coriantumr",
+      "kind": "buildings",
+      "base_id": "house_of_curious_workmanship",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Armory",
+      "subject": "a Jaredite armory with an immense barrel-vaulted cement roof over thick rounded stone piers, one huge open forge bay and a massive bronze anvil"
+    },
+    {
+      "id": "place_of_trade@coriantumr",
+      "kind": "buildings",
+      "base_id": "place_of_trade",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Trade Post",
+      "subject": "a Jaredite trade post, one huge barrel-vaulted cement hall with a broad open arch, a large bronze balance scale and heavy rounded storage piers"
+    },
+    {
+      "id": "storehouse_of_provisions@coriantumr",
+      "kind": "buildings",
+      "base_id": "storehouse_of_provisions",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Storehouse",
+      "subject": "a Jaredite storehouse, a tall massive round cement silo attached to a broad arched warehouse, heavy rounded buttresses and simple giant grain bins"
+    },
+    {
+      "id": "encampment_of_war@coriantumr",
+      "kind": "buildings",
+      "base_id": "encampment_of_war",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Encampment",
+      "subject": "a Jaredite encampment, a massive barrel-roofed cement command hall with two huge rounded gate posts, a broad open training court and giant simple shield racks, no people"
+    },
+    {
+      "id": "tower_of_watchmen@coriantumr",
+      "kind": "buildings",
+      "base_id": "tower_of_watchmen",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Watchtower",
+      "subject": "a Jaredite watchtower, a tall heavy round cement tower with four rounded buttresses, a broad open observation ring and a simple low cedar canopy"
+    },
+    {
+      "id": "works_of_defense@coriantumr",
+      "kind": "buildings",
+      "base_id": "works_of_defense",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Works",
+      "subject": "one section of Jaredite defensive works, huge pale cement blocks and two rounded end piers supporting a wide timber fighting rail, broad open embrasures"
+    },
+    {
+      "id": "place_of_many_waters@coriantumr",
+      "kind": "buildings",
+      "base_id": "place_of_many_waters",
+      "faction": "coriantumr",
+      "display_name": "Coriantumr Harbor",
+      "subject": "a Jaredite harbor, a massive barrel-vaulted cement harbor shed with huge arched shipping bay, thick cedar pier posts and one great circular lifting winch; no boat, water or ground slab"
+    },
+    {
+      "id": "hill_of_ore@shiz",
+      "kind": "buildings",
+      "base_id": "hill_of_ore",
+      "faction": "shiz",
+      "display_name": "Shizite Ore Hill",
+      "subject": "an angular Shizite mine with three jagged rock terraces, a deep square portal and an oversized bronze-framed lifting gantry with a heavy ore bucket"
+    },
+    {
+      "id": "house_of_curious_workmanship@shiz",
+      "kind": "buildings",
+      "base_id": "house_of_curious_workmanship",
+      "faction": "shiz",
+      "display_name": "Shizite Armory",
+      "subject": "a Shizite armory, angular sawtooth roof, twin block chimneys, massive wedge walls and a broad square forge doorway with a heavy anvil"
+    },
+    {
+      "id": "place_of_trade@shiz",
+      "kind": "buildings",
+      "base_id": "place_of_trade",
+      "faction": "shiz",
+      "display_name": "Shizite Trade Post",
+      "subject": "a Shizite trade post, a stout square stone exchange house with an angular roof, one high A-frame cargo hoist and large simple trade bins"
+    },
+    {
+      "id": "storehouse_of_provisions@shiz",
+      "kind": "buildings",
+      "base_id": "storehouse_of_provisions",
+      "faction": "shiz",
+      "display_name": "Shizite Storehouse",
+      "subject": "a Shizite storehouse, a square strongbox-like cement warehouse with two deep vertical wedge buttresses, a stepped roof and a huge bronze-barred door"
+    },
+    {
+      "id": "encampment_of_war@shiz",
+      "kind": "buildings",
+      "base_id": "encampment_of_war",
+      "faction": "shiz",
+      "display_name": "Shizite War Camp",
+      "subject": "a Shizite war camp, one enormous angular crimson command tent inside a jagged stone-and-cedar stockade, wedge gate towers and a broad open training entrance, no people"
+    },
+    {
+      "id": "tower_of_watchmen@shiz",
+      "kind": "buildings",
+      "base_id": "tower_of_watchmen",
+      "faction": "shiz",
+      "display_name": "Shizite Watchtower",
+      "subject": "a Shizite watchtower, a sharp angular battered stone shaft with four projecting corner fins, an open square fighting platform and deep triangular crenellations"
+    },
+    {
+      "id": "works_of_defense@shiz",
+      "kind": "buildings",
+      "base_id": "works_of_defense",
+      "faction": "shiz",
+      "display_name": "Shizite Works",
+      "subject": "one section of Shizite defenses, interlocking angular stone wedges, very tall serrated cedar stakes and a deep narrow central gate, severe jagged silhouette"
+    },
+    {
+      "id": "place_of_many_waters@shiz",
+      "kind": "buildings",
+      "base_id": "place_of_many_waters",
+      "faction": "shiz",
+      "display_name": "Shizite Harbor",
+      "subject": "a Shizite harbor, an angular cream-stone dockhouse flanked by two squat square pylons, heavy cedar pier and a huge A-frame hoist; no boat, water or ground slab"
+    }
+  ]
+}
