@@ -1,5 +1,7 @@
 # Start Here
 
+Active development: **v0.9** adds real 3D models/animation, bot opponents, beginner-friendly lore menus, and native platform/installer work. It is not yet a validated release. Track evidence and outstanding work in [v0.9 development](../../Revisions/v0.9/Docs/Development-v0.9.md). Retained live faction rules that override historical v0.8 values are summarized in [[v0.9 Retained Civilization Rules]]. Preserve the playable v0.8 baseline below.
+
 Current source baseline: **v0.8**. All 21 latest requests and eight recovered rule gaps are implemented and validated: 693 native assertions, 67 rendered-input checks at each of two resolutions, and four-process localhost multiplayer. See [[Validation Report]] for evidence and limits. Read only task-relevant notes.
 
 1. [[Design Contract]] — authority, intent, boundaries.

@@ -1,0 +1,48 @@
+{
+  "recorded_utc": "2026-11-22T15:35:44.499124+00:00",
+  "version": "0.9.0",
+  "scope": "Final user-requested handoff. Retained verified gameplay and HUD; experimental gate geometry/navigation archived outside compiled source. Normal bot opening unchanged. Installer compiled and APK payload verified; physical devices and clean install unverified.",
+  "artifacts": {
+    "windows_executable": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256935936,
+      "sha256": "7F30C0F4543A16277C60D389162F7A609B0E79A5AB3494C7BB77F5E8F4BAB9D4"
+    },
+    "windows_installer": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Installer\\Final-Handoff-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524314833,
+      "sha256": "7CA6D6B7A4C2311D864F69C3A74BB6ADFDC585B07AAEA7317F0A9091B813F67D"
+    },
+    "android_apk": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486842611,
+      "sha256": "7E5BFC877CA31B6BFD1A9A2AD32E54AE62A685B287D2ABB4E5A6E57B38B7E0F8"
+    }
+  },
+  "verification": {
+    "maps": 4234,
+    "native_reports": 19,
+    "gates": 46,
+    "bots": 57,
+    "entity_visibility": 17,
+    "scene_cases_each_size": 86,
+    "input_cases_each_size": 67,
+    "sizes": [
+      "1600x900",
+      "888x500"
+    ],
+    "touch_preview_cases": 26,
+    "android_payload_hashes": 754,
+    "model_mappings": 259,
+    "skeletal_meshes": 147,
+    "skeletal_assets": 147,
+    "network": "Same-computer mixed host/client/bot on Narrow Neck; passed"
+  },
+  "evidence": {
+    "regression": "Docs/Evidence/v0.9/maps/final-handoff",
+    "network": "Docs/Evidence/v0.9/network/final-handoff/run.json",
+    "android": "Docs/Evidence/v0.9/android/final-handoff/payload-verification.json",
+    "installer_log": "Game/Saved/BuildLogs/Installer-Final-Handoff-20261122.log",
+    "vm_cleanup": "Docs/Evidence/v0.9/platform/final-handoff-cleanup.json"
+  }
+}

@@ -1,0 +1,1 @@
+{"FileVersion":3,"EngineAssociation":"5.3","Category":"Tools","Description":"Content-only cooker for RTS materials and map. Does not contain gameplay code.","Plugins":[{"Name":"PythonScriptPlugin","Enabled":true,"TargetAllowList":["Editor"]},{"Name":"ProceduralMeshComponent","Enabled":true}]}

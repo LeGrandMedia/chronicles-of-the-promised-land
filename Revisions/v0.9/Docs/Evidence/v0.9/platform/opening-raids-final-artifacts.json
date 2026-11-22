@@ -1,0 +1,29 @@
+{
+  "recorded_utc": "2026-11-22T14:02:43.9864478Z",
+  "scope": "Resource-relative initial workers and beasts, equal nearest opening resources on all 15 maps, entity visibility with exact LOS/stealth, and retained opportunistic Gadianton bot raids. Installer compiled and APK statically verified; no clean-install or physical-device launch claim.",
+  "artifacts": {
+    "windows_executable": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256910848,
+      "sha256": "CC8D75CDE64C6AF89877698515480D7853C672A63E667A015C41BDBF051042B1"
+    },
+    "android_apk": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486841035,
+      "sha256": "20D3667CF4C88516FF9162EC3F58A353B7B30A35E9BDA105A653A728CA438507"
+    },
+    "windows_installer": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Installer\\Opening-Raids-Final-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524305940,
+      "sha256": "4A48D9A1A13C948705724B42F313B0E13DA65F4EC0C7C7B3D6234CE19AFAEC0E"
+    }
+  },
+  "evidence": {
+    "regression": "Docs/Evidence/v0.9/maps/opening-raids-final",
+    "raids": "Docs/GadiantonRaids-v0.9.md",
+    "new_map_matches": "Docs/Evidence/v0.9/balance/gadianton-opportunistic-new-maps",
+    "lan": "Docs/Evidence/v0.9/network/opening-raids-final-narrow-neck/run.json",
+    "android_payload": "Docs/Evidence/v0.9/android/opening-raids-final-20261122/payload-verification.json",
+    "installer_log": "Game/Saved/BuildLogs/Installer-Opening-Raids-Final-20261122.log"
+  }
+}

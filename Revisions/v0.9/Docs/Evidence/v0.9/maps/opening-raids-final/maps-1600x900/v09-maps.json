@@ -1,0 +1,577 @@
+{
+	"passed": true,
+	"checks": 4234,
+	"failed": 0,
+	"maps": [
+		{
+			"map": "Zarahemla Valley",
+			"index": 0,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 307,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5393,
+			"water_cells": 0,
+			"rock_cells": 32,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Waters of Sidon",
+			"index": 1,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 305,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5356,
+			"water_cells": 0,
+			"rock_cells": 76,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Land of Many Waters",
+			"index": 2,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 277,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 4958,
+			"water_cells": 544,
+			"rock_cells": 0,
+			"ship_launched": true,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Bountiful",
+			"index": 3,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 248,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 4832,
+			"water_cells": 532,
+			"rock_cells": 48,
+			"ship_launched": true,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Moronihah",
+			"index": 4,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 176,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5344,
+			"water_cells": 0,
+			"rock_cells": 232,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Ammonihah",
+			"index": 5,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 180,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5388,
+			"water_cells": 0,
+			"rock_cells": 144,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Land Northward",
+			"index": 6,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 180,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5236,
+			"water_cells": 0,
+			"rock_cells": 192,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Land Southward",
+			"index": 7,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 260,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 4824,
+			"water_cells": 384,
+			"rock_cells": 60,
+			"ship_launched": true,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Narrow Neck of Land",
+			"index": 8,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 144,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 4036,
+			"water_cells": 1568,
+			"rock_cells": 0,
+			"ship_launched": true,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Middoni",
+			"index": 9,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 192,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5360,
+			"water_cells": 0,
+			"rock_cells": 120,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Hill Cumorah",
+			"index": 10,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 192,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5276,
+			"water_cells": 0,
+			"rock_cells": 228,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Waters of Mormon",
+			"index": 11,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 260,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 4972,
+			"water_cells": 316,
+			"rock_cells": 48,
+			"ship_launched": true,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "Waters of Ripliancum",
+			"index": 12,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 148,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 4404,
+			"water_cells": 1108,
+			"rock_cells": 48,
+			"ship_launched": true,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Valley of Lemuel",
+			"index": 13,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 172,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5128,
+			"water_cells": 0,
+			"rock_cells": 288,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		},
+		{
+			"map": "The Great and Spacious Courtyard",
+			"index": 14,
+			"opening_distances": [
+				{
+					"slot": 0,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.020813699088272,
+					"mean_ore_distance": 8.9379062892672998
+				},
+				{
+					"slot": 1,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.020813699088267,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 2,
+					"mean_berry_distance": 5.8339836188304757,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				},
+				{
+					"slot": 3,
+					"mean_berry_distance": 5.8339836188304846,
+					"mean_tree_distance": 15.02081369908827,
+					"mean_ore_distance": 8.9379062892673016
+				}
+			],
+			"resources": 152,
+			"unreachable_resources": 0,
+			"reachable_elephant_cells": 5464,
+			"water_cells": 0,
+			"rock_cells": 100,
+			"ship_launched": false,
+			"passed": true,
+			"failures": []
+		}
+	]
+}

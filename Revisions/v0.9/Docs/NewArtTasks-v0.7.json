@@ -1,0 +1,135 @@
+{
+  "revision": "v0.7",
+  "requests": [
+    {
+      "id": "lehi",
+      "name": "Lehi",
+      "assetType": "unit_portrait",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Nephite age-choice hero portrait/icon in the established game art style.",
+      "outputPath": "Game/Content/Data/Art/units/lehi.png",
+      "receiptPath": "Game/Content/Data/Art/production/lehi.json"
+    },
+    {
+      "id": "amulek",
+      "name": "Amulek",
+      "assetType": "unit_portrait",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Nephite age-choice hero portrait/icon in the established game art style.",
+      "outputPath": "Game/Content/Data/Art/units/amulek.png",
+      "receiptPath": "Game/Content/Data/Art/production/amulek.json"
+    },
+    {
+      "id": "teancum",
+      "name": "Teancum",
+      "assetType": "unit_portrait",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Nephite age-choice hero portrait/icon in the established game art style.",
+      "outputPath": "Game/Content/Data/Art/units/teancum.png",
+      "receiptPath": "Game/Content/Data/Art/production/teancum.json"
+    },
+    {
+      "id": "winery_double_food",
+      "name": "Winery Abundance",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Winery/harvest icon readable at RTS command-button size.",
+      "outputPath": "Game/Content/Data/Art/icons/winery_double_food.png",
+      "receiptPath": "Game/Content/Data/Art/production/winery_double_food.json"
+    },
+    {
+      "id": "winery_drunkness",
+      "name": "Fermented Reserves",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Fermented-vessel icon readable at RTS command-button size.",
+      "outputPath": "Game/Content/Data/Art/icons/winery_drunkness.png",
+      "receiptPath": "Game/Content/Data/Art/production/winery_drunkness.json"
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_2",
+      "name": "Herd Accounts II",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Jaredite livestock-income icon with a clear tier-II marker.",
+      "outputPath": "Game/Content/Data/Art/icons/coriantumr_storehouse_beast_income_2.png",
+      "receiptPath": "Game/Content/Data/Art/production/coriantumr_storehouse_beast_income_2.json"
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_3",
+      "name": "Herd Accounts III",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Jaredite livestock-income icon with a clear tier-III marker.",
+      "outputPath": "Game/Content/Data/Art/icons/coriantumr_storehouse_beast_income_3.png",
+      "receiptPath": "Game/Content/Data/Art/production/coriantumr_storehouse_beast_income_3.json"
+    },
+    {
+      "id": "shiz_storehouse_beast_income_2",
+      "name": "Herd Accounts II",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Jaredite livestock-income icon with a clear tier-II marker.",
+      "outputPath": "Game/Content/Data/Art/icons/shiz_storehouse_beast_income_2.png",
+      "receiptPath": "Game/Content/Data/Art/production/shiz_storehouse_beast_income_2.json"
+    },
+    {
+      "id": "shiz_storehouse_beast_income_3",
+      "name": "Herd Accounts III",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Jaredite livestock-income icon with a clear tier-III marker.",
+      "outputPath": "Game/Content/Data/Art/icons/shiz_storehouse_beast_income_3.png",
+      "receiptPath": "Game/Content/Data/Art/production/shiz_storehouse_beast_income_3.json"
+    },
+    {
+      "id": "enlarge_the_flocks",
+      "name": "Enlarge the Flocks",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Jaredite flock-building upgrade icon with a clear increase/count motif.",
+      "outputPath": "Game/Content/Data/Art/icons/enlarge_the_flocks.png",
+      "receiptPath": "Game/Content/Data/Art/production/enlarge_the_flocks.json"
+    },
+    {
+      "id": "wrath_of_the_fallen",
+      "name": "Wrath of the Fallen",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Lamanite Rameumptom icon showing Anger gained from losses.",
+      "outputPath": "Game/Content/Data/Art/icons/wrath_of_the_fallen.png",
+      "receiptPath": "Game/Content/Data/Art/production/wrath_of_the_fallen.json"
+    },
+    {
+      "id": "lofty_rameumptom",
+      "name": "Lofty Rameumptom",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Lamanite Rameumptom icon emphasizing greater range and sight.",
+      "outputPath": "Game/Content/Data/Art/icons/lofty_rameumptom.png",
+      "receiptPath": "Game/Content/Data/Art/production/lofty_rameumptom.json"
+    },
+    {
+      "id": "gate_segment_upgrade",
+      "name": "Gate Segment",
+      "assetType": "research_icon",
+      "status": "Generated, mapped, and verified in packaged data",
+      "reason": "No matching sprite or icon ID in v0.7 visuals.json.",
+      "brief": "Wall-to-gate upgrade icon readable at RTS command-button size.",
+      "outputPath": "Game/Content/Data/Art/icons/gate_segment_upgrade.png",
+      "receiptPath": "Game/Content/Data/Art/production/gate_segment_upgrade.json"
+    }
+  ]
+}

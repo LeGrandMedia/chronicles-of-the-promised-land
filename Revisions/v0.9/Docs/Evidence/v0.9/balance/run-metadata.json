@@ -1,0 +1,24 @@
+{
+  "build": "Win64 Development",
+  "executable_sha256": "dc6e12e81afa1602d39dedf3d36e9469cb758f9f4cd434aeec9ee0667dc594f3",
+  "catalog_sha256": "43a6882d68ac0c17eefbb146c80baf03795e95e07fb437e58cd4bc8c5188ef28",
+  "physical_cores": 6,
+  "logical_processors": 12,
+  "parallel_processes": 5,
+  "map": "Zarahemla Valley",
+  "difficulty": "Normal",
+  "expected_matches": 30,
+  "steps_per_match_limit": 12000,
+  "initial_food": 300,
+  "initial_timber": 300,
+  "initial_precious": 200,
+  "initial_cement": 0,
+  "flags": [
+    "-RTSV09BotBalance",
+    "-nullrhi",
+    "-nosound",
+    "-unattended",
+    "-RTSBalanceShards=5",
+    "-RTSBalanceShard=0..4"
+  ]
+}

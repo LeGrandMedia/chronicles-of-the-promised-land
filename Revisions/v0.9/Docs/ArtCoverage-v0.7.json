@@ -1,0 +1,255 @@
+{
+  "revision": "v0.7",
+  "metadata": {
+    "sprites": 158,
+    "icons": 280,
+    "uniqueReferencedPngs": 238,
+    "pngFilesInArtDirectory": 238,
+    "newGeneratedAssets": 13,
+    "newGeneratedImagesPresent": 13,
+    "newGeneratedImagesMapped": 13,
+    "newReceiptsPresent": 13,
+    "allImageFilesPresent": true,
+    "missingManifestImages": [],
+    "missingNewImages": [],
+    "missingNewReceipts": [],
+    "unusedNewImages": [],
+    "unreferencedPngFiles": []
+  },
+  "newAssetReceipts": [
+    {
+      "id": "lehi",
+      "name": "Lehi",
+      "assetType": "unit_portrait",
+      "outputPath": "Game/Content/Data/Art/units/lehi.png",
+      "receiptPath": "Game/Content/Data/Art/production/lehi.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "lehi",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: single transparent game unit sprite for an RTS. Subject: Lehi, an older Nephite prophet and family patriarch, dignified Middle Eastern man with gray-streaked shoulder-length hair and beard, wearing cream robes with a deep blue mantle, holding a wooden staff and a small brass oil lamp. Style/medium: match the project's crisp low-poly toon 3D game art: large flat angular polygon planes, faceted sculpted surfaces, warm earth colors, dramatic but readable lighting. Composition: orthographic three-quarter front view, full body, centered, feet visible, 8% clear margins, square canvas, strong silhouette readable at 48 pixels tall. Lighting: warm upper-left key light, cool shadows. Background: genuinely transparent. Constraints: no terrain, pedestal, cast shadow, environment, text, border, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-30951e71-a177-40f7-8caf-619c68e096c8.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\units\\lehi.png"
+      }
+    },
+    {
+      "id": "amulek",
+      "name": "Amulek",
+      "assetType": "unit_portrait",
+      "outputPath": "Game/Content/Data/Art/units/amulek.png",
+      "receiptPath": "Game/Content/Data/Art/production/amulek.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "amulek",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: single transparent game unit sprite for an RTS. Subject: Amulek, a confident Nephite teacher and statesman, adult Middle Eastern man with dark curly hair and short beard, cream tunic, muted red-brown mantle, holding a scroll in one hand and gesturing with the other. Style/medium: crisp low-poly toon 3D game art, large flat angular polygon planes, faceted sculpted surfaces, warm earth colors, readable lighting. Composition: orthographic three-quarter front view, full body, centered, feet visible, 8% clear margins, square canvas, strong silhouette readable at 48 pixels tall. Lighting: warm upper-left key light, cool shadows. Background: genuinely transparent. Constraints: no terrain, pedestal, cast shadow, environment, text, border, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-ecfe6048-fb44-4eff-b766-24b648b7ca4a.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\units\\amulek.png"
+      }
+    },
+    {
+      "id": "teancum",
+      "name": "Teancum",
+      "assetType": "unit_portrait",
+      "outputPath": "Game/Content/Data/Art/units/teancum.png",
+      "receiptPath": "Game/Content/Data/Art/production/teancum.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "teancum",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: single transparent game unit sprite for an RTS. Subject: Teancum, an agile Nephite captain, focused Middle Eastern man in his early thirties with dark hair tied back, cream tunic, dark teal and brown military sash, leather bracers, holding a short bronze sword low at his side. Style/medium: crisp low-poly toon 3D game art, large flat angular polygon planes, faceted sculpted surfaces, warm earth colors, readable lighting. Composition: orthographic three-quarter front view, full body, centered, feet visible, 8% clear margins, square canvas, strong silhouette readable at 48 pixels tall. Lighting: warm upper-left key light, cool shadows. Background: genuinely transparent. Constraints: no terrain, pedestal, cast shadow, environment, text, border, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-130f1feb-9834-4628-9ee5-1e5c028e5063.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\units\\teancum.png"
+      }
+    },
+    {
+      "id": "winery_double_food",
+      "name": "Winery Abundance",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/winery_double_food.png",
+      "receiptPath": "Game/Content/Data/Art/production/winery_double_food.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "winery_double_food",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small harvest basket overflowing with grapes beside a polished wooden wine cask, symbolizing doubled food production. Style: crisp low-poly toon 3D game art matching a painterly, faceted medieval strategy game; golden highlights, deep wine-red and amber palette. Composition: one central object cluster, close-up, bold silhouette, readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-5ec867ee-d86c-4c30-af40-17c3b7e002d8.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\winery_double_food.png"
+      }
+    },
+    {
+      "id": "winery_drunkness",
+      "name": "Fermented Reserves",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/winery_drunkness.png",
+      "receiptPath": "Game/Content/Data/Art/production/winery_drunkness.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "winery_drunkness",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a sealed clay fermentation jar with a small wooden cup and a subtle amber bubbling motif, symbolizing fermented reserves. Style: crisp low-poly toon 3D game art matching a painterly, faceted medieval strategy game; amber, brown, and restrained wine-red palette. Composition: central close-up object cluster, bold silhouette, readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-bc648b5e-fccd-4786-b65d-0e02cf0bd5a0.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\winery_drunkness.png"
+      }
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_2",
+      "name": "Herd Accounts II",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/coriantumr_storehouse_beast_income_2.png",
+      "receiptPath": "Game/Content/Data/Art/production/coriantumr_storehouse_beast_income_2.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "coriantumr_storehouse_beast_income_2",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small leather ledger with a simple stylized curelom horn and a few gold coins, symbolizing improved Jaredite livestock income. Style: crisp low-poly toon 3D game art matching a painterly, faceted medieval strategy game; warm brown leather and gold. Composition: central close-up, bold silhouette, readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-b7794689-5d5e-4d37-9141-e24cf0aac768.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\coriantumr_storehouse_beast_income_2.png"
+      }
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_3",
+      "name": "Herd Accounts III",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/coriantumr_storehouse_beast_income_3.png",
+      "receiptPath": "Game/Content/Data/Art/production/coriantumr_storehouse_beast_income_3.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "coriantumr_storehouse_beast_income_3",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small leather ledger with a curelom horn motif beside a cluster of gold coins, representing a high-tier increase to Jaredite beast income. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, warm brown leather and bright gold. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-0db60e61-cbec-48a0-89c4-3980986eeab7.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\coriantumr_storehouse_beast_income_3.png"
+      }
+    },
+    {
+      "id": "shiz_storehouse_beast_income_2",
+      "name": "Herd Accounts II",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/shiz_storehouse_beast_income_2.png",
+      "receiptPath": "Game/Content/Data/Art/production/shiz_storehouse_beast_income_2.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "shiz_storehouse_beast_income_2",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small leather ledger with a stylized elephant footprint beside gold coins, representing improved Jaredite beast income. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, warm brown leather and bright gold. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-ffeb4d5d-4a2b-4fd2-9169-8c3b698b8c1a.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\shiz_storehouse_beast_income_2.png"
+      }
+    },
+    {
+      "id": "shiz_storehouse_beast_income_3",
+      "name": "Herd Accounts III",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/shiz_storehouse_beast_income_3.png",
+      "receiptPath": "Game/Content/Data/Art/production/shiz_storehouse_beast_income_3.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "shiz_storehouse_beast_income_3",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a leather livestock ledger with a stylized elephant footprint and a larger cluster of gold coins, representing a high-tier Jaredite beast-income increase. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, warm brown leather and bright gold. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-0317d342-d863-4fd0-8c3b-dc4834cabc72.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\shiz_storehouse_beast_income_3.png"
+      }
+    },
+    {
+      "id": "enlarge_the_flocks",
+      "name": "Enlarge the Flocks",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/enlarge_the_flocks.png",
+      "receiptPath": "Game/Content/Data/Art/production/enlarge_the_flocks.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "enlarge_the_flocks",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small wooden flock gate opening toward several sheep, symbolizing a larger livestock-training compound. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, warm wood, cream wool, and muted green accents. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-940251f6-d2aa-4bc2-aa80-0c6c475c0cf7.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\enlarge_the_flocks.png"
+      }
+    },
+    {
+      "id": "wrath_of_the_fallen",
+      "name": "Wrath of the Fallen",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/wrath_of_the_fallen.png",
+      "receiptPath": "Game/Content/Data/Art/production/wrath_of_the_fallen.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "wrath_of_the_fallen",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a dark bronze ceremonial platform with a vivid red-orange flame rising behind it, symbolizing Anger gained when enemies cause losses. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, warm bronze and restrained crimson. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-99e5905a-72a7-4dd2-9c85-dd2ad1fb24d8.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\wrath_of_the_fallen.png"
+      }
+    },
+    {
+      "id": "lofty_rameumptom",
+      "name": "Lofty Rameumptom",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/lofty_rameumptom.png",
+      "receiptPath": "Game/Content/Data/Art/production/lofty_rameumptom.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "lofty_rameumptom",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small stepped stone tower with a bright gold eye-like beacon and two expanding subtle arcs, symbolizing increased sight and conversion range. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, sandstone, bronze, and restrained crimson. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-163585b5-fef9-4e8a-b2f3-2be0e763fd2e.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\lofty_rameumptom.png"
+      }
+    },
+    {
+      "id": "gate_segment_upgrade",
+      "name": "Gate Segment",
+      "assetType": "research_icon",
+      "outputPath": "Game/Content/Data/Art/icons/gate_segment_upgrade.png",
+      "receiptPath": "Game/Content/Data/Art/production/gate_segment_upgrade.json",
+      "imagePresent": true,
+      "mappedInVisuals": true,
+      "receiptPresent": true,
+      "receipt": {
+        "id": "gate_segment_upgrade",
+        "tool": "image_gen.imagegen",
+        "transparent_background": true,
+        "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a sturdy timber-and-stone wall segment with a central closed gate, symbolizing a wall-to-gate upgrade. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, sandstone and dark timber. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+        "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-70a3fe86-af1d-49a8-8095-500ac7edef1c.png",
+        "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\gate_segment_upgrade.png"
+      }
+    }
+  ]
+}

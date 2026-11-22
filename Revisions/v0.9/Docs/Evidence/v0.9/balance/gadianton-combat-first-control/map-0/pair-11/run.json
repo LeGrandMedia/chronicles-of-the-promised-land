@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-22T14:26:39.8550463Z",
+  "finished_utc": "2026-11-22T14:28:17.3862167Z",
+  "sha256": "5DD0C8FC8851CE4F6C1F92E792E250F332B36EA61504D7038174DA1DA80654AC",
+  "arguments": [
+    "-RTSV09BotBalance",
+    "-RTSV09BotSupportTrace",
+    "-RTSBalanceShards=15",
+    "-RTSBalanceShard=11",
+    "-RTSBalanceMap=0",
+    "-RTSBalanceStepLimit=12000",
+    "-nullrhi",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\balance\\gadianton-combat-first-control\\map-0\\pair-11\\balance.log\"",
+    "-RTSV09BotRaidTrace"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

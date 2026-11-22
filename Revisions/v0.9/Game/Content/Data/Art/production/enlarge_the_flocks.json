@@ -1,0 +1,8 @@
+{
+  "id": "enlarge_the_flocks",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a small wooden flock gate opening toward several sheep, symbolizing a larger livestock-training compound. Style: crisp low-poly toon 3D game art, painterly faceted surfaces, warm wood, cream wool, and muted green accents. Composition: central close-up, bold silhouette readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+  "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-940251f6-d2aa-4bc2-aa80-0c6c475c0cf7.png",
+  "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\enlarge_the_flocks.png"
+}

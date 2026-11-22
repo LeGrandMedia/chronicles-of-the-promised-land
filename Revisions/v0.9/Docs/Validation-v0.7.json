@@ -1,0 +1,340 @@
+{
+  "revision": "v0.7",
+  "verified_at_utc": "2026-10-22T00:08:25.037607+00:00",
+  "native_checks": {
+    "combat-v05-tests.json": {
+      "passed": 30,
+      "failed": 0
+    },
+    "core-v04-tests.json": {
+      "passed": 27,
+      "failed": 0
+    },
+    "core-v07-tests.json": {
+      "passed": 46,
+      "failed": 0
+    },
+    "customization-tests.json": {
+      "passed": 74,
+      "failed": 0
+    },
+    "economy-v03-tests.json": {
+      "passed": 26,
+      "failed": 0
+    },
+    "economy-v04-tests.json": {
+      "passed": 33,
+      "failed": 0
+    },
+    "economy-v05-tests.json": {
+      "passed": 31,
+      "failed": 0
+    },
+    "rally-tests.json": {
+      "passed": 6,
+      "failed": 0
+    },
+    "religion-v03-tests.json": {
+      "passed": 43,
+      "failed": 0
+    },
+    "religion-v07-tests.json": {
+      "passed": 63,
+      "failed": 0
+    },
+    "scenario-tests.json": {
+      "passed": 17,
+      "failed": 0
+    },
+    "self-tests.json": {
+      "passed": 26,
+      "failed": 0
+    },
+    "v07-economy-tests.json": {
+      "passed": 36,
+      "failed": 0
+    },
+    "v07-selection-tests.json": {
+      "passed": 30,
+      "failed": 0
+    },
+    "visual-tests.json": {
+      "passed": true,
+      "failed": 0
+    },
+    "visual-v07-animation-tests.json": {
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "viewport_cases": {
+    "1600x900": 55,
+    "1280x720": 55
+  },
+  "network_reports": {
+    "host": {
+      "role": "host",
+      "players": 4,
+      "snapshots": 237,
+      "maximum_visible_entities": 977,
+      "stress": true,
+      "largest_snapshot_bytes": 0,
+      "largest_compressed_bytes": 0,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "passed": true
+    },
+    "client1": {
+      "role": "client1",
+      "players": 4,
+      "snapshots": 232,
+      "maximum_visible_entities": 901,
+      "stress": true,
+      "largest_snapshot_bytes": 314114,
+      "largest_compressed_bytes": 10434,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "passed": true
+    },
+    "client2": {
+      "role": "client2",
+      "players": 4,
+      "snapshots": 231,
+      "maximum_visible_entities": 900,
+      "stress": true,
+      "largest_snapshot_bytes": 313792,
+      "largest_compressed_bytes": 10324,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "passed": true
+    },
+    "client3": {
+      "role": "client3",
+      "players": 4,
+      "snapshots": 229,
+      "maximum_visible_entities": 901,
+      "stress": true,
+      "largest_snapshot_bytes": 314060,
+      "largest_compressed_bytes": 10409,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "passed": true
+    },
+    "v07_slot0": {
+      "slot": 0,
+      "lobby_settings": true,
+      "readiness_reset_observed": true,
+      "ready_again": true,
+      "conversion_context_rpc": true,
+      "conversion_five_seconds": true,
+      "converted_marker": true,
+      "reconversion_rpc_rejected": true,
+      "reconversion_owner_stable_after_five_seconds": true,
+      "three_queued_foundations_replicate": true,
+      "gate_supported": true,
+      "gate_research_is_per_wall": true,
+      "unsupported_gate_research_rejected": false,
+      "unsupported_gate_research_no_charge": false,
+      "unsupported_gate_server_audit_received": false,
+      "unsupported_gate_server_audit_mutation": -1,
+      "unsupported_gate_research_notice": "",
+      "client_resources_at_research_send": [
+        0,
+        0,
+        0
+      ],
+      "client_resources_when_audit_received": [
+        0,
+        0,
+        0
+      ],
+      "gate_path_passed": true,
+      "owner_trickle_rates": true,
+      "public_tower_stats": true,
+      "financial_privacy": true,
+      "passed": true
+    },
+    "v07_slot1": {
+      "slot": 1,
+      "lobby_settings": true,
+      "readiness_reset_observed": true,
+      "ready_again": true,
+      "conversion_context_rpc": true,
+      "conversion_five_seconds": true,
+      "converted_marker": true,
+      "reconversion_rpc_rejected": true,
+      "reconversion_owner_stable_after_five_seconds": true,
+      "three_queued_foundations_replicate": true,
+      "gate_supported": true,
+      "gate_research_is_per_wall": true,
+      "unsupported_gate_research_rejected": false,
+      "unsupported_gate_research_no_charge": false,
+      "unsupported_gate_server_audit_received": false,
+      "unsupported_gate_server_audit_mutation": -1,
+      "unsupported_gate_research_notice": "",
+      "client_resources_at_research_send": [
+        0,
+        0,
+        0
+      ],
+      "client_resources_when_audit_received": [
+        0,
+        0,
+        0
+      ],
+      "gate_path_passed": true,
+      "owner_trickle_rates": true,
+      "public_tower_stats": true,
+      "financial_privacy": true,
+      "passed": true
+    },
+    "v07_slot2": {
+      "slot": 2,
+      "lobby_settings": true,
+      "readiness_reset_observed": true,
+      "ready_again": true,
+      "conversion_context_rpc": true,
+      "conversion_five_seconds": true,
+      "converted_marker": true,
+      "reconversion_rpc_rejected": true,
+      "reconversion_owner_stable_after_five_seconds": true,
+      "three_queued_foundations_replicate": true,
+      "gate_supported": false,
+      "gate_research_is_per_wall": false,
+      "unsupported_gate_research_rejected": true,
+      "unsupported_gate_research_no_charge": true,
+      "unsupported_gate_server_audit_received": true,
+      "unsupported_gate_server_audit_file": "network-v07-audit-slot2-wall386.json",
+      "unsupported_gate_server_audit_mutation": 0,
+      "unsupported_gate_research_notice": "This civilization cannot recruit or research that.",
+      "client_resources_at_research_send": [
+        1150.1500000081955,
+        1040,
+        1100
+      ],
+      "client_resources_when_audit_received": [
+        1100.2400000131129,
+        1040,
+        1100
+      ],
+      "gate_path_passed": true,
+      "owner_trickle_rates": true,
+      "public_tower_stats": true,
+      "financial_privacy": true,
+      "passed": true
+    },
+    "v07_slot3": {
+      "slot": 3,
+      "lobby_settings": true,
+      "readiness_reset_observed": true,
+      "ready_again": true,
+      "conversion_context_rpc": true,
+      "conversion_five_seconds": true,
+      "converted_marker": true,
+      "reconversion_rpc_rejected": true,
+      "reconversion_owner_stable_after_five_seconds": true,
+      "three_queued_foundations_replicate": true,
+      "gate_supported": true,
+      "gate_research_is_per_wall": true,
+      "unsupported_gate_research_rejected": false,
+      "unsupported_gate_research_no_charge": false,
+      "unsupported_gate_server_audit_received": false,
+      "unsupported_gate_server_audit_mutation": -1,
+      "unsupported_gate_research_notice": "",
+      "client_resources_at_research_send": [
+        0,
+        0,
+        0
+      ],
+      "client_resources_when_audit_received": [
+        0,
+        0,
+        0
+      ],
+      "gate_path_passed": true,
+      "owner_trickle_rates": true,
+      "public_tower_stats": true,
+      "financial_privacy": true,
+      "passed": true
+    },
+    "network-v07-audit-slot2-wall386": {
+      "slot": 2,
+      "faction": "laban",
+      "wall_id": 386,
+      "simulation_time": 10.700004577636719,
+      "action": "research",
+      "research": "gate_segment_upgrade",
+      "research_supported_by_faction": false,
+      "resources_before": [
+        1100.1800000098347,
+        1040,
+        1100
+      ],
+      "resources_after": [
+        1100.1800000098347,
+        1040,
+        1100
+      ],
+      "resource_delta": [
+        0,
+        0,
+        0
+      ],
+      "cement_before": 100,
+      "cement_after": 100,
+      "cement_delta": 0,
+      "jobs_before": [],
+      "jobs_after": [],
+      "gate_before": false,
+      "gate_after": false,
+      "upgrade_before": false,
+      "upgrade_after": false,
+      "exactly_zero_cost": true,
+      "jobs_and_gate_unchanged": true,
+      "rejection_notice_evidence": "network-v07-slot2.json: unsupported_gate_research_notice and unsupported_gate_research_rejected, observed by the actual remote client",
+      "passed": true
+    }
+  },
+  "png_images": 238,
+  "staged_data_files_matching_source": 485,
+  "packaged_executable_sha256": "4252ca25a83fdb585456a74a3963683e0633446eec97ef18a9682d59bd92930d",
+  "protected_playtest_files_unchanged": 768,
+  "physical_multi_computer_lan_tested": false,
+  "all_checks_passed": true
+}

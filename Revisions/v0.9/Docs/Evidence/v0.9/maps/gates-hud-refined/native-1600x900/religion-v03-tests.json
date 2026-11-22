@@ -1,0 +1,178 @@
+{
+	"passed": 43,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "ages.choices.nephites",
+			"passed": true
+		},
+		{
+			"name": "heroes.not_trainable_before_choice.nephites",
+			"passed": true
+		},
+		{
+			"name": "ages.queue_reserves_hero.nephites",
+			"passed": true
+		},
+		{
+			"name": "ages.completes_and_spawns.nephites",
+			"passed": true
+		},
+		{
+			"name": "heroes.only_retrain_after_death.nephites",
+			"passed": true
+		},
+		{
+			"name": "ages.choices.lamanites",
+			"passed": true
+		},
+		{
+			"name": "heroes.not_trainable_before_choice.lamanites",
+			"passed": true
+		},
+		{
+			"name": "ages.queue_reserves_hero.lamanites",
+			"passed": true
+		},
+		{
+			"name": "ages.completes_and_spawns.lamanites",
+			"passed": true
+		},
+		{
+			"name": "heroes.only_retrain_after_death.lamanites",
+			"passed": true
+		},
+		{
+			"name": "ages.choices.gadianton",
+			"passed": true
+		},
+		{
+			"name": "heroes.not_trainable_before_choice.gadianton",
+			"passed": true
+		},
+		{
+			"name": "ages.queue_reserves_hero.gadianton",
+			"passed": true
+		},
+		{
+			"name": "ages.completes_and_spawns.gadianton",
+			"passed": true
+		},
+		{
+			"name": "heroes.only_retrain_after_death.gadianton",
+			"passed": true
+		},
+		{
+			"name": "ages.choices.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "heroes.not_trainable_before_choice.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "ages.queue_reserves_hero.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "ages.completes_and_spawns.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "heroes.only_retrain_after_death.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "ages.choices.shiz",
+			"passed": true
+		},
+		{
+			"name": "heroes.not_trainable_before_choice.shiz",
+			"passed": true
+		},
+		{
+			"name": "ages.queue_reserves_hero.shiz",
+			"passed": true
+		},
+		{
+			"name": "ages.completes_and_spawns.shiz",
+			"passed": true
+		},
+		{
+			"name": "heroes.only_retrain_after_death.shiz",
+			"passed": true
+		},
+		{
+			"name": "ages.choices.laban",
+			"passed": true
+		},
+		{
+			"name": "heroes.not_trainable_before_choice.laban",
+			"passed": true
+		},
+		{
+			"name": "ages.queue_reserves_hero.laban",
+			"passed": true
+		},
+		{
+			"name": "ages.completes_and_spawns.laban",
+			"passed": true
+		},
+		{
+			"name": "heroes.only_retrain_after_death.laban",
+			"passed": true
+		},
+		{
+			"name": "favor.decays_faster_above_baseline",
+			"passed": true
+		},
+		{
+			"name": "favor.temple_and_teacher_generate",
+			"passed": true
+		},
+		{
+			"name": "conversion.teacher_auto_and_favor_transfer",
+			"passed": true
+		},
+		{
+			"name": "ammonite.prostrate_has_cooldown_and_duration",
+			"passed": true
+		},
+		{
+			"name": "ammonite.killer_converts",
+			"passed": true
+		},
+		{
+			"name": "lamanites.priestcraft_generates_precious_things",
+			"passed": true
+		},
+		{
+			"name": "lamanites.losses_increase_anger",
+			"passed": true
+		},
+		{
+			"name": "lamanites.rameumptom_converts_captain",
+			"passed": true
+		},
+		{
+			"name": "gadianton.lawyer_compromises_deposits_without_stock_creation",
+			"passed": true
+		},
+		{
+			"name": "gadianton.secret_lodge_undiscovered",
+			"passed": true
+		},
+		{
+			"name": "gadianton.scouting_exposes_lodge",
+			"passed": true
+		},
+		{
+			"name": "sheep.captured_with_destroyed_flock",
+			"passed": true
+		},
+		{
+			"name": "laban.drunken_guard_splash",
+			"passed": true
+		}
+	]
+}

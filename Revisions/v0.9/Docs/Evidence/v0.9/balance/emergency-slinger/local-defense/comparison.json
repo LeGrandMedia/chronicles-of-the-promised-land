@@ -1,0 +1,518 @@
+{
+  "model": {
+    "recommended": "GPT-6.2 Sol",
+    "actual": "GPT-6.2 Sol"
+  },
+  "executable_sha256": "4F7777E9670E221AAF596BBD008E5231E10AC7B5359BCA8E86EAEA512A998DBD",
+  "comparison_method": {
+    "prior_report_excluded_fields": [
+      "local_defense",
+      "observer_inclusive_wall_seconds",
+      "step_ms_max",
+      "step_ms_median",
+      "step_ms_p95"
+    ],
+    "sample_interval_seconds": 10,
+    "defense_radius_m": 24,
+    "pairing": "Align end-of-step checkpoints by the same fixed step, with live Seats in both arms and actual times before the earlier single Seat loss.",
+    "post_queue_threat_scope": "Within the paired samples, start after the trial's first emergency queue and include only samples where both planners last observed a visible base threat.",
+    "residence_scope": "Newly observed owned unconverted Slingers at trial step end, with no queue-order identity attribution. Per-step residence counts sampled unembarked presence inside the primary Seat radius."
+  },
+  "prior_reproduction": {
+    "baseline": {
+      "shard_0": {
+        "current": "baseline/pair-0/v09-bot-balance-00-of-15.json",
+        "prior": "../baseline/pair-0/v09-bot-balance-00-of-15.json",
+        "exit_code": 0,
+        "complete": true,
+        "valid": true,
+        "exact_match": true,
+        "scalar_fields_compared": 1581,
+        "differences": []
+      },
+      "shard_4": {
+        "current": "baseline/pair-4/v09-bot-balance-04-of-15.json",
+        "prior": "../baseline/pair-4/v09-bot-balance-04-of-15.json",
+        "exit_code": 0,
+        "complete": true,
+        "valid": true,
+        "exact_match": true,
+        "scalar_fields_compared": 6683,
+        "differences": []
+      }
+    },
+    "trial": {
+      "shard_0": {
+        "current": "trial/pair-0/v09-bot-balance-00-of-15.json",
+        "prior": "../trial/pair-0/v09-bot-balance-00-of-15.json",
+        "exit_code": 0,
+        "complete": true,
+        "valid": true,
+        "exact_match": true,
+        "scalar_fields_compared": 1369,
+        "differences": [],
+        "fixture_passed": true
+      },
+      "shard_4": {
+        "current": "trial/pair-4/v09-bot-balance-04-of-15.json",
+        "prior": "../trial/pair-4/v09-bot-balance-04-of-15.json",
+        "exit_code": 0,
+        "complete": true,
+        "valid": true,
+        "exact_match": true,
+        "scalar_fields_compared": 8067,
+        "differences": [],
+        "fixture_passed": true
+      }
+    }
+  },
+  "paired_matches": [
+    {
+      "pair": 0,
+      "nephite_slot": 0,
+      "opponent": "lamanites",
+      "baseline_seat_loss_seconds": 532.1171264648438,
+      "trial_seat_loss_seconds": 535.3163452148438,
+      "pre_loss_cutoff_seconds": 532.1171264648438,
+      "baseline_samples": 42,
+      "trial_samples": 42,
+      "all_common_pre_loss_checkpoints": 36,
+      "common_post_queue_threatened": {
+        "checkpoints": 7,
+        "trial_more": 0,
+        "equal": 6,
+        "trial_fewer": 1,
+        "baseline": {
+          "mean_nearby_defenders": 0.2857142857142857,
+          "mean_defender_hp": 9.142857142857142,
+          "mean_defender_cost": 29.571428571428573,
+          "mean_seat_hp": 2494.571358816964
+        },
+        "trial": {
+          "mean_nearby_defenders": 0.14285714285714285,
+          "mean_defender_hp": 4.428571428571429,
+          "mean_defender_cost": 15.285714285714286,
+          "mean_seat_hp": 2509.7142159598216
+        }
+      },
+      "last_common_pre_loss_checkpoint": {
+        "step": 5300,
+        "nominal_seconds": 530,
+        "observed_seconds": 530.0176391601562,
+        "baseline": {
+          "seat_hp": 409.99951171875,
+          "live_land_army": 0,
+          "nearby_defenders": 0,
+          "nearby_defender_hp": 0,
+          "nearby_defender_catalog_cost": {
+            "food": 0,
+            "timber": 0,
+            "precious": 0
+          },
+          "worker_combat_losses": 18,
+          "queued_slingers": 0,
+          "queued_teachers": 0,
+          "slingers_near_seat": 0,
+          "nearby_trial_slinger_ids": [],
+          "tracked_slinger_unit_seconds_near_seat": 0
+        },
+        "trial": {
+          "seat_hp": 1116.99951171875,
+          "live_land_army": 0,
+          "nearby_defenders": 0,
+          "nearby_defender_hp": 0,
+          "nearby_defender_catalog_cost": {
+            "food": 0,
+            "timber": 0,
+            "precious": 0
+          },
+          "worker_combat_losses": 22,
+          "queued_slingers": 1,
+          "queued_teachers": 0,
+          "slingers_near_seat": 0,
+          "nearby_trial_slinger_ids": [],
+          "tracked_slinger_unit_seconds_near_seat": 0.7
+        }
+      },
+      "trial_slingers_queued": 2,
+      "trial_slinger_observations": {
+        "appeared": 2,
+        "reached_radius": 2,
+        "present_owned_at_cutoff": 1,
+        "reached_and_present_owned_at_cutoff": 1,
+        "terminal_observations_before_cutoff": {
+          "combat_death": 1
+        },
+        "seen_ids": [
+          431,
+          452
+        ],
+        "reached_ids": [
+          431,
+          452
+        ],
+        "present_owned_ids": [
+          452
+        ],
+        "full_match_observed_lifecycles": 2,
+        "full_match_terminal_observations": {
+          "combat_death": 2
+        },
+        "pair": 0,
+        "slot": 0,
+        "all_seen_first_observed_near_seat": true,
+        "stable_near_seat_across_cutoff": true,
+        "stable_ids": [
+          452
+        ],
+        "full_match_all_first_observed_near_seat": true
+      },
+      "validation": {
+        "observer_invariants_passed": true,
+        "paired_game_times_match_exactly": true
+      }
+    },
+    {
+      "pair": 0,
+      "nephite_slot": 1,
+      "opponent": "lamanites",
+      "baseline_seat_loss_seconds": 460.9189147949219,
+      "trial_seat_loss_seconds": 472.9196472167969,
+      "pre_loss_cutoff_seconds": 460.9189147949219,
+      "baseline_samples": 34,
+      "trial_samples": 35,
+      "all_common_pre_loss_checkpoints": 28,
+      "common_post_queue_threatened": {
+        "checkpoints": 9,
+        "trial_more": 1,
+        "equal": 7,
+        "trial_fewer": 1,
+        "baseline": {
+          "mean_nearby_defenders": 0.3333333333333333,
+          "mean_defender_hp": 7.222222222222222,
+          "mean_defender_cost": 34.888888888888886,
+          "mean_seat_hp": 2323.555474175347
+        },
+        "trial": {
+          "mean_nearby_defenders": 0.3333333333333333,
+          "mean_defender_hp": 6.555555555555555,
+          "mean_defender_cost": 27.77777777777778,
+          "mean_seat_hp": 2447.3334282769097
+        }
+      },
+      "last_common_pre_loss_checkpoint": {
+        "step": 4600,
+        "nominal_seconds": 460,
+        "observed_seconds": 460.01885986328125,
+        "baseline": {
+          "seat_hp": 147.9996337890625,
+          "live_land_army": 0,
+          "nearby_defenders": 0,
+          "nearby_defender_hp": 0,
+          "nearby_defender_catalog_cost": {
+            "food": 0,
+            "timber": 0,
+            "precious": 0
+          },
+          "worker_combat_losses": 11,
+          "queued_slingers": 0,
+          "queued_teachers": 0,
+          "slingers_near_seat": 0,
+          "nearby_trial_slinger_ids": [],
+          "tracked_slinger_unit_seconds_near_seat": 0
+        },
+        "trial": {
+          "seat_hp": 1111.0003662109375,
+          "live_land_army": 0,
+          "nearby_defenders": 0,
+          "nearby_defender_hp": 0,
+          "nearby_defender_catalog_cost": {
+            "food": 0,
+            "timber": 0,
+            "precious": 0
+          },
+          "worker_combat_losses": 11,
+          "queued_slingers": 0,
+          "queued_teachers": 0,
+          "slingers_near_seat": 0,
+          "nearby_trial_slinger_ids": [],
+          "tracked_slinger_unit_seconds_near_seat": 21.3
+        }
+      },
+      "trial_slingers_queued": 2,
+      "trial_slinger_observations": {
+        "appeared": 2,
+        "reached_radius": 2,
+        "present_owned_at_cutoff": 0,
+        "reached_and_present_owned_at_cutoff": 0,
+        "terminal_observations_before_cutoff": {
+          "combat_death": 2
+        },
+        "seen_ids": [
+          400,
+          410
+        ],
+        "reached_ids": [
+          400,
+          410
+        ],
+        "present_owned_ids": [],
+        "full_match_observed_lifecycles": 2,
+        "full_match_terminal_observations": {
+          "combat_death": 2
+        },
+        "pair": 0,
+        "slot": 1,
+        "all_seen_first_observed_near_seat": true,
+        "stable_near_seat_across_cutoff": true,
+        "stable_ids": [],
+        "full_match_all_first_observed_near_seat": true
+      },
+      "validation": {
+        "observer_invariants_passed": true,
+        "paired_game_times_match_exactly": true
+      }
+    },
+    {
+      "pair": 4,
+      "nephite_slot": 0,
+      "opponent": "laban",
+      "baseline_seat_loss_seconds": 724.9700317382812,
+      "trial_seat_loss_seconds": 740.1663208007812,
+      "pre_loss_cutoff_seconds": 724.9700317382812,
+      "baseline_samples": 61,
+      "trial_samples": 63,
+      "all_common_pre_loss_checkpoints": 55,
+      "common_post_queue_threatened": {
+        "checkpoints": 14,
+        "trial_more": 4,
+        "equal": 10,
+        "trial_fewer": 0,
+        "baseline": {
+          "mean_nearby_defenders": 0.2857142857142857,
+          "mean_defender_hp": 14.357142857142858,
+          "mean_defender_cost": 30.071428571428573,
+          "mean_seat_hp": 2587.9285779680527
+        },
+        "trial": {
+          "mean_nearby_defenders": 0.6428571428571429,
+          "mean_defender_hp": 26.214285714285715,
+          "mean_defender_cost": 50,
+          "mean_seat_hp": 2872.9285714285716
+        }
+      },
+      "last_common_pre_loss_checkpoint": {
+        "step": 7200,
+        "nominal_seconds": 720,
+        "observed_seconds": 719.9712524414062,
+        "baseline": {
+          "seat_hp": 345.0000915527344,
+          "live_land_army": 1,
+          "nearby_defenders": 1,
+          "nearby_defender_hp": 49,
+          "nearby_defender_catalog_cost": {
+            "food": 63,
+            "timber": 44,
+            "precious": 0
+          },
+          "worker_combat_losses": 16,
+          "queued_slingers": 0,
+          "queued_teachers": 0,
+          "slingers_near_seat": 0,
+          "nearby_trial_slinger_ids": [],
+          "tracked_slinger_unit_seconds_near_seat": 0
+        },
+        "trial": {
+          "seat_hp": 1623,
+          "live_land_army": 1,
+          "nearby_defenders": 1,
+          "nearby_defender_hp": 40,
+          "nearby_defender_catalog_cost": {
+            "food": 50,
+            "timber": 25,
+            "precious": 0
+          },
+          "worker_combat_losses": 17,
+          "queued_slingers": 1,
+          "queued_teachers": 0,
+          "slingers_near_seat": 1,
+          "nearby_trial_slinger_ids": [
+            445
+          ],
+          "tracked_slinger_unit_seconds_near_seat": 54
+        }
+      },
+      "trial_slingers_queued": 7,
+      "trial_slinger_observations": {
+        "appeared": 5,
+        "reached_radius": 5,
+        "present_owned_at_cutoff": 1,
+        "reached_and_present_owned_at_cutoff": 1,
+        "terminal_observations_before_cutoff": {
+          "combat_death": 4
+        },
+        "seen_ids": [
+          416,
+          419,
+          427,
+          435,
+          445
+        ],
+        "reached_ids": [
+          416,
+          419,
+          427,
+          435,
+          445
+        ],
+        "present_owned_ids": [
+          445
+        ],
+        "full_match_observed_lifecycles": 6,
+        "full_match_terminal_observations": {
+          "combat_death": 6
+        },
+        "pair": 4,
+        "slot": 0,
+        "all_seen_first_observed_near_seat": true,
+        "stable_near_seat_across_cutoff": true,
+        "stable_ids": [
+          445
+        ],
+        "full_match_all_first_observed_near_seat": true
+      },
+      "validation": {
+        "observer_invariants_passed": true,
+        "paired_game_times_match_exactly": true
+      }
+    },
+    {
+      "pair": 4,
+      "nephite_slot": 1,
+      "opponent": "laban",
+      "baseline_seat_loss_seconds": 672.0829467773438,
+      "trial_seat_loss_seconds": 838.5422973632812,
+      "pre_loss_cutoff_seconds": 672.0829467773438,
+      "baseline_samples": 55,
+      "trial_samples": 71,
+      "all_common_pre_loss_checkpoints": 49,
+      "common_post_queue_threatened": {
+        "checkpoints": 17,
+        "trial_more": 12,
+        "equal": 5,
+        "trial_fewer": 0,
+        "baseline": {
+          "mean_nearby_defenders": 0.29411764705882354,
+          "mean_defender_hp": 5.235294117647059,
+          "mean_defender_cost": 31.470588235294116,
+          "mean_seat_hp": 2563.235397338867
+        },
+        "trial": {
+          "mean_nearby_defenders": 1.588235294117647,
+          "mean_defender_hp": 28.11764705882353,
+          "mean_defender_cost": 136.2941176470588,
+          "mean_seat_hp": 2367.2949398265164
+        }
+      },
+      "last_common_pre_loss_checkpoint": {
+        "step": 6700,
+        "nominal_seconds": 670,
+        "observed_seconds": 669.9834594726562,
+        "baseline": {
+          "seat_hp": 137.0006561279297,
+          "live_land_army": 1,
+          "nearby_defenders": 1,
+          "nearby_defender_hp": 16,
+          "nearby_defender_catalog_cost": {
+            "food": 63,
+            "timber": 44,
+            "precious": 0
+          },
+          "worker_combat_losses": 14,
+          "queued_slingers": 0,
+          "queued_teachers": 0,
+          "slingers_near_seat": 0,
+          "nearby_trial_slinger_ids": [],
+          "tracked_slinger_unit_seconds_near_seat": 0
+        },
+        "trial": {
+          "seat_hp": 565.0033569335938,
+          "live_land_army": 5,
+          "nearby_defenders": 4,
+          "nearby_defender_hp": 77,
+          "nearby_defender_catalog_cost": {
+            "food": 225,
+            "timber": 75,
+            "precious": 25
+          },
+          "worker_combat_losses": 13,
+          "queued_slingers": 0,
+          "queued_teachers": 0,
+          "slingers_near_seat": 3,
+          "nearby_trial_slinger_ids": [
+            424,
+            431,
+            433
+          ],
+          "tracked_slinger_unit_seconds_near_seat": 148.3
+        }
+      },
+      "trial_slingers_queued": 16,
+      "trial_slinger_observations": {
+        "appeared": 6,
+        "reached_radius": 6,
+        "present_owned_at_cutoff": 2,
+        "reached_and_present_owned_at_cutoff": 2,
+        "terminal_observations_before_cutoff": {
+          "combat_death": 4
+        },
+        "seen_ids": [
+          405,
+          418,
+          423,
+          424,
+          431,
+          433
+        ],
+        "reached_ids": [
+          405,
+          418,
+          423,
+          424,
+          431,
+          433
+        ],
+        "present_owned_ids": [
+          424,
+          433
+        ],
+        "full_match_observed_lifecycles": 15,
+        "full_match_terminal_observations": {
+          "combat_death": 15
+        },
+        "pair": 4,
+        "slot": 1,
+        "all_seen_first_observed_near_seat": true,
+        "stable_near_seat_across_cutoff": true,
+        "stable_ids": [
+          424,
+          433
+        ],
+        "full_match_all_first_observed_near_seat": false
+      },
+      "validation": {
+        "observer_invariants_passed": true,
+        "paired_game_times_match_exactly": true
+      }
+    }
+  ],
+  "aggregate": {
+    "trial_slingers_queued": 27,
+    "trial_slingers_observed": 25,
+    "trial_slingers_seen_before_earlier_seat_loss": 15,
+    "trial_slingers_reached_radius_before_earlier_seat_loss": 15,
+    "trial_slingers_combat_deaths_before_earlier_seat_loss": 11,
+    "trial_slingers_continuously_sampled_near_seat_through_cutoff": 4,
+    "recommendation": "retain_opt_in"
+  }
+}

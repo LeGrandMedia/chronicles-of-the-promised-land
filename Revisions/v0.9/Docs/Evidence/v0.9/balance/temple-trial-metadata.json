@@ -1,0 +1,17 @@
+{
+  "build": "Win64 Development",
+  "executable_sha256": "3c6aefee7b09566773996b060a56467903c199c4571ea28c8df06a657b5ed0be",
+  "catalog_sha256": "43a6882d68ac0c17eefbb146c80baf03795e95e07fb437e58cd4bc8c5188ef28",
+  "replayed_pairs": [
+    0,
+    3,
+    4
+  ],
+  "trial_steps_per_match": 12000,
+  "matched_control_steps_per_match": 4800,
+  "parallel_processes_per_batch": 3,
+  "experiment": "first Temple priority ahead of Workshop, 120 game seconds after first Camp paid with normal opening construction precedence and threat cancellation",
+  "maximum_parallel_probe_processes": 6,
+  "overlapping_control_and_trial_batches": true,
+  "timing_contended": true
+}

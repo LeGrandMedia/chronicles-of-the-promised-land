@@ -1,0 +1,80 @@
+{
+	"passed": true,
+	"checks": 17,
+	"failed": 0,
+	"army_targets": 576,
+	"army_range_rejected": 512,
+	"army_terrain_and_range_ms": 0.088400003733113408,
+	"army_exact_filter_ms": 5.6584000121802092,
+	"army_range_and_exact_filter_ms": 0.065800006268545985,
+	"results": [
+		{
+			"name": "off_grid_rotated_store_blocks_terrain_sample_only",
+			"passed": true
+		},
+		{
+			"name": "snapshot_delivers_live_store_in_dark_terrain_cell",
+			"passed": true
+		},
+		{
+			"name": "snapshot_keeps_enemy_cargo_queue_and_rally_private",
+			"passed": true
+		},
+		{
+			"name": "live_off_grid_store_accepts_attack_order",
+			"passed": true
+		},
+		{
+			"name": "separate_wall_blocks_live_store_and_freezes_memory",
+			"passed": true
+		},
+		{
+			"name": "hidden_store_rejects_attack_order",
+			"passed": true
+		},
+		{
+			"name": "unseen_destruction_does_not_remove_remembered_store",
+			"passed": true
+		},
+		{
+			"name": "rescouted_terrain_clears_destroyed_store_memory",
+			"passed": true
+		},
+		{
+			"name": "separate_rock_blocks_entity_even_in_sight_range",
+			"passed": true
+		},
+		{
+			"name": "undetected_stealth_structure_stays_private",
+			"passed": true
+		},
+		{
+			"name": "disabled_terrain_fog_preserves_stealth_detection_rule",
+			"passed": true
+		},
+		{
+			"name": "nearby_spy_detects_concealed_structure",
+			"passed": true
+		},
+		{
+			"name": "visible_carrier_keeps_passenger_identity_owner_only",
+			"passed": true
+		},
+		{
+			"name": "large_footprint_reaches_across_coarse_cell_boundary",
+			"passed": true
+		},
+		{
+			"name": "coarse_candidates_still_obey_exact_sight_range",
+			"passed": true
+		},
+		{
+			"name": "range_grid_rejects_remote_army_before_exact_visibility",
+			"passed": true
+		},
+		{
+			"name": "range_grid_matches_exact_visibility_on_army_layout",
+			"passed": true
+		}
+	]
+}

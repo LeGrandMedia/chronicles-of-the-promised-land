@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T14:38:35.5032790Z",
+  "finished_utc": "2026-11-22T14:38:37.7875988Z",
+  "sha256": "2BB3A2E0696F9D46C2EE6777615B64FF72CD8FBA974C0746C5635646C0FED89D",
+  "arguments": [
+    "-RTSV09GateTraversalTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\gates-hud-food-assignment\\gates-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 1,
+  "timed_out": false
+}

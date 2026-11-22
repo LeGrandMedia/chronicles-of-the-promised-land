@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T15:32:07.8353367Z",
+  "finished_utc": "2026-11-22T15:33:25.2150929Z",
+  "sha256": "7F30C0F4543A16277C60D389162F7A609B0E79A5AB3494C7BB77F5E8F4BAB9D4",
+  "arguments": [
+    "-RTSV09BotTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\final-handoff\\bots-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

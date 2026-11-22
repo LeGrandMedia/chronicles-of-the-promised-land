@@ -1,0 +1,119 @@
+{
+	"passed": true,
+	"failure": "",
+	"scope": "Development standalone rendered authority Kill and filtered snapshots, with simulation tick disabled. No transport, AI, or live-match frame-rate claim.",
+	"clocks": "Wall intervals and prior completed scene tick. UE stat unit engine counters can lag different frames, zero readings are excluded from summaries. Scene update includes pose, pose includes mesh submission, and initial death submission is a subset of mesh submission.",
+	"first_loss_wall_scope": "The first loss wall interval includes the authority kill loop and filtered snapshot. The scene profile begins after the fixture hook and excludes both operations.",
+	"memory_scope": "Process resident MiB at the named boundaries. Component registration and renderer keys separately establish cleanup.",
+	"capture_only": false,
+	"verify_geometry": false,
+	"lifecycle_only": true,
+	"batch_unit_deaths": true,
+	"physical_death_components": 35,
+	"requested_visible_unit_losses": 400,
+	"requested_visible_building_losses": 8,
+	"effect_cap": 256,
+	"expected_local_effects": 256,
+	"expected_local_evictions": 152,
+	"initial_live_skeletal_meshes": 400,
+	"effect_triangles": 0,
+	"logical_rendered_entity_count":
+	{
+		"live": 411
+	},
+	"process_resident_mib":
+	{
+		"live": 736.4609375
+	},
+	"screenshots": [],
+	"config":
+	{
+		"platform": "Windows",
+		"engine": "5.3.2-29314046+++UE5+Release-5.3",
+		"cpu": "AMD Ryzen 5 5600X 6-Core Processor             ",
+		"gpu": "NVIDIA GeForce RTX 4070",
+		"rhi": "D3D12",
+		"width": 1600,
+		"height": 900,
+		"vsync": 0,
+		"max_fps": 0,
+		"screen_percentage": 0,
+		"shadow_quality": 3,
+		"frame_smoothing_disabled": true,
+		"offscreen": true,
+		"gpu_skinning_requested": true
+	},
+	"frames": [],
+	"lifecycle":
+	{
+		"bursts": 3,
+		"fifo_evictions": 152,
+		"state_checks": 681,
+		"partial_expiry_observed": true,
+		"checkpoints": [
+			{
+				"name": "first_fall",
+				"age_s": 0.20780830457806587,
+				"logical_effects": 128,
+				"physical_components": 9,
+				"geometry_checked": true
+			},
+			{
+				"name": "second_cohort",
+				"age_s": 0.42222060263156891,
+				"logical_effects": 256,
+				"physical_components": 17,
+				"geometry_checked": true
+			},
+			{
+				"name": "hidden_after_fifo_eviction",
+				"age_s": 0.80073140561580658,
+				"logical_effects": 256,
+				"physical_components": 25,
+				"geometry_checked": false
+			},
+			{
+				"name": "visible_reentry",
+				"age_s": 0.92588060349225998,
+				"logical_effects": 256,
+				"physical_components": 25,
+				"geometry_checked": true
+			},
+			{
+				"name": "reduced_motion",
+				"age_s": 1.066913403570652,
+				"logical_effects": 256,
+				"physical_components": 25,
+				"geometry_checked": true
+			},
+			{
+				"name": "motion_restored_mid_fall",
+				"age_s": 1.2231585010886192,
+				"logical_effects": 256,
+				"physical_components": 25,
+				"geometry_checked": true
+			},
+			{
+				"name": "mixed_age_sinking",
+				"age_s": 2.8508395999670029,
+				"logical_effects": 256,
+				"physical_components": 25,
+				"geometry_checked": true
+			},
+			{
+				"name": "complete_expiry",
+				"age_s": 3.8589042015373707,
+				"logical_effects": 0,
+				"physical_components": 0,
+				"geometry_checked": false
+			}
+		],
+		"max_position_error_cm": 1.4926302773077711e-12,
+		"max_vertex_normal_error": 1.0990647210786425e-15,
+		"max_face_normal_error": 1.4736550827282388e-12,
+		"max_pose_time_error_s": 0,
+		"vertices_checked": 3802864,
+		"triangle_normals_checked": 1600960,
+		"vertex_colors_checked": 3802864
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "task_owned_vm_pid": 37760,
+  "qmp_port": 62850,
+  "action": "Quit the paused offline Chronicles test VM; keep its disk and test evidence",
+  "qmp_receipts": [
+    {
+      "QMP": {
+        "version": {
+          "qemu": {
+            "micro": 3,
+            "minor": 1,
+            "major": 11
+          },
+          "package": ""
+        },
+        "capabilities": [
+          "oob"
+        ]
+      }
+    },
+    {
+      "return": {},
+      "id": "qmp_capabilities"
+    },
+    {
+      "return": {
+        "status": "paused",
+        "running": false
+      },
+      "id": "query-status"
+    },
+    {
+      "timestamp": {
+        "seconds": 1795361682,
+        "microseconds": 915476
+      },
+      "event": "SHUTDOWN",
+      "data": {
+        "guest": false,
+        "reason": "host-qmp-quit"
+      }
+    },
+    {
+      "return": {},
+      "id": "quit"
+    }
+  ]
+}

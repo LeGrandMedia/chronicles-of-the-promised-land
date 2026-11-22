@@ -1,0 +1,5 @@
+{
+  "description": "Same executable pair10 with legacy opening; trace off vs on. Existing fields compared except step_ms/wall_seconds timing fields. Added trace-only fields ignored.",
+  "differences": [],
+  "equal_gameplay": true
+}

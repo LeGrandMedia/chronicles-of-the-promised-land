@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T14:33:53.7036247Z",
+  "finished_utc": "2026-11-22T14:34:59.4728420Z",
+  "sha256": "CA16F0D9DC2F0D04DB105A2003B569A0457EE9546BAC936666A7F3E7ADE579F8",
+  "arguments": [
+    "-RTSV09BotTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\gates-hud-refined\\bots-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

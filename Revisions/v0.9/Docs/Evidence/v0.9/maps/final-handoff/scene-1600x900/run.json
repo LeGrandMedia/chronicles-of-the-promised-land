@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-22T15:31:17.1677288Z",
+  "finished_utc": "2026-11-22T15:31:38.6677392Z",
+  "sha256": "7F30C0F4543A16277C60D389162F7A609B0E79A5AB3494C7BB77F5E8F4BAB9D4",
+  "arguments": [
+    "-RTSV09SceneTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\final-handoff\\scene-1600x900\\test.log\"",
+    "-d3d11",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=1600",
+    "-ResY=900"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

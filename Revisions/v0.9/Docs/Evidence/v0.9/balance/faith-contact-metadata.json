@@ -1,0 +1,13 @@
+{
+  "build": "Win64 Development",
+  "executable_sha256": "6096d8b4fd8a12aa1f069ed48f8d7d0ed82dd04fa90343a38c34ff3c4a0de006",
+  "catalog_sha256": "43a6882d68ac0c17eefbb146c80baf03795e95e07fb437e58cd4bc8c5188ef28",
+  "replayed_pairs": [
+    0,
+    3,
+    4
+  ],
+  "maximum_steps_per_match": 4800,
+  "native_compile_overlap": true,
+  "timings_contended": true
+}

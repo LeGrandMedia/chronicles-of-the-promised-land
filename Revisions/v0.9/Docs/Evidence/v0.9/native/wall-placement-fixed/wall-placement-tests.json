@@ -1,0 +1,3650 @@
+{
+	"passed": 216,
+	"failed": 0,
+	"authored_slice_height_m": 0.45000000000000001,
+	"geometry_scope": "Base asset sections transformed by authoritative centers and headings, before connector rendering.",
+	"cases": [
+		{
+			"case": "nephites-0-foundation",
+			"wall_model": "buildings/works_of_defense@nephites.json",
+			"gate_model": "buildings/works_of_defense@gate@nephites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					},
+					{
+						"id": 9,
+						"distance_m": 16.721318821719429,
+						"escape_boundary_depth_m": -14.481318812182685
+					},
+					{
+						"id": 10,
+						"distance_m": 20.817300686166693,
+						"escape_boundary_depth_m": -18.57730067662995
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 52.450000095367429,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 10,
+					"x": 56.60000019073486,
+					"y": 40,
+					"heading_degrees": 0
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 43.499908447265625,
+				"x": 59.115324889519044,
+				"y": 40.076779054555352,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 37.200004577636719,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 19.115479085157261,
+						"escape_boundary_depth_m": -16.875479075620518
+					},
+					{
+						"id": 7,
+						"distance_m": 14.965521748929017,
+						"escape_boundary_depth_m": -12.725521739392274
+					},
+					{
+						"id": 8,
+						"distance_m": 10.815597226383273,
+						"escape_boundary_depth_m": -8.5755972168465302
+					},
+					{
+						"id": 9,
+						"distance_m": 6.6657669952339837,
+						"escape_boundary_depth_m": -4.4257669856972406
+					},
+					{
+						"id": 10,
+						"distance_m": 2.5164962474703114,
+						"escape_boundary_depth_m": -0.27649623793356826
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 43.499908447265625,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": -9.5367434838067311e-08,
+			"authored_presentation_gap": false,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "nephites-0-complete",
+			"wall_model": "buildings/works_of_defense@nephites.json",
+			"gate_model": "buildings/works_of_defense@gate@nephites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					},
+					{
+						"id": 9,
+						"distance_m": 1.5806336538614185,
+						"escape_boundary_depth_m": 0.65936635567532464
+					},
+					{
+						"id": 10,
+						"distance_m": 5.7249036779353419,
+						"escape_boundary_depth_m": -3.4849036683985988
+					}
+				],
+				"enclosing_wall": 9,
+				"exit_candidates": [
+					{
+						"angle_degrees_from_directly_away": 0,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 22.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -22.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 45,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -45,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 67.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -67.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 90,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -90,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 52.450000095367429,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 10,
+					"x": 56.60000019073486,
+					"y": 40,
+					"heading_degrees": 0
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 42.899917602539062,
+				"x": 59.115410236370771,
+				"y": 40.076984008007479,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 36.600013732910156,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 19.115565255629701,
+						"escape_boundary_depth_m": -16.875565246092957
+					},
+					{
+						"id": 7,
+						"distance_m": 14.965608147547313,
+						"escape_boundary_depth_m": -12.725608138010569
+					},
+					{
+						"id": 8,
+						"distance_m": 10.815684027962863,
+						"escape_boundary_depth_m": -8.57568401842612
+					},
+					{
+						"id": 9,
+						"distance_m": 6.6658547002825594,
+						"escape_boundary_depth_m": -4.4258546907458163
+					},
+					{
+						"id": 10,
+						"distance_m": 2.516587815907672,
+						"escape_boundary_depth_m": -0.27658780637092883
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 42.899917602539062,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": -9.5367434838067311e-08,
+			"authored_presentation_gap": false,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "nephites-45-foundation",
+			"wall_model": "buildings/works_of_defense@nephites.json",
+			"gate_model": "buildings/works_of_defense@gate@nephites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					},
+					{
+						"id": 9,
+						"distance_m": 16.34955638189783,
+						"escape_boundary_depth_m": -14.109556372361087
+					},
+					{
+						"id": 10,
+						"distance_m": 20.218085699512006,
+						"escape_boundary_depth_m": -17.978085689975263
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 51.234493257042843,
+					"y": 42.934493161675412,
+					"heading_degrees": 44.999996185302734
+				},
+				{
+					"id": 10,
+					"x": 54.168986514085695,
+					"y": 45.868986323350825,
+					"heading_degrees": 44.999996185302734
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 48.299835205078125,
+				"x": 56.71433015585518,
+				"y": 45.684837226595967,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 41.399940490722656,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 17.6546369787606,
+						"escape_boundary_depth_m": -15.414636969223857
+					},
+					{
+						"id": 7,
+						"distance_m": 13.790567941958278,
+						"escape_boundary_depth_m": -11.550567932421535
+					},
+					{
+						"id": 8,
+						"distance_m": 10.15471925041815,
+						"escape_boundary_depth_m": -7.9147192408814071
+					},
+					{
+						"id": 9,
+						"distance_m": 6.1313134737206951,
+						"escape_boundary_depth_m": -3.891313464183952
+					},
+					{
+						"id": 10,
+						"distance_m": 2.5519963057441859,
+						"escape_boundary_depth_m": -0.31199629620744274
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 48.299835205078125,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.3803699393047395,
+			"authored_presentation_gap": true,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "nephites-45-complete",
+			"wall_model": "buildings/works_of_defense@nephites.json",
+			"gate_model": "buildings/works_of_defense@gate@nephites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					},
+					{
+						"id": 9,
+						"distance_m": 2.7994583288897239,
+						"escape_boundary_depth_m": -0.55945831935298074
+					},
+					{
+						"id": 10,
+						"distance_m": 6.5917865936769466,
+						"escape_boundary_depth_m": -4.3517865841402035
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 51.234493257042843,
+					"y": 42.934493161675412,
+					"heading_degrees": 44.999996185302734
+				},
+				{
+					"id": 10,
+					"x": 54.168986514085695,
+					"y": 45.868986323350825,
+					"heading_degrees": 44.999996185302734
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 42.599922180175781,
+				"x": 56.714330154597384,
+				"y": 45.684837224693332,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 35.700027465820312,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 17.654636976957143,
+						"escape_boundary_depth_m": -15.4146369674204
+					},
+					{
+						"id": 7,
+						"distance_m": 13.790567940028009,
+						"escape_boundary_depth_m": -11.550567930491265
+					},
+					{
+						"id": 8,
+						"distance_m": 10.154719248310789,
+						"escape_boundary_depth_m": -7.9147192387740457
+					},
+					{
+						"id": 9,
+						"distance_m": 6.1313134717430735,
+						"escape_boundary_depth_m": -3.8913134622063303
+					},
+					{
+						"id": 10,
+						"distance_m": 2.5519963046269609,
+						"escape_boundary_depth_m": -0.31199629509021776
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 42.599922180175781,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.3803699393047395,
+			"authored_presentation_gap": true,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "nephites-90-foundation",
+			"wall_model": "buildings/works_of_defense@nephites.json",
+			"gate_model": "buildings/works_of_defense@gate@nephites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					},
+					{
+						"id": 9,
+						"distance_m": 14.227174832333828,
+						"escape_boundary_depth_m": -11.987174822797085
+					},
+					{
+						"id": 10,
+						"distance_m": 16.702694662918486,
+						"escape_boundary_depth_m": -14.462694653381742
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 48.30000009536743,
+					"y": 44.150000095367432,
+					"heading_degrees": 89.999992370605469
+				},
+				{
+					"id": 10,
+					"x": 48.300000190734863,
+					"y": 48.300000190734863,
+					"heading_degrees": 89.999992370605469
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 49.699813842773438,
+				"x": 50.999971376767199,
+				"y": 48.074683449148957,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 41.999931335449219,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 13.645507799039866,
+						"escape_boundary_depth_m": -11.405507789503122
+					},
+					{
+						"id": 7,
+						"distance_m": 10.5887968797197,
+						"escape_boundary_depth_m": -8.3487968701829569
+					},
+					{
+						"id": 8,
+						"distance_m": 8.5141269199704173,
+						"escape_boundary_depth_m": -6.2741269104336741
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7637153932443645,
+						"escape_boundary_depth_m": -2.5237153837076214
+					},
+					{
+						"id": 10,
+						"distance_m": 2.7093563884147374,
+						"escape_boundary_depth_m": -0.4693563788779942
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 49.699813842773438,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 1.7288750008595593,
+			"authored_presentation_gap": true,
+			"gate_aperture_m": 2.145161224489796,
+			"gate_art_worker_center_half_width_m": 0.62258062416582693,
+			"gate_navigation_worker_center_half_width_m": 1.9400000000000015,
+			"owner_crossing_offset_m": 0,
+			"enemy_crossing_offset_m": 6.4907866849227815,
+			"ally_crossing_offset_m": 0,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				},
+				{
+					"name": "gate_research_queues_and_charges_once",
+					"passed": true
+				},
+				{
+					"name": "gate_research_completes_in_place",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_owner",
+					"passed": true
+				},
+				{
+					"name": "owner_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_blocks_enemy",
+					"passed": true
+				},
+				{
+					"name": "enemy_move_stays_outside_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_ally",
+					"passed": true
+				},
+				{
+					"name": "ally_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_still_blocks_placement",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "nephites-90-complete",
+			"wall_model": "buildings/works_of_defense@nephites.json",
+			"gate_model": "buildings/works_of_defense@gate@nephites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7517422598319294,
+						"escape_boundary_depth_m": -2.5117422502951863
+					},
+					{
+						"id": 10,
+						"distance_m": 8.5402473988722534,
+						"escape_boundary_depth_m": -6.3002473893355102
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 48.30000009536743,
+					"y": 44.150000095367432,
+					"heading_degrees": 89.999992370605469
+				},
+				{
+					"id": 10,
+					"x": 48.300000190734863,
+					"y": 48.300000190734863,
+					"heading_degrees": 89.999992370605469
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 43.799903869628906,
+				"x": 50.999541524288567,
+				"y": 48.031142590832175,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 36.100021362304688,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 13.619440702863939,
+						"escape_boundary_depth_m": -11.379440693327195
+					},
+					{
+						"id": 7,
+						"distance_m": 10.555352627969638,
+						"escape_boundary_depth_m": -8.315352618432895
+					},
+					{
+						"id": 8,
+						"distance_m": 8.4727076384024631,
+						"escape_boundary_depth_m": -6.2327076288657199
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7276623183729898,
+						"escape_boundary_depth_m": -2.4876623088362466
+					},
+					{
+						"id": 10,
+						"distance_m": 2.7128965738837785,
+						"escape_boundary_depth_m": -0.47289656434703531
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 43.799903869628906,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 1.7288750008595593,
+			"authored_presentation_gap": true,
+			"gate_aperture_m": 2.145161224489796,
+			"gate_art_worker_center_half_width_m": 0.62258062416582693,
+			"gate_navigation_worker_center_half_width_m": 1.9400000000000015,
+			"owner_crossing_offset_m": 0,
+			"enemy_crossing_offset_m": 6.4907866849227815,
+			"ally_crossing_offset_m": 0,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				},
+				{
+					"name": "gate_research_queues_and_charges_once",
+					"passed": true
+				},
+				{
+					"name": "gate_research_completes_in_place",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_owner",
+					"passed": true
+				},
+				{
+					"name": "owner_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_blocks_enemy",
+					"passed": true
+				},
+				{
+					"name": "enemy_move_stays_outside_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_ally",
+					"passed": true
+				},
+				{
+					"name": "ally_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_still_blocks_placement",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "lamanites-0-foundation",
+			"wall_model": "buildings/works_of_defense@lamanites.json",
+			"gate_model": "buildings/works_of_defense@gate@lamanites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					},
+					{
+						"id": 9,
+						"distance_m": 16.721318821719429,
+						"escape_boundary_depth_m": -14.481318812182685
+					},
+					{
+						"id": 10,
+						"distance_m": 20.817300686166693,
+						"escape_boundary_depth_m": -18.57730067662995
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 52.450000095367429,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 10,
+					"x": 56.60000019073486,
+					"y": 40,
+					"heading_degrees": 0
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 43.499908447265625,
+				"x": 59.115324889519044,
+				"y": 40.076779054555352,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 37.200004577636719,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 19.115479085157261,
+						"escape_boundary_depth_m": -16.875479075620518
+					},
+					{
+						"id": 7,
+						"distance_m": 14.965521748929017,
+						"escape_boundary_depth_m": -12.725521739392274
+					},
+					{
+						"id": 8,
+						"distance_m": 10.815597226383273,
+						"escape_boundary_depth_m": -8.5755972168465302
+					},
+					{
+						"id": 9,
+						"distance_m": 6.6657669952339837,
+						"escape_boundary_depth_m": -4.4257669856972406
+					},
+					{
+						"id": 10,
+						"distance_m": 2.5164962474703114,
+						"escape_boundary_depth_m": -0.27649623793356826
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 43.499908447265625,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": -0.13349953329194442,
+			"authored_presentation_gap": false,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "lamanites-0-complete",
+			"wall_model": "buildings/works_of_defense@lamanites.json",
+			"gate_model": "buildings/works_of_defense@gate@lamanites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					},
+					{
+						"id": 9,
+						"distance_m": 1.5806336538614185,
+						"escape_boundary_depth_m": 0.65936635567532464
+					},
+					{
+						"id": 10,
+						"distance_m": 5.7249036779353419,
+						"escape_boundary_depth_m": -3.4849036683985988
+					}
+				],
+				"enclosing_wall": 9,
+				"exit_candidates": [
+					{
+						"angle_degrees_from_directly_away": 0,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 22.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -22.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 45,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -45,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 67.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -67.5,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": 90,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					},
+					{
+						"angle_degrees_from_directly_away": -90,
+						"moves_outward": true,
+						"walkable_except_enclosing_wall": true
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 52.450000095367429,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 10,
+					"x": 56.60000019073486,
+					"y": 40,
+					"heading_degrees": 0
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 42.899917602539062,
+				"x": 59.115410236370771,
+				"y": 40.076984008007479,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 36.600013732910156,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 19.115565255629701,
+						"escape_boundary_depth_m": -16.875565246092957
+					},
+					{
+						"id": 7,
+						"distance_m": 14.965608147547313,
+						"escape_boundary_depth_m": -12.725608138010569
+					},
+					{
+						"id": 8,
+						"distance_m": 10.815684027962863,
+						"escape_boundary_depth_m": -8.57568401842612
+					},
+					{
+						"id": 9,
+						"distance_m": 6.6658547002825594,
+						"escape_boundary_depth_m": -4.4258546907458163
+					},
+					{
+						"id": 10,
+						"distance_m": 2.516587815907672,
+						"escape_boundary_depth_m": -0.27658780637092883
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 42.899917602539062,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": -0.13349953329194442,
+			"authored_presentation_gap": false,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "lamanites-45-foundation",
+			"wall_model": "buildings/works_of_defense@lamanites.json",
+			"gate_model": "buildings/works_of_defense@gate@lamanites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					},
+					{
+						"id": 9,
+						"distance_m": 16.34955638189783,
+						"escape_boundary_depth_m": -14.109556372361087
+					},
+					{
+						"id": 10,
+						"distance_m": 20.218085699512006,
+						"escape_boundary_depth_m": -17.978085689975263
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 51.234493257042843,
+					"y": 42.934493161675412,
+					"heading_degrees": 44.999996185302734
+				},
+				{
+					"id": 10,
+					"x": 54.168986514085695,
+					"y": 45.868986323350825,
+					"heading_degrees": 44.999996185302734
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 48.299835205078125,
+				"x": 56.71433015585518,
+				"y": 45.684837226595967,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 41.399940490722656,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 17.6546369787606,
+						"escape_boundary_depth_m": -15.414636969223857
+					},
+					{
+						"id": 7,
+						"distance_m": 13.790567941958278,
+						"escape_boundary_depth_m": -11.550567932421535
+					},
+					{
+						"id": 8,
+						"distance_m": 10.15471925041815,
+						"escape_boundary_depth_m": -7.9147192408814071
+					},
+					{
+						"id": 9,
+						"distance_m": 6.1313134737206951,
+						"escape_boundary_depth_m": -3.891313464183952
+					},
+					{
+						"id": 10,
+						"distance_m": 2.5519963057441859,
+						"escape_boundary_depth_m": -0.31199629620744274
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 48.299835205078125,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.35744753171495658,
+			"authored_presentation_gap": true,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "lamanites-45-complete",
+			"wall_model": "buildings/works_of_defense@lamanites.json",
+			"gate_model": "buildings/works_of_defense@gate@lamanites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					},
+					{
+						"id": 9,
+						"distance_m": 2.7994583288897239,
+						"escape_boundary_depth_m": -0.55945831935298074
+					},
+					{
+						"id": 10,
+						"distance_m": 6.5917865936769466,
+						"escape_boundary_depth_m": -4.3517865841402035
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 51.234493257042843,
+					"y": 42.934493161675412,
+					"heading_degrees": 44.999996185302734
+				},
+				{
+					"id": 10,
+					"x": 54.168986514085695,
+					"y": 45.868986323350825,
+					"heading_degrees": 44.999996185302734
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 42.599922180175781,
+				"x": 56.714330154597384,
+				"y": 45.684837224693332,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 35.700027465820312,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 17.654636976957143,
+						"escape_boundary_depth_m": -15.4146369674204
+					},
+					{
+						"id": 7,
+						"distance_m": 13.790567940028009,
+						"escape_boundary_depth_m": -11.550567930491265
+					},
+					{
+						"id": 8,
+						"distance_m": 10.154719248310789,
+						"escape_boundary_depth_m": -7.9147192387740457
+					},
+					{
+						"id": 9,
+						"distance_m": 6.1313134717430735,
+						"escape_boundary_depth_m": -3.8913134622063303
+					},
+					{
+						"id": 10,
+						"distance_m": 2.5519963046269609,
+						"escape_boundary_depth_m": -0.31199629509021776
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 42.599922180175781,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.35744753171495658,
+			"authored_presentation_gap": true,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "lamanites-90-foundation",
+			"wall_model": "buildings/works_of_defense@lamanites.json",
+			"gate_model": "buildings/works_of_defense@gate@lamanites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -2.7599999904632568
+					},
+					{
+						"id": 7,
+						"distance_m": 8.6846129190936967,
+						"escape_boundary_depth_m": -6.4446129095569535
+					},
+					{
+						"id": 8,
+						"distance_m": 12.660568892908314,
+						"escape_boundary_depth_m": -10.420568883371571
+					},
+					{
+						"id": 9,
+						"distance_m": 14.227174832333828,
+						"escape_boundary_depth_m": -11.987174822797085
+					},
+					{
+						"id": 10,
+						"distance_m": 16.702694662918486,
+						"escape_boundary_depth_m": -14.462694653381742
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 48.30000009536743,
+					"y": 44.150000095367432,
+					"heading_degrees": 89.999992370605469
+				},
+				{
+					"id": 10,
+					"x": 48.300000190734863,
+					"y": 48.300000190734863,
+					"heading_degrees": 89.999992370605469
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 49.699813842773438,
+				"x": 50.999971376767199,
+				"y": 48.074683449148957,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 41.999931335449219,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 13.645507799039866,
+						"escape_boundary_depth_m": -11.405507789503122
+					},
+					{
+						"id": 7,
+						"distance_m": 10.5887968797197,
+						"escape_boundary_depth_m": -8.3487968701829569
+					},
+					{
+						"id": 8,
+						"distance_m": 8.5141269199704173,
+						"escape_boundary_depth_m": -6.2741269104336741
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7637153932443645,
+						"escape_boundary_depth_m": -2.5237153837076214
+					},
+					{
+						"id": 10,
+						"distance_m": 2.7093563884147374,
+						"escape_boundary_depth_m": -0.4693563788779942
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 49.699813842773438,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 1.7521628419230981,
+			"authored_presentation_gap": true,
+			"gate_aperture_m": 2.145161224489796,
+			"gate_art_worker_center_half_width_m": 0.62258062416582693,
+			"gate_navigation_worker_center_half_width_m": 1.9400000000000015,
+			"owner_crossing_offset_m": 0,
+			"enemy_crossing_offset_m": 6.4907866849227815,
+			"ally_crossing_offset_m": 0,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				},
+				{
+					"name": "gate_research_queues_and_charges_once",
+					"passed": true
+				},
+				{
+					"name": "gate_research_completes_in_place",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_owner",
+					"passed": true
+				},
+				{
+					"name": "owner_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_blocks_enemy",
+					"passed": true
+				},
+				{
+					"name": "enemy_move_stays_outside_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_ally",
+					"passed": true
+				},
+				{
+					"name": "ally_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_still_blocks_placement",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "lamanites-90-complete",
+			"wall_model": "buildings/works_of_defense@lamanites.json",
+			"gate_model": "buildings/works_of_defense@gate@lamanites.json",
+			"builder_before_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 26.300064086914062,
+				"x": 50.877275001102959,
+				"y": 40.157919364202471,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 20.200040817260742,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 10.878421299766316,
+						"escape_boundary_depth_m": -8.6384212902295729
+					},
+					{
+						"id": 7,
+						"distance_m": 6.7291281889208401,
+						"escape_boundary_depth_m": -4.4891281793840969
+					},
+					{
+						"id": 8,
+						"distance_m": 2.5821084357067607,
+						"escape_boundary_depth_m": -0.34210842617001758
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7517422598319294,
+						"escape_boundary_depth_m": -2.5117422502951863
+					},
+					{
+						"id": 10,
+						"distance_m": 8.5402473988722534,
+						"escape_boundary_depth_m": -6.3002473893355102
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 44.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 48.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 48.30000009536743,
+					"y": 44.150000095367432,
+					"heading_degrees": 89.999992370605469
+				},
+				{
+					"id": 10,
+					"x": 48.300000190734863,
+					"y": 48.300000190734863,
+					"heading_degrees": 89.999992370605469
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 43.799903869628906,
+				"x": 50.999541524288567,
+				"y": 48.031142590832175,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 36.100021362304688,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 13.619440702863939,
+						"escape_boundary_depth_m": -11.379440693327195
+					},
+					{
+						"id": 7,
+						"distance_m": 10.555352627969638,
+						"escape_boundary_depth_m": -8.315352618432895
+					},
+					{
+						"id": 8,
+						"distance_m": 8.4727076384024631,
+						"escape_boundary_depth_m": -6.2327076288657199
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7276623183729898,
+						"escape_boundary_depth_m": -2.4876623088362466
+					},
+					{
+						"id": 10,
+						"distance_m": 2.7128965738837785,
+						"escape_boundary_depth_m": -0.47289656434703531
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 43.799903869628906,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 1.7521628419230981,
+			"authored_presentation_gap": true,
+			"gate_aperture_m": 2.145161224489796,
+			"gate_art_worker_center_half_width_m": 0.62258062416582693,
+			"gate_navigation_worker_center_half_width_m": 1.9400000000000015,
+			"owner_crossing_offset_m": 0,
+			"enemy_crossing_offset_m": 6.4907866849227815,
+			"ally_crossing_offset_m": 0,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				},
+				{
+					"name": "gate_research_queues_and_charges_once",
+					"passed": true
+				},
+				{
+					"name": "gate_research_completes_in_place",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_owner",
+					"passed": true
+				},
+				{
+					"name": "owner_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_blocks_enemy",
+					"passed": true
+				},
+				{
+					"name": "enemy_move_stays_outside_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_ally",
+					"passed": true
+				},
+				{
+					"name": "ally_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_still_blocks_placement",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "coriantumr-0-foundation",
+			"wall_model": "buildings/cement_wall@coriantumr.json",
+			"gate_model": "buildings/cement_wall@gate@coriantumr.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -3.0400000810623169
+					},
+					{
+						"id": 7,
+						"distance_m": 6.8426969224874643,
+						"escape_boundary_depth_m": -4.8826970035497812
+					},
+					{
+						"id": 8,
+						"distance_m": 8.8255313248664393,
+						"escape_boundary_depth_m": -6.8655314059287562
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -3.0400000810623169
+					},
+					{
+						"id": 7,
+						"distance_m": 6.8426969224874643,
+						"escape_boundary_depth_m": -4.8826970035497812
+					},
+					{
+						"id": 8,
+						"distance_m": 8.8255313248664393,
+						"escape_boundary_depth_m": -6.8655314059287562
+					},
+					{
+						"id": 9,
+						"distance_m": 10.87209740543099,
+						"escape_boundary_depth_m": -8.9120974864933071
+					},
+					{
+						"id": 10,
+						"distance_m": 12.952220072501799,
+						"escape_boundary_depth_m": -10.992220153564116
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 42.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 44.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 46.450000095367429,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 10,
+					"x": 48.60000019073486,
+					"y": 40,
+					"heading_degrees": 0
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 15.300022125244141,
+				"x": 46.913635156070541,
+				"y": 42.521940548297529,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 15.300022125244141,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 7.3592482768555767,
+						"escape_boundary_depth_m": -5.3992483579178936
+					},
+					{
+						"id": 7,
+						"distance_m": 5.3900281187306582,
+						"escape_boundary_depth_m": -3.4300281997929751
+					},
+					{
+						"id": 8,
+						"distance_m": 3.6319790557177596,
+						"escape_boundary_depth_m": -1.6719791367800765
+					},
+					{
+						"id": 9,
+						"distance_m": 2.5642038917879404,
+						"escape_boundary_depth_m": -0.60420397285025729
+					},
+					{
+						"id": 10,
+						"distance_m": 3.0338113255912331,
+						"escape_boundary_depth_m": -1.07381140665355
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 15.300022125244141,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": -0.0040000953674343975,
+			"authored_presentation_gap": false,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "coriantumr-0-complete",
+			"wall_model": "buildings/cement_wall@coriantumr.json",
+			"gate_model": "buildings/cement_wall@gate@coriantumr.json",
+			"builder_before_queued_leg":
+			{
+				"time": 12.500011444091797,
+				"x": 40.451132604329743,
+				"y": 42.258192142431007,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 3.0999991893768311,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 2.3028140130775818,
+						"escape_boundary_depth_m": -0.34281409413989872
+					},
+					{
+						"id": 7,
+						"distance_m": 2.825877298157482,
+						"escape_boundary_depth_m": -0.8658773792197989
+					},
+					{
+						"id": 8,
+						"distance_m": 4.4624223746545013,
+						"escape_boundary_depth_m": -2.5024224557168182
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 12.500011444091797,
+				"x": 40.451132604329743,
+				"y": 42.258192142431007,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 3.0999991893768311,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 2.3028140130775818,
+						"escape_boundary_depth_m": -0.34281409413989872
+					},
+					{
+						"id": 7,
+						"distance_m": 2.825877298157482,
+						"escape_boundary_depth_m": -0.8658773792197989
+					},
+					{
+						"id": 8,
+						"distance_m": 4.4624223746545013,
+						"escape_boundary_depth_m": -2.5024224557168182
+					},
+					{
+						"id": 9,
+						"distance_m": 6.4098239388586888,
+						"escape_boundary_depth_m": -4.4498240199210057
+					},
+					{
+						"id": 10,
+						"distance_m": 8.4559727230461839,
+						"escape_boundary_depth_m": -6.4959728041085008
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 42.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 44.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 46.450000095367429,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 10,
+					"x": 48.60000019073486,
+					"y": 40,
+					"heading_degrees": 0
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 25.000059127807617,
+				"x": 46.950121513165712,
+				"y": 42.372835776478183,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 1,
+				"last_move_time": 15.100021362304688,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 7.344013798319259,
+						"escape_boundary_depth_m": -5.3840138793815759
+					},
+					{
+						"id": 7,
+						"distance_m": 5.354578904801067,
+						"escape_boundary_depth_m": -3.3945789858633839
+					},
+					{
+						"id": 8,
+						"distance_m": 3.5571748123668949,
+						"escape_boundary_depth_m": -1.5971748934292118
+					},
+					{
+						"id": 9,
+						"distance_m": 2.4249682584882195,
+						"escape_boundary_depth_m": -0.4649683395505364
+					},
+					{
+						"id": 10,
+						"distance_m": 2.8900604271938928,
+						"escape_boundary_depth_m": -0.93006050825620967
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 25.000059127807617,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": -0.0040000953674343975,
+			"authored_presentation_gap": false,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "coriantumr-45-foundation",
+			"wall_model": "buildings/cement_wall@coriantumr.json",
+			"gate_model": "buildings/cement_wall@gate@coriantumr.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -3.0400000810623169
+					},
+					{
+						"id": 7,
+						"distance_m": 6.8426969224874643,
+						"escape_boundary_depth_m": -4.8826970035497812
+					},
+					{
+						"id": 8,
+						"distance_m": 8.8255313248664393,
+						"escape_boundary_depth_m": -6.8655314059287562
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -3.0400000810623169
+					},
+					{
+						"id": 7,
+						"distance_m": 6.8426969224874643,
+						"escape_boundary_depth_m": -4.8826970035497812
+					},
+					{
+						"id": 8,
+						"distance_m": 8.8255313248664393,
+						"escape_boundary_depth_m": -6.8655314059287562
+					},
+					{
+						"id": 9,
+						"distance_m": 10.810680872979821,
+						"escape_boundary_depth_m": -8.8506809540421383
+					},
+					{
+						"id": 10,
+						"distance_m": 12.848993839790852,
+						"escape_boundary_depth_m": -10.888993920853169
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 42.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 44.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 45.82027969466975,
+					"y": 41.52027959930232,
+					"heading_degrees": 44.999996185302734
+				},
+				{
+					"id": 10,
+					"x": 47.340559389339496,
+					"y": 43.040559198604633,
+					"heading_degrees": 44.999996185302734
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 14.500019073486328,
+				"x": 44.244772315608962,
+				"y": 43.784856866665137,
+				"order": "move",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 14.500019073486328,
+				"path_points": 1,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5.6871111746213048,
+						"escape_boundary_depth_m": -3.7271112556836217
+					},
+					{
+						"id": 7,
+						"distance_m": 4.3258770389179899,
+						"escape_boundary_depth_m": -2.3658771199803068
+					},
+					{
+						"id": 8,
+						"distance_m": 3.7852597822782474,
+						"escape_boundary_depth_m": -1.8252598633405643
+					},
+					{
+						"id": 9,
+						"distance_m": 2.7587195764215395,
+						"escape_boundary_depth_m": -0.79871965748385643
+					},
+					{
+						"id": 10,
+						"distance_m": 3.1840032387793467,
+						"escape_boundary_depth_m": -1.2240033198416636
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 14.500019073486328,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.10508092567555083,
+			"authored_presentation_gap": true,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "coriantumr-45-complete",
+			"wall_model": "buildings/cement_wall@coriantumr.json",
+			"gate_model": "buildings/cement_wall@gate@coriantumr.json",
+			"builder_before_queued_leg":
+			{
+				"time": 12.500011444091797,
+				"x": 40.451132604329743,
+				"y": 42.258192142431007,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 3.0999991893768311,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 2.3028140130775818,
+						"escape_boundary_depth_m": -0.34281409413989872
+					},
+					{
+						"id": 7,
+						"distance_m": 2.825877298157482,
+						"escape_boundary_depth_m": -0.8658773792197989
+					},
+					{
+						"id": 8,
+						"distance_m": 4.4624223746545013,
+						"escape_boundary_depth_m": -2.5024224557168182
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 12.500011444091797,
+				"x": 40.451132604329743,
+				"y": 42.258192142431007,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 3.0999991893768311,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 2.3028140130775818,
+						"escape_boundary_depth_m": -0.34281409413989872
+					},
+					{
+						"id": 7,
+						"distance_m": 2.825877298157482,
+						"escape_boundary_depth_m": -0.8658773792197989
+					},
+					{
+						"id": 8,
+						"distance_m": 4.4624223746545013,
+						"escape_boundary_depth_m": -2.5024224557168182
+					},
+					{
+						"id": 9,
+						"distance_m": 5.4196176432487571,
+						"escape_boundary_depth_m": -3.4596177243110739
+					},
+					{
+						"id": 10,
+						"distance_m": 6.9337074957482603,
+						"escape_boundary_depth_m": -4.9737075768105772
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 42.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 44.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 45.82027969466975,
+					"y": 41.52027959930232,
+					"heading_degrees": 44.999996185302734
+				},
+				{
+					"id": 10,
+					"x": 47.340559389339496,
+					"y": 43.040559198604633,
+					"heading_degrees": 44.999996185302734
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 25.000059127807617,
+				"x": 45.017429204991949,
+				"y": 44.221631062232269,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 1,
+				"last_move_time": 15.000020980834961,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 6.557191826743404,
+						"escape_boundary_depth_m": -4.5971919078057208
+					},
+					{
+						"id": 7,
+						"distance_m": 5.1033634521094431,
+						"escape_boundary_depth_m": -3.14336353317176
+					},
+					{
+						"id": 8,
+						"distance_m": 4.2821575421862113,
+						"escape_boundary_depth_m": -2.3221576232485281
+					},
+					{
+						"id": 9,
+						"distance_m": 2.818132118096961,
+						"escape_boundary_depth_m": -0.85813219915927785
+					},
+					{
+						"id": 10,
+						"distance_m": 2.6061206035944555,
+						"escape_boundary_depth_m": -0.64612068465677241
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 25.000059127807617,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.10508092567555083,
+			"authored_presentation_gap": true,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "coriantumr-90-foundation",
+			"wall_model": "buildings/cement_wall@coriantumr.json",
+			"gate_model": "buildings/cement_wall@gate@coriantumr.json",
+			"builder_before_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 2,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -3.0400000810623169
+					},
+					{
+						"id": 7,
+						"distance_m": 6.8426969224874643,
+						"escape_boundary_depth_m": -4.8826970035497812
+					},
+					{
+						"id": 8,
+						"distance_m": 8.8255313248664393,
+						"escape_boundary_depth_m": -6.8655314059287562
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 0,
+				"x": 36,
+				"y": 37,
+				"order": "build",
+				"target": 6,
+				"queued_orders": 4,
+				"last_move_time": -100,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 5,
+						"escape_boundary_depth_m": -3.0400000810623169
+					},
+					{
+						"id": 7,
+						"distance_m": 6.8426969224874643,
+						"escape_boundary_depth_m": -4.8826970035497812
+					},
+					{
+						"id": 8,
+						"distance_m": 8.8255313248664393,
+						"escape_boundary_depth_m": -6.8655314059287562
+					},
+					{
+						"id": 9,
+						"distance_m": 9.7679323587637477,
+						"escape_boundary_depth_m": -7.8079324398260646
+					},
+					{
+						"id": 10,
+						"distance_m": 11.053506500243607,
+						"escape_boundary_depth_m": -9.0935065813059239
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 42.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 44.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 44.30000009536743,
+					"y": 42.150000095367432,
+					"heading_degrees": 89.999992370605469
+				},
+				{
+					"id": 10,
+					"x": 44.300000190734863,
+					"y": 44.300000190734856,
+					"heading_degrees": 89.999992370605469
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 13.400014877319336,
+				"x": 39.51171251483855,
+				"y": 41.915909183874334,
+				"order": "move",
+				"target": 8,
+				"queued_orders": 2,
+				"last_move_time": 13.400014877319336,
+				"path_points": 6,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 1.9771526670996624,
+						"escape_boundary_depth_m": -0.017152748161979314
+					},
+					{
+						"id": 7,
+						"distance_m": 3.2605627364654333,
+						"escape_boundary_depth_m": -1.3005628175277502
+					},
+					{
+						"id": 8,
+						"distance_m": 5.1573643334550772,
+						"escape_boundary_depth_m": -3.1973644145173941
+					},
+					{
+						"id": 9,
+						"distance_m": 4.7940063108730664,
+						"escape_boundary_depth_m": -2.8340063919353833
+					},
+					{
+						"id": 10,
+						"distance_m": 5.3489801641185526,
+						"escape_boundary_depth_m": -3.3889802451808695
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 13.400014877319336,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.75887157812897343,
+			"authored_presentation_gap": true,
+			"gate_aperture_m": 1.1103435769050227,
+			"gate_art_worker_center_half_width_m": 0.10517180037344032,
+			"gate_navigation_worker_center_half_width_m": 0.82000000000000051,
+			"owner_crossing_offset_m": 0,
+			"enemy_crossing_offset_m": -1,
+			"ally_crossing_offset_m": 0,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				},
+				{
+					"name": "gate_research_queues_and_charges_once",
+					"passed": true
+				},
+				{
+					"name": "gate_research_completes_in_place",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_owner",
+					"passed": true
+				},
+				{
+					"name": "owner_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_blocks_enemy",
+					"passed": true
+				},
+				{
+					"name": "enemy_move_stays_outside_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_ally",
+					"passed": true
+				},
+				{
+					"name": "ally_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_still_blocks_placement",
+					"passed": true
+				}
+			]
+		},
+		{
+			"case": "coriantumr-90-complete",
+			"wall_model": "buildings/cement_wall@coriantumr.json",
+			"gate_model": "buildings/cement_wall@gate@coriantumr.json",
+			"builder_before_queued_leg":
+			{
+				"time": 12.500011444091797,
+				"x": 40.451132604329743,
+				"y": 42.258192142431007,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 0,
+				"last_move_time": 3.0999991893768311,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 2.3028140130775818,
+						"escape_boundary_depth_m": -0.34281409413989872
+					},
+					{
+						"id": 7,
+						"distance_m": 2.825877298157482,
+						"escape_boundary_depth_m": -0.8658773792197989
+					},
+					{
+						"id": 8,
+						"distance_m": 4.4624223746545013,
+						"escape_boundary_depth_m": -2.5024224557168182
+					}
+				]
+			},
+			"builder_after_queued_leg":
+			{
+				"time": 12.500011444091797,
+				"x": 40.451132604329743,
+				"y": 42.258192142431007,
+				"order": "build",
+				"target": 9,
+				"queued_orders": 1,
+				"last_move_time": 3.0999991893768311,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 2.3028140130775818,
+						"escape_boundary_depth_m": -0.34281409413989872
+					},
+					{
+						"id": 7,
+						"distance_m": 2.825877298157482,
+						"escape_boundary_depth_m": -0.8658773792197989
+					},
+					{
+						"id": 8,
+						"distance_m": 4.4624223746545013,
+						"escape_boundary_depth_m": -2.5024224557168182
+					},
+					{
+						"id": 9,
+						"distance_m": 3.8503878353504271,
+						"escape_boundary_depth_m": -1.890387916412744
+					},
+					{
+						"id": 10,
+						"distance_m": 4.3569211381201693,
+						"escape_boundary_depth_m": -2.3969212191824862
+					}
+				]
+			},
+			"authoritative_centers": [
+				{
+					"id": 6,
+					"x": 40,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 7,
+					"x": 42.150000095367432,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 8,
+					"x": 44.300000190734863,
+					"y": 40,
+					"heading_degrees": 0
+				},
+				{
+					"id": 9,
+					"x": 44.30000009536743,
+					"y": 42.150000095367432,
+					"heading_degrees": 89.999992370605469
+				},
+				{
+					"id": 10,
+					"x": 44.300000190734863,
+					"y": 44.300000190734856,
+					"heading_degrees": 89.999992370605469
+				}
+			],
+			"builder_after_construction":
+			{
+				"time": 25.000059127807617,
+				"x": 46.720696929194787,
+				"y": 42.4977991473475,
+				"order": "idle",
+				"target": 0,
+				"queued_orders": 1,
+				"last_move_time": 17.300029754638672,
+				"path_points": 0,
+				"wall_distances": [
+					{
+						"id": 6,
+						"distance_m": 7.1698513090982674,
+						"escape_boundary_depth_m": -5.2098513901605843
+					},
+					{
+						"id": 7,
+						"distance_m": 5.2086725878336138,
+						"escape_boundary_depth_m": -3.2486726688959306
+					},
+					{
+						"id": 8,
+						"distance_m": 3.4783290931250903,
+						"escape_boundary_depth_m": -1.5183291741874072
+					},
+					{
+						"id": 9,
+						"distance_m": 2.4455546082351187,
+						"escape_boundary_depth_m": -0.48555468929743562
+					},
+					{
+						"id": 10,
+						"distance_m": 3.0178968339519141,
+						"escape_boundary_depth_m": -1.057896915014231
+					}
+				]
+			},
+			"simulation_seconds_before_gate": 25.000059127807617,
+			"segment_progress": [ 1, 1, 1, 1, 1 ],
+			"authored_join_projected_gap_m": 0.75887157812897343,
+			"authored_presentation_gap": true,
+			"gate_aperture_m": 1.1103435769050227,
+			"gate_art_worker_center_half_width_m": 0.10517180037344032,
+			"gate_navigation_worker_center_half_width_m": 0.82000000000000051,
+			"owner_crossing_offset_m": 0,
+			"enemy_crossing_offset_m": -1,
+			"ally_crossing_offset_m": 0,
+			"assertions": [
+				{
+					"name": "authored_wall_and_gate_cross_sections_load",
+					"passed": true
+				},
+				{
+					"name": "first_leg_creates_and_queues_three_foundations",
+					"passed": true
+				},
+				{
+					"name": "first_leg_charges_three_segments",
+					"passed": true
+				},
+				{
+					"name": "corner_starts_in_requested_state",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_preserves_corner_id_and_new_order_targets",
+					"passed": true
+				},
+				{
+					"name": "queued_leg_charges_only_two_new_segments",
+					"passed": true
+				},
+				{
+					"name": "authoritative_centers_and_headings_snap_without_turning_corner",
+					"passed": true
+				},
+				{
+					"name": "actual_simulation_finishes_both_wall_legs",
+					"passed": true
+				},
+				{
+					"name": "worker_collision_closes_wall_join",
+					"passed": true
+				},
+				{
+					"name": "gate_research_queues_and_charges_once",
+					"passed": true
+				},
+				{
+					"name": "gate_research_completes_in_place",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_owner",
+					"passed": true
+				},
+				{
+					"name": "owner_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_blocks_enemy",
+					"passed": true
+				},
+				{
+					"name": "enemy_move_stays_outside_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_passes_ally",
+					"passed": true
+				},
+				{
+					"name": "ally_move_crosses_gate",
+					"passed": true
+				},
+				{
+					"name": "gate_center_still_blocks_placement",
+					"passed": true
+				}
+			]
+		}
+	]
+}

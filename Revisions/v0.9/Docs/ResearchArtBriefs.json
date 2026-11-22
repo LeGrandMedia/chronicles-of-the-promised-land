@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "revision": "v0.6",
+  "art_direction": "Low-poly, chunky, dramatic ancient-world illustration with sculpted readable silhouettes and warm directional light. Single centered subject, clean uncluttered background, strong value separation at 32 px. No words, letters, numerals, labels, borders, UI, or watermark. Square image, transparent or simple neutral backdrop.",
+  "items": [
+    {
+      "id": "breastplates_and_arm_shields",
+      "name": "Breastplates and Arm-Shields",
+      "subject": "Bronze breastplate displayed between two small round shields",
+      "palette": [
+        "#9A6438",
+        "#D5AA67",
+        "#263E5A"
+      ],
+      "path": "icons/breastplates_and_arm_shields.png"
+    },
+    {
+      "id": "by_the_pride_of_their_hearts",
+      "name": "By the Pride of Their Hearts",
+      "subject": "Elevated stone preaching platform with a lone richly robed priest and a crescent of listeners",
+      "palette": [
+        "#B99C72",
+        "#6B4B86",
+        "#D2B475"
+      ],
+      "path": "icons/by_the_pride_of_their_hearts.png"
+    },
+    {
+      "id": "compromised_storehouses",
+      "name": "Compromised Storehouses",
+      "subject": "Storehouse floor with a concealed chute diverting grain sacks into a hidden side cache",
+      "palette": [
+        "#655341",
+        "#AA7842",
+        "#4B6146"
+      ],
+      "path": "icons/compromised_storehouses.png"
+    },
+    {
+      "id": "exceedingly_industrious",
+      "name": "Exceedingly Industrious",
+      "subject": "Two workers harvesting a full sheaf together with tools and baskets",
+      "palette": [
+        "#C89A42",
+        "#6C8150",
+        "#7D5133"
+      ],
+      "path": "icons/exceedingly_industrious.png"
+    },
+    {
+      "id": "exceedingly_large_in_stature",
+      "name": "Exceedingly Large in Stature",
+      "subject": "Broad-shouldered giant infantry silhouette standing behind ordinary-sized soldiers",
+      "palette": [
+        "#7F4B35",
+        "#B89C6A",
+        "#3D536B"
+      ],
+      "path": "icons/exceedingly_large_in_stature.png"
+    },
+    {
+      "id": "fight_like_dragons",
+      "name": "Fight Like Dragons",
+      "subject": "Lamanite captain raising a red war standard above a tight spear formation",
+      "palette": [
+        "#9E3D32",
+        "#D5B06A",
+        "#2F343B"
+      ],
+      "path": "icons/fight_like_dragons.png"
+    },
+    {
+      "id": "glowing_stones",
+      "name": "Glowing Stones",
+      "subject": "Wooden Jaredite barge prow at night inset with a cluster of luminous stones",
+      "palette": [
+        "#243A50",
+        "#72D9C4",
+        "#D3B56D"
+      ],
+      "path": "icons/glowing_stones.png"
+    },
+    {
+      "id": "heaps_of_earth",
+      "name": "Heaps of Earth",
+      "subject": "Freshly piled earthen rampart with simple timber bracing",
+      "palette": [
+        "#845D3B",
+        "#B99A69",
+        "#4F6547"
+      ],
+      "path": "icons/heaps_of_earth.png"
+    },
+    {
+      "id": "laban_and_his_fifty",
+      "name": "Laban and His Fifty",
+      "subject": "Armored commander in front of a compact group of fifty-style guards, shown as five clear figures",
+      "palette": [
+        "#D6C9A6",
+        "#51423D",
+        "#9C7045"
+      ],
+      "path": "icons/laban_and_his_fifty.png"
+    },
+    {
+      "id": "metallurgy",
+      "name": "Metallurgy",
+      "subject": "Blacksmith hammer striking a glowing bronze blade on an anvil",
+      "palette": [
+        "#463A35",
+        "#E08B45",
+        "#AEB5B5"
+      ],
+      "path": "icons/metallurgy.png"
+    },
+    {
+      "id": "mighty_change_of_heart",
+      "name": "Mighty Change of Heart",
+      "subject": "Teacher reaching toward a kneeling figure as a dark heart-shaped stone becomes a bright one",
+      "palette": [
+        "#516A8A",
+        "#E2C876",
+        "#F3E4C7"
+      ],
+      "path": "icons/mighty_change_of_heart.png"
+    },
+    {
+      "id": "network_of_secrets",
+      "name": "Network of Secrets",
+      "subject": "Three hooded figures joined by fine threads between hidden lookout points",
+      "palette": [
+        "#35473B",
+        "#7D7352",
+        "#242A2C"
+      ],
+      "path": "icons/network_of_secrets.png"
+    },
+    {
+      "id": "order_of_the_nehors",
+      "name": "Order of the Nehors",
+      "subject": "Priestcrafter beside a stone temple column and a small stream of precious beads",
+      "palette": [
+        "#77628A",
+        "#D2BC83",
+        "#61705D"
+      ],
+      "path": "icons/order_of_the_nehors.png"
+    },
+    {
+      "id": "pickets",
+      "name": "Pickets",
+      "subject": "Short sharpened timber stakes lashed into a defensive row",
+      "palette": [
+        "#8A6345",
+        "#C7A06B",
+        "#425744"
+      ],
+      "path": "icons/pickets.png"
+    },
+    {
+      "id": "plunder_hoard",
+      "name": "Plunder Hoard",
+      "subject": "Large hidden cache of sacks and bronze vessels tucked beneath a rocky overhang",
+      "palette": [
+        "#4B563C",
+        "#BB8C46",
+        "#80644B"
+      ],
+      "path": "icons/plunder_hoard.png"
+    },
+    {
+      "id": "plunder_share",
+      "name": "Plunder Share",
+      "subject": "A raider carrying one resource sack away from an open storehouse door",
+      "palette": [
+        "#46533F",
+        "#BE8D48",
+        "#755845"
+      ],
+      "path": "icons/plunder_share.png"
+    },
+    {
+      "id": "seeds_of_every_kind",
+      "name": "Seeds of Every Kind",
+      "subject": "Open palm holding several distinct large seed shapes above rich soil",
+      "palette": [
+        "#A87C3E",
+        "#5D7549",
+        "#80614B"
+      ],
+      "path": "icons/seeds_of_every_kind.png"
+    },
+    {
+      "id": "seven_years_of_provisions",
+      "name": "Seven Years of Provisions",
+      "subject": "Full granary doorway framed by stacked grain baskets and sealed jars",
+      "palette": [
+        "#B68C4B",
+        "#7B5E3E",
+        "#596C4A"
+      ],
+      "path": "icons/seven_years_of_provisions.png"
+    },
+    {
+      "id": "signs_and_symbols",
+      "name": "Signs and Symbols",
+      "subject": "Two workers exchanging a carved token beside a marked delivery basket, with no readable writing",
+      "palette": [
+        "#51473C",
+        "#A9844F",
+        "#5B6A4D"
+      ],
+      "path": "icons/signs_and_symbols.png"
+    },
+    {
+      "id": "their_mothers_knew",
+      "name": "Their Mothers Knew",
+      "subject": "Older woman teaching a young stripling to hold a shield and spear",
+      "palette": [
+        "#647650",
+        "#B68E53",
+        "#7C5142"
+      ],
+      "path": "icons/their_mothers_knew.png"
+    },
+    {
+      "id": "thick_clothing",
+      "name": "Thick Clothing",
+      "subject": "Layered woven tunic and sturdy leather shoulder covering displayed on a simple form",
+      "palette": [
+        "#9A754E",
+        "#4F6672",
+        "#C2A67A"
+      ],
+      "path": "icons/thick_clothing.png"
+    },
+    {
+      "id": "works_of_timbers",
+      "name": "Works of Timbers",
+      "subject": "Heavy timber palisade section with cross-braced logs",
+      "palette": [
+        "#78533A",
+        "#A27B50",
+        "#455744"
+      ],
+      "path": "icons/works_of_timbers.png"
+    },
+    {
+      "id": "nephites_storehouse_food",
+      "name": "Storehouse Tables",
+      "subject": "Nephite storehouse shelf with bread loaves, grain basket, and a blue-gold cloth marker",
+      "palette": [
+        "#D2A74B",
+        "#315B82",
+        "#866340"
+      ],
+      "path": "icons/nephites_storehouse_food.png"
+    },
+    {
+      "id": "nephites_storehouse_timber",
+      "name": "Timber Tallies",
+      "subject": "Neatly stacked cut logs beside a simple carved counting board with no writing",
+      "palette": [
+        "#9B6A3E",
+        "#315B82",
+        "#C3A36A"
+      ],
+      "path": "icons/nephites_storehouse_timber.png"
+    },
+    {
+      "id": "nephites_storehouse_precious",
+      "name": "Precious Accounts",
+      "subject": "Nephite storehouse keeper weighing small gold ingots and gems on a balance",
+      "palette": [
+        "#D7B957",
+        "#315B82",
+        "#6C5946"
+      ],
+      "path": "icons/nephites_storehouse_precious.png"
+    },
+    {
+      "id": "lamanites_storehouse_food",
+      "name": "Camp Rations",
+      "subject": "Lamanite camp cook placing grain cakes into a red-banded ration basket",
+      "palette": [
+        "#A94636",
+        "#D4A34E",
+        "#665042"
+      ],
+      "path": "icons/lamanites_storehouse_food.png"
+    },
+    {
+      "id": "lamanites_storehouse_carry",
+      "name": "Caravan Loads",
+      "subject": "Red-cloaked worker securing an oversized pack basket to a pack animal",
+      "palette": [
+        "#A94636",
+        "#92734D",
+        "#C4A56A"
+      ],
+      "path": "icons/lamanites_storehouse_carry.png"
+    },
+    {
+      "id": "lamanites_storehouse_timber",
+      "name": "Timber Stores",
+      "subject": "Lamanite timber yard with bundled poles under a red cloth awning",
+      "palette": [
+        "#A94636",
+        "#8C6845",
+        "#D2B16C"
+      ],
+      "path": "icons/lamanites_storehouse_timber.png"
+    },
+    {
+      "id": "gadianton_storehouse_wild_food",
+      "name": "Forest Foraging",
+      "subject": "Cloaked forager gathering berries and a small game animal at a forest edge",
+      "palette": [
+        "#3E5141",
+        "#8D493D",
+        "#A88147"
+      ],
+      "path": "icons/gadianton_storehouse_wild_food.png"
+    },
+    {
+      "id": "gadianton_storehouse_carry",
+      "name": "Hidden Loads",
+      "subject": "Conspiring civilian slipping a compact bundle into a hidden side satchel",
+      "palette": [
+        "#3E5141",
+        "#745044",
+        "#B08A50"
+      ],
+      "path": "icons/gadianton_storehouse_carry.png"
+    },
+    {
+      "id": "gadianton_storehouse_raid_yield",
+      "name": "Spoils Ledger",
+      "subject": "Raiders stacking recovered sacks and bronze vessels in a discreet cache",
+      "palette": [
+        "#3E5141",
+        "#A27A45",
+        "#655243"
+      ],
+      "path": "icons/gadianton_storehouse_raid_yield.png"
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income",
+      "name": "Herd Accounts",
+      "subject": "Curelom and Cumelom beside gathered produce and a sturdy Jaredite storage jar",
+      "palette": [
+        "#43817B",
+        "#AC8751",
+        "#77604B"
+      ],
+      "path": "icons/coriantumr_storehouse_beast_income.png"
+    },
+    {
+      "id": "coriantumr_storehouse_build_speed",
+      "name": "Builders' Measures",
+      "subject": "Jaredite builder fitting a stone block into a partly raised wall",
+      "palette": [
+        "#43817B",
+        "#B69A6E",
+        "#735B45"
+      ],
+      "path": "icons/coriantumr_storehouse_build_speed.png"
+    },
+    {
+      "id": "coriantumr_storehouse_carry",
+      "name": "Caravan Loads",
+      "subject": "Jaredite worker guiding a loaded pack animal carrying stacked timber",
+      "palette": [
+        "#43817B",
+        "#886747",
+        "#C1A067"
+      ],
+      "path": "icons/coriantumr_storehouse_carry.png"
+    },
+    {
+      "id": "shiz_storehouse_beast_income",
+      "name": "Herd Accounts",
+      "subject": "Shizite elephant and smaller beasts beside a distinct orderly herd pen and grain baskets",
+      "palette": [
+        "#9A3941",
+        "#D0B773",
+        "#5C594C"
+      ],
+      "path": "icons/shiz_storehouse_beast_income.png"
+    },
+    {
+      "id": "shiz_storehouse_build_speed",
+      "name": "Builders' Measures",
+      "subject": "Shizite builders lifting a broad fitted stone lintel into place with timber poles",
+      "palette": [
+        "#9A3941",
+        "#B7A27A",
+        "#5A6A5E"
+      ],
+      "path": "icons/shiz_storehouse_build_speed.png"
+    },
+    {
+      "id": "shiz_storehouse_carry",
+      "name": "Caravan Loads",
+      "subject": "Shizite caravan with an elephant bearing a balanced load across a rugged path",
+      "palette": [
+        "#9A3941",
+        "#C5A463",
+        "#68715C"
+      ],
+      "path": "icons/shiz_storehouse_carry.png"
+    },
+    {
+      "id": "laban_storehouse_food",
+      "name": "Household Stores",
+      "subject": "Laban household pantry with bread, grapes, and a carved serving bowl",
+      "palette": [
+        "#54415F",
+        "#B9A272",
+        "#7A493C"
+      ],
+      "path": "icons/laban_storehouse_food.png"
+    },
+    {
+      "id": "laban_storehouse_trade_income",
+      "name": "Precious Routes",
+      "subject": "Labanite merchant presenting a gem pouch at a market stall with a route marker",
+      "palette": [
+        "#54415F",
+        "#CFB55F",
+        "#42646A"
+      ],
+      "path": "icons/laban_storehouse_trade_income.png"
+    },
+    {
+      "id": "laban_storehouse_precious",
+      "name": "Precious Accounts",
+      "subject": "Laban household steward counting colorful gemstones beside a sealed strongbox",
+      "palette": [
+        "#54415F",
+        "#D0B856",
+        "#75634B"
+      ],
+      "path": "icons/laban_storehouse_precious.png"
+    }
+  ]
+}

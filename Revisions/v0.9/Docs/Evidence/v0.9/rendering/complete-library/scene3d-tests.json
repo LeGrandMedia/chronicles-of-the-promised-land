@@ -1,0 +1,126 @@
+{
+	"passed": true,
+	"cases": [
+		{
+			"name": "complete_mesh_library",
+			"passed": true,
+			"detail": "Loaded 259/259 mapped real meshes, failures=0"
+		},
+		{
+			"name": "nephites.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0004 pixels, camera 0.0 degrees"
+		},
+		{
+			"name": "nephites.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All vertices fit precise bounds for 20/20 real meshes"
+		},
+		{
+			"name": "nephites.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "articulated_action_motion",
+			"passed": true,
+			"detail": "8/8 body styles moved; 8 retained rigid part lengths"
+		},
+		{
+			"name": "death_pose_1",
+			"passed": true,
+			"detail": "Mesh height 349.60 to 52.09 cm"
+		},
+		{
+			"name": "death_pose_14",
+			"passed": true,
+			"detail": "Mesh height 183.74 to 57.87 cm"
+		},
+		{
+			"name": "lamanites.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0005 pixels, camera 45.0 degrees"
+		},
+		{
+			"name": "lamanites.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All vertices fit precise bounds for 20/20 real meshes"
+		},
+		{
+			"name": "lamanites.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "gadianton.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0004 pixels, camera 0.0 degrees"
+		},
+		{
+			"name": "gadianton.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All vertices fit precise bounds for 20/20 real meshes"
+		},
+		{
+			"name": "gadianton.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "coriantumr.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0005 pixels, camera 45.0 degrees"
+		},
+		{
+			"name": "coriantumr.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All vertices fit precise bounds for 20/20 real meshes"
+		},
+		{
+			"name": "coriantumr.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "shiz.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0004 pixels, camera 0.0 degrees"
+		},
+		{
+			"name": "shiz.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All vertices fit precise bounds for 20/20 real meshes"
+		},
+		{
+			"name": "shiz.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "laban.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0005 pixels, camera 45.0 degrees"
+		},
+		{
+			"name": "laban.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All vertices fit precise bounds for 21/21 real meshes"
+		},
+		{
+			"name": "laban.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 21/21 fixtures; up to two may be occluded in rotated gallery"
+		}
+	],
+	"screenshots": [
+		"scene3d-nephites.png",
+		"scene3d-lamanites.png",
+		"scene3d-gadianton.png",
+		"scene3d-coriantumr.png",
+		"scene3d-shiz.png",
+		"scene3d-laban.png"
+	],
+	"scope": "Isolated real procedural-mesh presentation, projection, picking, animation and death fixtures. Gameplay/authority are tested separately.",
+	"models_loaded": 259,
+	"elapsed_seconds": 2.9851190000772476
+}

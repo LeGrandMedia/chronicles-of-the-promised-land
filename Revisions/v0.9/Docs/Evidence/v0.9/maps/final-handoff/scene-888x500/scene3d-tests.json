@@ -1,0 +1,447 @@
+{
+	"passed": true,
+	"gpu_skinning_requested": true,
+	"cases": [
+		{
+			"name": "complete_mesh_library",
+			"passed": true,
+			"detail": "Loaded 259/259 mapped real meshes, failures=0"
+		},
+		{
+			"name": "nephites.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0002 pixels, camera 0.0 degrees"
+		},
+		{
+			"name": "nephites.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All authored vertices enclosed by projected bounds for 20/20 real meshes"
+		},
+		{
+			"name": "nephites.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "nephites.active_gpu_components",
+			"passed": true,
+			"detail": "8/8 live rigs use registered GPU skin render objects"
+		},
+		{
+			"name": "nephites.gpu_render_positions_colors_materials",
+			"passed": true,
+			"detail": "8 active GPU poses, 25245 render/25267 authored vertices, max rigid 0.00005 cm, bowstring 0.00002 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "nephites.gpu_front_face_orientation",
+			"passed": true,
+			"detail": "Checked 10268 nondegenerate imported LOD0 triangles against their packed tangent normals; mismatches=0 invalid_buffers=0"
+		},
+		{
+			"name": "nephites.integer_skin_picking",
+			"passed": true,
+			"detail": "8/8 live rigs selected at integer pixels; 8 conservative bounds had real empty corners"
+		},
+		{
+			"name": "articulated_action_motion",
+			"passed": true,
+			"detail": "8/8 body styles moved; 8 retained rigid part lengths"
+		},
+		{
+			"name": "gpu_ref_and_animated_pose_parity",
+			"passed": true,
+			"detail": "24 active GPU poses, 75735 render/75801 authored vertices, max rigid 0.00005 cm, bowstring 0.00001 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "death_pose_1",
+			"passed": true,
+			"detail": "Death mesh height 349.60 to 52.09 cm; procedural loss-state component=1"
+		},
+		{
+			"name": "death_pose_14",
+			"passed": true,
+			"detail": "Death mesh height 183.93 to 57.87 cm; procedural loss-state component=1"
+		},
+		{
+			"name": "gpu_drawn_bow_pose_parity",
+			"passed": true,
+			"detail": "1 active GPU poses, 2560 render/2574 authored vertices, max rigid 0.00003 cm, bowstring 0.00001 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "attack_event_survives_missing_pulse",
+			"passed": true,
+			"detail": "Replicated event without attack flag: state=attack, vertex motion 8.915 cm"
+		},
+		{
+			"name": "one_projectile_per_strike",
+			"passed": true,
+			"detail": "Repeated snapshot spawned 1 arrows"
+		},
+		{
+			"name": "real_projectile_mesh",
+			"passed": true,
+			"detail": "Visible strike generated a lit triangle mesh"
+		},
+		{
+			"name": "projectile_respects_fog",
+			"passed": true,
+			"detail": "Projectile contributes no geometry in unexplored fog"
+		},
+		{
+			"name": "projectile_expiry",
+			"passed": true,
+			"detail": "Transient mesh expired after bounded flight"
+		},
+		{
+			"name": "bowstring_follows_draw_hand",
+			"passed": true,
+			"detail": "Drawn string within 1.454 cm of animated hand socket"
+		},
+		{
+			"name": "nephites.gpu_draw_ready",
+			"passed": true,
+			"detail": "8/8 GPU rigs submitted dynamic data and recorded on-screen draws since t=0.5668. "
+		},
+		{
+			"name": "lamanites.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0003 pixels, camera 45.0 degrees"
+		},
+		{
+			"name": "lamanites.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All authored vertices enclosed by projected bounds for 20/20 real meshes"
+		},
+		{
+			"name": "lamanites.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "lamanites.active_gpu_components",
+			"passed": true,
+			"detail": "8/8 live rigs use registered GPU skin render objects"
+		},
+		{
+			"name": "lamanites.gpu_render_positions_colors_materials",
+			"passed": true,
+			"detail": "8 active GPU poses, 25358 render/25379 authored vertices, max rigid 0.00006 cm, bowstring 0.00000 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "lamanites.gpu_front_face_orientation",
+			"passed": true,
+			"detail": "Checked 10324 nondegenerate imported LOD0 triangles against their packed tangent normals; mismatches=0 invalid_buffers=0"
+		},
+		{
+			"name": "lamanites.integer_skin_picking",
+			"passed": true,
+			"detail": "8/8 live rigs selected at integer pixels; 8 conservative bounds had real empty corners"
+		},
+		{
+			"name": "lamanites.gpu_draw_ready",
+			"passed": true,
+			"detail": "8/8 GPU rigs submitted dynamic data and recorded on-screen draws since t=0.8206. "
+		},
+		{
+			"name": "gadianton.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0002 pixels, camera 0.0 degrees"
+		},
+		{
+			"name": "gadianton.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All authored vertices enclosed by projected bounds for 20/20 real meshes"
+		},
+		{
+			"name": "gadianton.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "gadianton.active_gpu_components",
+			"passed": true,
+			"detail": "8/8 live rigs use registered GPU skin render objects"
+		},
+		{
+			"name": "gadianton.gpu_render_positions_colors_materials",
+			"passed": true,
+			"detail": "8 active GPU poses, 25187 render/25207 authored vertices, max rigid 0.00004 cm, bowstring 0.00001 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "gadianton.gpu_front_face_orientation",
+			"passed": true,
+			"detail": "Checked 10248 nondegenerate imported LOD0 triangles against their packed tangent normals; mismatches=0 invalid_buffers=0"
+		},
+		{
+			"name": "gadianton.integer_skin_picking",
+			"passed": true,
+			"detail": "8/8 live rigs selected at integer pixels; 8 conservative bounds had real empty corners"
+		},
+		{
+			"name": "gadianton.gpu_draw_ready",
+			"passed": true,
+			"detail": "8/8 GPU rigs submitted dynamic data and recorded on-screen draws since t=1.0251. "
+		},
+		{
+			"name": "coriantumr.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0003 pixels, camera 45.0 degrees"
+		},
+		{
+			"name": "coriantumr.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All authored vertices enclosed by projected bounds for 20/20 real meshes"
+		},
+		{
+			"name": "coriantumr.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "coriantumr.active_gpu_components",
+			"passed": true,
+			"detail": "8/8 live rigs use registered GPU skin render objects"
+		},
+		{
+			"name": "coriantumr.gpu_render_positions_colors_materials",
+			"passed": true,
+			"detail": "8 active GPU poses, 25158 render/25179 authored vertices, max rigid 0.00005 cm, bowstring 0.00000 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "coriantumr.gpu_front_face_orientation",
+			"passed": true,
+			"detail": "Checked 10260 nondegenerate imported LOD0 triangles against their packed tangent normals; mismatches=0 invalid_buffers=0"
+		},
+		{
+			"name": "coriantumr.integer_skin_picking",
+			"passed": true,
+			"detail": "8/8 live rigs selected at integer pixels; 8 conservative bounds had real empty corners"
+		},
+		{
+			"name": "coriantumr.gpu_draw_ready",
+			"passed": true,
+			"detail": "8/8 GPU rigs submitted dynamic data and recorded on-screen draws since t=1.2292. "
+		},
+		{
+			"name": "shiz.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0002 pixels, camera 0.0 degrees"
+		},
+		{
+			"name": "shiz.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All authored vertices enclosed by projected bounds for 20/20 real meshes"
+		},
+		{
+			"name": "shiz.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 20/20 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "shiz.active_gpu_components",
+			"passed": true,
+			"detail": "8/8 live rigs use registered GPU skin render objects"
+		},
+		{
+			"name": "shiz.gpu_render_positions_colors_materials",
+			"passed": true,
+			"detail": "8 active GPU poses, 25145 render/25158 authored vertices, max rigid 0.00004 cm, bowstring 0.00001 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "shiz.gpu_front_face_orientation",
+			"passed": true,
+			"detail": "Checked 10224 nondegenerate imported LOD0 triangles against their packed tangent normals; mismatches=0 invalid_buffers=0"
+		},
+		{
+			"name": "shiz.integer_skin_picking",
+			"passed": true,
+			"detail": "8/8 live rigs selected at integer pixels; 8 conservative bounds had real empty corners"
+		},
+		{
+			"name": "shiz.gpu_draw_ready",
+			"passed": true,
+			"detail": "8/8 GPU rigs submitted dynamic data and recorded on-screen draws since t=1.4320. "
+		},
+		{
+			"name": "laban.engine_projection",
+			"passed": true,
+			"detail": "18 elevated/ground points, max projection error 0.0003 pixels, camera 45.0 degrees"
+		},
+		{
+			"name": "laban.tight_mesh_bounds",
+			"passed": true,
+			"detail": "All authored vertices enclosed by projected bounds for 21/21 real meshes"
+		},
+		{
+			"name": "laban.visible_surface_picking",
+			"passed": true,
+			"detail": "Visible face clicks reached 21/21 fixtures; up to two may be occluded in rotated gallery"
+		},
+		{
+			"name": "laban.active_gpu_components",
+			"passed": true,
+			"detail": "8/8 live rigs use registered GPU skin render objects"
+		},
+		{
+			"name": "laban.gpu_render_positions_colors_materials",
+			"passed": true,
+			"detail": "8 active GPU poses, 25387 render/25402 authored vertices, max rigid 0.00005 cm, bowstring 0.00000 cm; invalid meshes/materials 0/0, unmatched render/authored points 0/0, unmatched colors 0"
+		},
+		{
+			"name": "laban.gpu_front_face_orientation",
+			"passed": true,
+			"detail": "Checked 10320 nondegenerate imported LOD0 triangles against their packed tangent normals; mismatches=0 invalid_buffers=0"
+		},
+		{
+			"name": "laban.integer_skin_picking",
+			"passed": true,
+			"detail": "8/8 live rigs selected at integer pixels; 8 conservative bounds had real empty corners"
+		},
+		{
+			"name": "laban.gpu_draw_ready",
+			"passed": true,
+			"detail": "8/8 GPU rigs submitted dynamic data and recorded on-screen draws since t=1.6362. "
+		},
+		{
+			"name": "rotated_selection_00",
+			"passed": true,
+			"detail": "heading 0 zoom 0.55 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_01",
+			"passed": true,
+			"detail": "heading 45 zoom 0.55 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_02",
+			"passed": true,
+			"detail": "heading 90 zoom 0.55 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_03",
+			"passed": true,
+			"detail": "heading 135 zoom 0.55 projection 0.0000 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_04",
+			"passed": true,
+			"detail": "heading 180 zoom 0.55 projection 0.0000 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_05",
+			"passed": true,
+			"detail": "heading 225 zoom 0.55 projection 0.0000 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_06",
+			"passed": true,
+			"detail": "heading 270 zoom 0.55 projection 0.0000 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_07",
+			"passed": true,
+			"detail": "heading 315 zoom 0.55 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_08",
+			"passed": true,
+			"detail": "heading 0 zoom 1.65 projection 0.0002 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_09",
+			"passed": true,
+			"detail": "heading 45 zoom 1.65 projection 0.0003 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_10",
+			"passed": true,
+			"detail": "heading 90 zoom 1.65 projection 0.0002 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_11",
+			"passed": true,
+			"detail": "heading 135 zoom 1.65 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_12",
+			"passed": true,
+			"detail": "heading 180 zoom 1.65 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_13",
+			"passed": true,
+			"detail": "heading 225 zoom 1.65 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_14",
+			"passed": true,
+			"detail": "heading 270 zoom 1.65 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_15",
+			"passed": true,
+			"detail": "heading 315 zoom 1.65 projection 0.0002 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_16",
+			"passed": true,
+			"detail": "heading 0 zoom 4.00 projection 0.0005 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_17",
+			"passed": true,
+			"detail": "heading 45 zoom 4.00 projection 0.0007 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_18",
+			"passed": true,
+			"detail": "heading 90 zoom 4.00 projection 0.0005 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_19",
+			"passed": true,
+			"detail": "heading 135 zoom 4.00 projection 0.0003 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_20",
+			"passed": true,
+			"detail": "heading 180 zoom 4.00 projection 0.0002 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_21",
+			"passed": true,
+			"detail": "heading 225 zoom 4.00 projection 0.0001 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=0/1 expected/actual=107/107 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_22",
+			"passed": true,
+			"detail": "heading 270 zoom 4.00 projection 0.0002 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "rotated_selection_23",
+			"passed": true,
+			"detail": "heading 315 zoom 4.00 projection 0.0004 px exact seat/unit/tree/edge=1/1/1/1 overlap=1 mouse near found overlap/solo=1/0 expected/actual=102/102 adjacent exact target=101 passed=1 touch near=1 context edge/blank=1/1 drag corner/units=1/1 shift/double=1/1 fog/death=1/1 HUD clicks/drag=1/1"
+		},
+		{
+			"name": "terrain_selection_blocked_at_yaw_0",
+			"passed": true,
+			"detail": "Moronihah ring max 5.50 m, worker hits exact/mouse/context/touch 0/0/0/0 of 92 posed surface samples"
+		},
+		{
+			"name": "terrain_selection_exposed_at_yaw_180",
+			"passed": true,
+			"detail": "Moronihah ring max 5.50 m, worker hits exact/mouse/context/touch 76/87/87/87 of 87 posed surface samples"
+		}
+	],
+	"screenshots": [
+		"scene3d-gpu-nephites.png",
+		"scene3d-gpu-lamanites.png",
+		"scene3d-gpu-gadianton.png",
+		"scene3d-gpu-coriantumr.png",
+		"scene3d-gpu-shiz.png",
+		"scene3d-gpu-laban.png"
+	],
+	"scope": "Isolated real procedural-mesh presentation, projection, picking, animation and death fixtures. Gameplay/authority are tested separately.",
+	"models_loaded": 259,
+	"elapsed_seconds": 4.6337036974728107
+}

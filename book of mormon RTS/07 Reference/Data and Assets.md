@@ -1,6 +1,6 @@
 # Data and Assets
 
-Implementation root: `Revisions/v0.8`. Authority: [[Design Contract]]. The 21 current requests and eight recovered gaps are implemented; the packaged v0.8 build passed native, rendered-input, and four-process localhost validation. See [[Validation Report]]. These are implementation references, not permission to replace unmet intent with code behavior.
+Implementation root: `D:/book of mormon RTS/Revisions/v0.8`. Authority: [[Design Contract]]. The 21 current requests and eight recovered gaps are implemented; the packaged v0.8 build passed native, rendered-input, and four-process localhost validation. See [[Validation Report]]. These are implementation references, not permission to replace unmet intent with code behavior.
 
 | Need | Reference |
 |---|---|
@@ -9,7 +9,7 @@ Implementation root: `Revisions/v0.8`. Authority: [[Design Contract]]. The 21 cu
 | Sprites/icons, anchors, picking/animation metadata | [visuals.json](../../Revisions/v0.8/Game/Content/Data/visuals.json) |
 | Formulas, abilities, commands/collision | [C++ source](../../Revisions/v0.8/Game/Source/Chronicles); not every mechanic is in the catalog |
 | Latest requested revisions | [User notes](../../Revisions/v0.8/Docs/UserNotes-v0.8.txt) · [checklist](../../Revisions/v0.8/Docs/RevisionTasks-v0.8.md) |
-| Asset replacement/preview | [ArtReplacement](../../Revisions/v0.8/Docs/ArtReplacement.md) · [gallery](../../Revisions/v0.8/Docs/ArtGallery.html) |
+| Asset replacement/preview | [ArtReplacement](../../Revisions/v0.7/Docs/ArtReplacement.md) · [gallery](../../Revisions/v0.7/Docs/ArtGallery.html) |
 
 The `balance_v04` object is legacy metadata, not a complete balance source. Use the v0.8 catalog for definitions and verify runtime formulas in v0.8 source. Preserve concise copy and meaningful design-only exceptions; do not duplicate prices/stat tables in faction/entity summaries.
 

@@ -1,0 +1,8 @@
+{
+  "id": "winery_drunkness",
+  "tool": "image_gen.imagegen",
+  "transparent_background": true,
+  "prompt": "Use case: stylized-concept. Asset type: transparent square RTS research icon. Subject: a sealed clay fermentation jar with a small wooden cup and a subtle amber bubbling motif, symbolizing fermented reserves. Style: crisp low-poly toon 3D game art matching a painterly, faceted medieval strategy game; amber, brown, and restrained wine-red palette. Composition: central close-up object cluster, bold silhouette, readable at 48 pixels. Background: genuinely transparent. Constraints: no text, letters, numbers, border, cast shadow, scene, or watermark.",
+  "source_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a160c6-c3aa-7061-a6d9-b36883c66714\\exec-bc648b5e-fccd-4786-b65d-0e02cf0bd5a0.png",
+  "saved_path": "D:\\book of mormon RTS\\Revisions\\v0.7\\Game\\Content\\Data\\Art\\icons\\winery_drunkness.png"
+}

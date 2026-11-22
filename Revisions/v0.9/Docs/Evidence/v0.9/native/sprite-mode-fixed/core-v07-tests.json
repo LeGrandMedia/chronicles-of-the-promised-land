@@ -1,0 +1,190 @@
+{
+	"passed": 46,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "lobby.settings_host_only",
+			"passed": true
+		},
+		{
+			"name": "lobby.valid_settings_reset_all_readiness",
+			"passed": true
+		},
+		{
+			"name": "lobby.settings_replicated_to_host_player_view",
+			"passed": true
+		},
+		{
+			"name": "lobby.settings_replicated_to_guest_player_view",
+			"passed": true
+		},
+		{
+			"name": "lobby.noop_keeps_readiness",
+			"passed": true
+		},
+		{
+			"name": "lobby.allowed_speed_0.75",
+			"passed": true
+		},
+		{
+			"name": "lobby.allowed_speed_1.00",
+			"passed": true
+		},
+		{
+			"name": "lobby.allowed_speed_1.25",
+			"passed": true
+		},
+		{
+			"name": "lobby.allowed_speed_1.50",
+			"passed": true
+		},
+		{
+			"name": "lobby.allowed_speed_2.00",
+			"passed": true
+		},
+		{
+			"name": "lobby.rejects_invalid_values_and_in_match_changes",
+			"passed": true
+		},
+		{
+			"name": "start.resource_and_cement_preset_0",
+			"passed": true
+		},
+		{
+			"name": "start.resource_and_cement_preset_1",
+			"passed": true
+		},
+		{
+			"name": "start.resource_and_cement_preset_2",
+			"passed": true
+		},
+		{
+			"name": "start.resource_and_cement_preset_3",
+			"passed": true
+		},
+		{
+			"name": "fruitfulness.natural_reserves_only_0",
+			"passed": true
+		},
+		{
+			"name": "fruitfulness.natural_reserves_only_1",
+			"passed": true
+		},
+		{
+			"name": "fruitfulness.natural_reserves_only_2",
+			"passed": true
+		},
+		{
+			"name": "fog.remote_entities_hidden_by_default",
+			"passed": true
+		},
+		{
+			"name": "fog.disabled_reveals_full_map_and_entities",
+			"passed": true
+		},
+		{
+			"name": "memory.last_observed_facts_frozen.fields_of_grain",
+			"passed": true
+		},
+		{
+			"name": "memory.unseen_destruction_stays_remembered.fields_of_grain",
+			"passed": true
+		},
+		{
+			"name": "memory.rescout_cleans_stale_object.fields_of_grain",
+			"passed": true
+		},
+		{
+			"name": "memory.last_observed_facts_frozen.tree",
+			"passed": true
+		},
+		{
+			"name": "memory.unseen_destruction_stays_remembered.tree",
+			"passed": true
+		},
+		{
+			"name": "memory.rescout_cleans_stale_object.tree",
+			"passed": true
+		},
+		{
+			"name": "memory.last_observed_facts_frozen.ore",
+			"passed": true
+		},
+		{
+			"name": "memory.unseen_destruction_stays_remembered.ore",
+			"passed": true
+		},
+		{
+			"name": "memory.rescout_cleans_stale_object.ore",
+			"passed": true
+		},
+		{
+			"name": "memory.last_observed_facts_frozen.sheep",
+			"passed": true
+		},
+		{
+			"name": "memory.unseen_destruction_stays_remembered.sheep",
+			"passed": true
+		},
+		{
+			"name": "memory.rescout_cleans_stale_object.sheep",
+			"passed": true
+		},
+		{
+			"name": "memory.military_units_do_not_persist_in_fog",
+			"passed": true
+		},
+		{
+			"name": "glowing_stones.tiered_building_hp_formula.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "glowing_stones.tiered_building_hp_formula.shiz",
+			"passed": true
+		},
+		{
+			"name": "sight.rameumptom_tripled",
+			"passed": true
+		},
+		{
+			"name": "sight.rameumptom_upgrade_faction_scoped",
+			"passed": true
+		},
+		{
+			"name": "sight.barge_glowing_stones_legacy_upgrade",
+			"passed": true
+		},
+		{
+			"name": "snapshot.exposes_real_range_splash_reload_and_damage",
+			"passed": true
+		},
+		{
+			"name": "snapshot.owner_trickle_rates_visible",
+			"passed": true
+		},
+		{
+			"name": "snapshot.enemy_financial_data_private",
+			"passed": true
+		},
+		{
+			"name": "snapshot.winery_no_food_and_upgraded_drunkness_rates",
+			"passed": true
+		},
+		{
+			"name": "snapshot.conversion_and_prostrate_state",
+			"passed": true
+		},
+		{
+			"name": "apology.healthy_liahona_does_not_notify",
+			"passed": true
+		},
+		{
+			"name": "apology.broken_liahona_restores_with_requested_text",
+			"passed": true
+		},
+		{
+			"name": "apology.repeated_sorry_does_not_notify",
+			"passed": true
+		}
+	]
+}

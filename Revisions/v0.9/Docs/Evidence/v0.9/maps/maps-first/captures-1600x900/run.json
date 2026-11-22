@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-22T12:24:37.9411445Z",
+  "finished_utc": "2026-11-22T12:25:04.7951457Z",
+  "sha256": "C9B2C9CFC0BF16D4F27DD7806FB45E76A69EC7C18594599A2AB5FEF4D5174757",
+  "arguments": [
+    "-RTSV09MapCapture",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\maps-first\\captures-1600x900\\test.log\"",
+    "-d3d11",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=1600",
+    "-ResY=900"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

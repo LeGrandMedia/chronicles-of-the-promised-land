@@ -1,0 +1,130 @@
+{
+	"passed": 31,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "rally.hq_economic_and_military_orders_are_independent",
+			"passed": true
+		},
+		{
+			"name": "rally.unset_economic_flag_does_not_use_military_rally",
+			"passed": true
+		},
+		{
+			"name": "rally.age_choice_hero_uses_military_rally",
+			"passed": true
+		},
+		{
+			"name": "market.produced_trader_inherits_appended_route",
+			"passed": true
+		},
+		{
+			"name": "beasts.flock_combined_living_and_queued_limit_is_ten",
+			"passed": true
+		},
+		{
+			"name": "beasts.other_flock_has_independent_capacity",
+			"passed": true
+		},
+		{
+			"name": "beasts.spawn_records_home_and_death_frees_one_slot",
+			"passed": true
+		},
+		{
+			"name": "beasts.hq_bootstrap_cannot_bypass_ten_beast_limit",
+			"passed": true
+		},
+		{
+			"name": "beasts.hq_replacement_allowed_after_death",
+			"passed": true
+		},
+		{
+			"name": "beasts.catalog_population_is_zero",
+			"passed": true
+		},
+		{
+			"name": "gadianton.food_timber_ore_allowed_but_not_own_farm",
+			"passed": true
+		},
+		{
+			"name": "gadianton.right_click_foreign_farm_gathers_food",
+			"passed": true
+		},
+		{
+			"name": "gadianton.hunted_food_depletes_and_retargets_to_berries",
+			"passed": true
+		},
+		{
+			"name": "gadianton.civilian_collects_all_resources_from_mixed_crate",
+			"passed": true
+		},
+		{
+			"name": "gadianton.own_food_building_construction_is_rejected",
+			"passed": true
+		},
+		{
+			"name": "depletion.tree_entity_and_collision_removed_worker_retargets",
+			"passed": true
+		},
+		{
+			"name": "depletion.ore_and_associated_hill_removed_together",
+			"passed": true
+		},
+		{
+			"name": "navigation.large_beast_uses_clearance_appropriate_waypoints",
+			"passed": true
+		},
+		{
+			"name": "navigation.large_beast_reaches_goal_without_teleport",
+			"passed": true
+		},
+		{
+			"name": "upgrade.food_bonus_changes_actual_gather_rate",
+			"passed": true
+		},
+		{
+			"name": "upgrade.timber_and_precious_bonuses_change_yields",
+			"passed": true
+		},
+		{
+			"name": "upgrade.carry_bonus_changes_capacity",
+			"passed": true
+		},
+		{
+			"name": "upgrade.beast_income_boosts_timber_and_cement",
+			"passed": true
+		},
+		{
+			"name": "upgrade.build_speed_changes_construction_progress",
+			"passed": true
+		},
+		{
+			"name": "upgrade.raid_yield_boosts_cargo_without_extra_victim_debit",
+			"passed": true
+		},
+		{
+			"name": "upgrade.trade_income_boosts_worker_visit_income",
+			"passed": true
+		},
+		{
+			"name": "snapshot.producer_reports_training_and_preserves_owner_route",
+			"passed": true
+		},
+		{
+			"name": "snapshot.paused_producer_reports_paused",
+			"passed": true
+		},
+		{
+			"name": "snapshot.upgrade_producer_reports_researching",
+			"passed": true
+		},
+		{
+			"name": "snapshot.age_choice_reports_advancing",
+			"passed": true
+		},
+		{
+			"name": "snapshot.foreign_routes_rallies_and_religious_counts_are_redacted",
+			"passed": true
+		}
+	]
+}

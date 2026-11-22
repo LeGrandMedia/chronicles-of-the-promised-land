@@ -2,6 +2,8 @@
 
 Owns shared religious-stat rules and Nephite HP intent. Stats are visible, faction-specific, clamped to 0–100 and start at 20; never spendable. Religious structures/units generate them. Nonlinear decay makes values above 70 difficult to sustain. Hover shows counts, generation, decay and actual bonuses.
 
+Version note: the Nephite HP curve below records the validated v0.8 baseline. The retained v0.9 curve and live recruitment multipliers are in [[v0.9 Retained Civilization Rules]].
+
 | Faction | Stat and effect |
 | --- | --- |
 | [[Nephites]] | **Favor of the Lord:** every owned unit's max HP, including workers, ships, heroes and Ammonites; never buildings |
@@ -20,7 +22,9 @@ Current generation/effect coefficients: [[Data and Assets]]. Runtime decay per s
 - Retained Nephite awards: each 100 genuinely gathered Food delivered +1, capped +3 per rolling minute; enemy combatant killed within 15m of completed owned HQ +1, capped +3 per rolling minute. Refunds, grants, trades and stolen/transferred cargo never count as gathered Food.
 - Retained penalties: completed Temple lost to enemy −10; attack declared truce −25 once per truce, disabled while diplomacy is absent. Cancel/demolition does not count as Temple loss. [[Liahona Minimap]] owns profanity penalties. Pious chat grants nothing.
 
-## Nephite HP curve
+## Nephite HP curve (v0.8 baseline)
+
+**Version boundary:** the following curve describes v0.8 only. v0.9 uses a different curve that reaches 3× base HP, rather than 100×, at Favor 100; see [[v0.9 Retained Civilization Rules]].
 
 The v0.8 implementation uses the retained dramatic curve. For post-upgrade base HP `B`, max HP is:
 

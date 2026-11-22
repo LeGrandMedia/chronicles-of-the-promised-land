@@ -1,0 +1,340 @@
+{
+	"passed": 50,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "lobby.guest_cannot_add_bot",
+			"passed": true
+		},
+		{
+			"name": "lobby.host_adds_owned_normal_bot",
+			"passed": true
+		},
+		{
+			"name": "lobby.guest_cannot_remove_and_invalid_settings_are_rejected",
+			"passed": true
+		},
+		{
+			"name": "lobby.host_sets_faction_team_and_difficulty",
+			"passed": true
+		},
+		{
+			"name": "lobby.four_slot_limit",
+			"passed": true
+		},
+		{
+			"name": "lobby.removed_bot_slot_is_reused_by_human",
+			"passed": true
+		},
+		{
+			"name": "lobby.human_readiness_still_required",
+			"passed": true
+		},
+		{
+			"name": "lobby.humans_and_bot_start_competitive_match",
+			"passed": true
+		},
+		{
+			"name": "orders.human_controls_own_worker_and_cannot_move_bot_worker",
+			"passed": true
+		},
+		{
+			"name": "lobby.bot_roster_is_locked_during_play",
+			"passed": true
+		},
+		{
+			"name": "orders.wall_line_segments_follow_the_drag_direction",
+			"passed": true
+		},
+		{
+			"name": "fog.hidden_enemy_does_not_change_orders_or_seed_building_memory",
+			"passed": true
+		},
+		{
+			"name": "economy.one_decision_cannot_grant_resources_age_or_units",
+			"passed": true
+		},
+		{
+			"name": "combat.visible_threat_draws_a_defensive_response",
+			"passed": true
+		},
+		{
+			"name": "fog.bot_records_a_building_only_after_observing_it",
+			"passed": true
+		},
+		{
+			"name": "fog.unseen_destruction_does_not_update_memory",
+			"passed": true
+		},
+		{
+			"name": "difficulty.hard_reacts_faster_and_launches_a_smaller_earlier_wave",
+			"passed": true
+		},
+		{
+			"name": "raid.one_band_explores_when_no_target_is_visible",
+			"passed": true
+		},
+		{
+			"name": "raid.hidden_building_cannot_change_the_expedition",
+			"passed": true
+		},
+		{
+			"name": "raid.band_chooses_nearby_accessible_site_over_first_visible_entity",
+			"passed": true
+		},
+		{
+			"name": "raid.visible_guard_avoidance_is_independent_of_private_disarm_timer",
+			"passed": true
+		},
+		{
+			"name": "raid.loaded_band_deposits_while_another_band_defends_the_base",
+			"passed": true
+		},
+		{
+			"name": "support.teacher_moves_to_a_nearby_cast_position_without_pursuing",
+			"passed": true
+		},
+		{
+			"name": "support.authority_completes_the_teacher_conversion_with_stable_identity",
+			"passed": true
+		},
+		{
+			"name": "support.only_one_teacher_claims_the_available_target",
+			"passed": true
+		},
+		{
+			"name": "support.bot_think_preserves_an_in_progress_channel",
+			"passed": true
+		},
+		{
+			"name": "support.concealed_lawyer_cannot_change_the_teachers_order",
+			"passed": true
+		},
+		{
+			"name": "support.visible_target_behind_wall_does_not_get_a_conversion_order",
+			"passed": true
+		},
+		{
+			"name": "support.unescorted_teacher_withdraws_from_visible_ranged_threat",
+			"passed": true
+		},
+		{
+			"name": "support.move_completion_holds_between_thinks_then_allows_a_safe_conversion",
+			"passed": true
+		},
+		{
+			"name": "support.preserves_an_existing_hold_queue_from_outside_the_planner",
+			"passed": true
+		},
+		{
+			"name": "support.teacher_follows_behind_the_escort_instead_of_the_scout",
+			"passed": true
+		},
+		{
+			"name": "support.one_priestcrafter_occupies_the_completed_rameumptom",
+			"passed": true
+		},
+		{
+			"name": "support.priestcrafter_keeps_the_platform_and_applies_the_occupied_aura",
+			"passed": true
+		},
+		{
+			"name": "support.concubine_moves_to_working_laborers_and_buffs_their_work",
+			"passed": true
+		},
+		{
+			"name": "support.ammonite_keeps_its_gather_assignment",
+			"passed": true
+		},
+		{
+			"name": "match_probe.covers_all_six_factions",
+			"passed": true
+		},
+		{
+			"name": "nephites.standard_opening_builds_gathers_trains_researches_ages_and_attacks",
+			"passed": true
+		},
+		{
+			"name": "nephites.standard_opening_obeys_resources_and_population",
+			"passed": true
+		},
+		{
+			"name": "lamanites.standard_opening_builds_gathers_trains_researches_ages_and_attacks",
+			"passed": true
+		},
+		{
+			"name": "lamanites.standard_opening_obeys_resources_and_population",
+			"passed": true
+		},
+		{
+			"name": "gadianton.standard_opening_builds_gathers_trains_researches_ages_and_attacks",
+			"passed": true
+		},
+		{
+			"name": "gadianton.standard_opening_obeys_resources_and_population",
+			"passed": true
+		},
+		{
+			"name": "gadianton.river_match_ends_in_a_competitive_victory",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.standard_opening_builds_gathers_trains_researches_ages_and_attacks",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.standard_opening_obeys_resources_and_population",
+			"passed": true
+		},
+		{
+			"name": "shiz.standard_opening_builds_gathers_trains_researches_ages_and_attacks",
+			"passed": true
+		},
+		{
+			"name": "shiz.standard_opening_obeys_resources_and_population",
+			"passed": true
+		},
+		{
+			"name": "laban.standard_opening_builds_gathers_trains_researches_ages_and_attacks",
+			"passed": true
+		},
+		{
+			"name": "laban.standard_opening_obeys_resources_and_population",
+			"passed": true
+		}
+	],
+	"matches": [
+		{
+			"faction": "nephites",
+			"map": 0,
+			"first_deposit_seconds": 12.100009918212891,
+			"first_structure_seconds": 21.100044250488281,
+			"first_worker_seconds": 18.100032806396484,
+			"first_age_advance_seconds": 170.60121154785156,
+			"first_military_seconds": 234.60511779785156,
+			"first_research_seconds": 196.10276794433594,
+			"first_hit_seconds": 390.6146240234375,
+			"best_age": 2,
+			"peak_workers": 19,
+			"peak_army": 7,
+			"simulated_seconds": 390.6146240234375,
+			"simulation_steps": 3906,
+			"step_ms_median": 0.35129999741911888,
+			"step_ms_p95": 11.626599996816367,
+			"step_ms_max": 19.492999999783933,
+			"winning_team": -1,
+			"victory_seconds": -1,
+			"passed": true
+		},
+		{
+			"faction": "lamanites",
+			"map": 1,
+			"first_deposit_seconds": 11.600008010864258,
+			"first_structure_seconds": 21.100044250488281,
+			"first_worker_seconds": 11.100006103515625,
+			"first_age_advance_seconds": 151.60005187988281,
+			"first_military_seconds": 206.60340881347656,
+			"first_research_seconds": 178.10166931152344,
+			"first_hit_seconds": 417.61627197265625,
+			"best_age": 2,
+			"peak_workers": 19,
+			"peak_army": 13,
+			"simulated_seconds": 417.61627197265625,
+			"simulation_steps": 4176,
+			"step_ms_median": 0.49700000090524554,
+			"step_ms_p95": 12.613800005055964,
+			"step_ms_max": 33.707100024912506,
+			"winning_team": -1,
+			"victory_seconds": -1,
+			"passed": true
+		},
+		{
+			"faction": "gadianton",
+			"map": 2,
+			"first_deposit_seconds": 22.100048065185547,
+			"first_structure_seconds": 21.100044250488281,
+			"first_worker_seconds": 15.100021362304688,
+			"first_age_advance_seconds": 223.60444641113281,
+			"first_military_seconds": 281.10794067382812,
+			"first_research_seconds": 268.10714721679688,
+			"first_hit_seconds": 396.614990234375,
+			"best_age": 2,
+			"peak_workers": 17,
+			"peak_army": 13,
+			"simulated_seconds": 599.70062255859375,
+			"simulation_steps": 5997,
+			"step_ms_median": 0.37500000325962901,
+			"step_ms_p95": 10.876999993342906,
+			"step_ms_max": 62.421800015727058,
+			"winning_team": 0,
+			"victory_seconds": 599.70062255859375,
+			"passed": true
+		},
+		{
+			"faction": "coriantumr",
+			"map": 0,
+			"first_deposit_seconds": 12.100009918212891,
+			"first_structure_seconds": 23.100051879882812,
+			"first_worker_seconds": 15.100021362304688,
+			"first_age_advance_seconds": 163.10075378417969,
+			"first_military_seconds": 220.10423278808594,
+			"first_research_seconds": 189.10234069824219,
+			"first_hit_seconds": 376.11373901367188,
+			"best_age": 2,
+			"peak_workers": 19,
+			"peak_army": 7,
+			"simulated_seconds": 376.11373901367188,
+			"simulation_steps": 3761,
+			"step_ms_median": 0.43340001138858497,
+			"step_ms_p95": 12.715399992885068,
+			"step_ms_max": 32.192999991821125,
+			"winning_team": -1,
+			"victory_seconds": -1,
+			"passed": true
+		},
+		{
+			"faction": "shiz",
+			"map": 1,
+			"first_deposit_seconds": 12.100009918212891,
+			"first_structure_seconds": 23.100051879882812,
+			"first_worker_seconds": 15.100021362304688,
+			"first_age_advance_seconds": 163.10075378417969,
+			"first_military_seconds": 216.60401916503906,
+			"first_research_seconds": 189.10234069824219,
+			"first_hit_seconds": 543.61431884765625,
+			"best_age": 2,
+			"peak_workers": 19,
+			"peak_army": 10,
+			"simulated_seconds": 543.61431884765625,
+			"simulation_steps": 5436,
+			"step_ms_median": 0.63920000684447587,
+			"step_ms_p95": 15.417699993122369,
+			"step_ms_max": 59.186400001635775,
+			"winning_team": -1,
+			"victory_seconds": -1,
+			"passed": true
+		},
+		{
+			"faction": "laban",
+			"map": 2,
+			"first_deposit_seconds": 12.100009918212891,
+			"first_structure_seconds": 21.100044250488281,
+			"first_worker_seconds": 15.100021362304688,
+			"first_age_advance_seconds": 161.10063171386719,
+			"first_military_seconds": 221.60432434082031,
+			"first_research_seconds": 187.10221862792969,
+			"first_hit_seconds": 354.6124267578125,
+			"best_age": 2,
+			"peak_workers": 19,
+			"peak_army": 7,
+			"simulated_seconds": 354.6124267578125,
+			"simulation_steps": 3546,
+			"step_ms_median": 0.33249999978579581,
+			"step_ms_p95": 10.793099994771183,
+			"step_ms_max": 22.28780000586994,
+			"winning_team": -1,
+			"victory_seconds": -1,
+			"passed": true
+		}
+	]
+}

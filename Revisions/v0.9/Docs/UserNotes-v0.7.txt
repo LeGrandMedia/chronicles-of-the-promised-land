@@ -1,0 +1,49 @@
+1. Lamanites should get faster training speed as their anger increases
+2. Double-tapping a number should snap your screen to that control group
+3. All religious units should auto-target on converting units. There should be no cooldown for their conversion, but it should take a 5 seconds to complete
+4. Change the lamanite “convert” name to “stiffen the neck” and have it turn their enemies into zoramite captains, a melee unit generates double ta priestcrafter’s anger, and buffs the attack speed of nearby military units
+5. Change nephite’s “convert” to “soften the heart”, and make it available to them without an upgrade. Make the “mighty change in their hearts” tech give ammonites an ability called “prostrate” with a 12 second cooldown, where any unit that kills them in the next 5 seconds will be converted into an ammonite.
+6. Instead of economy, make the king noah upgrade boost religious unit passive generation
+7. Change the name of lamanite laborers to “idolatrous laborer”
+8. Add more than 2 ageup options for civilizations with lots of characters to draw inspiration from. Amulek, Teancum, etc could all be hero options. Give them unique bonuses
+9. Show buildings, trees, ore, and herdable animals on the map even after they leave LOS
+10. Villagers shouldn’t auto-attack the same way military units do
+11. Make it so converted units can’t be converted again. Ammonites can’t become zoramite captains, etc.
+12. Show the range of ranged units and structures when you’ve selected them as a clear, feint circle around the unit or structure, in the same color as your player color.
+13. Allow villagers to repair structures by right clicking on them
+14. Allow the placement of building foundations outside LOS
+15. Give the rameumptom an upgrade that triples it’s range and LOS
+16. You should be able to command religious units to convert without needing to press a hotkey. It should be the default right-click option
+17. Every successfully converted unit should grant +10 religious points (faor for nbephites, anger for lamanites, etc.)
+18. Nephites should lose favor whenever they kill a laborer or economic building. Lamanites should have an upgrade in their rameumptom that gives them +5 anger any time an enemy kills a unit or destroys a structure
+19. Lamanites should not have watchtowers.
+20. Allow players to choose varying starting resources, game speed, land fruitfulness, and enable/disable fog of war in the lobby
+21. Allow gadianton robber units to garrison in hideouts. Let each hideout garrison up to 5 population worth of units
+22. Gadianton laborers currently can’t gather timber or precious things. This makes them unplayable. Critical bug.
+23. When you’ve tasked unbits to a target, make the circle ping snap to the target they were tasked to. If it’s a military unit that’s been tasked to destroy a building, make the circle ping snap to the center of the building. This will make it clearer whether or not the input went through correctly.
+24. Double the food generation rate of the winery. Give them an upgrade that doubles it again, and give them another upgrade that makes it generate drunkness
+25. The convert function is broken for the jaredites. Enable them to convert
+26. Raiding currently doesnt work for the bands of kishkumen.
+27. Instead of dominion, make the jaredite religious stat “glowing stones” and instead of boosting attack damage, make it boost building HP
+28. To reduce clutter on the screen, make trickle resource notifications only show once they’ve reached ten resources, but enable players to see the trickle rate in the UI when they select the caracter or structure with the trickle
+29. When a wall is placed, make the foundation for the entire wall appear, and allow jaredite animals to build multiple wall segments at the same time.
+30. Allow wall segments to be upgraded into gate segments
+31. When shiftclicking to make multiple structures, ther foundations currently don’t appear, only the first buildings’ foundation appears. We should make all of them appear, to make it easier for jaredite players to build multiple structures at once
+32. Instead of saying “and it came to pass” when you type sorry in chat, it should say “the lord acknowledges your repentance”
+33. Typing sorry should only cause the pop-up if the liahona was broken before you typed it.
+34. Give the jaredites several tiered upgrades that increase the passive gather rate of their animals
+35. Instead of choosing between worker gather rate and military damage, jaredite heroes should be animal trickle rate and animal build speed
+36. Reduce the flock limit for jaredites back down to five, but give them an age 4 upgrade that increases that number to 7
+37. When hovering the cursor over an icon, the ext that appears is often so long that it gets cut out from the box. First, make the box size fit the text. Second, consolidate the descriptions to be more succinct.
+38. Reduce the elephant build limit to 1 per flock, but quadruple its cement generation rate
+39. Give cement towers a “glowing stone trebuchet” with a range equal to the tower’s LOS and a aoe splash damage
+40. Right now, the icon art and the in-game models are the same. I don’t hate that, but the in-game models need to have animations for when they’re walking, fighting, gathering resources, etc.
+41. Economic rally should be the default right-click rally. Military rally should bethe more nuuanced one. 
+42. The people are too big. They’re bigger than the buildings. Make all units smaller
+43. Make the building foundation model different from the finished building model so it’s easier to tell when something’s finished building
+44. Give drunken concubines an aura that increases the gather rate and build speed of nearby laborers
+45. Show stats like area of effect, and any unit multipliers next to damage and hitpoint stats in the unit UI when you click on them
+46. Globally, make military units age-locked. All military units are locked in age i, weak ones are unlocked in age ii, most are unlocked in age iii and all are unlocked in age iv
+47. Make cumeloms locked until age 3, and elephants locked until age 4
+48. Jaredite animals shouldn’t count as idle workers
+49. If i dragbox a group of units, i should be able to remove units from the selection by smiftclicking the units in the UI box, and I should be able to isolate units in a selection by ctrl clicking

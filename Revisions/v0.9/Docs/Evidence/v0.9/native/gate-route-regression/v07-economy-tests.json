@@ -1,0 +1,150 @@
+{
+	"passed": 36,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "gadianton.actual_timber_and_precious_gathering",
+			"passed": true
+		},
+		{
+			"name": "raid.right_click_winery_takes_real_stock",
+			"passed": true
+		},
+		{
+			"name": "repair.right_click_damaged_hq_precedes_delivery",
+			"passed": true
+		},
+		{
+			"name": "foundation.unexplored_queued_sites_visible_and_paid_once",
+			"passed": true
+		},
+		{
+			"name": "foundation.queued_dispatch_has_no_second_charge",
+			"passed": true
+		},
+		{
+			"name": "foundation.cancel_refunds_unfinished_fraction",
+			"passed": true
+		},
+		{
+			"name": "rally.hq_context_defaults_to_economic",
+			"passed": true
+		},
+		{
+			"name": "wall.every_segment_foundation_appears_immediately",
+			"passed": true
+		},
+		{
+			"name": "wall.beast_builds_all_nearby_segments_concurrently",
+			"passed": true
+		},
+		{
+			"name": "wall.queued_corner_is_shared_without_extra_charge",
+			"passed": true
+		},
+		{
+			"name": "elephant.one_per_flock_including_queue",
+			"passed": true
+		},
+		{
+			"name": "elephant.cement_income_quadrupled_and_rate_exposed",
+			"passed": true
+		},
+		{
+			"name": "trickle.sub_ten_income_has_no_popup",
+			"passed": true
+		},
+		{
+			"name": "trickle.ten_accumulated_resources_emits_one_batch",
+			"passed": true
+		},
+		{
+			"name": "trickle.cement_only_batch_has_visible_event_time",
+			"passed": true
+		},
+		{
+			"name": "trickle.mixed_income_waits_for_each_channel_to_reach_ten",
+			"passed": true
+		},
+		{
+			"name": "trickle.ready_temple_and_unready_priest_channels_preserve_remainders",
+			"passed": true
+		},
+		{
+			"name": "trickle.batching_preserves_continuous_actual_income",
+			"passed": true
+		},
+		{
+			"name": "flock.default_building_cap_five",
+			"passed": true
+		},
+		{
+			"name": "flock.age_four_upgrade_allows_seven",
+			"passed": true
+		},
+		{
+			"name": "hideout.authority_limits_garrison_to_five_population",
+			"passed": true
+		},
+		{
+			"name": "gate.upgrade_passes_owner_and_allies_blocks_enemies_and_placement",
+			"passed": true
+		},
+		{
+			"name": "gate.owner_routes_through_opening_without_teleport",
+			"passed": true
+		},
+		{
+			"name": "military.age_one_rejected_without_charge",
+			"passed": true
+		},
+		{
+			"name": "lamanites.training_fixture_has_paid_job",
+			"passed": true
+		},
+		{
+			"name": "lamanites.anger_accelerates_training",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.worker_places_first_age_two_temple",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.worker_completes_initial_temple",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.first_priest_trains_in_worker_built_temple",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.order_research_completes_in_age_two",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.pride_stays_locked_in_age_two",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.worker_builds_age_three_prerequisite",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.ordinary_hero_choice_reaches_age_three",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.pride_research_completes_after_age_three",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.pride_priest_builds_second_temple",
+			"passed": true
+		},
+		{
+			"name": "lamanite_opening.worker_can_still_repair_temple_after_pride",
+			"passed": true
+		}
+	]
+}

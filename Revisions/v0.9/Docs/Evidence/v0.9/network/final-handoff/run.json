@@ -1,0 +1,13 @@
+{
+  "started": "2026-11-22T15:33:52.0528808Z",
+  "finished_utc": "2026-11-22T15:35:00.6328444Z",
+  "sha256": "7F30C0F4543A16277C60D389162F7A609B0E79A5AB3494C7BB77F5E8F4BAB9D4",
+  "mode": "mixed",
+  "map": 8,
+  "port": 17904,
+  "roles": [
+    "host",
+    "guest"
+  ],
+  "passed": true
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "Cancellation of task-owned prerequisite bootstrapper waiting for host permission; tests failure handling, not installation success.",
+  "installer_exit": 7,
+  "prerequisite_exit": -1,
+  "game_executable_exists": false,
+  "permission_approved": false,
+  "game_copy_started": false,
+  "result": "Stopped before game installation"
+}

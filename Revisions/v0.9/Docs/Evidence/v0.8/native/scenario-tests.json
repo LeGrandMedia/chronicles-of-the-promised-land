@@ -1,0 +1,109 @@
+{
+	"passed": true,
+	"passed_count": 17,
+	"failed_count": 0,
+	"assertions": [
+		{
+			"name": "economy.gather_deliver_moves_and_deposits",
+			"passed": true,
+			"expected": "food delivered and worker traveled from its starting point",
+			"actual": "food=330.00 cargo=10.00 pos=(30.8,20.0)"
+		},
+		{
+			"name": "construction.farm_builds_over_elapsed_time",
+			"passed": true,
+			"expected": "foundation progresses to complete",
+			"actual": "foundation=yes progress=1.000"
+		},
+		{
+			"name": "production.modified_queue_price_and_refund",
+			"passed": true,
+			"expected": "two Lamanite Cimeter Bearers cost (66,0,34); cancelling queued last fully refunds it and retains first job/population",
+			"actual": "two_queued=yes paid=X=66.000 Y=0.000 Z=34.000 jobs=1 reserved=2 resources=X=67.000 Y=100.000 Z=83.000 population=1"
+		},
+		{
+			"name": "authority.foreign_entity_order_rejected",
+			"passed": true,
+			"expected": "position and order unchanged",
+			"actual": "idle at X=40.000 Y=40.000"
+		},
+		{
+			"name": "faction.forbidden_unit_rejected_without_payment",
+			"passed": true,
+			"expected": "Nephites cannot queue Gadianton Robber from its actual producer; no payment",
+			"actual": "jobs=0 resources=X=300.000 Y=300.000 Z=200.000"
+		},
+		{
+			"name": "faction.laban_fifty_cap_counts_alive_and_queued",
+			"passed": true,
+			"expected": "49 living plus one queued reaches 50; the next queue is denied without payment",
+			"actual": "living=49 queued=1 jobs=1 resources=X=9890.000 Y=1000.000 Z=9900.000"
+		},
+		{
+			"name": "jaredite.builder_beast_required",
+			"passed": true,
+			"expected": "worker rejected, beast foundation accepted",
+			"actual": "after_worker=0 after_beast=1"
+		},
+		{
+			"name": "plunder.conserves_gross_resource",
+			"passed": true,
+			"expected": "retained 45 + stolen 30 + suppressed 25 = gross 100",
+			"actual": "retained=45.00 stolen=30.00 suppressed=25.00"
+		},
+		{
+			"name": "plunder.idle_raider_has_no_effect",
+			"passed": true,
+			"expected": "retained 100, stolen 0",
+			"actual": "retained=100.00 stolen=0.00"
+		},
+		{
+			"name": "conversion.same_id_owner_population_and_health_ratio",
+			"passed": true,
+			"expected": "same ID becomes allied covenant keeper; exact population transfers and health ratio is preserved at conversion",
+			"actual": "id=4 owner=0 def=ammonite_covenant_keeper owner0pop=4 owner1pop=0 ratio=0.500"
+		},
+		{
+			"name": "defeat.foundation_grace_and_last_seat_timer",
+			"passed": true,
+			"expected": "recent foundation grants grace; after removal only its owner is defeated at 60s",
+			"actual": "grace=yes defeated=yes opponent_alive=no remaining=-0.1"
+		},
+		{
+			"name": "start.nephites",
+			"passed": true,
+			"expected": "one Seat, six workers, and builder beast only for Jaredite starts",
+			"actual": "phase=1 seats=1 workers=6 beasts=0"
+		},
+		{
+			"name": "start.lamanites",
+			"passed": true,
+			"expected": "one Seat, six workers, and builder beast only for Jaredite starts",
+			"actual": "phase=1 seats=1 workers=6 beasts=0"
+		},
+		{
+			"name": "start.gadianton",
+			"passed": true,
+			"expected": "one Seat, six workers, and builder beast only for Jaredite starts",
+			"actual": "phase=1 seats=1 workers=6 beasts=0"
+		},
+		{
+			"name": "start.coriantumr",
+			"passed": true,
+			"expected": "one Seat, six workers, and builder beast only for Jaredite starts",
+			"actual": "phase=1 seats=1 workers=6 beasts=1"
+		},
+		{
+			"name": "start.shiz",
+			"passed": true,
+			"expected": "one Seat, six workers, and builder beast only for Jaredite starts",
+			"actual": "phase=1 seats=1 workers=6 beasts=1"
+		},
+		{
+			"name": "start.laban",
+			"passed": true,
+			"expected": "one Seat, six workers, and builder beast only for Jaredite starts",
+			"actual": "phase=1 seats=1 workers=6 beasts=0"
+		}
+	]
+}

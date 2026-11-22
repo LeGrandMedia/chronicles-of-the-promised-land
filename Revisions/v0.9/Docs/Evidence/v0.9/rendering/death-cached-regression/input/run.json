@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-22T09:40:23.2848482Z",
+  "finished_utc": "2026-11-22T09:41:10.7202918Z",
+  "sha256": "288BA1669B769054AA822E8326D42551ECDAAB068D7DCAE27857B12A83D07F8D",
+  "exit_code": 0,
+  "timed_out": false,
+  "arguments": [
+    "-RTSInputTest",
+    "-d3d11",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=1600",
+    "-ResY=900",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\rendering\\death-cached-regression\\input\\input.log\""
+  ]
+}

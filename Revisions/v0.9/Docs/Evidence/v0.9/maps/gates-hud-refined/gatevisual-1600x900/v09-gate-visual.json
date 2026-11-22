@@ -1,0 +1,606 @@
+{
+	"passed": false,
+	"failed": 5,
+	"cases": [
+		{
+			"authority_case": 6,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 7,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 8,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 9,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 10,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 11,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 12,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 13,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 14,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 15,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 16,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 17,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 18,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 22,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 49,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 23,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 49,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 29,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 45,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 30,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 600,
+			"intersecting_samples": 0,
+			"passed": false,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 31,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 32,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 36,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 33,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 53,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 34,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 45,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 35,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 600,
+			"intersecting_samples": 0,
+			"passed": false,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 36,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 37,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 36,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 38,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 53,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 39,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 45,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 40,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 600,
+			"intersecting_samples": 0,
+			"passed": false,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 41,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 42,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 36,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 43,
+			"wall": "works_of_defense",
+			"unit": "elephant",
+			"pose_samples": 53,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 44,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 22,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 45,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 62,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 46,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 47,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 18,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 48,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 26,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 49,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 22,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 50,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 600,
+			"intersecting_samples": 563,
+			"passed": false,
+			"first_intersection": "sample 37, wall 7 part wall_batter, mover triangle 1113"
+		},
+		{
+			"authority_case": 51,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 52,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 18,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 53,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 26,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 54,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 22,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 55,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 62,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 56,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 57,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 18,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 58,
+			"wall": "works_of_defense",
+			"unit": "kings_chariot",
+			"pose_samples": 26,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 65,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 66,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 67,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 68,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 69,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 70,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 71,
+			"wall": "cement_wall",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 72,
+			"wall": "cement_wall",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 73,
+			"wall": "cement_wall",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 74,
+			"wall": "cement_wall",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 75,
+			"wall": "cement_wall",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 76,
+			"wall": "cement_wall",
+			"unit": "kings_chariot",
+			"pose_samples": 17,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 77,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 35,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 81,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 41,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 82,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 41,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		},
+		{
+			"authority_case": 88,
+			"wall": "cement_wall",
+			"unit": "elephant",
+			"pose_samples": 37,
+			"intersecting_samples": 0,
+			"passed": true,
+			"first_intersection": ""
+		}
+	],
+	"screenshots": [
+		"gate-visual-006.png",
+		"gate-visual-007.png",
+		"gate-visual-008.png",
+		"gate-visual-009.png",
+		"gate-visual-010.png",
+		"gate-visual-011.png",
+		"gate-visual-012.png",
+		"gate-visual-013.png",
+		"gate-visual-014.png",
+		"gate-visual-015.png",
+		"gate-visual-016.png",
+		"gate-visual-017.png",
+		"gate-visual-018.png",
+		"gate-visual-031.png",
+		"gate-visual-032.png",
+		"gate-visual-033.png",
+		"gate-visual-036.png",
+		"gate-visual-037.png",
+		"gate-visual-038.png",
+		"gate-visual-041.png",
+		"gate-visual-042.png",
+		"gate-visual-043.png",
+		"gate-visual-045.png",
+		"gate-visual-046.png",
+		"gate-visual-047.png",
+		"gate-visual-048.png",
+		"gate-visual-050.png",
+		"gate-visual-051.png",
+		"gate-visual-052.png",
+		"gate-visual-053.png",
+		"gate-visual-055.png",
+		"gate-visual-056.png",
+		"gate-visual-057.png",
+		"gate-visual-058.png",
+		"gate-visual-065.png",
+		"gate-visual-066.png",
+		"gate-visual-067.png",
+		"gate-visual-068.png",
+		"gate-visual-069.png",
+		"gate-visual-070.png",
+		"gate-visual-071.png",
+		"gate-visual-072.png",
+		"gate-visual-073.png",
+		"gate-visual-074.png",
+		"gate-visual-075.png",
+		"gate-visual-076.png",
+		"gate-visual-077.png"
+	],
+	"scope": "Actual client posed meshes replay authority gate trajectories; conservative triangle versus each wall-part box. Screenshots sample crossings, not every frame. Sampled every authority tick; exact authority positions omit client interpolation. No combat or moving-obstacle claim.",
+	"elapsed_seconds": 180.01121510192752
+}

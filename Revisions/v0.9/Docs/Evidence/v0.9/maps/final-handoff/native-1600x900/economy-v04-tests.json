@@ -1,0 +1,138 @@
+{
+	"passed": 33,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "gadianton.gathers_trees_but_not_own_farms",
+			"passed": true
+		},
+		{
+			"name": "gadianton.sheep_produce_no_food",
+			"passed": true
+		},
+		{
+			"name": "gadianton.age_one_raider_locked",
+			"passed": true
+		},
+		{
+			"name": "production.shift_click_queues_five_units",
+			"passed": true
+		},
+		{
+			"name": "refund.started_unit_returns_full_paid_resources",
+			"passed": true
+		},
+		{
+			"name": "jaredite.age_one_curelom_but_no_cumelom",
+			"passed": true
+		},
+		{
+			"name": "jaredite.separate_age_three_four_beast_recruitment",
+			"passed": true
+		},
+		{
+			"name": "jaredite.beasts_generate_timber_wealth_and_cement",
+			"passed": true
+		},
+		{
+			"name": "construction.only_locked_elephant_tier_builds_high_placed_lower_age_site",
+			"passed": true
+		},
+		{
+			"name": "jaredite.evolution_is_disabled",
+			"passed": true
+		},
+		{
+			"name": "construction.explored_fog_accepts_foundation",
+			"passed": true
+		},
+		{
+			"name": "refund.foundation_returns_unfinished_fraction",
+			"passed": true
+		},
+		{
+			"name": "construction.military_building_requires_age_two",
+			"passed": true
+		},
+		{
+			"name": "construction.non_jaredite_flock_cap_is_five",
+			"passed": true
+		},
+		{
+			"name": "pathing.ten_enclosed_flock_workers_escape_and_deliver",
+			"passed": true
+		},
+		{
+			"name": "raid.stock_is_removed_and_bonus_added_once_to_cargo",
+			"passed": true
+		},
+		{
+			"name": "raid.hundred_of_each_stock_loses_one_each_with_double_cargo",
+			"passed": true
+		},
+		{
+			"name": "raid.empty_stock_share_is_redistributed_evenly",
+			"passed": true
+		},
+		{
+			"name": "raid.capacity_limit_preserves_balanced_debits_and_bonus",
+			"passed": true
+		},
+		{
+			"name": "raid.own_storehouse_preserves_repeat_source",
+			"passed": true
+		},
+		{
+			"name": "raid.repeat_route_deposits_and_revisits_source",
+			"passed": true
+		},
+		{
+			"name": "raid_move.acquires_nearby_economic_target",
+			"passed": true
+		},
+		{
+			"name": "diversion.stealth_camper_splits_deposit_without_duplicate_credit",
+			"passed": true
+		},
+		{
+			"name": "diversion.full_stat_redirects_entire_deposit",
+			"passed": true
+		},
+		{
+			"name": "diversion.requires_stat_strictly_above_seventy",
+			"passed": true
+		},
+		{
+			"name": "signs.enemy_dropoff_not_allowed_without_upgrade",
+			"passed": true
+		},
+		{
+			"name": "signs.closest_hostile_storehouse_becomes_dropoff",
+			"passed": true
+		},
+		{
+			"name": "signs.redirected_dropoff_credits_storehouse_owner",
+			"passed": true
+		},
+		{
+			"name": "disguise.former_owner_cannot_order_infiltrator",
+			"passed": true
+		},
+		{
+			"name": "disguise.former_owner_can_delete_infiltrator",
+			"passed": true
+		},
+		{
+			"name": "galavant.route_appends_and_overlapping_traders_credit_worker_once",
+			"passed": true
+		},
+		{
+			"name": "galavant.worker_visit_cooldown_prevents_repeat_credit",
+			"passed": true
+		},
+		{
+			"name": "galavant.worker_can_generate_again_after_cooldown",
+			"passed": true
+		}
+	]
+}

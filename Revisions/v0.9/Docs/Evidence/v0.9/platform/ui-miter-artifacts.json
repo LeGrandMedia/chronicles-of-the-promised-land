@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-22T08:46:03Z",
+  "scope": "Windows name-only lobby publication, beginner UI/resource aliases, mitered walls and queued support arrival hold. Native 19 reports pass, four-human and mixed LAN pass. Android archive verification passed; device launch is unverified. Windows installer compiled; latest artifact installation is unverified. Later diagnostic-only source changes are excluded.",
+  "artifacts": [
+    {
+      "path": "Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256566784,
+      "sha256": "60AF3B546A2D7C8204D07121054C7AF2DA98F91EF9837B539DED1DADCF1ECC82"
+    },
+    {
+      "path": "Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486657003,
+      "sha256": "DB45568884153C32EBBB741575F8B34AE3D5FFE84CD9428EE175E97F4DF92E47"
+    },
+    {
+      "path": "Builds\\Installer\\UI-Miter-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524162842,
+      "sha256": "A1E0A7BA93E8E6991C90AEEF4679C5F009BA8537C9E381F371CD6716415E7AC6"
+    }
+  ]
+}

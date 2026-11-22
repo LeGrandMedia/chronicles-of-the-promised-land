@@ -1,0 +1,15 @@
+{
+  "build": "Win64 Development",
+  "executable_sha256": "216ec5c2316899084ee8a2df9698c0e839b1d7f87b9d3501360f99dcbcf1f728",
+  "catalog_sha256": "43a6882d68ac0c17eefbb146c80baf03795e95e07fb437e58cd4bc8c5188ef28",
+  "parallel_processes": 5,
+  "replayed_pairs": [
+    1,
+    5,
+    9,
+    10,
+    11
+  ],
+  "maximum_steps_per_match": 12000,
+  "detector_changes_only_in_bot_policy": true
+}

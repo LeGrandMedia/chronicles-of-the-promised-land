@@ -1,0 +1,5173 @@
+{
+  "units": [
+    {
+      "id": "aaron",
+      "name": "Aaron",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.1,
+      "sight": 13,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Food 20% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Mormon 2:9. Age-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "akish",
+      "name": "Akish",
+      "hp": 260,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.3,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 20% faster.",
+      "ability": "",
+      "source": "Basis: Ether 8:13-18; Ether 9:4-12; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "alma",
+      "name": "Alma",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 10% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Alma 2:1-2; 5:3. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "amalickiah",
+      "name": "Amalickiah",
+      "hp": 280.0,
+      "attack": 20.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 2.0,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 10% faster.",
+      "ability": "Pause an enemy military building's queue for 6s. Target within 6m; channel for 3s. Cooldown: 45s.",
+      "source": "Basis: Alma 47:4-19. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Amalickiah]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "ammon",
+      "name": "Ammon",
+      "hp": 300.0,
+      "attack": 25.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 2.0,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Missionary hero who disarms nonhero fighters nearby; each new target strengthens his attacks.",
+      "ability": "Disarm a visible nonhero enemy within 2m for 4s. Each new target adds +2 attack, up to +20. Cooldown: 15s. Sling reaches 6m.",
+      "source": "Basis: Alma 17:33-39. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Ammon]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "ammonite_covenant_keeper",
+      "name": "Ammonite Covenant Keeper",
+      "hp": 260.0,
+      "attack": 0.0,
+      "interval": 0.0,
+      "range": 0.0,
+      "speed": 4.0,
+      "sight": 12.0,
+      "armor": 5.0,
+      "pop": 2,
+      "age": 2,
+      "producer": "",
+      "requires": [
+        "mighty_change_of_heart"
+      ],
+      "cost": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 12,
+      "kind": "ammonite",
+      "description": "Heals nearby allies and gathers faster than a worker. A Nephite attacker who kills it soon after being struck is converted.",
+      "ability": "Prostrate: for 5 seconds, any unit that kills this Ammonite converts to an Ammonite Covenant Keeper. 12-second cooldown. Converted units cannot be converted again.",
+      "source": "Basis: Alma 24:16-19; Alma 43:13. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Ammonite Covenant Keeper]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+        "nephites": "Kill an Ammonite Covenant Keeper shortly after it is struck to convert the attacker."
+      }
+    },
+    {
+      "id": "ammoron",
+      "name": "Ammoron",
+      "hp": 300,
+      "attack": 25,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.4,
+      "sight": 13,
+      "armor": 3,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: units with cargo space carry 15% more.",
+      "ability": "",
+      "source": "Basis: Alma 52:3; Helaman 1:16; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "band_captain",
+      "name": "Band Captain",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather all resources 10% faster.",
+      "ability": "",
+      "source": "Original fictional Gadianton faction leader for the age-choice system; not a named scriptural figure.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "bowman",
+      "name": "Bowman",
+      "hp": 70.0,
+      "attack": 10.0,
+      "interval": 1.5,
+      "range": 8.0,
+      "speed": 3.75,
+      "sight": 11.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        50,
+        35,
+        0
+      ],
+      "seconds": 24,
+      "kind": "ranged",
+      "description": "Ranged infantry with longer reach than a Slinger; keep it away from melee.",
+      "ability": "Longer range than slinger, weaker in melee.",
+      "source": "Basis: Alma 43:20. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Bowman]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "brother_of_jared",
+      "name": "Brother of Jared",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: Jaredite building beasts produce 15% more resources.",
+      "ability": "",
+      "source": "Book of Mormon reference: Ether 1:33-43; 3:1-16. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "captain_moroni",
+      "name": "Captain Moroni",
+      "hp": 320.0,
+      "attack": 22.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 3.0,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: units with cargo space carry 15% more.",
+      "ability": "Plant a banner on clear ground within 4m. Allies within 8m gain 15% attack for 30s. Cooldown: 60s; bonuses do not stack.",
+      "source": "Basis: Alma 46:12-20. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Captain Moroni]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "chief_captain",
+      "name": "Chief Captain",
+      "hp": 200.0,
+      "attack": 16.0,
+      "interval": 1.5,
+      "range": 1.3,
+      "speed": 3.75,
+      "sight": 12.0,
+      "armor": 3.0,
+      "pop": 2,
+      "age": 3,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        100,
+        0,
+        100
+      ],
+      "seconds": 40,
+      "kind": "infantry",
+      "description": "Infantry leader who strengthens nearby troops through Lamanite research.",
+      "ability": "",
+      "source": "Basis: Alma 43:6,16. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Chief Captain]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+        "lamanites": "Fight Like Dragons: nearby melee troops gain 20% attack for 10s. Requires research; 60s cooldown. Nearby troops otherwise gain 10% attack."
+      }
+    },
+    {
+      "id": "cimeter_bearer",
+      "name": "Cimeter Bearer",
+      "hp": 85.0,
+      "attack": 13.0,
+      "interval": 1.2,
+      "range": 1.3,
+      "speed": 4.375,
+      "sight": 9.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        50,
+        0,
+        25
+      ],
+      "seconds": 20,
+      "kind": "infantry",
+      "description": "Fast melee raider that deals extra damage to buildings.",
+      "ability": "Fast flanker; +50% building damage.",
+      "source": "Basis: Alma 43:18-20. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Cimeter Bearer]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "coriantumr",
+      "name": "Coriantumr",
+      "hp": 500.0,
+      "attack": 30.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 5.0,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 25% faster.",
+      "ability": "Last Man Standing: each allied combat death in 10m grants +2 attack for 20s, max +20; expiry tracked per stack.",
+      "source": "Basis: Ether 15:25-32. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Coriantumr]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "cumelom",
+      "name": "Cumelom",
+      "hp": 250.0,
+      "attack": 8.0,
+      "interval": 2.0,
+      "range": 1.5,
+      "speed": 2.75,
+      "sight": 9.0,
+      "armor": 2.0,
+      "pop": 0,
+      "age": 3,
+      "producer": "gathering_of_flocks",
+      "requires": [],
+      "cost": [
+        100,
+        0,
+        50
+      ],
+      "seconds": 35,
+      "kind": "beast",
+      "description": "Builds early Jaredite structures and steadily produces Precious Things.",
+      "ability": "",
+      "source": "Basis: Ether 9:19. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Cumelom]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "curelom",
+      "name": "Curelom",
+      "hp": 400.0,
+      "attack": 12.0,
+      "interval": 2.0,
+      "range": 1.5,
+      "speed": 2.75,
+      "sight": 9.0,
+      "armor": 3.0,
+      "pop": 0,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        80,
+        0,
+        40
+      ],
+      "seconds": 25,
+      "kind": "beast",
+      "description": "Builds early Jaredite structures and steadily produces Timber.",
+      "ability": "",
+      "source": "Basis: Ether 9:19. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Curelom]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "drunken_concubine",
+      "name": "Drunken Concubine",
+      "hp": 75,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "speed": 2.4,
+      "sight": 10,
+      "armor": 0,
+      "pop": 2,
+      "age": 2,
+      "producer": "winery",
+      "requires": [],
+      "cost": [
+        50,
+        0,
+        100
+      ],
+      "seconds": 35,
+      "kind": "priest",
+      "description": "Speeds nearby laborers' gathering and weakens nearby enemies. Can seduce eligible foes.",
+      "ability": "Seduce converts an eligible enemy into a Henpecked Gentile.",
+      "source": "Basis: 1 Nephi 4:19-20 and 1 Nephi 3:31; gameplay mechanic/rates are proposed design.",
+      "faction_descriptions": {
+        "laban": "Speeds nearby laborers' gathering and weakens nearby enemies. Seduce converts eligible foes."
+      }
+    },
+    {
+      "id": "elephant",
+      "name": "Elephant",
+      "hp": 650.0,
+      "attack": 20.0,
+      "interval": 2.5,
+      "range": 2.0,
+      "speed": 2.5,
+      "sight": 10.0,
+      "armor": 5.0,
+      "pop": 0,
+      "age": 4,
+      "producer": "gathering_of_flocks",
+      "requires": [],
+      "cost": [
+        200,
+        100,
+        150
+      ],
+      "seconds": 55,
+      "kind": "beast",
+      "description": "Builds Jaredite structures and steadily produces Cement; only one may be kept per Flock.",
+      "ability": "",
+      "source": "Basis: Ether 9:19. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Elephant]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "maxPerFlock": 1
+    },
+    {
+      "id": "emer",
+      "name": "Emer",
+      "hp": 280,
+      "attack": 15,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 3,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 20% faster.",
+      "ability": "",
+      "source": "Basis: Ether 9:14-21; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "gadianton",
+      "name": "Gadianton",
+      "hp": 250.0,
+      "attack": 20.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 1.0,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather all resources 10% faster.",
+      "ability": "Nearby allied raiders gain 40 cargo capacity for 20s. Cooldown: 60s.",
+      "source": "Basis: Helaman 2:4-5. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Gadianton]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "gadianton_robber",
+      "name": "Band of Kishkumen",
+      "hp": 60,
+      "attack": 4,
+      "interval": 1.1,
+      "range": 1.3,
+      "speed": 5.5,
+      "sight": 12.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "cost": [
+        40,
+        0,
+        25
+      ],
+      "seconds": 18,
+      "kind": "infantry",
+      "description": "Steals worker cargo and raids enemy sites. Stays hidden after standing still for 3 seconds.",
+      "ability": "Raid steals worker cargo or enemy resources. Raid move finds targets along a route.",
+      "source": "Helaman 2:3-9; 3 Nephi 4:1-6. The Band of Kishkumen is a gameplay adaptation of the secret-combination raiders.",
+      "voiceLines": {
+        "select": "I loooooove precious things"
+      },
+      "voice_audio": {
+        "select": "Audio/gadianton_precious_things.wav"
+      }
+    },
+    {
+      "id": "giddianhi",
+      "name": "Giddianhi",
+      "hp": 300.0,
+      "attack": 24.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 2.0,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: your military deals 10% more damage.",
+      "ability": "Reduce an enemy resource building's output by 20% for 15s. Target within 8m. Cooldown: 60s.",
+      "source": "Basis: 3 Nephi 3:2-10. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Giddianhi]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "gilead",
+      "name": "Gilead",
+      "hp": 250,
+      "attack": 22,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: Jaredite building beasts produce 25% more resources.",
+      "ability": "",
+      "source": "Basis: Ether 14:3-9; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "hagoths_vessel",
+      "name": "Hagoth's Vessel",
+      "hp": 400.0,
+      "attack": 0.0,
+      "interval": 0.0,
+      "range": 0.0,
+      "speed": 5.0,
+      "sight": 14.0,
+      "armor": 2.0,
+      "pop": 3,
+      "age": 2,
+      "producer": "place_of_many_waters",
+      "requires": [],
+      "cost": [
+        0,
+        150,
+        50
+      ],
+      "seconds": 45,
+      "kind": "ship",
+      "description": "Carries land troops between shores. Move near safe ground to unload them before the vessel is destroyed.",
+      "ability": "Carries 10 population; no attack. Passengers drown on destruction unless within 5m of walkable shore; clear boarding warning.",
+      "source": "Basis: Alma 63:5-8. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Hagoth's Vessel]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "helaman",
+      "name": "Helaman",
+      "hp": 280.0,
+      "attack": 16.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 2.0,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Boosts nearby Stripling Warriors’ armor for a short time.",
+      "ability": "Stripling Warriors within 8m gain 2 armor for 15s. Cooldown: 45s.",
+      "source": "Basis: Alma 56:47-48. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Helaman]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "industrious_laborer",
+      "name": "Industrious Laborer",
+      "hp": 50.0,
+      "attack": 3.0,
+      "interval": 1.5,
+      "range": 1.0,
+      "speed": 3.75,
+      "sight": 9.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        50,
+        0,
+        0
+      ],
+      "seconds": 15,
+      "kind": "worker",
+      "description": "Worker who gathers resources, builds, and repairs.",
+      "ability": "",
+      "source": "Basis: 2 Nephi 5:15-17. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Industrious Laborer]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+      "laban": "Gathers resources, builds, and repairs for House of Laban.",
+        "gadianton": "Gathers, builds, and repairs; cannot build Farms or Flocks.",
+        "lamanites": "Gathers resources, builds, and repairs for the Lamanites."
+      }
+    },
+    {
+      "id": "jacob_gadianton",
+      "name": "Jacob",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.1,
+      "sight": 13,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age-choice hero; its passive bonus depends on your faction.",
+      "faction_descriptions": {"gadianton": "Age choice: your military deals 10% more damage.", "laban": "Age choice: workers gather all resources 10% faster."},
+      "ability": "",
+      "source": "Book of Mormon reference: 3 Nephi 7:9-13; Gadianton leader. Age-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "jared",
+      "name": "Jared",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 15% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Ether 1:33-37. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "jaredite_archer",
+      "name": "Jaredite Archer",
+      "hp": 90,
+      "attack": 13,
+      "interval": 1.5,
+      "range": 6.5,
+      "speed": 2.4,
+      "sight": 11,
+      "armor": 0,
+      "pop": 2,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        50,
+        45,
+        0
+      ],
+      "seconds": 28,
+      "kind": "ranged",
+      "description": "Jaredite ranged infantry; use it to attack from behind your front line.",
+      "ability": "Ranged Jaredite infantry with a moderate range.",
+      "source": "Basis: Ether 15:15; bow archetype and values are proposed game design.",
+      "faction_descriptions": {
+        "coriantumr": "Ranged infantry; Glowing Stones strengthens Jaredite buildings.",
+        "shiz": "Ranged infantry; Glowing Stones strengthens Jaredite buildings."
+      }
+    },
+    {
+      "id": "jaredite_barge",
+      "name": "Jaredite Barge",
+      "hp": 650.0,
+      "attack": 0.0,
+      "interval": 0.0,
+      "range": 0.0,
+      "speed": 4.375,
+      "sight": 8.0,
+      "armor": 4.0,
+      "pop": 3,
+      "age": 2,
+      "producer": "place_of_many_waters",
+      "requires": [],
+      "cost": [
+        0,
+        180,
+        50
+      ],
+      "seconds": 50,
+      "kind": "ship",
+      "description": "Carries land troops between shores; Glowing Stones improves its vision. Move near safe ground to unload.",
+      "ability": "Carries 12 population; Glowing Stones raises vision to 14m. Passengers drown if destroyed more than 5m from shore.",
+      "source": "Basis: Ether 2:16-17; Ether 3:1-6. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Jaredite Barge]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "jaredite_shield_bearer",
+      "name": "Jaredite Shield Bearer",
+      "hp": 200,
+      "attack": 18,
+      "interval": 1.5,
+      "range": 1.4,
+      "speed": 2.5,
+      "sight": 10,
+      "armor": 3,
+      "pop": 3,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        90,
+        35,
+        0
+      ],
+      "seconds": 30,
+      "kind": "infantry",
+      "description": "Durable Jaredite infantry that can hold the front line.",
+      "ability": "Durable infantry with shield; Jaredite roster replaces generic sword, bow, and sling troops.",
+      "source": "Basis: Ether 15:15; unit role and values are proposed game design.",
+      "faction_descriptions": {
+        "coriantumr": "Durable shield infantry; Glowing Stones strengthens Jaredite buildings.",
+        "shiz": "Durable shield infantry; Glowing Stones strengthens Jaredite buildings."
+      }
+    },
+    {
+      "id": "jaredite_warrior",
+      "name": "Jaredite Warrior",
+      "hp": 150,
+      "attack": 24,
+      "interval": 1.5,
+      "range": 1.4,
+      "speed": 2.8,
+      "sight": 10,
+      "armor": 1,
+      "pop": 2,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        70,
+        20,
+        0
+      ],
+      "seconds": 27,
+      "kind": "infantry",
+      "description": "Jaredite melee infantry built for dealing heavy damage.",
+      "ability": "High-damage Jaredite melee infantry.",
+      "source": "Basis: Ether 15:15; unit role and values are proposed game design.",
+      "faction_descriptions": {
+        "coriantumr": "Melee infantry; Glowing Stones strengthens Jaredite buildings.",
+        "shiz": "Melee infantry; Glowing Stones strengthens Jaredite buildings."
+      }
+    },
+    {
+      "id": "keeper_of_flocks",
+      "name": "Keeper of Flocks",
+      "hp": 50.0,
+      "attack": 3.0,
+      "interval": 1.5,
+      "range": 1.0,
+      "speed": 3.75,
+      "sight": 9.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 1,
+      "producer": "",
+      "requires": [],
+      "cost": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0,
+      "kind": "job",
+      "description": "Tends the Gathering of Flocks to support livestock.",
+      "ability": "Laborer job; assign to a Gathering of Flocks slot. No extra training cost.",
+      "source": "Basis: Alma 17:25-39. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Keeper of Flocks]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "king_noah",
+      "name": "King Noah",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.1,
+      "sight": 13,
+      "armor": 1,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: religious units generate 10% more devotion.",
+      "ability": "",
+      "source": "Book of Mormon reference: Mosiah 11:1-3; his Lamanite use is an alternate-history faction adaptation. Age-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "kings_chariot",
+      "name": "King's Chariot",
+      "hp": 220.0,
+      "attack": 0.0,
+      "interval": 0.0,
+      "range": 0.0,
+      "speed": 5.625,
+      "sight": 12.0,
+      "armor": 2.0,
+      "pop": 3,
+      "age": 3,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        100,
+        80,
+        60
+      ],
+      "seconds": 40,
+      "kind": "chariot",
+      "description": "Carries ground troops; if the chariot is destroyed, passengers escape at nearby safe ground.",
+      "ability": "Carries one hero; passenger abilities disabled; shared vision; hero exits adjacent at existing health if destroyed. No attack.",
+      "source": "Basis: Alma 18:9-12. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - King's Chariot]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "kishkumen",
+      "name": "Kishkumen",
+      "hp": 220.0,
+      "attack": 30.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 0.0,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: your military deals 10% more damage.",
+      "ability": "Deal 60 damage to an enemy hero or Judge within 2m. Armor still applies. Cooldown: 45s.",
+      "source": "Basis: Helaman 2:3-9. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Kishkumen]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "korihor",
+      "name": "Korihor",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: your military deals 10% more damage.",
+      "ability": "",
+      "source": "Book of Mormon reference: Alma 30; faction adaptation. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "laban",
+      "name": "Laban",
+      "hp": 400.0,
+      "attack": 28.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 5.0,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Strengthens nearby Drunken Concubines and their worker-gathering aura.",
+      "ability": "Sword of Laban: passive +8 attack already included in displayed 28. Within 8m, allied Drunken Concubines gain +1 armor and +25% Seduction channel speed; their aura radius increases from 5m to 7m.",
+      "source": "Basis: 1 Nephi 4:9,19-24. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Laban]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "concubines"
+    },
+    {
+      "id": "laman",
+      "name": "Laman",
+      "hp": 270,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Food 10% faster.",
+      "ability": "",
+      "source": "Basis: 1 Nephi 2:11-13; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "laman_and_lemuel",
+      "name": "Laman and Lemuel",
+      "hp": 260,
+      "attack": 24,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.0,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Precious Things 10% faster.",
+      "ability": "",
+      "source": "Basis: 1 Nephi 2:11-13; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "lawyer",
+      "name": "Lawyer",
+      "hp": 80,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "speed": 2.6,
+      "sight": 11,
+      "armor": 0,
+      "pop": 2,
+      "age": 2,
+      "producer": "secret_combination_lodge",
+      "requires": [],
+      "cost": [
+        0,
+        60,
+        100
+      ],
+      "seconds": 40,
+      "kind": "lawyer",
+      "description": "Gadianton religious unit that converts an eligible enemy with Bribe, revealing itself when it acts.",
+      "ability": "",
+      "source": "Basis: Helaman 6:38-39; 3 Nephi 6:21-30; gameplay mechanic/rates are proposed design.",
+      "faction_descriptions": {
+        "gadianton": "Bribe converts eligible enemies; this Lawyer generates Lasciviousness while its Lodge is unseen."
+      }
+    },
+    {
+      "id": "lemuel",
+      "name": "Lemuel",
+      "hp": 270,
+      "attack": 17,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 3,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Timber 10% faster.",
+      "ability": "",
+      "source": "Basis: 1 Nephi 2:10-13; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "lib",
+      "name": "Lib",
+      "hp": 320,
+      "attack": 22,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 3,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: Jaredite building beasts produce 25% more resources.",
+      "ability": "",
+      "source": "Basis: Ether 10:18-31; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "man_of_moroni",
+      "name": "Man of Moroni",
+      "hp": 180.0,
+      "attack": 14.0,
+      "interval": 1.6,
+      "range": 1.3,
+      "speed": 3.25,
+      "sight": 9.0,
+      "armor": 4.0,
+      "pop": 2,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [
+        "breastplates_and_arm_shields"
+      ],
+      "cost": [
+        80,
+        0,
+        60
+      ],
+      "seconds": 32,
+      "kind": "infantry",
+      "description": "Heavy defender that holds gates and deals extra damage to buildings.",
+      "ability": "Heavy defender; holds gates; +100% building damage.",
+      "source": "Basis: Alma 43:19,38. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Man of Moroni]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "man_of_the_sword",
+      "name": "Man of the Sword",
+      "hp": 110.0,
+      "attack": 12.0,
+      "interval": 1.4,
+      "range": 1.3,
+      "speed": 3.75,
+      "sight": 9.0,
+      "armor": 1.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        60,
+        0,
+        20
+      ],
+      "seconds": 22,
+      "kind": "infantry",
+      "description": "Melee infantry that deals extra damage to buildings.",
+      "ability": "Baseline melee; +50% damage against buildings so no separate siege unit is required in v0.1.",
+      "source": "Basis: Alma 43:18-20. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Man of the Sword]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+        "nephites": "Nephite melee infantry that deals extra damage to buildings.",
+        "laban": "House of Laban guard infantry that deals extra damage to buildings."
+      }
+    },
+    {
+      "id": "morianton",
+      "name": "Morianton",
+      "hp": 260,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: Jaredite building beasts produce 20% more resources.",
+      "ability": "",
+      "source": "Basis: Ether 10:9-13; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "mormon",
+      "name": "Mormon",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Food 20% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Mormon 1:1-5. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "moroni_son",
+      "name": "Moroni",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.1,
+      "sight": 13,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Timber 20% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Mormon 6:6; Mormon 8:1-4. Age-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "nehor",
+      "name": "Nehor",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather all resources 10% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Alma 1:2-15; faction adaptation. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "nephi",
+      "name": "Nephi",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Food 10% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: 2 Nephi 5:1-17. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "oath_keeper",
+      "name": "Oath Keeper",
+      "hp": 130,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "speed": 2.2,
+      "sight": 11,
+      "armor": 1,
+      "pop": 2,
+      "age": 2,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "cost": [
+        80,
+        0,
+        80
+      ],
+      "seconds": 40,
+      "kind": "priest",
+      "description": "Jaredite religious unit that converts eligible nearby enemies and gathers Glowing Stones.",
+      "ability": "Adds 0.06 Dominion/s. Religious unit; conversion becomes available at Age II.",
+      "source": "Basis: Ether 15:15 (Jaredite people armed for war); Dominion and yield are proposed design.",
+      "faction_descriptions": {
+        "coriantumr": "Automatically converts eligible nearby enemies and gathers Glowing Stones.",
+        "shiz": "Automatically converts eligible nearby enemies and gathers Glowing Stones."
+      }
+    },
+    {
+      "id": "omer",
+      "name": "Omer",
+      "hp": 300,
+      "attack": 17,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 3,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: Jaredite building beasts produce 20% more resources.",
+      "ability": "",
+      "source": "Basis: Ether 8:1-6; 9:1-3; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "one_of_the_fifty",
+      "name": "One of the Fifty",
+      "hp": 240.0,
+      "attack": 20.0,
+      "interval": 1.6,
+      "range": 1.3,
+      "speed": 3.375,
+      "sight": 10.0,
+      "armor": 5.0,
+      "pop": 2,
+      "age": 4,
+      "producer": "encampment_of_war",
+      "requires": [
+        "laban_and_his_fifty"
+      ],
+      "cost": [
+        110,
+        0,
+        100
+      ],
+      "seconds": 40,
+      "kind": "infantry",
+      "description": "Heavy guard with a 50-unit limit; Favor grants melee splash damage.",
+      "ability": "Max 50 alive/queued; +100% building damage.",
+      "source": "Basis: 1 Nephi 3:31; 1 Nephi 4:1. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - One of the Fifty]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+        "laban": "Heavy guard, max 50. Favor grants melee splash; the Great and Spacious Building weakens nearby foes."
+      }
+    },
+    {
+      "id": "pahoran",
+      "name": "Pahoran",
+      "hp": 260,
+      "attack": 15,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Nephite hero who serves as a durable frontline fighter.",
+      "ability": "",
+      "source": "Basis: Helaman 1:1-8; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "priestcrafter",
+      "name": "Priestcrafter",
+      "hp": 90,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "speed": 2.5,
+      "sight": 11,
+      "armor": 0,
+      "pop": 2,
+      "age": 2,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "cost": [
+        60,
+        0,
+        80
+      ],
+      "seconds": 35,
+      "kind": "priest",
+      "description": "Lamanite religious unit that converts eligible enemies; Order of the Nehors improves its income.",
+      "ability": "Stiffen the Neck: converts eligible enemies to Zoramite Captains in 5 seconds with no cooldown. Converted units are immune to further conversion.",
+      "source": "Basis: Alma 1:3-6, 12-15; mechanic/rates are proposed design.",
+      "faction_descriptions": {
+        "lamanites": "Converts eligible enemies into Zoramite Captains."
+      }
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Timber 10% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: 2 Nephi 5:1-6. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "shared",
+      "name": "Shared",
+      "hp": 300,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 3,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Jaredite age-choice hero.",
+      "ability": "",
+      "source": "Basis: Ether 13:23-24; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "sheep",
+      "name": "Sheep",
+      "hp": 30,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "speed": 1.6,
+      "sight": 4,
+      "armor": 0,
+      "pop": 0,
+      "age": 2,
+      "producer": "gathering_of_flocks",
+      "requires": [],
+      "cost": [
+        40,
+        0,
+        0
+      ],
+      "seconds": 10,
+      "kind": "sheep",
+      "description": "Produces Food while housed in a Flock; if the Flock falls, its sheep join the enemy.",
+      "ability": "Passive flock animal. Produces 0.3 Food/s while owned, up to ten sheep per Gathering of Flocks; flock transfers to the enemy that destroys its building.",
+      "source": "Basis: Ether 9:18-20 (flocks and prosperity); yield/cap are game-design assumptions.",
+      "foodPerSecond": 0.3,
+      "flockCap": 10
+    },
+    {
+      "id": "shiz",
+      "name": "Shiz",
+      "hp": 450.0,
+      "attack": 34.0,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.125,
+      "sight": 13.0,
+      "armor": 4.0,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: you build and repair structures 25% faster.",
+      "ability": "Not Quite Dead: first fatal blow leaves 1 HP for 2s, allows one final basic attack then dies regardless of healing. Once per life.",
+      "source": "Basis: Ether 15:30-31. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Shiz]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "military"
+    },
+    {
+      "id": "slinger_of_stones",
+      "name": "Slinger of Stones",
+      "hp": 60.0,
+      "attack": 7.0,
+      "interval": 1.4,
+      "range": 6.0,
+      "speed": 3.875,
+      "sight": 10.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        40,
+        20,
+        0
+      ],
+      "seconds": 18,
+      "kind": "ranged",
+      "description": "Low-cost ranged support; fire only at targets you can see.",
+      "ability": "Cheap ranged support; projectile target must be visible at firing.",
+      "source": "Basis: Alma 43:20. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Slinger of Stones]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "stripling_warrior",
+      "name": "Stripling Warrior",
+      "hp": 170.0,
+      "attack": 18.0,
+      "interval": 1.3,
+      "range": 1.3,
+      "speed": 4.0,
+      "sight": 11.0,
+      "armor": 3.0,
+      "pop": 2,
+      "age": 3,
+      "producer": "encampment_of_war",
+      "requires": [
+        "their_mothers_knew"
+      ],
+      "cost": [
+        100,
+        0,
+        80
+      ],
+      "seconds": 40,
+      "kind": "infantry",
+      "description": "Nephite infantry limited to 20; at high Favor, it can survive one fatal blow.",
+      "ability": "Max 20 alive/queued. Not conversion-only; Ammonites are a different unit. Once per life at Favor >=75, a fatal blow leaves 1 HP and suppresses attacks for 5s.",
+      "source": "Basis: Alma 56:47-48; Alma 57:25-27. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Stripling Warrior]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+        "nephites": "Nephite infantry, max 20. At Favor 75+, survives one fatal blow per life."
+      }
+    },
+    {
+      "id": "teacher_of_the_word",
+      "name": "Teacher of the Word",
+      "hp": 85.0,
+      "attack": 0.0,
+      "interval": 0.0,
+      "range": 0.0,
+      "speed": 3.75,
+      "sight": 11.0,
+      "armor": 0.0,
+      "pop": 2,
+      "age": 2,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "cost": [
+        70,
+        0,
+        100
+      ],
+      "seconds": 35,
+      "kind": "priest",
+      "description": "Nephite religious unit that converts eligible enemies; converted units cannot be converted again.",
+      "ability": "Soften the Heart: automatically converts eligible enemies in 5 seconds without research or a conversion cooldown. Converted units cannot be converted again.",
+      "source": "Basis: Alma 17:11-12, 24:19; automatic conversion is a proposed game mechanic.",
+      "autoConvert": true,
+      "faction_descriptions": {
+        "nephites": "Generates Favor and converts eligible enemies; converted units cannot be converted again."
+      }
+    },
+    {
+      "id": "tiller_of_the_earth",
+      "name": "Tiller of the Earth",
+      "hp": 50.0,
+      "attack": 3.0,
+      "interval": 1.5,
+      "range": 1.0,
+      "speed": 3.75,
+      "sight": 9.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 1,
+      "producer": "",
+      "requires": [],
+      "cost": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0,
+      "kind": "job",
+      "description": "Worker assigned to Fields of Grain to gather Food.",
+      "ability": "Laborer assigned to a Fields of Grain slot; retains its health, equipment, and population.",
+      "source": "Basis: Mosiah 9:9. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Tiller of the Earth]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "trader_in_precious_things",
+      "name": "Trader in Precious Things",
+      "hp": 65.0,
+      "attack": 0.0,
+      "interval": 0.0,
+      "range": 0.0,
+      "speed": 4.0,
+      "sight": 10.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "place_of_trade",
+      "requires": [],
+      "cost": [
+        50,
+        0,
+        50
+      ],
+      "seconds": 25,
+      "kind": "trader",
+      "description": "Earns Precious Things by passing near allied workers; cannot attack.",
+      "ability": "Galavant: grants 2 Precious Things per nearby own worker within 4m, with a shared 30-second cooldown across all the owner's traders.",
+      "source": "Basis: Mosiah 24:6-7. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Trader in Precious Things]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "tubaloth",
+      "name": "Tubaloth",
+      "hp": 290,
+      "attack": 24,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.4,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Timber 20% faster.",
+      "ability": "",
+      "source": "Basis: Helaman 1:16-17; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "wilderness_spy",
+      "name": "Wilderness Spy",
+      "hp": 65.0,
+      "attack": 5.0,
+      "interval": 1.5,
+      "range": 1.2,
+      "speed": 5.625,
+      "sight": 16.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "cost": [
+        40,
+        0,
+        25
+      ],
+      "seconds": 20,
+      "kind": "ranged",
+      "description": "Scouts ahead and detects nearby ambushes; Gadianton spies hide when idle and out of combat.",
+      "ability": "Detection radius 6m; reveals ambushes. Gadianton version gains stealth after 3s idle out of combat.",
+      "source": "Basis: Alma 43:23-28. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Wilderness Spy]]. Never claim a new comedic paraphrase is a direct scripture quote.",
+      "faction_descriptions": {
+        "gadianton": "Hides after standing idle and out of combat; detects nearby ambushes."
+      }
+    },
+    {
+      "id": "worker_in_ore",
+      "name": "Worker in Ore",
+      "hp": 50.0,
+      "attack": 3.0,
+      "interval": 1.5,
+      "range": 1.0,
+      "speed": 3.75,
+      "sight": 9.0,
+      "armor": 0.0,
+      "pop": 1,
+      "age": 1,
+      "producer": "",
+      "requires": [],
+      "cost": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0,
+      "kind": "job",
+      "description": "Worker assigned to a Hill of Ore to gather Cement.",
+      "ability": "Laborer job; assign to a Hill of Ore slot. No extra training cost.",
+      "source": "Basis: Ether 10:23. Gameplay effects and statistics are invented adaptations. Use [[Source Ledger]] for official chapter links. Voice event sheet: [[Voice - Worker in Ore]]. Never claim a new comedic paraphrase is a direct scripture quote."
+    },
+    {
+      "id": "zemnarihah",
+      "name": "Zemnarihah",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather all resources 10% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: 3 Nephi 4:14-28. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "zerahemnah",
+      "name": "Zerahemnah",
+      "hp": 280,
+      "attack": 21,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13.0,
+      "armor": 1,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Precious Things 20% faster.",
+      "ability": "",
+      "source": "Book of Mormon reference: Alma 43:5-6. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "zoram",
+      "name": "Zoram",
+      "hp": 260,
+      "attack": 19,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 3.2,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather all resources 10% faster.",
+      "ability": "",
+      "source": "Basis: 1 Nephi 4:19-38; ability and statistics are proposed game design.",
+      "retrainAfterDeathOnly": true,
+      "hero_perk": "economy"
+    },
+    {
+      "id": "zoramite_captain",
+      "name": "Zoramite Captain",
+      "hp": 180,
+      "attack": 18,
+      "interval": 1.6,
+      "range": 1.5,
+      "speed": 2.6,
+      "sight": 12,
+      "armor": 1,
+      "pop": 2,
+      "age": 3,
+      "producer": "",
+      "requires": [],
+      "cost": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0,
+      "kind": "infantry",
+      "description": "Converted Lamanite melee fighter that strengthens nearby allied troops.",
+      "ability": "Nearby allied military units gain +15% attack speed within 6m (does not stack). This melee unit generates double a Priestcrafter’s Anger, 0.12/s, and is immune to further conversion.",
+      "source": "Basis: Alma 31:5-10; conversion into a Zoramite captain is a proposed game mechanic.",
+      "conversionOnly": true,
+      "faction_descriptions": {
+        "lamanites": "Created by Rameumptom conversion; strengthens nearby allied troops and cannot be converted again."
+      }
+    },
+    {
+      "id": "lehi",
+      "name": "Lehi",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: workers gather Precious Things 10% faster.",
+      "ability": "",
+      "source": "Basis: 1 Nephi 1:4-15. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "amulek",
+      "name": "Amulek",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: religious units generate 10% more devotion.",
+      "ability": "",
+      "source": "Basis: Alma 8:20-32; Alma 10:1-12. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    },
+    {
+      "id": "teancum",
+      "name": "Teancum",
+      "hp": 280,
+      "attack": 20,
+      "interval": 1.5,
+      "range": 1.5,
+      "speed": 4.0,
+      "sight": 13,
+      "armor": 2,
+      "pop": 4,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 60,
+      "kind": "hero",
+      "description": "Age choice: units train 10% faster.",
+      "ability": "Become hidden and add 40 damage to your next attack for up to 10s. Cooldown: 45s.",
+      "source": "Basis: Alma 50:35; 51:33-34; 52:21-40. Hero-choice use and statistics are game adaptations.",
+      "retrainAfterDeathOnly": true
+    }
+  ],
+  "buildings": [
+    {
+      "id": "cement_tower",
+      "name": "Cement Tower",
+      "hp": 4000,
+      "armor": 10,
+      "sight": 16,
+      "cost": [
+        150,
+        150,
+        150
+      ],
+      "seconds": 55,
+      "age": 4,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 1.4,
+      "attack": 40,
+      "interval": 4.0,
+      "range": 16,
+      "stealthDetection": 0,
+      "description": "Jaredite-only defensive tower built with Cement.",
+      "source": "v0.4 proposed design; not a claim of canonical scripture.",
+      "faction_descriptions": {
+        "coriantumr": "Jaredite defensive tower; costs 100 Cement, attacks at long range, and detects stealth.",
+        "shiz": "Jaredite defensive tower; costs 100 Cement, attacks at long range, and detects stealth."
+      },
+      "cement_cost": 100
+    },
+    {
+      "id": "cement_wall",
+      "name": "Cement Wall",
+      "hp": 2400,
+      "armor": 8,
+      "sight": 1,
+      "cost": [
+        100,
+        100,
+        100
+      ],
+      "seconds": 25,
+      "age": 3,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 1.0,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Jaredite-only defensive wall built with Cement.",
+      "source": "v0.4 proposed design; not a claim of canonical scripture.",
+      "faction_descriptions": {
+        "coriantumr": "Jaredite defensive wall; costs 40 Cement and has high durability and armor.",
+        "shiz": "Jaredite defensive wall; costs 40 Cement and has high durability and armor."
+      },
+      "cement_cost": 40
+    },
+    {
+      "id": "encampment_of_war",
+      "name": "Encampment of War",
+      "hp": 1300,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        120,
+        0
+      ],
+      "seconds": 35,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.5,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Military production building; eligible units depend on faction and age.",
+      "source": "04 Structures/Encampment of War.md"
+    },
+    {
+      "id": "fields_of_grain",
+      "name": "Fields of Grain",
+      "hp": 500,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        60,
+        0
+      ],
+      "seconds": 20,
+      "age": 1,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 4.8,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Food-production worksite with worker slots.",
+      "source": "04 Structures/Fields of Grain.md",
+      "maxWorkerSlots": 10,
+      "areaMultiplier": 4,
+      "autoAssignWorkersOnComplete": true,
+      "faction_descriptions": {
+        "nephites": "Food field with ten worker slots.",
+        "lamanites": "Food field with ten worker slots.",
+        "coriantumr": "Food field with ten worker slots.",
+        "shiz": "Food field with ten worker slots.",
+        "laban": "Laban vineyards where Henpecked Gentiles work."
+      }
+    },
+    {
+      "id": "gathering_of_flocks",
+      "name": "Gathering of Flocks",
+      "hp": 650,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        150,
+        180,
+        0
+      ],
+      "seconds": 40,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 4.8,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Flock supports up to 10 living and queued beasts; Jaredites may build 5, or 7 with Enlarge the Flocks.",
+      "source": "04 Structures/Gathering of Flocks.md",
+      "maxWorkerSlots": 10,
+      "areaMultiplier": 4,
+      "autoAssignWorkersOnComplete": true,
+      "flockCap": 5,
+      "scatteredFlockCapturesByDestroyer": true,
+      "faction_descriptions": {
+        "nephites": "Flock building; 5-building limit.",
+        "lamanites": "Flock building; 5-building limit.",
+        "coriantumr": "Jaredite livestock training; 5-building limit, raised to 7 by Enlarge the Flocks.",
+        "shiz": "Jaredite livestock training; 5-building limit, raised to 7 by Enlarge the Flocks.",
+        "laban": "Flock building; 5-building limit."
+      },
+      "jarediteFlockCap": 5
+    },
+    {
+      "id": "hill_of_ore",
+      "name": "Hill of Ore",
+      "hp": 600,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        60,
+        0
+      ],
+      "seconds": 20,
+      "age": 1,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 1.8,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Resource structure built on an eligible deposit; workers gather nearby.",
+      "source": "04 Structures/Hill of Ore.md",
+      "oreGatherMultiplier": 1.5
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "name": "House of Curious Workmanship",
+      "hp": 1200,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        120,
+        80
+      ],
+      "seconds": 45,
+      "age": 1,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.4,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Research building for eligible equipment and construction technologies.",
+      "source": "04 Structures/House of Curious Workmanship.md"
+    },
+    {
+      "id": "place_of_many_waters",
+      "name": "Place of Many Waters",
+      "hp": 1200,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        150,
+        0
+      ],
+      "seconds": 40,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.5,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Shoreline building for eligible ships and water technologies.",
+      "source": "04 Structures/Place of Many Waters.md"
+    },
+    {
+      "id": "place_of_trade",
+      "name": "Place of Trade",
+      "hp": 1000,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        100,
+        50
+      ],
+      "seconds": 35,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.2,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Trade building for eligible traders and economic technologies.",
+      "source": "04 Structures/Place of Trade.md"
+    },
+    {
+      "id": "seat_of_the_people",
+      "name": "Seat of the People",
+      "hp": 3000,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        300,
+        100
+      ],
+      "seconds": 90,
+      "age": 1,
+      "requires": [],
+      "pop": 15,
+      "radius": 3.0,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Headquarters; trains workers and the selected age-choice hero.",
+      "source": "04 Structures/Seat of the People.md",
+      "faction_descriptions": {
+        "nephites": "Headquarters; trains workers and the hero selected by age advancement.",
+        "lamanites": "Headquarters; trains workers and the hero selected by age advancement.",
+        "gadianton": "Headquarters; trains workers and the hero selected by age advancement.",
+        "coriantumr": "Headquarters; trains workers and the hero selected by age advancement.",
+        "shiz": "Headquarters; trains workers and the hero selected by age advancement.",
+        "laban": "Headquarters; trains workers and the hero selected by age advancement."
+      }
+    },
+    {
+      "id": "secret_combination_lodge",
+      "name": "Secret Combination Lodge",
+      "hp": 900,
+      "armor": 1,
+      "sight": 5,
+      "cost": [
+        0,
+        180,
+        100
+      ],
+      "seconds": 45,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.0,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Gadianton building; trains Lawyers and researches infiltration.",
+      "source": "Basis: Helaman 6:38-39; Ether 9:1-12; structure and output are proposed design.",
+      "hiddenUntilScouted": true,
+      "scoutedStopsProduction": true,
+      "passiveResource": "lasciviousness",
+      "passiveRate": 0.16,
+      "faction_descriptions": {
+        "gadianton": "Trains Lawyers and researches infiltration; generates Lasciviousness until scouted."
+      }
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "name": "Storehouse of Provisions",
+      "hp": 800,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        80,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 1.8,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Resource drop-off and storage building.",
+      "source": "04 Structures/Storehouse of Provisions.md",
+      "faction_descriptions": {
+        "nephites": "Resource drop-off and storage.",
+        "lamanites": "Resource drop-off and storage.",
+        "gadianton": "Trains Bands of Kishkumen and receives stolen resources.",
+        "coriantumr": "Resource drop-off and storage.",
+        "shiz": "Resource drop-off and storage.",
+        "laban": "Resource drop-off and storage."
+      }
+    },
+    {
+      "id": "temple_of_the_land",
+      "name": "Temple of the Land",
+      "hp": 1400,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        140,
+        100
+      ],
+      "seconds": 45,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.8,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Religious building; eligible units and research depend on faction.",
+      "source": "04 Structures/Temple of the Land.md",
+      "lamaniteTraining": [
+        "priestcrafter"
+      ],
+      "faction_descriptions": {
+        "nephites": "Nephite Temple; trains Teachers of the Word and supports Favor.",
+        "lamanites": "Rameumptom; trains Priestcrafters and researches Order of the Nehors and By the Pride of Their Hearts.",
+        "coriantumr": "Coriantumr Temple; generates Glowing Stones.",
+        "shiz": "Shizite Temple; generates Glowing Stones.",
+        "laban": "Great and Spacious Building; generates 2.5 Drunkenness/s, or 3/s with Fermented Reserves; weakens enemies within 8m; limit one."
+      },
+      "faction_ages": {
+        "laban": 4
+      }
+    },
+    {
+      "id": "tents_and_habitations",
+      "name": "Tents and Habitations",
+      "hp": 450,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        40,
+        0
+      ],
+      "seconds": 15,
+      "age": 1,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 10,
+      "radius": 1.6,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Housing that adds the population listed in its definition.",
+      "source": "04 Structures/Tents and Habitations.md"
+    },
+    {
+      "id": "tower_of_watchmen",
+      "name": "Tower of Watchmen",
+      "hp": 1100,
+      "armor": 2,
+      "sight": 16.0,
+      "cost": [
+        0,
+        100,
+        40
+      ],
+      "seconds": 35,
+      "age": 2,
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "pop": 0,
+      "radius": 1.2,
+      "attack": 12.0,
+      "interval": 1.5,
+      "range": 10.0,
+      "stealthDetection": 8.0,
+      "description": "Defensive tower with vision and attack.",
+      "source": "04 Structures/Tower of Watchmen.md"
+    },
+    {
+      "id": "winery",
+      "name": "Winery",
+      "hp": 900,
+      "armor": 2,
+      "sight": 10,
+      "cost": [
+        0,
+        100,
+        80
+      ],
+      "seconds": 35,
+      "age": 2,
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "pop": 0,
+      "radius": 2.2,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Laban religious building; trains Drunken Concubines and generates 0.5 Drunkenness/s.",
+      "source": "v0.4 proposed design; not a claim of canonical scripture.",
+      "passiveResource": "drunkenness",
+      "passiveRate": 0.5
+    },
+    {
+      "id": "works_of_defense",
+      "name": "Works of Defense",
+      "hp": 800,
+      "armor": 2,
+      "sight": 12.0,
+      "cost": [
+        0,
+        20,
+        0
+      ],
+      "seconds": 8,
+      "age": 2,
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "pop": 0,
+      "radius": 2.0,
+      "attack": 0,
+      "interval": 0,
+      "range": 0,
+      "stealthDetection": 0,
+      "description": "Defensive wall or gate segment.",
+      "source": "04 Structures/Works of Defense.md"
+    }
+  ],
+  "factions": [
+    {
+      "id": "nephites",
+      "name": "Nephites",
+      "units": [
+        "industrious_laborer",
+        "tiller_of_the_earth",
+        "keeper_of_flocks",
+        "worker_in_ore",
+        "trader_in_precious_things",
+        "man_of_the_sword",
+        "man_of_moroni",
+        "slinger_of_stones",
+        "bowman",
+        "wilderness_spy",
+        "chief_captain",
+        "stripling_warrior",
+        "teacher_of_the_word",
+        "ammonite_covenant_keeper",
+        "hagoths_vessel",
+        "sheep",
+        "nephi",
+        "sam",
+        "alma",
+        "captain_moroni",
+        "mormon",
+        "moroni_son",
+        "lehi",
+        "amulek",
+        "teancum"
+      ],
+      "buildings": [
+        "seat_of_the_people",
+        "tents_and_habitations",
+        "fields_of_grain",
+        "gathering_of_flocks",
+        "hill_of_ore",
+        "house_of_curious_workmanship",
+        "place_of_trade",
+        "storehouse_of_provisions",
+        "encampment_of_war",
+        "works_of_defense",
+        "tower_of_watchmen",
+        "temple_of_the_land",
+        "place_of_many_waters"
+      ],
+      "upgrades": [
+        "seeds_of_every_kind",
+        "exceedingly_industrious",
+        "thick_clothing",
+        "breastplates_and_arm_shields",
+        "metallurgy",
+        "heaps_of_earth",
+        "works_of_timbers",
+        "pickets",
+        "mighty_change_of_heart",
+        "their_mothers_knew",
+        "seven_years_of_provisions",
+        "exceedingly_large_in_stature",
+        "age2_nephites_nephi",
+        "age2_nephites_sam",
+        "age3_nephites_alma",
+        "age3_nephites_captain_moroni",
+        "age4_nephites_mormon",
+        "age4_nephites_moroni_son",
+        "nephites_storehouse_food",
+        "nephites_storehouse_timber",
+        "nephites_storehouse_precious",
+        "age2_nephites_lehi",
+        "age3_nephites_amulek",
+        "age4_nephites_teancum",
+        "gate_segment_upgrade"
+      ],
+      "description": "Nephite covenant army. Teachers convert eligible enemies in 5 seconds; converted units cannot be converted again.",
+      "color": [
+        63,
+        119,
+        214
+      ]
+    },
+    {
+      "id": "lamanites",
+      "name": "Lamanites",
+      "units": [
+        "industrious_laborer",
+        "tiller_of_the_earth",
+        "keeper_of_flocks",
+        "worker_in_ore",
+        "trader_in_precious_things",
+        "man_of_the_sword",
+        "cimeter_bearer",
+        "slinger_of_stones",
+        "bowman",
+        "wilderness_spy",
+        "chief_captain",
+        "kings_chariot",
+        "hagoths_vessel",
+        "sheep",
+        "priestcrafter",
+        "zoramite_captain",
+        "laman",
+        "lemuel",
+        "amalickiah",
+        "king_noah",
+        "aaron",
+        "tubaloth",
+        "laman_and_lemuel",
+        "ammoron",
+        "zerahemnah"
+      ],
+      "buildings": [
+        "seat_of_the_people",
+        "tents_and_habitations",
+        "fields_of_grain",
+        "gathering_of_flocks",
+        "hill_of_ore",
+        "house_of_curious_workmanship",
+        "place_of_trade",
+        "storehouse_of_provisions",
+        "encampment_of_war",
+        "works_of_defense",
+        "temple_of_the_land",
+        "place_of_many_waters"
+      ],
+      "upgrades": [
+        "seeds_of_every_kind",
+        "exceedingly_industrious",
+        "thick_clothing",
+        "metallurgy",
+        "heaps_of_earth",
+        "works_of_timbers",
+        "pickets",
+        "seven_years_of_provisions",
+        "fight_like_dragons",
+        "exceedingly_large_in_stature",
+        "age2_lamanites_laman",
+        "age2_lamanites_lemuel",
+        "age3_lamanites_amalickiah",
+        "age3_lamanites_king_noah",
+        "age4_lamanites_tubaloth",
+        "age4_lamanites_aaron",
+        "lamanites_storehouse_food",
+        "lamanites_storehouse_carry",
+        "lamanites_storehouse_timber",
+        "order_of_the_nehors",
+        "by_the_pride_of_their_hearts",
+        "age2_lamanites_laman_and_lemuel",
+        "age3_lamanites_ammoron",
+        "age4_lamanites_zerahemnah",
+        "wrath_of_the_fallen",
+        "lofty_rameumptom",
+        "gate_segment_upgrade"
+      ],
+      "description": "Lamanite mass armies and Zoramite elites. No Watchtowers; converted units cannot be converted again.",
+      "color": [
+        181,
+        91,
+        54
+      ]
+    },
+    {
+      "id": "gadianton",
+      "name": "Gadianton Robbers",
+      "units": [
+        "industrious_laborer",
+        "cimeter_bearer",
+        "slinger_of_stones",
+        "bowman",
+        "wilderness_spy",
+        "hagoths_vessel",
+        "sheep",
+        "lawyer",
+        "gadianton_robber",
+        "kishkumen",
+        "gadianton",
+        "giddianhi",
+        "zemnarihah",
+        "jacob_gadianton",
+        "band_captain"
+      ],
+      "buildings": [
+        "seat_of_the_people",
+        "tents_and_habitations",
+        "hill_of_ore",
+        "house_of_curious_workmanship",
+        "place_of_trade",
+        "storehouse_of_provisions",
+        "encampment_of_war",
+        "works_of_defense",
+        "tower_of_watchmen",
+        "place_of_many_waters",
+        "secret_combination_lodge"
+      ],
+      "upgrades": [
+        "exceedingly_industrious",
+        "thick_clothing",
+        "metallurgy",
+        "heaps_of_earth",
+        "works_of_timbers",
+        "pickets",
+        "seven_years_of_provisions",
+        "exceedingly_large_in_stature",
+        "plunder_share",
+        "plunder_hoard",
+        "network_of_secrets",
+        "compromised_storehouses",
+        "signs_and_symbols",
+        "age2_gadianton_kishkumen",
+        "age2_gadianton_gadianton",
+        "age3_gadianton_giddianhi",
+        "age3_gadianton_zemnarihah",
+        "age4_gadianton_jacob_gadianton",
+        "age4_gadianton_band_captain",
+        "gadianton_storehouse_wild_food",
+        "gadianton_storehouse_carry",
+        "gadianton_storehouse_raid_yield",
+        "gate_segment_upgrade"
+      ],
+      "description": "Implement **Gadianton Robbers** as **Stealth and an economy of plunder**. Preserve six-civilization scope and integrate the resource, training, voice and visibility systems.",
+      "color": [
+        104,
+        83,
+        132
+      ]
+    },
+    {
+      "id": "coriantumr",
+      "name": "Coriantumr Jaredites",
+      "units": [
+        "industrious_laborer",
+        "tiller_of_the_earth",
+        "keeper_of_flocks",
+        "worker_in_ore",
+        "trader_in_precious_things",
+        "wilderness_spy",
+        "chief_captain",
+        "jaredite_barge",
+        "sheep",
+        "oath_keeper",
+        "jaredite_shield_bearer",
+        "jaredite_warrior",
+        "jaredite_archer",
+        "curelom",
+        "cumelom",
+        "elephant",
+        "jared",
+        "brother_of_jared",
+        "emer",
+        "morianton",
+        "coriantumr",
+        "lib"
+      ],
+      "buildings": [
+        "seat_of_the_people",
+        "tents_and_habitations",
+        "fields_of_grain",
+        "gathering_of_flocks",
+        "hill_of_ore",
+        "house_of_curious_workmanship",
+        "place_of_trade",
+        "storehouse_of_provisions",
+        "encampment_of_war",
+        "works_of_defense",
+        "tower_of_watchmen",
+        "temple_of_the_land",
+        "place_of_many_waters",
+        "cement_wall",
+        "cement_tower"
+      ],
+      "upgrades": [
+        "seeds_of_every_kind",
+        "exceedingly_industrious",
+        "thick_clothing",
+        "metallurgy",
+        "heaps_of_earth",
+        "works_of_timbers",
+        "pickets",
+        "glowing_stones",
+        "seven_years_of_provisions",
+        "exceedingly_large_in_stature",
+        "age2_coriantumr_jared",
+        "age2_coriantumr_brother_of_jared",
+        "age3_coriantumr_emer",
+        "age3_coriantumr_morianton",
+        "age4_coriantumr_coriantumr",
+        "age4_coriantumr_lib",
+        "coriantumr_storehouse_beast_income",
+        "coriantumr_storehouse_build_speed",
+        "coriantumr_storehouse_carry",
+        "coriantumr_storehouse_beast_income_2",
+        "coriantumr_storehouse_beast_income_3",
+        "enlarge_the_flocks",
+        "gate_segment_upgrade"
+      ],
+      "description": "Implement **Coriantumr Jaredites** as **Jaredite industrial fortress**. Preserve six-civilization scope and integrate the resource, training, voice and visibility systems.",
+      "color": [
+        154,
+        112,
+        68
+      ]
+    },
+    {
+      "id": "shiz",
+      "name": "Shiz Jaredites",
+      "units": [
+        "industrious_laborer",
+        "tiller_of_the_earth",
+        "keeper_of_flocks",
+        "worker_in_ore",
+        "trader_in_precious_things",
+        "wilderness_spy",
+        "chief_captain",
+        "jaredite_barge",
+        "sheep",
+        "oath_keeper",
+        "jaredite_shield_bearer",
+        "jaredite_warrior",
+        "jaredite_archer",
+        "curelom",
+        "cumelom",
+        "elephant",
+        "jared",
+        "brother_of_jared",
+        "omer",
+        "akish",
+        "shiz",
+        "gilead"
+      ],
+      "buildings": [
+        "seat_of_the_people",
+        "tents_and_habitations",
+        "fields_of_grain",
+        "gathering_of_flocks",
+        "hill_of_ore",
+        "house_of_curious_workmanship",
+        "place_of_trade",
+        "storehouse_of_provisions",
+        "encampment_of_war",
+        "works_of_defense",
+        "tower_of_watchmen",
+        "temple_of_the_land",
+        "place_of_many_waters",
+        "cement_wall",
+        "cement_tower"
+      ],
+      "upgrades": [
+        "seeds_of_every_kind",
+        "exceedingly_industrious",
+        "thick_clothing",
+        "metallurgy",
+        "heaps_of_earth",
+        "works_of_timbers",
+        "pickets",
+        "glowing_stones",
+        "seven_years_of_provisions",
+        "exceedingly_large_in_stature",
+        "age2_shiz_jared",
+        "age2_shiz_brother_of_jared",
+        "age3_shiz_omer",
+        "age3_shiz_akish",
+        "age4_shiz_shiz",
+        "age4_shiz_gilead",
+        "shiz_storehouse_beast_income",
+        "shiz_storehouse_build_speed",
+        "shiz_storehouse_carry",
+        "shiz_storehouse_beast_income_2",
+        "shiz_storehouse_beast_income_3",
+        "enlarge_the_flocks",
+        "gate_segment_upgrade"
+      ],
+      "description": "Implement **Shiz Jaredites** as **Jaredite relentless offensive**. Preserve six-civilization scope and integrate the resource, training, voice and visibility systems.",
+      "color": [
+        174,
+        89,
+        67
+      ]
+    },
+    {
+      "id": "laban",
+      "name": "House of Laban",
+      "units": [
+        "industrious_laborer",
+        "tiller_of_the_earth",
+        "keeper_of_flocks",
+        "worker_in_ore",
+        "trader_in_precious_things",
+        "man_of_the_sword",
+        "slinger_of_stones",
+        "bowman",
+        "wilderness_spy",
+        "chief_captain",
+        "kings_chariot",
+        "one_of_the_fifty",
+        "hagoths_vessel",
+        "sheep",
+        "drunken_concubine",
+        "laban",
+        "zoram",
+        "king_noah",
+        "nehor",
+        "korihor",
+        "jacob_gadianton"
+      ],
+      "buildings": [
+        "seat_of_the_people",
+        "tents_and_habitations",
+        "fields_of_grain",
+        "gathering_of_flocks",
+        "hill_of_ore",
+        "house_of_curious_workmanship",
+        "place_of_trade",
+        "storehouse_of_provisions",
+        "encampment_of_war",
+        "works_of_defense",
+        "tower_of_watchmen",
+        "temple_of_the_land",
+        "place_of_many_waters",
+        "winery"
+      ],
+      "upgrades": [
+        "seeds_of_every_kind",
+        "exceedingly_industrious",
+        "thick_clothing",
+        "breastplates_and_arm_shields",
+        "metallurgy",
+        "heaps_of_earth",
+        "works_of_timbers",
+        "pickets",
+        "laban_and_his_fifty",
+        "seven_years_of_provisions",
+        "exceedingly_large_in_stature",
+        "age2_laban_laban",
+        "age2_laban_zoram",
+        "age3_laban_king_noah",
+        "age3_laban_nehor",
+        "age4_laban_korihor",
+        "age4_laban_jacob_gadianton",
+        "laban_storehouse_food",
+        "laban_storehouse_trade_income",
+        "laban_storehouse_precious",
+        "winery_double_food",
+        "winery_drunkness",
+        "gate_segment_upgrade"
+      ],
+      "description": "Implement **House of Laban** as **Wealthy compact guard state**. Preserve six-civilization scope and integrate the resource, training, voice and visibility systems.",
+      "color": [
+        110,
+        139,
+        156
+      ]
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "age2_coriantumr_brother_of_jared",
+      "name": "Brother of Jared Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Brother of Jared; Jaredite building beasts produce 15% more resources.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "brother_of_jared",
+      "hero_perk": "beast_income",
+      "economy_bonuses": {
+        "beast_income": 0.15
+      }
+    },
+    {
+      "id": "age2_coriantumr_jared",
+      "name": "Jared Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Jared; you build and repair structures 15% faster.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "jared",
+      "hero_perk": "build_speed",
+      "economy_bonuses": {
+        "build_speed": 0.15
+      }
+    },
+    {
+      "id": "age2_gadianton_gadianton",
+      "name": "Gadianton Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Gadianton; workers gather all resources 10% faster.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "gadianton",
+      "hero_perk": "economy"
+    },
+    {
+      "id": "age2_gadianton_kishkumen",
+      "name": "Kishkumen Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Kishkumen; your military deals 10% more damage.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "kishkumen",
+      "hero_perk": "military"
+    },
+    {
+      "id": "age2_laban_laban",
+      "name": "Laban Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Laban; Drunken Concubines strengthen their worker-gathering aura.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "laban",
+      "hero_perk": "concubines"
+    },
+    {
+      "id": "age2_laban_zoram",
+      "name": "Zoram Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Zoram; workers gather all resources 10% faster.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "zoram",
+      "hero_perk": "economy"
+    },
+    {
+      "id": "age2_lamanites_laman",
+      "name": "Laman Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Laman; workers gather Food 10% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "laman",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_food": 0.1
+      }
+    },
+    {
+      "id": "age2_lamanites_lemuel",
+      "name": "Lemuel Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Lemuel; workers gather Timber 10% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "lemuel",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_timber": 0.1
+      }
+    },
+    {
+      "id": "age2_nephites_nephi",
+      "name": "Nephi Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Nephi; workers gather Food 10% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "nephi",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_food": 0.1
+      }
+    },
+    {
+      "id": "age2_nephites_sam",
+      "name": "Sam Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Sam; workers gather Timber 10% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "sam",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_timber": 0.1
+      }
+    },
+    {
+      "id": "age2_shiz_brother_of_jared",
+      "name": "Brother of Jared Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Brother of Jared; Jaredite building beasts produce 15% more resources.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "brother_of_jared",
+      "hero_perk": "beast_income",
+      "economy_bonuses": {
+        "beast_income": 0.15
+      }
+    },
+    {
+      "id": "age2_shiz_jared",
+      "name": "Jared Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Jared; you build and repair structures 15% faster.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "jared",
+      "hero_perk": "build_speed",
+      "economy_bonuses": {
+        "build_speed": 0.15
+      }
+    },
+    {
+      "id": "age3_coriantumr_emer",
+      "name": "Emer Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Emer; you build and repair structures 20% faster.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "emer",
+      "hero_perk": "build_speed",
+      "economy_bonuses": {
+        "build_speed": 0.2
+      }
+    },
+    {
+      "id": "age3_coriantumr_morianton",
+      "name": "Morianton Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Morianton; Jaredite building beasts produce 20% more resources.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "morianton",
+      "hero_perk": "beast_income",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "age3_gadianton_giddianhi",
+      "name": "Giddianhi Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Giddianhi; your military deals 10% more damage.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "giddianhi",
+      "hero_perk": "military"
+    },
+    {
+      "id": "age3_gadianton_zemnarihah",
+      "name": "Zemnarihah Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Zemnarihah; workers gather all resources 10% faster.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "zemnarihah",
+      "hero_perk": "economy"
+    },
+    {
+      "id": "age3_laban_king_noah",
+      "name": "King Noah Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: King Noah; religious units generate 10% more devotion.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "king_noah",
+      "hero_perk": "religion_generation"
+    },
+    {
+      "id": "age3_laban_nehor",
+      "name": "Nehor Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Nehor; workers gather all resources 10% faster.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "nehor",
+      "hero_perk": "economy"
+    },
+    {
+      "id": "age3_lamanites_amalickiah",
+      "name": "Amalickiah Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Amalickiah; you build and repair structures 10% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "amalickiah",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "build_speed": 0.1
+      }
+    },
+    {
+      "id": "age3_lamanites_king_noah",
+      "name": "King Noah Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: King Noah; religious units generate 10% more devotion.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "king_noah",
+      "hero_perk": "religion_generation"
+    },
+    {
+      "id": "age3_nephites_alma",
+      "name": "Alma Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Alma; you build and repair structures 10% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "alma",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "build_speed": 0.1
+      }
+    },
+    {
+      "id": "age3_nephites_captain_moroni",
+      "name": "Captain Moroni Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Captain Moroni; units with cargo space carry 15% more.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "captain_moroni",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "carry_capacity": 0.15
+      }
+    },
+    {
+      "id": "age3_shiz_akish",
+      "name": "Akish Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Akish; you build and repair structures 20% faster.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "akish",
+      "hero_perk": "build_speed",
+      "economy_bonuses": {
+        "build_speed": 0.2
+      }
+    },
+    {
+      "id": "age3_shiz_omer",
+      "name": "Omer Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Omer; Jaredite building beasts produce 20% more resources.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "omer",
+      "hero_perk": "beast_income",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "age4_coriantumr_coriantumr",
+      "name": "Coriantumr Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Coriantumr; you build and repair structures 25% faster.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "coriantumr",
+      "hero_perk": "build_speed",
+      "economy_bonuses": {
+        "build_speed": 0.25
+      }
+    },
+    {
+      "id": "age4_coriantumr_lib",
+      "name": "Lib Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Lib; Jaredite building beasts produce 25% more resources.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "lib",
+      "hero_perk": "beast_income",
+      "economy_bonuses": {
+        "beast_income": 0.25
+      }
+    },
+    {
+      "id": "age4_gadianton_band_captain",
+      "name": "Band Captain Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Band Captain; workers gather all resources 10% faster.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "band_captain",
+      "hero_perk": "economy"
+    },
+    {
+      "id": "age4_gadianton_jacob_gadianton",
+      "name": "Jacob Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Jacob; your military deals 10% more damage.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "jacob_gadianton",
+      "hero_perk": "military"
+    },
+    {
+      "id": "age4_laban_jacob_gadianton",
+      "name": "Jacob Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Jacob; workers gather all resources 10% faster.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "jacob_gadianton",
+      "hero_perk": "economy"
+    },
+    {
+      "id": "age4_laban_korihor",
+      "name": "Korihor Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Korihor; your military deals 10% more damage.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "korihor",
+      "hero_perk": "military"
+    },
+    {
+      "id": "age4_lamanites_aaron",
+      "name": "Aaron Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Aaron; workers gather Food 20% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "aaron",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_food": 0.2
+      }
+    },
+    {
+      "id": "age4_lamanites_tubaloth",
+      "name": "Tubaloth Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Tubaloth; workers gather Timber 20% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "tubaloth",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_timber": 0.2
+      }
+    },
+    {
+      "id": "age4_nephites_mormon",
+      "name": "Mormon Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Mormon; workers gather Food 20% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "mormon",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_food": 0.2
+      }
+    },
+    {
+      "id": "age4_nephites_moroni_son",
+      "name": "Moroni Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Moroni; workers gather Timber 20% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "moroni_son",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_timber": 0.2
+      }
+    },
+    {
+      "id": "age4_shiz_gilead",
+      "name": "Gilead Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Gilead; Jaredite building beasts produce 25% more resources.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "gilead",
+      "hero_perk": "beast_income",
+      "economy_bonuses": {
+        "beast_income": 0.25
+      }
+    },
+    {
+      "id": "age4_shiz_shiz",
+      "name": "Shiz Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Shiz; you build and repair structures 25% faster.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "shiz",
+      "hero_perk": "build_speed",
+      "economy_bonuses": {
+        "build_speed": 0.25
+      }
+    },
+    {
+      "id": "breastplates_and_arm_shields",
+      "name": "Breastplates and Arm-Shields",
+      "cost": [
+        100,
+        0,
+        150
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "Combat infantry +2 armor; unlocks Man of Moroni for Nephites.",
+      "factions": [
+        "nephites",
+        "laban"
+      ]
+    },
+    {
+      "id": "by_the_pride_of_their_hearts",
+      "name": "By the Pride of Their Hearts",
+      "cost": [
+        250,
+        0,
+        250
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "temple_of_the_land",
+      "requires": [
+        "order_of_the_nehors"
+      ],
+      "description": "Rameumptom converts eligible nearby enemies into Zoramite Captains.",
+      "factions": [
+        "lamanites"
+      ]
+    },
+    {
+      "id": "compromised_storehouses",
+      "name": "Compromised Storehouses",
+      "cost": [
+        200,
+        100,
+        150
+      ],
+      "seconds": 45,
+      "age": 4,
+      "producer": "secret_combination_lodge",
+      "requires": [
+        "network_of_secrets"
+      ],
+      "description": "Raiders divert 50% of deposits above 70 Lasciviousness and 100% at 100.",
+      "factions": [
+        "gadianton"
+      ]
+    },
+    {
+      "id": "exceedingly_industrious",
+      "name": "Exceedingly Industrious",
+      "cost": [
+        100,
+        0,
+        150
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "All worker gathering +10%, additive with Seeds for food.",
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ]
+    },
+    {
+      "id": "exceedingly_large_in_stature",
+      "name": "Exceedingly Large in Stature",
+      "cost": [
+        150,
+        0,
+        150
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "Nonhero combat infantry base HP +20%; before Nephite Favor; preserves health fraction.",
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ]
+    },
+    {
+      "id": "fight_like_dragons",
+      "name": "Fight Like Dragons",
+      "cost": [
+        100,
+        0,
+        100
+      ],
+      "seconds": 35,
+      "age": 2,
+      "producer": "encampment_of_war",
+      "requires": [],
+      "description": "Lamanite Encampment research; improves eligible captains and nearby melee units as described in the ability catalog.",
+      "factions": [
+        "lamanites"
+      ]
+    },
+    {
+      "id": "glowing_stones",
+      "name": "Glowing Stones",
+      "cost": [
+        0,
+        0,
+        100
+      ],
+      "seconds": 30,
+      "age": 2,
+      "producer": "place_of_many_waters",
+      "requires": [],
+      "description": "Jaredite Barge vision becomes 14m; cosmetic sixteen stones motif, no separate resource.",
+      "factions": [
+        "coriantumr",
+        "shiz"
+      ]
+    },
+    {
+      "id": "heaps_of_earth",
+      "name": "Heaps of Earth",
+      "cost": [
+        0,
+        75,
+        50
+      ],
+      "seconds": 25,
+      "age": 2,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "Unlocks Works of Defense. Nephites and both Jaredite factions may research the wall line.",
+      "factions": [
+        "nephites",
+        "coriantumr",
+        "shiz"
+      ]
+    },
+    {
+      "id": "laban_and_his_fifty",
+      "name": "Laban and His Fifty",
+      "cost": [
+        150,
+        0,
+        150
+      ],
+      "seconds": 45,
+      "age": 2,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "Unlock One of the Fifty.",
+      "factions": [
+        "laban"
+      ]
+    },
+    {
+      "id": "metallurgy",
+      "name": "Metallurgy",
+      "cost": [
+        0,
+        100,
+        150
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "Melee infantry +2 attack; excludes workers, beasts, heroes.",
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ]
+    },
+    {
+      "id": "mighty_change_of_heart",
+      "name": "Mighty Change of Heart",
+      "cost": [
+        100,
+        0,
+        150
+      ],
+      "seconds": 45,
+      "age": 2,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "description": "Ammonite Prostrate: killing an Ammonite during its 5s window converts the attacker; 12s cooldown.",
+      "factions": [
+        "nephites"
+      ]
+    },
+    {
+      "id": "network_of_secrets",
+      "name": "Network of Secrets",
+      "cost": [
+        150,
+        80,
+        100
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "secret_combination_lodge",
+      "requires": [],
+      "description": "Shares enemy vision while Lasciviousness is above 50.",
+      "factions": [
+        "gadianton"
+      ]
+    },
+    {
+      "id": "order_of_the_nehors",
+      "name": "Order of the Nehors",
+      "cost": [
+        150,
+        0,
+        150
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "description": "Lamanite Temple research. Priestcrafters generate an additional 0.25 Precious Things per second.",
+      "factions": [
+        "lamanites"
+      ]
+    },
+    {
+      "id": "pickets",
+      "name": "Pickets",
+      "cost": [
+        0,
+        150,
+        100
+      ],
+      "seconds": 35,
+      "age": 3,
+      "producer": "house_of_curious_workmanship",
+      "requires": [
+        "works_of_timbers"
+      ],
+      "description": "Unlocks the next wall tier.",
+      "factions": [
+        "nephites",
+        "coriantumr",
+        "shiz"
+      ]
+    },
+    {
+      "id": "plunder_hoard",
+      "name": "Plunder Hoard",
+      "cost": [
+        200,
+        0,
+        200
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "secret_combination_lodge",
+      "requires": [
+        "plunder_share"
+      ],
+      "description": "Raid theft is 3× while Lasciviousness is above 30.",
+      "factions": [
+        "gadianton"
+      ]
+    },
+    {
+      "id": "plunder_share",
+      "name": "Plunder Share",
+      "cost": [
+        100,
+        0,
+        100
+      ],
+      "seconds": 45,
+      "age": 2,
+      "producer": "secret_combination_lodge",
+      "requires": [],
+      "description": "Raid theft is 2× while Lasciviousness is above 30.",
+      "factions": [
+        "gadianton"
+      ]
+    },
+    {
+      "id": "seeds_of_every_kind",
+      "name": "Seeds of Every Kind",
+      "cost": [
+        0,
+        0,
+        75
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "fields_of_grain",
+      "requires": [],
+      "description": "Food gathering +15%.",
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ]
+    },
+    {
+      "id": "seven_years_of_provisions",
+      "name": "Seven Years of Provisions",
+      "cost": [
+        150,
+        100,
+        0
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Own workers within 12m of any storehouse gain +10 carry capacity, nonstacking.",
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ]
+    },
+    {
+      "id": "signs_and_symbols",
+      "name": "Signs and Symbols",
+      "cost": [
+        150,
+        50,
+        100
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "secret_combination_lodge",
+      "requires": [
+        "network_of_secrets"
+      ],
+      "description": "Enemy laborers will mistakenly drop resources off at your storehouses, if they are the closest dropoff point.",
+      "factions": [
+        "gadianton"
+      ]
+    },
+    {
+      "id": "their_mothers_knew",
+      "name": "Their Mothers Knew",
+      "cost": [
+        150,
+        0,
+        200
+      ],
+      "seconds": 50,
+      "age": 3,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "description": "Unlocks Stripling Warriors.",
+      "factions": [
+        "nephites"
+      ]
+    },
+    {
+      "id": "thick_clothing",
+      "name": "Thick Clothing",
+      "cost": [
+        75,
+        0,
+        50
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "house_of_curious_workmanship",
+      "requires": [],
+      "description": "Combat infantry +1 armor; excludes heroes and workers.",
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ]
+    },
+    {
+      "id": "works_of_timbers",
+      "name": "Works of Timbers",
+      "cost": [
+        0,
+        100,
+        75
+      ],
+      "seconds": 30,
+      "age": 2,
+      "producer": "house_of_curious_workmanship",
+      "requires": [
+        "heaps_of_earth"
+      ],
+      "description": "Wall HP +20%.",
+      "factions": [
+        "nephites",
+        "coriantumr",
+        "shiz"
+      ]
+    },
+    {
+      "id": "nephites_storehouse_food",
+      "name": "Storehouse Tables",
+      "cost": [
+        100,
+        50,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Nephite Storehouse research: Food gathering +20%.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_food": 0.2
+      }
+    },
+    {
+      "id": "nephites_storehouse_timber",
+      "name": "Timber Tallies",
+      "cost": [
+        180,
+        90,
+        30
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Nephite Storehouse research: Timber gathering +20%.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_timber": 0.2
+      }
+    },
+    {
+      "id": "nephites_storehouse_precious",
+      "name": "Precious Accounts",
+      "cost": [
+        250,
+        150,
+        100
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Nephite Storehouse research: Precious Things gathering +20%.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_precious": 0.2
+      }
+    },
+    {
+      "id": "lamanites_storehouse_food",
+      "name": "Camp Rations",
+      "cost": [
+        100,
+        50,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Lamanite Storehouse research: Food gathering +20%.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_food": 0.2
+      }
+    },
+    {
+      "id": "lamanites_storehouse_carry",
+      "name": "Caravan Loads",
+      "cost": [
+        180,
+        90,
+        30
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Lamanite Storehouse research: worker carry capacity +25%.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "carry": 0.25
+      }
+    },
+    {
+      "id": "lamanites_storehouse_timber",
+      "name": "Timber Stores",
+      "cost": [
+        250,
+        150,
+        100
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Lamanite Storehouse research: Timber gathering +20%.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_timber": 0.2
+      }
+    },
+    {
+      "id": "gadianton_storehouse_wild_food",
+      "name": "Forest Foraging",
+      "cost": [
+        100,
+        50,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Gadianton Storehouse research: Food gathering +20%.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_food": 0.2
+      }
+    },
+    {
+      "id": "gadianton_storehouse_carry",
+      "name": "Hidden Loads",
+      "cost": [
+        180,
+        90,
+        30
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Gadianton Storehouse research: worker carry capacity +25%.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "carry": 0.25
+      }
+    },
+    {
+      "id": "gadianton_storehouse_raid_yield",
+      "name": "Spoils Ledger",
+      "cost": [
+        250,
+        150,
+        100
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Gadianton Storehouse research: raid yield +20%.",
+      "factions": [
+        "gadianton"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "raid_yield": 0.2
+      }
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income",
+      "name": "Herd Accounts",
+      "cost": [
+        100,
+        50,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Coriantumr Jaredite Storehouse research: Jaredite beast income +20%.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "coriantumr_storehouse_build_speed",
+      "name": "Builders' Measures",
+      "cost": [
+        180,
+        90,
+        30
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Coriantumr Jaredite Storehouse research: construction speed +20%.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "build_speed": 0.2
+      }
+    },
+    {
+      "id": "coriantumr_storehouse_carry",
+      "name": "Caravan Loads",
+      "cost": [
+        250,
+        150,
+        100
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Coriantumr Jaredite Storehouse research: worker carry capacity +25%.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "carry": 0.25
+      }
+    },
+    {
+      "id": "shiz_storehouse_beast_income",
+      "name": "Herd Accounts",
+      "cost": [
+        100,
+        50,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Shiz Jaredite Storehouse research: Jaredite beast income +20%.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "shiz_storehouse_build_speed",
+      "name": "Builders' Measures",
+      "cost": [
+        180,
+        90,
+        30
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Shiz Jaredite Storehouse research: construction speed +20%.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "build_speed": 0.2
+      }
+    },
+    {
+      "id": "shiz_storehouse_carry",
+      "name": "Caravan Loads",
+      "cost": [
+        250,
+        150,
+        100
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Shiz Jaredite Storehouse research: worker carry capacity +25%.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "carry": 0.25
+      }
+    },
+    {
+      "id": "laban_storehouse_food",
+      "name": "Household Stores",
+      "cost": [
+        100,
+        50,
+        0
+      ],
+      "seconds": 25,
+      "age": 1,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "House of Laban Storehouse research: Food gathering +20%.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_food": 0.2
+      }
+    },
+    {
+      "id": "laban_storehouse_trade_income",
+      "name": "Precious Routes",
+      "cost": [
+        180,
+        90,
+        30
+      ],
+      "seconds": 40,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "House of Laban Storehouse research: Trader income +25%.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "trade_income": 0.25
+      }
+    },
+    {
+      "id": "laban_storehouse_precious",
+      "name": "Precious Accounts",
+      "cost": [
+        250,
+        150,
+        100
+      ],
+      "seconds": 55,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "House of Laban Storehouse research: Precious Things gathering +20%.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "gather_precious": 0.2
+      }
+    },
+    {
+      "id": "age2_nephites_lehi",
+      "name": "Lehi Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Lehi; workers gather Precious Things 10% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "lehi",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_precious": 0.1
+      }
+    },
+    {
+      "id": "age3_nephites_amulek",
+      "name": "Amulek Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Amulek; religious units generate 10% more devotion.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "amulek",
+      "hero_perk": "religion_generation"
+    },
+    {
+      "id": "age4_nephites_teancum",
+      "name": "Teancum Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Teancum; units train 10% faster.",
+      "factions": [
+        "nephites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "teancum",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "train_speed": 0.1
+      }
+    },
+    {
+      "id": "age2_lamanites_laman_and_lemuel",
+      "name": "Laman and Lemuel Age Choice",
+      "cost": [
+        400,
+        0,
+        200
+      ],
+      "seconds": 90,
+      "age": 1,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "seat_of_the_people"
+      ],
+      "description": "Age II choice: Laman and Lemuel; workers gather Precious Things 10% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "laman_and_lemuel",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_precious": 0.1
+      }
+    },
+    {
+      "id": "age3_lamanites_ammoron",
+      "name": "Ammoron Age Choice",
+      "cost": [
+        700,
+        0,
+        400
+      ],
+      "seconds": 120,
+      "age": 2,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age III choice: Ammoron; units with cargo space carry 15% more.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "ammoron",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "carry_capacity": 0.15
+      }
+    },
+    {
+      "id": "age4_lamanites_zerahemnah",
+      "name": "Zerahemnah Age Choice",
+      "cost": [
+        1000,
+        100,
+        600
+      ],
+      "seconds": 150,
+      "age": 3,
+      "producer": "seat_of_the_people",
+      "requires": [
+        "house_of_curious_workmanship"
+      ],
+      "description": "Age IV choice: Zerahemnah; workers gather Precious Things 20% faster.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "age_option",
+      "retrainAfterDeathOnly": true,
+      "age_hero": "zerahemnah",
+      "hero_perk": "unique",
+      "economy_bonuses": {
+        "gather_precious": 0.2
+      }
+    },
+    {
+      "id": "winery_double_food",
+      "name": "Winery Abundance",
+      "cost": [
+        150,
+        0,
+        80
+      ],
+      "seconds": 35,
+      "age": 3,
+      "producer": "winery",
+      "requires": [],
+      "description": "Winery Abundance: generates 3 Food/s.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "research",
+      "passiveRate": 3
+    },
+    {
+      "id": "winery_drunkness",
+      "name": "Fermented Reserves",
+      "cost": [
+        200,
+        0,
+        120
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "winery",
+      "description": "Fermented Reserves: increases Winery Drunkenness generation by 20%.",
+      "factions": [
+        "laban"
+      ],
+      "kind": "research",
+      "passiveRateMultiplier": 1.2
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_2",
+      "name": "Herd Accounts 2",
+      "cost": [
+        180,
+        100,
+        0
+      ],
+      "seconds": 35,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Jaredite livestock income +20%; stacks with earlier Herd Accounts tiers.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_3",
+      "name": "Herd Accounts 3",
+      "cost": [
+        250,
+        150,
+        75
+      ],
+      "seconds": 50,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Jaredite livestock income +20%; stacks with earlier Herd Accounts tiers.",
+      "factions": [
+        "coriantumr"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "shiz_storehouse_beast_income_2",
+      "name": "Herd Accounts 2",
+      "cost": [
+        180,
+        100,
+        0
+      ],
+      "seconds": 35,
+      "age": 2,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Jaredite livestock income +20%; stacks with earlier Herd Accounts tiers.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "shiz_storehouse_beast_income_3",
+      "name": "Herd Accounts 3",
+      "cost": [
+        250,
+        150,
+        75
+      ],
+      "seconds": 50,
+      "age": 3,
+      "producer": "storehouse_of_provisions",
+      "requires": [],
+      "description": "Jaredite livestock income +20%; stacks with earlier Herd Accounts tiers.",
+      "factions": [
+        "shiz"
+      ],
+      "kind": "research",
+      "economy_bonuses": {
+        "beast_income": 0.2
+      }
+    },
+    {
+      "id": "enlarge_the_flocks",
+      "name": "Enlarge the Flocks",
+      "cost": [
+        300,
+        0,
+        250
+      ],
+      "seconds": 55,
+      "age": 4,
+      "producer": "seat_of_the_people",
+      "requires": [],
+      "description": "Raises the Jaredite Gathering of Flocks limit from 5 to 7.",
+      "factions": [
+        "coriantumr",
+        "shiz"
+      ],
+      "kind": "research",
+      "buildingLimitBonus": 2
+    },
+    {
+      "id": "wrath_of_the_fallen",
+      "name": "Wrath of the Fallen",
+      "cost": [
+        200,
+        0,
+        180
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "description": "Rameumptom upgrade: gain 5 Anger whenever an enemy kills a unit or destroys a structure.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "research",
+      "effectKey": "wrath_of_the_fallen"
+    },
+    {
+      "id": "lofty_rameumptom",
+      "name": "Lofty Rameumptom",
+      "cost": [
+        200,
+        0,
+        180
+      ],
+      "seconds": 45,
+      "age": 3,
+      "producer": "temple_of_the_land",
+      "requires": [],
+      "description": "Rameumptom upgrade: triples conversion range and line of sight.",
+      "factions": [
+        "lamanites"
+      ],
+      "kind": "research",
+      "effectKey": "lofty_rameumptom"
+    },
+    {
+      "id": "gate_segment_upgrade",
+      "name": "Gate Segment",
+      "kind": "upgrade",
+      "building": false,
+      "cost": [
+        0,
+        50,
+        25
+      ],
+      "seconds": 15,
+      "age": 2,
+      "producer": "works_of_defense",
+      "requires": [],
+      "factions": [
+        "nephites",
+        "lamanites",
+        "gadianton",
+        "coriantumr",
+        "shiz",
+        "laban"
+      ],
+      "description": "Unlocks conversion of an existing wall segment into a gate segment.",
+      "effectKey": "gate_segment_upgrade"
+    }
+  ],
+  "balance_v04": {
+    "civicResources": {
+      "initialStock": 20,
+      "decayPerSecond": ".025 + .0004 * max(0, Favor - 20)^2 per second",
+      "conversionAward": 5,
+      "conversionLoss": -5,
+      "nephiteDirectCivilianKill": -8,
+      "lamaniteUnitLoss": 3,
+      "lamaniteBuildingLoss": 5,
+      "templeGenerationPerSecond": 0.1,
+      "religiousUnitGenerationPerSecond": 0.06,
+      "secretCombinationLodgeGenerationPerSecond": 0.16,
+      "secretCombinationLodgeStopsWhenScouted": true,
+      "effects": {
+        "favorHitPointsPerPoint": 0.004,
+        "angerGatheringAndAttackRatePerPoint": 0.003,
+        "dominionHitPointsPerPoint": 0.003,
+        "dominionDamagePerPoint": 0.0025,
+        "drunkennessSplashDamageMultiplier": 0.35,
+        "drunkennessSplashRadiusBase": 1.4,
+        "drunkennessSplashRadiusPerPoint": 0.015
+      },
+      "gadiantonConversionLoss": -10
+    },
+    "gadianton": {
+      "plunderShareMultiplier": 2,
+      "plunderHoardMultiplier": 3,
+      "compromisedDepositShare": 0.5,
+      "lawyerCompromiseChannelSeconds": 3,
+      "signsAndSymbolsNearestStorehouse": true,
+      "plunderResearchRequirement": "Plunder Share and Plunder Hoard can be researched regardless of current Lasciviousness; the 2x/3x raid multipliers are active only while Lasciviousness remains above 30.",
+      "plunderEffectsRequireLasciviousnessAbove": 30,
+      "networkOfSecretsEffectRequiresLasciviousnessAbove": 50,
+      "compromisedStorehousesEffectRequiresLasciviousnessAbove": 70,
+      "fullDepositDiversionAtLasciviousness": 100
+    },
+    "jarediteLivestock": {
+      "curelom": {
+        "age": 1,
+        "producer": "seat_of_the_people",
+        "buildsThroughAge": 2,
+        "passiveResource": "timber",
+        "perSecond": 0.4
+      },
+      "cumelom": {
+        "age": 3,
+        "producer": "gathering_of_flocks",
+        "buildsThroughAge": 3,
+        "passiveResource": "wealth",
+        "perSecond": 0.3
+      },
+      "elephant": {
+        "age": 4,
+        "producer": "gathering_of_flocks",
+        "buildsThroughAllAges": true,
+        "passiveResource": "cement",
+        "perSecond": 0.8,
+        "siege": true,
+        "transport": true,
+        "maxPerFlock": 1
+      }
+    },
+    "flockBuildings": {
+      "limitStandard": 5,
+      "limitJaredite": 5
+    },
+    "winery": {
+      "passiveFoodPerSecond": 0,
+      "passiveResource": "drunkenness",
+      "drunkennessPerSecond": 0.5,
+      "abundanceUpgrade": "winery_double_food",
+      "abundanceFoodPerSecond": 3,
+      "fermentedReservesUpgrade": "winery_drunkness",
+      "fermentedReservesDrunkennessMultiplier": 1.2
+    },
+    "ageAdvancement": {
+      "choiceCountPerAge": 2,
+      "ages": [
+        2,
+        3,
+        4
+      ],
+      "perks": {
+        "beast_income": "Jaredite animal trickle rate",
+        "build_speed": "Jaredite animal build speed",
+        "religion_generation": "Passive religious-unit generation"
+      },
+      "choiceCountByFaction": {
+        "nephites": 3,
+        "lamanites": 3,
+        "gadianton": 2,
+        "coriantumr": 2,
+        "shiz": 2,
+        "laban": 2
+      }
+    },
+    "rameumptomConversion": {
+      "buildingId": "temple_of_the_land",
+      "displayName": "Rameumptom",
+      "requires": "by_the_pride_of_their_hearts",
+      "convertedUnit": "zoramite_captain",
+      "channelSecondsVsMelee": 12,
+      "channelSecondsVsRanged": 18
+    },
+    "note": "Legacy v0.4 balance metadata carried forward where not superseded by v0.5. Current v0.5 catalog and balance additions are documented in Docs/Balance-v0.5.md; runtime validation is pending.",
+    "trader": {
+      "route": "Player-set route",
+      "reward": 2,
+      "resource": "precious_things",
+      "radius": 4,
+      "sharedCooldownSeconds": 30,
+      "requiresOwnWorker": true
+    },
+    "drunkennessAura": {
+      "templeRadius": 8,
+      "concubineRadius": 5,
+      "movementSpeedReduction": 0.2,
+      "attackSpeedReduction": 0.25,
+      "maxHitPointsReduction": 0.15,
+      "preserveHealthFraction": true
+    },
+    "combatCounters": {
+      "rangedDamageBonusVsReligious": 0.5,
+      "meleeDamageReductionVsRanged": 0.25,
+      "religiousConversionSecondsVsMelee": 8,
+      "religiousConversionSecondsVsRanged": 12,
+      "defensiveTowerConversionSecondsVsMelee": 12,
+      "defensiveTowerConversionSecondsVsRanged": 18
+    },
+    "populationCosts": {
+      "kings_chariot": 3,
+      "elephant": 3,
+      "jaredite_barge": 3,
+      "hagoths_vessel": 3,
+      "otherBoats": 3
+    },
+    "passengerCapacity": {
+      "kings_chariot": 6,
+      "elephant": 10,
+      "jaredite_barge": 12,
+      "hagoths_vessel": 10,
+      "otherBoats": 10
+    },
+    "militaryAgeLocks": {
+      "ageI": [],
+      "ageII": "weak military units",
+      "ageIII": "most military units",
+      "ageIV": "all military units; elite units included"
+    },
+    "rameumptomUpgrades": {
+      "wrath_of_the_fallen": {
+        "angerOnEnemyUnitLoss": 5,
+        "angerOnEnemyBuildingLoss": 5
+      },
+      "lofty_rameumptom": {
+        "rangeMultiplier": 3,
+        "sightMultiplier": 3
+      }
+    },
+    "effects": {
+      "dominionHitPointsPerPoint": 0.003
+    },
+    "conversionRules": {
+      "channelSeconds": 5,
+      "conversionCooldownSeconds": 0,
+      "convertedUnitsImmune": true,
+      "nephiteAction": "Soften the Heart",
+      "lamaniteAction": "Stiffen the Neck",
+      "ammoniteProstrate": {
+        "activeWindowSeconds": 5,
+        "cooldownSeconds": 12,
+        "killerUnitConversion": "ammonite_covenant_keeper"
+      }
+    }
+  }
+}

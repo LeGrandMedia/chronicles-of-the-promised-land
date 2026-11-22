@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-22T13:05:27.0536783Z",
+  "finished_utc": "2026-11-22T13:06:50.0790584Z",
+  "sha256": "B1F5EA28ACBD61972088CB128BB90D28A60793C5C670045DE142411E935DCF2A",
+  "arguments": [
+    "-RTSV09BotBalance",
+    "-RTSV09BotSupportTrace",
+    "-RTSBalanceShards=15",
+    "-RTSBalanceShard=6",
+    "-RTSBalanceMap=8",
+    "-RTSBalanceStepLimit=12000",
+    "-nullrhi",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\balance\\civilization-new-maps-balanced\\map-8\\pair-6\\balance.log\""
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

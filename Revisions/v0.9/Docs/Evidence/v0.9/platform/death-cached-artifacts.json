@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-22T09:45:05.8117044Z",
+  "scope": "Cached settled death geometry and component sinking; bounded mass-loss diagnostics and observer-only local bot defense measurements. Normal bot policy unchanged. Windows regression passed; Android static package verified. No fresh-install or physical-device launch claim.",
+  "artifacts": {
+    "windows_executable": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256709120,
+      "sha256": "288BA1669B769054AA822E8326D42551ECDAAB068D7DCAE27857B12A83D07F8D"
+    },
+    "android_apk": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486732719,
+      "sha256": "0073263B44AB4C9D379496322E646B13A48E0BAB0EFAB1B46007DEAC358C3CEA"
+    },
+    "windows_installer": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Installer\\Death-Cached-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524218200,
+      "sha256": "EEDD833CF13FBD2095A2E0819D071C0FF4FA017528EA02DBE5B6B319BA23B921"
+    }
+  },
+  "evidence": {
+    "performance_binary_sha256": "FDF0C2372540BFE502820BA990E9E3FCD11AE38AF45C362296BEF6A17A521C57",
+    "regression": "Docs/Evidence/v0.9/rendering/death-cached-regression",
+    "performance": "Docs/DeathPerformance-v0.9.md",
+    "balance": "Docs/Evidence/v0.9/balance/emergency-slinger/local-defense",
+    "android_payload": "Docs/Evidence/v0.9/android/death-cached-20261122/payload-verification.json"
+  }
+}

@@ -1,0 +1,110 @@
+{
+	"passed": true,
+	"captures": [
+		{
+			"screenshot": "v09-map-00.png",
+			"index": 0,
+			"name": "Zarahemla Valley"
+		},
+		{
+			"screenshot": "v09-map-01.png",
+			"index": 1,
+			"name": "Waters of Sidon"
+		},
+		{
+			"screenshot": "v09-map-02.png",
+			"index": 2,
+			"name": "Land of Many Waters"
+		},
+		{
+			"screenshot": "v09-map-03.png",
+			"index": 3,
+			"name": "Bountiful"
+		},
+		{
+			"screenshot": "v09-map-04.png",
+			"index": 4,
+			"name": "Moronihah"
+		},
+		{
+			"screenshot": "v09-map-05.png",
+			"index": 5,
+			"name": "Ammonihah"
+		},
+		{
+			"screenshot": "v09-map-06.png",
+			"index": 6,
+			"name": "The Land Northward"
+		},
+		{
+			"screenshot": "v09-map-07.png",
+			"index": 7,
+			"name": "The Land Southward"
+		},
+		{
+			"screenshot": "v09-map-08.png",
+			"index": 8,
+			"name": "The Narrow Neck of Land"
+		},
+		{
+			"screenshot": "v09-map-09.png",
+			"index": 9,
+			"name": "Middoni"
+		},
+		{
+			"screenshot": "v09-map-10.png",
+			"index": 10,
+			"name": "The Hill Cumorah"
+		},
+		{
+			"screenshot": "v09-map-11.png",
+			"index": 11,
+			"name": "The Waters of Mormon"
+		},
+		{
+			"screenshot": "v09-map-12.png",
+			"index": 12,
+			"name": "Waters of Ripliancum"
+		},
+		{
+			"screenshot": "v09-map-13.png",
+			"index": 13,
+			"name": "The Valley of Lemuel"
+		},
+		{
+			"screenshot": "v09-map-14.png",
+			"index": 14,
+			"name": "The Great and Spacious Courtyard"
+		},
+		{
+			"screenshot": "v09-map-15.png",
+			"index": 15,
+			"name": "Lobby map selection",
+			"map_buttons_paging_and_readiness": true
+		},
+		{
+			"screenshot": "v09-map-16.png",
+			"index": 16,
+			"name": "Lobby map selection",
+			"map_buttons_paging_and_readiness": true
+		},
+		{
+			"screenshot": "v09-map-17.png",
+			"index": 17,
+			"name": "Lobby map selection",
+			"map_buttons_paging_and_readiness": true
+		},
+		{
+			"screenshot": "v09-map-18.png",
+			"index": 18,
+			"name": "Lobby map selection",
+			"map_buttons_paging_and_readiness": true
+		},
+		{
+			"screenshot": "v09-map-19.png",
+			"index": 19,
+			"name": "Lobby map selection",
+			"map_buttons_paging_and_readiness": true
+		}
+	]
+}

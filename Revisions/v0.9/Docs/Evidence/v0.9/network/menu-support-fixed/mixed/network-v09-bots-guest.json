@@ -1,0 +1,14 @@
+{
+	"role": "guest",
+	"map": 2,
+	"role_slot": 1,
+	"snapshots": 222,
+	"largest_packed_snapshot_bytes": 1762,
+	"passed": true,
+	"host_configured_roster_after_guest_commands": true,
+	"bot_gathered": true,
+	"bot_built": true,
+	"bot_trained": true,
+	"remote_human_worker_moved": true,
+	"remote_human_could_not_order_allied_bot_worker": true
+}

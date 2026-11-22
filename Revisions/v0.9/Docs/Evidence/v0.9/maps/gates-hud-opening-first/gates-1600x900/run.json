@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T14:26:39.4852086Z",
+  "finished_utc": "2026-11-22T14:26:43.3979334Z",
+  "sha256": "5DD0C8FC8851CE4F6C1F92E792E250F332B36EA61504D7038174DA1DA80654AC",
+  "arguments": [
+    "-RTSV09GateTraversalTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\gates-hud-opening-first\\gates-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 1,
+  "timed_out": false
+}

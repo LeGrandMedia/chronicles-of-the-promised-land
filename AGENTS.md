@@ -1,9 +1,9 @@
-# AI handoff
+# AI development handoff
 
-Read README.md, then the vault's `01 Foundation/Design Contract.md`, `08 Development Plan/Developer Handoff.md`, and `07 Reference/Data and Assets.md`. Use paths relative to this checkout. Current implementation: `Revisions/v0.8`. All 21 requests and eight cleanup gaps in that release are completed; do not replay them as unfinished work. Read only task-relevant notes.
+Read README.md, then Revisions/v0.9/AGENTS.md and Docs/Handoff-v0.9.md within that revision. Current implementation: Revisions/v0.9. Canonical design: book of mormon RTS, beginning at 00 Navigation/Start Here.md. Read only task-relevant notes; latest user instructions override older design intent. v0.8 and historical documents are reference, not the active baseline.
 
-Follow the current user's requests. Preserve playtest copies when starting another revision. Keep stable catalog IDs; use names.json for labels and visuals.json for replaceable assets. Preserve the host-authoritative simulation, validation of client orders, fog/privacy filtering, and atomic resources and ownership changes. Game source is under `Game/Source/Chronicles`, data under `Game/Content/Data`.
+Preserve playtest copies when starting revisions. Keep stable IDs and editable name/model mappings, host authority, client-order validation, fog/privacy filtering and atomic resource/ownership changes. Build/package serially and run checks appropriate to each change. Evidence applies only to its recorded artifact.
 
-Label concrete tasks with their best-suited model. Delegate routine catalog, inventory, documentation, and coverage work to GPT-6 Luna; gameplay/UI/network integration to GPT-6.1 Sol; difficult architecture to GPT-6 Astra, or available equivalents. Distinguish the recommended model from actual execution.
+Label tasks with recommended and actual execution model. Recommended: GPT-6 Luna for routine inventory/docs; GPT-6.2 Sol for gameplay/UI/network/assets; GPT-6.2 Astra for cross-system architecture. Delegate routine work when requested and available. Do not claim unfinished platform builds, balance or tests are complete.
 
-Build/package and run relevant checks after changes, then update affected canonical notes. Existing evidence applies to the delivered executable, not future edits. The producer-only finalization script and old private workspace history are intentionally omitted. Revisions/v0.7/Docs is historical reference, not another source baseline. Public copies omit local account/session settings and raw machine logs; asset prompts/hashes remain.
+Preserve the documented gate experiment as an archive until it passes rendered validation. Gadianton diagnostics remain opt-in. Do not publish credentials, account/session state, installed toolchains, build caches or raw machine logs. Compiled downloads belong in Releases. Keep canonical notes and handoff limitations accurate.

@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T14:38:35.5032617Z",
+  "finished_utc": "2026-11-22T14:39:55.6007536Z",
+  "sha256": "2BB3A2E0696F9D46C2EE6777615B64FF72CD8FBA974C0746C5635646C0FED89D",
+  "arguments": [
+    "-RTSV09BotTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\gates-hud-food-assignment\\bots-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

@@ -1,0 +1,2469 @@
+{
+  "version": 1,
+  "purpose": "Recommended model suitability by existing project difficulty label; records do not claim that any model executed these tasks.",
+  "source": "book of mormon RTS/08 Development Plan/Action Difficulty Index.json",
+  "generated_date": "2026-10-20",
+  "tier_routing": {
+    "Astra Heavy": {
+      "reasoning_effort": "high",
+      "model": "gpt-6-astra"
+    },
+    "Astra Light": {
+      "reasoning_effort": "high",
+      "model": "gpt-6-luna"
+    },
+    "Sol": {
+      "reasoning_effort": "medium",
+      "model": "gpt-6-luna"
+    },
+    "Astra Medium": {
+      "reasoning_effort": "high",
+      "model": "gpt-6.1-sol"
+    }
+  },
+  "action_count": 407,
+  "actions": [
+    {
+      "action_id": "A001",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A002",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A003",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A004",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A005",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A006",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A007",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A008",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A009",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A010",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A011",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A012",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A013",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A014",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A015",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A016",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A017",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A018",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A019",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A020",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A021",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A022",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A023",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A024",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A025",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A026",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A027",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A028",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A029",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A030",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A031",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A032",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A033",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A034",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A035",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A036",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A037",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A038",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A039",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A040",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A041",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A042",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A043",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A044",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A045",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A046",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A047",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A048",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A049",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A050",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A051",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A052",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A053",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A054",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A055",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A056",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A057",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A058",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A059",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A060",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A061",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A062",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A063",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A064",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A065",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A066",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A067",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A068",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A069",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A070",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A071",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A072",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A073",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A074",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A075",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A076",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A077",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A078",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A079",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A080",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A081",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A082",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A083",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A084",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A085",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A086",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A087",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A088",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A089",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A090",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A091",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A092",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A093",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A094",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A095",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A096",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A097",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A098",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A099",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A100",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A101",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A102",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A103",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A104",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A105",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A106",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A107",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A108",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A109",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A110",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A111",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A112",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A113",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A114",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A115",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A116",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A117",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A118",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A119",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A120",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A121",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A122",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A123",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A124",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A125",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A126",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A127",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A128",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A129",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A130",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A131",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A132",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A133",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A134",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A135",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A136",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A137",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A138",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A139",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A140",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A141",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A142",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A143",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A144",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A145",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A146",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A147",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A148",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A149",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A150",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A151",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A152",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A153",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A154",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A155",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A156",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A157",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A158",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A159",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A160",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A161",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A162",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A163",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A164",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A165",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A166",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A167",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A168",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A169",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A170",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A171",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A172",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A173",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A174",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A175",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A176",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A177",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A178",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A179",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A180",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A181",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A182",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A183",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A184",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A185",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A186",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A187",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A188",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A189",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A190",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A191",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A192",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A193",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A194",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A195",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A196",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A197",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A198",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A199",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A200",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A201",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A202",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A203",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A204",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A205",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A206",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A207",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A208",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A209",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A210",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A211",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A212",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A213",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A214",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A215",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A216",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A217",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A218",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A219",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A220",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A221",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A222",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A223",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A224",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A225",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A226",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A227",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A228",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A229",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A230",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A231",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A232",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A233",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A234",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A235",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A236",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A237",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A238",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A239",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A240",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A241",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A242",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A243",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A244",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A245",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "A246",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A247",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "A248",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "S001",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S002",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S003",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S004",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S005",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S006",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S007",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S008",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S009",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S010",
+      "difficulty": "Sol",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    {
+      "action_id": "S011",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "S012",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U01M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U01A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U01I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U02M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U02A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U02I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U03M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U03A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U03I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U04M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U04A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U04I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U05M",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U05A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U05I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U06M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U06A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U06I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U07M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U07A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U07I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U08M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U08A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U08I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U09M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U09A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U09I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U10M",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U10A",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U10I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U11M",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U11A",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U11I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U12M",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U12A",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U12I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U13M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U13A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U13I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U14M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U14A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U14I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U15M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U15A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U15I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U16M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U16A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U16I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U17M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U17A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U17I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U18M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U18A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U18I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U19M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U19A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U19I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U20M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U20A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U20I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U21M",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U21A",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U21I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U22M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U22A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U22I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U23M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U23A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U23I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U24M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U24A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U24I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U25M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U25A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U25I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U26M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U26A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U26I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U27M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U27A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U27I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U28M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U28A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U28I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U29M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U29A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U29I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U30M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U30A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U30I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U31M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U31A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U31I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U32M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U32A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U32I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U33M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U33A",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U33I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U34M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U34A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U34I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U35M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U35A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U35I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U36M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U36A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U36I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U37M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U37A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U37I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U38M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U38A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U38I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U39M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U39A",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "U39I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B01M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B01I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B02M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B02I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B03M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B03I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B04M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B04I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B05M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B05I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B06M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B06I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B07M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B07I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B08M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B08I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B09M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B09I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B10M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B10I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B11M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B11I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B12M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B12I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B13M",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B13I",
+      "difficulty": "Astra Light",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B14M",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B14I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B15M",
+      "difficulty": "Astra Heavy",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    {
+      "action_id": "B15I",
+      "difficulty": "Astra Medium",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    }
+  ]
+}

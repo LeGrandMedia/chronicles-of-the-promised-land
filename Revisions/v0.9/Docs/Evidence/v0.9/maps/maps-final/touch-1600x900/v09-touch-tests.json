@@ -1,0 +1,11 @@
+{
+	"passed": false,
+	"route": "FSceneViewport touch handlers to UGameViewportClient to ARTSController",
+	"cases": [
+		{
+			"name": "touch_layout_enabled",
+			"passed": false,
+			"detail": ""
+		}
+	]
+}

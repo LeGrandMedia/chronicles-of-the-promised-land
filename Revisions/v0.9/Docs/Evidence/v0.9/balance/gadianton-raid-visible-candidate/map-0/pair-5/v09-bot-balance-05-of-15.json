@@ -1,0 +1,6362 @@
+{
+	"shard": 5,
+	"shard_count": 15,
+	"maximum_steps_per_match": 12000,
+	"fixed_simulation_step_seconds": 0.10000000149011612,
+	"map": 0,
+	"map_id": "zarahemla",
+	"difficulty": "normal",
+	"civilization_tuning": "v09_first_pass",
+	"opening_formation": "resource_relative",
+	"gadianton_raid_policy": "raid_expedition",
+	"nephite_policy": "baseline",
+	"support_policy": "enabled",
+	"slot_0_support_enabled": true,
+	"slot_1_support_enabled": true,
+	"support_trace": true,
+	"fog": true,
+	"stock_standard_match_layout": true,
+	"complete": true,
+	"valid": true,
+	"matches": [
+		{
+			"pair": 5,
+			"leg": 0,
+			"map": 0,
+			"winner_slot": 0,
+			"winner_faction": "lamanites",
+			"result": "victory",
+			"game_seconds": 635.29193115234375,
+			"steps": 6353,
+			"observer_inclusive_wall_seconds": 24.215146799979266,
+			"valid": true,
+			"step_ms_median": 1.210599992191419,
+			"step_ms_p95": 18.281099997693673,
+			"step_ms_max": 39.261700003407896,
+			"players": [
+				{
+					"faction": "lamanites",
+					"slot": 0,
+					"team": 0,
+					"defeated": false,
+					"first_deposit_seconds": 11.200006484985352,
+					"first_construction_seconds": 21.100044250488281,
+					"age_2_seconds": 151.40003967285156,
+					"age_3_seconds": 478.31997680664062,
+					"age_4_seconds": -1,
+					"first_research_seconds": 178.00166320800781,
+					"first_faith_building_seconds": 354.71243286132812,
+					"first_camp_started_seconds": 153.10014343261719,
+					"first_camp_completed_seconds": 192.60255432128906,
+					"first_temple_started_seconds": 309.70968627929688,
+					"first_workshop_started_seconds": 255.70640563964844,
+					"first_workshop_completed_seconds": 301.4091796875,
+					"first_converter_seconds": 403.31539916992188,
+					"first_conversion_channel_seconds": -1,
+					"first_military_seconds": 206.60340881347656,
+					"first_campaign_seconds": 383.51419067382812,
+					"first_attack_seconds": 404.31546020507812,
+					"last_attack_seconds": 607.89862060546875,
+					"first_damage_taken_seconds": 404.01544189453125,
+					"last_damage_taken_seconds": 521.41973876953125,
+					"first_seat_loss_seconds": -1,
+					"first_raid_seconds": -1,
+					"peak_raider_cargo": 0,
+					"attack_events": 979,
+					"damaged_victim_steps": 117,
+					"observed_damage_taken": 946.0000114440918,
+					"observed_damage_dealt": 10205.600000500679,
+					"observed_combat_losses": 9,
+					"observed_combat_kills": 36,
+					"worker_combat_losses": 0,
+					"military_combat_losses": 9,
+					"building_combat_losses": 0,
+					"economy_building_combat_losses": 0,
+					"seat_losses": 0,
+					"other_owned_removals": 0,
+					"converted_away": 0,
+					"converted_in": 0,
+					"peak_workers": 19,
+					"peak_army_units": 16,
+					"peak_army_population": 22,
+					"peak_population_with_reservations": 50,
+					"peak_capacity": 55,
+					"steps_above_remaining_capacity": 0,
+					"peak_army_resource_cost": 1244,
+					"ending_resources":
+					{
+						"food": 146.77306161820889,
+						"timber": 966.99957283586264,
+						"precious": 6.0304616130888462
+					},
+					"ending_army_cost":
+					{
+						"food": 702,
+						"timber": 90,
+						"precious": 452
+					},
+					"ending_army_cement_cost": 0,
+					"ending_cement": 0,
+					"ending_age": 3,
+					"ending_favor": 40.727005004882812,
+					"ending_workers": 19,
+					"ending_idle_workers": 0,
+					"ending_working_workers": 18,
+					"ending_army_units": 16,
+					"ending_army_population": 22,
+					"ending_population_with_reservations": 50,
+					"ending_capacity": 55,
+					"ending_seats": 1,
+					"ending_builder_beasts": 0,
+					"ending_economy_buildings": 9,
+					"ending_scout_visits": 58,
+					"ending_known_enemy_buildings": 0,
+					"ending_campaign": true,
+					"support_events": [
+						{
+							"time_seconds": 403.31539916992188,
+							"event": "first_observed",
+							"unit_id": 376,
+							"unit_type": "priestcrafter",
+							"order": "idle",
+							"position_x": 40.75,
+							"position_y": 24,
+							"rally_x": 45.75,
+							"rally_y": 29,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 405.11550903320312,
+							"event": "order_changed",
+							"unit_id": 376,
+							"unit_type": "priestcrafter",
+							"order": "occupy",
+							"position_x": 40.5,
+							"position_y": 24,
+							"rally_x": 37,
+							"rally_y": 24,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "idle",
+							"prior_channel_seconds": 0,
+							"target_id": 363,
+							"prior_target_id": 0,
+							"observed_target_id": 363,
+							"observed_target_owner": 0,
+							"observed_target_hp": 1400,
+							"observed_target_type": "temple_of_the_land",
+							"observed_target_distance": 3.5,
+							"observed_target_line_of_sight": true,
+							"observed_target_visible": true
+						},
+						{
+							"time_seconds": 435.31735229492188,
+							"event": "first_observed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "idle",
+							"position_x": 40.75,
+							"position_y": 24,
+							"rally_x": 45.75,
+							"rally_y": 29,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 435.71737670898438,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 40.879468742407262,
+							"position_y": 24.272314237822833,
+							"rally_x": 89.032305662489406,
+							"rally_y": 85.313053026995433,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "idle",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 491.72079467773438,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 62.323011154673523,
+							"position_y": 53.753483057580652,
+							"rally_x": 62.392793947377335,
+							"rally_y": 54.227799964266573,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 493.32089233398438,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 62.490968629570624,
+							"position_y": 53.93865942385397,
+							"rally_x": 67.878003534334837,
+							"rally_y": 59.877969652606076,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 533.71673583984375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 130.61967197925708,
+							"position_y": 123.22576806002893,
+							"rally_x": 130.96387811130157,
+							"rally_y": 123.47346675412525,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 534.11663818359375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 130.37239002633277,
+							"position_y": 123.26253265927794,
+							"rally_x": 123.05158176028425,
+							"rally_y": 124.35095249298296,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 536.91595458984375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 123.44849534445206,
+							"position_y": 124.29194143825028,
+							"rally_x": 123.05158176028425,
+							"rally_y": 124.35095249298296,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 537.91571044921875,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 123.50675119434327,
+							"position_y": 124.53505922030962,
+							"rally_x": 126.0921773834426,
+							"rally_y": 135.32475814231896,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 546.41363525390625,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 128.17893500268397,
+							"position_y": 126.71570790051697,
+							"rally_x": 128.07115904826804,
+							"rally_y": 126.43468767474646,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 547.41339111328125,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 128.24745160737643,
+							"position_y": 126.95613559210307,
+							"rally_x": 130.90258984807218,
+							"rally_y": 136.27312905547822,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 556.41119384765625,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 138.57346162402465,
+							"position_y": 146.2961918086626,
+							"rally_x": 138.79670084045426,
+							"rally_y": 146.54723714331664,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 575.90643310546875,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 138.42170184927235,
+							"position_y": 146.09752381736268,
+							"rally_x": 20.464466094067262,
+							"rally_y": 20.464466094067262,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 579.50555419921875,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 138.69482062498642,
+							"position_y": 145.87130723455633,
+							"rally_x": 138.89799809097696,
+							"rally_y": 146.09781367306584,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 579.70550537109375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 138.74008837378418,
+							"position_y": 145.62543972771823,
+							"rally_x": 139.84382168726194,
+							"rally_y": 139.63061636658037,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 587.30364990234375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 141.47055335830063,
+							"position_y": 127.21513785086944,
+							"rally_x": 141.66801707832894,
+							"rally_y": 126.37476796329025,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 591.10272216796875,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 141.30409581484935,
+							"position_y": 127.02861201826667,
+							"rally_x": 20.464466094067262,
+							"rally_y": 20.464466094067262,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 601.30023193359375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 136.29937232608606,
+							"position_y": 127.27780268237098,
+							"rally_x": 136.43451212850363,
+							"rally_y": 127.65209804927943,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 604.39947509765625,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 136.54791846812583,
+							"position_y": 127.30472507597094,
+							"rally_x": 142.3974196018801,
+							"rally_y": 127.93834010855164,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 608.29852294921875,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 138.46524053620357,
+							"position_y": 132.37482315559041,
+							"rally_x": 138.24102226592819,
+							"rally_y": 132.77699344396001,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 610.09808349609375,
+							"event": "order_changed",
+							"unit_id": 385,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 138.26240989038064,
+							"position_y": 132.52097283610681,
+							"rally_x": 132.62801663138853,
+							"rally_y": 136.58083652861976,
+							"hp": 86,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": 440.91769409179688,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						}
+					],
+					"dropped_support_events": 0,
+					"first_battle_contact":
+					{
+						"time_seconds": 404.01544189453125,
+						"age_before_step": 2,
+						"favor_before_step": 14.874316215515137,
+						"resources_before_step":
+						{
+							"food": 5.0557336658239365,
+							"timber": 179.99931382387877,
+							"precious": 77.030461315065622
+						},
+						"workers": 19,
+						"army_units": 11,
+						"army_population": 14,
+						"army_cost":
+						{
+							"food": 453,
+							"timber": 60,
+							"precious": 264
+						},
+						"army_current_hp": 1000,
+						"army_max_hp": 1000,
+						"faith_buildings": 1,
+						"converters": 1,
+						"active_conversions": 0,
+						"ammonites": 0
+					}
+				},
+				{
+					"faction": "gadianton",
+					"slot": 1,
+					"team": 1,
+					"defeated": true,
+					"first_deposit_seconds": 21.500045776367188,
+					"first_construction_seconds": 21.300045013427734,
+					"age_2_seconds": 245.10575866699219,
+					"age_3_seconds": -1,
+					"age_4_seconds": -1,
+					"first_research_seconds": 271.807373046875,
+					"first_faith_building_seconds": -1,
+					"first_camp_started_seconds": 246.90586853027344,
+					"first_camp_completed_seconds": 285.60821533203125,
+					"first_temple_started_seconds": -1,
+					"first_workshop_started_seconds": 432.31716918945312,
+					"first_workshop_completed_seconds": 477.91995239257812,
+					"first_converter_seconds": -1,
+					"first_conversion_channel_seconds": -1,
+					"first_military_seconds": 306.40948486328125,
+					"first_campaign_seconds": -1,
+					"first_attack_seconds": 404.01544189453125,
+					"last_attack_seconds": 521.41973876953125,
+					"first_damage_taken_seconds": 404.31546020507812,
+					"last_damage_taken_seconds": 607.89862060546875,
+					"first_seat_loss_seconds": 575.30657958984375,
+					"first_raid_seconds": 473.71969604492188,
+					"peak_raider_cargo": 0,
+					"attack_events": 122,
+					"damaged_victim_steps": 659,
+					"observed_damage_taken": 10205.600000500679,
+					"observed_damage_dealt": 946.0000114440918,
+					"observed_combat_losses": 36,
+					"observed_combat_kills": 9,
+					"worker_combat_losses": 13,
+					"military_combat_losses": 14,
+					"building_combat_losses": 9,
+					"economy_building_combat_losses": 7,
+					"seat_losses": 1,
+					"other_owned_removals": 0,
+					"converted_away": 0,
+					"converted_in": 0,
+					"peak_workers": 12,
+					"peak_army_units": 7,
+					"peak_army_population": 10,
+					"peak_population_with_reservations": 24,
+					"peak_capacity": 35,
+					"steps_above_remaining_capacity": 0,
+					"peak_army_resource_cost": 810,
+					"ending_resources":
+					{
+						"food": 47.562146738171577,
+						"timber": 10.000002335757017,
+						"precious": 24.999994918704033
+					},
+					"ending_army_cost":
+					{
+						"food": 0,
+						"timber": 0,
+						"precious": 0
+					},
+					"ending_army_cement_cost": 0,
+					"ending_cement": 0,
+					"ending_age": 2,
+					"ending_favor": 4.1179003715515137,
+					"ending_workers": 0,
+					"ending_idle_workers": 0,
+					"ending_working_workers": 0,
+					"ending_army_units": 0,
+					"ending_army_population": 0,
+					"ending_population_with_reservations": 0,
+					"ending_capacity": 0,
+					"ending_seats": 0,
+					"ending_builder_beasts": 0,
+					"ending_economy_buildings": 0,
+					"ending_scout_visits": 51,
+					"ending_known_enemy_buildings": 12,
+					"ending_campaign": false,
+					"gadianton_raids":
+					{
+						"first_storehouse_started_seconds": 2.1000001430511475,
+						"first_storehouse_completed_seconds": 27.600069046020508,
+						"first_foraging_queued_seconds": 246.90586853027344,
+						"first_foraging_completed_seconds": 271.807373046875,
+						"first_band_queued_seconds": 333.31112670898438,
+						"first_band_fielded_seconds": 351.21221923828125,
+						"first_channel_seconds": 473.71969604492188,
+						"first_channel_completed_seconds": -1,
+						"maximum_channel_seconds": 1.8000003099441528,
+						"first_steal_seconds": -1,
+						"first_delivery_seconds": -1,
+						"first_foreign_food_seconds": -1,
+						"bands_fielded": 4,
+						"bands_lost": 4,
+						"defense_interruptions": 0,
+						"loaded_defense_interruptions": 0,
+						"channel_resets_under_damage": 0,
+						"other_channel_resets": 0,
+						"cargo_deliveries": 0,
+						"foreign_farm_food_collected": 0,
+						"foreign_flock_food_collected": 0,
+						"from_building_stock":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"from_worker_cargo":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"from_intercepted_gathering":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"delivered_cargo":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"gadianton_storehouse_wild_food_price":
+						{
+							"food": 100,
+							"timber": 50,
+							"precious": 0
+						},
+						"gadianton_robber_price":
+						{
+							"food": 40,
+							"timber": 0,
+							"precious": 25
+						},
+						"storehouse_decisions": [
+							{
+								"time_seconds": 0.30000001192092896,
+								"gate": "no_storehouse",
+								"storehouse_id": 0,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 300,
+									"timber": 240,
+									"precious": 200
+								},
+								"age": 1,
+								"workers_including_jobs": 6,
+								"planner_army": 0,
+								"free_population": 8,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 3.9999983310699463,
+								"gate": "storehouse_under_construction",
+								"storehouse_id": 325,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 250,
+									"timber": 160,
+									"precious": 200
+								},
+								"age": 1,
+								"workers_including_jobs": 7,
+								"planner_army": 0,
+								"free_population": 8,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 29.400075912475586,
+								"gate": "age_below_two",
+								"storehouse_id": 325,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 219.99999906867743,
+									"timber": 160,
+									"precious": 200
+								},
+								"age": 1,
+								"workers_including_jobs": 8,
+								"planner_army": 0,
+								"free_population": 7,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 246.90586853027344,
+								"gate": "forest_foraging_queued",
+								"storehouse_id": 325,
+								"storehouse_job_after_decision": "gadianton_storehouse_wild_food",
+								"resources_before_decision":
+								{
+									"food": 185.99398013204336,
+									"timber": 99.99999824911356,
+									"precious": 189.99999273195863
+								},
+								"age": 2,
+								"workers_including_jobs": 9,
+								"planner_army": 1,
+								"free_population": 12,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 248.70597839355469,
+								"gate": "storehouse_busy",
+								"storehouse_id": 325,
+								"storehouse_job_after_decision": "gadianton_storehouse_wild_food",
+								"resources_before_decision":
+								{
+									"food": 85.993980132043362,
+									"timber": 49.99999824911356,
+									"precious": 199.99999241530895
+								},
+								"age": 2,
+								"workers_including_jobs": 9,
+								"planner_army": 1,
+								"free_population": 12,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 272.10739135742188,
+								"gate": "army_below_three",
+								"storehouse_id": 325,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 95.993981093168259,
+									"timber": 69.999998044222593,
+									"precious": 199.99999241530895
+								},
+								"age": 2,
+								"workers_including_jobs": 10,
+								"planner_army": 1,
+								"free_population": 11,
+								"visible_base_threat": false,
+								"foraging_completed": true
+							},
+							{
+								"time_seconds": 333.31112670898438,
+								"gate": "band_queued",
+								"storehouse_id": 325,
+								"storehouse_job_after_decision": "gadianton_robber",
+								"resources_before_decision":
+								{
+									"food": 67.562141999602318,
+									"timber": 54.999998759478331,
+									"precious": 214.99999324977398
+								},
+								"age": 2,
+								"workers_including_jobs": 12,
+								"planner_army": 3,
+								"free_population": 16,
+								"visible_base_threat": false,
+								"foraging_completed": true
+							}
+						],
+						"visible_targets_from_first_band_or_home": [
+							{
+								"time_seconds": 0.30000001192092896,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 351.31222534179688,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 376.51376342773438,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 403.51541137695312,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 343,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 408.91574096679688,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 414.31607055664062,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 371,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 416.11618041992188,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 371,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 417.91629028320312,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 354,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 421.51651000976562,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 361,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 423.31661987304688,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 345,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 425.11672973632812,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 426.91683959960938,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 359,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 430.51705932617188,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 351,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 434.11727905273438,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 374,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 435.91738891601562,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 375,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 441.31771850585938,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 375,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 443.11782836914062,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 1,
+								"visible_workers_with_cargo_authority_only": 1,
+								"base_threat_id": 334,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 3,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": 11.376985737510457
+							},
+							{
+								"time_seconds": 444.91793823242188,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 334,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 459.31881713867188,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 380,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 462.91903686523438,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 6,
+								"visible_workers_with_cargo_authority_only": 5,
+								"base_threat_id": 380,
+								"nearest_building_id": 324,
+								"nearest_worker_id": 358,
+								"nearest_building_distance": 4.9447694466431793,
+								"nearest_worker_distance": 3.1490847959637613
+							},
+							{
+								"time_seconds": 464.71914672851562,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 6,
+								"visible_workers_with_cargo_authority_only": 6,
+								"base_threat_id": 380,
+								"nearest_building_id": 324,
+								"nearest_worker_id": 358,
+								"nearest_building_distance": 3.7690847153843405,
+								"nearest_worker_distance": 2.3497751437548735
+							},
+							{
+								"time_seconds": 466.51925659179688,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 5,
+								"visible_workers_with_cargo_authority_only": 5,
+								"base_threat_id": 334,
+								"nearest_building_id": 324,
+								"nearest_worker_id": 3,
+								"nearest_building_distance": 6.8950178549874455,
+								"nearest_worker_distance": 1.7836952506874266
+							},
+							{
+								"time_seconds": 468.31936645507812,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 1,
+								"visible_workers_with_cargo_authority_only": 1,
+								"base_threat_id": 0,
+								"nearest_building_id": 328,
+								"nearest_worker_id": 326,
+								"nearest_building_distance": 7.3031370902723367,
+								"nearest_worker_distance": 4.3166005389989586
+							},
+							{
+								"time_seconds": 470.11947631835938,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": 14.737828185758893,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 471.91958618164062,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 1,
+								"visible_workers_with_cargo_authority_only": 1,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 344,
+								"nearest_building_distance": 6.5835787367097929,
+								"nearest_worker_distance": 1.3310643969184048
+							},
+							{
+								"time_seconds": 473.71969604492188,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 6,
+								"visible_workers_with_cargo_authority_only": 5,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 348,
+								"nearest_building_distance": 4.7415967312631038,
+								"nearest_worker_distance": 3.4511574736303534
+							},
+							{
+								"time_seconds": 475.51980590820312,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 5,
+								"visible_workers_with_cargo_authority_only": 5,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 329,
+								"nearest_building_distance": 4.7415967312631038,
+								"nearest_worker_distance": 7.7125430372499322
+							},
+							{
+								"time_seconds": 477.31991577148438,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 7,
+								"visible_workers_with_cargo_authority_only": 6,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 329,
+								"nearest_building_distance": 12.350828655500337,
+								"nearest_worker_distance": 6.9940942297599316
+							},
+							{
+								"time_seconds": 479.12002563476562,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 6,
+								"visible_workers_with_cargo_authority_only": 5,
+								"base_threat_id": 0,
+								"nearest_building_id": 322,
+								"nearest_worker_id": 337,
+								"nearest_building_distance": 14.31327848724727,
+								"nearest_worker_distance": 8.5138948275566158
+							},
+							{
+								"time_seconds": 480.92013549804688,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 7,
+								"visible_workers_with_cargo_authority_only": 7,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 338,
+								"nearest_building_distance": 12.552781947057758,
+								"nearest_worker_distance": 4.1451044506137826
+							},
+							{
+								"time_seconds": 482.72024536132812,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 489.92068481445312,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 498.92123413085938,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 374,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 500.72134399414062,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 334,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 517.22076416015625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 387,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 526.71844482421875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 391,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 528.61798095703125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 389,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 530.51751708984375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 394,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 534.31658935546875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 389,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 536.21612548828125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 394,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 540.01519775390625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 396,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 541.91473388671875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 394,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 543.81427001953125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 396,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 545.71380615234375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 377,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 547.61334228515625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 378,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 549.51287841796875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 382,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 551.41241455078125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 385,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 553.31195068359375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 380,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 557.11102294921875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 396,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 576.10638427734375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 394,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 578.00592041015625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 395,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 579.90545654296875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 377,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 583.70452880859375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 385,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 585.60406494140625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 377,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 604.59942626953125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 395,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 606.49896240234375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 391,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							}
+						],
+						"band_events": [
+							{
+								"event": "fielded",
+								"time_seconds": 351.21221923828125,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 351.31222534179688,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 356.01251220703125,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 356.71255493164062,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 360.51278686523438,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 362.11288452148438,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 365.51309204101562,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 365.71310424804688,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 368.11325073242188,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 369.31332397460938,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 375.31369018554688,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 376.41375732421875,
+								"band_id": 370,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 376.51376342773438,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 378.91390991210938,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 380.11398315429688,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 387.21441650390625,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 387.31442260742188,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 390.81463623046875,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 390.91464233398438,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 394.31484985351562,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 394.51486206054688,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 398.81512451171875,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 399.91519165039062,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 402.31533813476562,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 403.11538696289062,
+								"band_id": 370,
+								"order": "idle",
+								"target_id": 343,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 11.610513782707049
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 403.51541137695312,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 403.51541137695312,
+								"band_id": 370,
+								"order": "attack",
+								"target_id": 343,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 343,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 7.391286976983797
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 405.91555786132812,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 407.11563110351562,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 407.51565551757812,
+								"band_id": 370,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 343,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 410.71585083007812,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 412.51596069335938,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 412.51596069335938,
+								"band_id": 370,
+								"order": "idle",
+								"target_id": 345,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 11.84774991169715
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 414.31607055664062,
+								"band_id": 370,
+								"order": "attack",
+								"target_id": 371,
+								"channel_seconds": 0,
+								"hit_points": 29,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 345,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.6743372316607357
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 414.91610717773438,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "removed",
+								"time_seconds": 415.51614379882812,
+								"band_id": 370,
+								"order": "attack",
+								"target_id": 371,
+								"channel_seconds": 0,
+								"hit_points": -10,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 371,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.6743372316607357
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 416.11618041992188,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 420.11642456054688,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 421.51651000976562,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 431.91714477539062,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 432.31716918945312,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 434.01727294921875,
+								"band_id": 384,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 434.11727905273438,
+								"band_id": 384,
+								"order": "attack",
+								"target_id": 374,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "slinger_of_stones",
+								"target_distance": 14.297105099403639
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 435.8173828125,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 435.91738891601562,
+								"band_id": 384,
+								"order": "attack",
+								"target_id": 375,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 374,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.3729078583821188
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 435.91738891601562,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 439.61761474609375,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 385,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "priestcrafter",
+								"target_distance": 8.5700485124242221
+							},
+							{
+								"event": "removed",
+								"time_seconds": 439.91763305664062,
+								"band_id": 384,
+								"order": "attack",
+								"target_id": 375,
+								"channel_seconds": 0,
+								"hit_points": -16,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 375,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 0.44632847210899584
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 441.31771850585938,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 385,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 444.51791381835938,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 444.91793823242188,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 448.51815795898438,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 450.31826782226562,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 453.8184814453125,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 453.91848754882812,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 458.81878662109375,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 459.21881103515625,
+								"band_id": 390,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 459.31881713867188,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 459.31881713867188,
+								"band_id": 390,
+								"order": "attack",
+								"target_id": 380,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 8.7697456745581945
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 463.11904907226562,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 391,
+								"channel_seconds": 0,
+								"hit_points": 47,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.5000000058642202
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 464.71914672851562,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 34,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 391,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 466.51925659179688,
+								"band_id": 390,
+								"order": "attack",
+								"target_id": 334,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 380,
+								"previous_channel_seconds": 0,
+								"target_type": "laman",
+								"target_distance": 0.85516840002101946
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 467.51931762695312,
+								"band_id": 368,
+								"order": "idle",
+								"target_id": 353,
+								"channel_seconds": 0,
+								"hit_points": 34,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "house_of_curious_workmanship",
+								"target_distance": 2.7045372638816398
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 468.31936645507812,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 34,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 353,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 468.31936645507812,
+								"band_id": 390,
+								"order": "attack_move",
+								"target_id": 334,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 334,
+								"previous_channel_seconds": 0,
+								"target_type": "laman",
+								"target_distance": 2.919075672934103
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 473.71969604492188,
+								"band_id": 368,
+								"order": "raid",
+								"target_id": 340,
+								"channel_seconds": 0.10000000149011612,
+								"hit_points": 34,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "fields_of_grain",
+								"target_distance": 4.7415967312631038
+							},
+							{
+								"event": "channel_started",
+								"time_seconds": 473.71969604492188,
+								"band_id": 368,
+								"order": "raid",
+								"target_id": 340,
+								"channel_seconds": 0.10000000149011612,
+								"hit_points": 34,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "fields_of_grain",
+								"target_distance": 4.7415967312631038
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 475.51980590820312,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 34,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "raid",
+								"previous_target_id": 340,
+								"previous_channel_seconds": 1.8000003099441528
+							},
+							{
+								"event": "removed",
+								"time_seconds": 482.02020263671875,
+								"band_id": 368,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": -5,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 482.72024536132812,
+								"band_id": 390,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 40,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack_move",
+								"previous_target_id": 334,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 485.12039184570312,
+								"band_id": 390,
+								"order": "idle",
+								"target_id": 334,
+								"channel_seconds": 0,
+								"hit_points": 40,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "laman",
+								"target_distance": 7.4899551163764677
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 486.32046508789062,
+								"band_id": 390,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 20,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 334,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 488.72061157226562,
+								"band_id": 390,
+								"order": "idle",
+								"target_id": 334,
+								"channel_seconds": 0,
+								"hit_points": 20,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "laman",
+								"target_distance": 7.7425644342875479
+							},
+							{
+								"event": "removed",
+								"time_seconds": 489.52066040039062,
+								"band_id": 390,
+								"order": "idle",
+								"target_id": 334,
+								"channel_seconds": 0,
+								"hit_points": 0,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 334,
+								"previous_channel_seconds": 0,
+								"target_type": "laman",
+								"target_distance": 1.6563004706689624
+							}
+						],
+						"dropped_visibility_transitions": 0,
+						"dropped_band_events": 0
+					},
+					"support_events": [],
+					"dropped_support_events": 0,
+					"first_battle_contact":
+					{
+						"time_seconds": 404.01544189453125,
+						"age_before_step": 2,
+						"favor_before_step": 9.9026699066162109,
+						"resources_before_step":
+						{
+							"food": 47.562143877148628,
+							"timber": 84.999999951571226,
+							"precious": 159.99999366700649
+						},
+						"workers": 12,
+						"army_units": 7,
+						"army_population": 10,
+						"army_cost":
+						{
+							"food": 420,
+							"timber": 70,
+							"precious": 300
+						},
+						"army_current_hp": 660,
+						"army_max_hp": 660,
+						"faith_buildings": 0,
+						"converters": 0,
+						"active_conversions": 0,
+						"ammonites": 0
+					}
+				}
+			]
+		},
+		{
+			"pair": 5,
+			"leg": 1,
+			"map": 0,
+			"winner_slot": 1,
+			"winner_faction": "lamanites",
+			"result": "victory",
+			"game_seconds": 653.08758544921875,
+			"steps": 6531,
+			"observer_inclusive_wall_seconds": 29.516114300000481,
+			"valid": true,
+			"step_ms_median": 1.6072000144049525,
+			"step_ms_p95": 20.053999993251637,
+			"step_ms_max": 44.738199998391792,
+			"players": [
+				{
+					"faction": "gadianton",
+					"slot": 0,
+					"team": 0,
+					"defeated": true,
+					"first_deposit_seconds": 21.900047302246094,
+					"first_construction_seconds": 21.000043869018555,
+					"age_2_seconds": 223.30442810058594,
+					"age_3_seconds": -1,
+					"age_4_seconds": -1,
+					"first_research_seconds": 268.00714111328125,
+					"first_faith_building_seconds": -1,
+					"first_camp_started_seconds": 225.10453796386719,
+					"first_camp_completed_seconds": 261.0067138671875,
+					"first_temple_started_seconds": -1,
+					"first_workshop_started_seconds": -1,
+					"first_workshop_completed_seconds": -1,
+					"first_converter_seconds": -1,
+					"first_conversion_channel_seconds": -1,
+					"first_military_seconds": 281.0079345703125,
+					"first_campaign_seconds": 444.71792602539062,
+					"first_attack_seconds": 364.51303100585938,
+					"last_attack_seconds": 592.40240478515625,
+					"first_damage_taken_seconds": 351.21221923828125,
+					"last_damage_taken_seconds": 625.59429931640625,
+					"first_seat_loss_seconds": 593.10223388671875,
+					"first_raid_seconds": 464.51913452148438,
+					"peak_raider_cargo": 0,
+					"attack_events": 151,
+					"damaged_victim_steps": 626,
+					"observed_damage_taken": 9308.2005788087845,
+					"observed_damage_dealt": 1146.9999933242798,
+					"observed_combat_losses": 43,
+					"observed_combat_kills": 10,
+					"worker_combat_losses": 17,
+					"military_combat_losses": 17,
+					"building_combat_losses": 9,
+					"economy_building_combat_losses": 8,
+					"seat_losses": 1,
+					"other_owned_removals": 0,
+					"converted_away": 0,
+					"converted_in": 0,
+					"peak_workers": 16,
+					"peak_army_units": 10,
+					"peak_army_population": 13,
+					"peak_population_with_reservations": 28,
+					"peak_capacity": 45,
+					"steps_above_remaining_capacity": 0,
+					"peak_army_resource_cost": 1035,
+					"ending_resources":
+					{
+						"food": 39.999989252537489,
+						"timber": 44.100004589557422,
+						"precious": 241.57139588333666
+					},
+					"ending_army_cost":
+					{
+						"food": 0,
+						"timber": 0,
+						"precious": 0
+					},
+					"ending_army_cement_cost": 0,
+					"ending_cement": 0,
+					"ending_age": 2,
+					"ending_favor": 3.6728901863098145,
+					"ending_workers": 0,
+					"ending_idle_workers": 0,
+					"ending_working_workers": 0,
+					"ending_army_units": 0,
+					"ending_army_population": 0,
+					"ending_population_with_reservations": 0,
+					"ending_capacity": 0,
+					"ending_seats": 0,
+					"ending_builder_beasts": 0,
+					"ending_economy_buildings": 0,
+					"ending_scout_visits": 65,
+					"ending_known_enemy_buildings": 8,
+					"ending_campaign": false,
+					"gadianton_raids":
+					{
+						"first_storehouse_started_seconds": 1.9000003337860107,
+						"first_storehouse_completed_seconds": 28.900074005126953,
+						"first_foraging_queued_seconds": 243.10563659667969,
+						"first_foraging_completed_seconds": 268.00714111328125,
+						"first_band_queued_seconds": 304.30935668945312,
+						"first_band_fielded_seconds": 322.21044921875,
+						"first_channel_seconds": 466.11923217773438,
+						"first_channel_completed_seconds": -1,
+						"maximum_channel_seconds": 2.0000002384185791,
+						"first_steal_seconds": -1,
+						"first_delivery_seconds": -1,
+						"first_foreign_food_seconds": -1,
+						"bands_fielded": 5,
+						"bands_lost": 5,
+						"defense_interruptions": 0,
+						"loaded_defense_interruptions": 0,
+						"channel_resets_under_damage": 0,
+						"other_channel_resets": 0,
+						"cargo_deliveries": 0,
+						"foreign_farm_food_collected": 0,
+						"foreign_flock_food_collected": 0,
+						"from_building_stock":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"from_worker_cargo":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"from_intercepted_gathering":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"delivered_cargo":
+						{
+							"food": 0,
+							"timber": 0,
+							"precious": 0
+						},
+						"gadianton_storehouse_wild_food_price":
+						{
+							"food": 100,
+							"timber": 50,
+							"precious": 0
+						},
+						"gadianton_robber_price":
+						{
+							"food": 40,
+							"timber": 0,
+							"precious": 25
+						},
+						"storehouse_decisions": [
+							{
+								"time_seconds": 0.10000000149011612,
+								"gate": "no_storehouse",
+								"storehouse_id": 0,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 300,
+									"timber": 240,
+									"precious": 200
+								},
+								"age": 1,
+								"workers_including_jobs": 6,
+								"planner_army": 0,
+								"free_population": 8,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 3.7999985218048096,
+								"gate": "storehouse_under_construction",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 250,
+									"timber": 160,
+									"precious": 200
+								},
+								"age": 1,
+								"workers_including_jobs": 7,
+								"planner_army": 0,
+								"free_population": 8,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 29.200075149536133,
+								"gate": "age_below_two",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 229.99999860301614,
+									"timber": 160,
+									"precious": 200
+								},
+								"age": 1,
+								"workers_including_jobs": 8,
+								"planner_army": 0,
+								"free_population": 7,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 225.10453796386719,
+								"gate": "reserving_forest_foraging",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 209.99997901543975,
+									"timber": 49.99999912455678,
+									"precious": 189.99999391660094
+								},
+								"age": 2,
+								"workers_including_jobs": 9,
+								"planner_army": 1,
+								"free_population": 12,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 243.10563659667969,
+								"gate": "forest_foraging_queued",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "gadianton_storehouse_wild_food",
+								"resources_before_decision":
+								{
+									"food": 249.99997955933213,
+									"timber": 59.999999105930328,
+									"precious": 199.99999392963946
+								},
+								"age": 2,
+								"workers_including_jobs": 9,
+								"planner_army": 1,
+								"free_population": 11,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 244.90574645996094,
+								"gate": "storehouse_busy",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "gadianton_storehouse_wild_food",
+								"resources_before_decision":
+								{
+									"food": 109.99997976794839,
+									"timber": 9.9999991059303284,
+									"precious": 199.99999392963946
+								},
+								"age": 2,
+								"workers_including_jobs": 10,
+								"planner_army": 1,
+								"free_population": 11,
+								"visible_base_threat": false,
+								"foraging_completed": false
+							},
+							{
+								"time_seconds": 268.30715942382812,
+								"gate": "army_below_three",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "",
+								"resources_before_decision":
+								{
+									"food": 79.999981019645929,
+									"timber": 9.9999991059303284,
+									"precious": 186.57139421440661
+								},
+								"age": 2,
+								"workers_including_jobs": 11,
+								"planner_army": 1,
+								"free_population": 9,
+								"visible_base_threat": false,
+								"foraging_completed": true
+							},
+							{
+								"time_seconds": 304.30935668945312,
+								"gate": "band_queued",
+								"storehouse_id": 324,
+								"storehouse_job_after_decision": "gadianton_robber",
+								"resources_before_decision":
+								{
+									"food": 79.999981742352247,
+									"timber": 39.999999463558197,
+									"precious": 191.57139442302287
+								},
+								"age": 2,
+								"workers_including_jobs": 12,
+								"planner_army": 3,
+								"free_population": 6,
+								"visible_base_threat": false,
+								"foraging_completed": true
+							}
+						],
+						"visible_targets_from_first_band_or_home": [
+							{
+								"time_seconds": 0.10000000149011612,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 322.31045532226562,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 342.11166381835938,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 363.71298217773438,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 343,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 370.91342163085938,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 414.11605834960938,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 343,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 417.71627807617188,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 442.91781616210938,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 364,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 444.71792602539062,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 448.31814575195312,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 464.51913452148438,
+								"bands": 1,
+								"visible_raid_buildings": 1,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": 14.452819739021709,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 466.31924438476562,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": 5.7693844250820128,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 468.11935424804688,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 1,
+								"visible_workers_with_cargo_authority_only": 1,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 350,
+								"nearest_building_distance": 5.7693844250820128,
+								"nearest_worker_distance": 9.917115215823074
+							},
+							{
+								"time_seconds": 469.91946411132812,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 2,
+								"visible_workers_with_cargo_authority_only": 2,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 12,
+								"nearest_building_distance": 4.747949030445505,
+								"nearest_worker_distance": 7.3552930937022891
+							},
+							{
+								"time_seconds": 471.71957397460938,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 7,
+								"visible_workers_with_cargo_authority_only": 6,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 350,
+								"nearest_building_distance": 5.990475607177344,
+								"nearest_worker_distance": 2.5563130681813542
+							},
+							{
+								"time_seconds": 473.51968383789062,
+								"bands": 2,
+								"visible_raid_buildings": 1,
+								"visible_workers": 1,
+								"visible_workers_with_cargo_authority_only": 1,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 350,
+								"nearest_building_distance": 5.1460293968302091,
+								"nearest_worker_distance": 6.8313285332088167
+							},
+							{
+								"time_seconds": 475.31979370117188,
+								"bands": 2,
+								"visible_raid_buildings": 2,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 340,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": 11.680307099239874,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 477.11990356445312,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 478.92001342773438,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 1,
+								"visible_workers_with_cargo_authority_only": 1,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 353,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": 12.174225760922026
+							},
+							{
+								"time_seconds": 480.72012329101562,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 487.92056274414062,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 500.52133178710938,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 380,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 505.92166137695312,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 380,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 518.92034912109375,
+								"bands": 2,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 526.51849365234375,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 0,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 539.81524658203125,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 382,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 541.71478271484375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 382,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 545.51385498046875,
+								"bands": 1,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 389,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 549.31292724609375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 386,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 551.21246337890625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 393,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 553.11199951171875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 384,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 556.91107177734375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 393,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 558.81060791015625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 396,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 562.60968017578125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 387,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 566.40875244140625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 380,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 568.30828857421875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 382,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 581.60504150390625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 396,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 598.70086669921875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 386,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 600.60040283203125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 405,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 604.39947509765625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 380,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 606.29901123046875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 405,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 610.09808349609375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 399,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 611.99761962890625,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 400,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 613.89715576171875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 392,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 615.79669189453125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 402,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 621.49530029296875,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 399,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 623.39483642578125,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 386,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							},
+							{
+								"time_seconds": 625.29437255859375,
+								"bands": 0,
+								"visible_raid_buildings": 0,
+								"visible_workers": 0,
+								"visible_workers_with_cargo_authority_only": 0,
+								"base_threat_id": 399,
+								"nearest_building_id": 0,
+								"nearest_worker_id": 0,
+								"nearest_building_distance": -1,
+								"nearest_worker_distance": -1
+							}
+						],
+						"band_events": [
+							{
+								"event": "fielded",
+								"time_seconds": 322.21044921875,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 322.31045532226562,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 326.11068725585938,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 327.71078491210938,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 331.21099853515625,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 331.31100463867188,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 334.81121826171875,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 334.91122436523438,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 338.41143798828125,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 338.51144409179688,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 342.01165771484375,
+								"band_id": 369,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 342.6116943359375,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 343.91177368164062,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 347.71200561523438,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 349.31210327148438,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 354.21240234375,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 354.71243286132812,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 358.212646484375,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 358.31265258789062,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 362.31289672851562,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 363.51296997070312,
+								"band_id": 369,
+								"order": "idle",
+								"target_id": 343,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 11.550387220132452
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 363.71298217773438,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 363.71298217773438,
+								"band_id": 369,
+								"order": "attack",
+								"target_id": 343,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 343,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 9.3276262354967372
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 366.11312866210938,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 367.31320190429688,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 369.8133544921875,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 370.91342163085938,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 370.91342163085938,
+								"band_id": 369,
+								"order": "attack_move",
+								"target_id": 343,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 343,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 5.5616979153025419
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 375.91372680664062,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 376.31375122070312,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 388.01446533203125,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 388.91452026367188,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 391.4146728515625,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 392.51473999023438,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 400.81524658203125,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 401.51528930664062,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 412.91598510742188,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 414.11605834960938,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 414.11605834960938,
+								"band_id": 369,
+								"order": "attack",
+								"target_id": 343,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack_move",
+								"previous_target_id": 343,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 5.0132950804518437
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 416.31619262695312,
+								"band_id": 369,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 343,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 416.91622924804688,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 417.71627807617188,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 420.2164306640625,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 421.31649780273438,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 423.71664428710938,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 424.91671752929688,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 427.51687622070312,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 428.51693725585938,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 431.4171142578125,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 432.11715698242188,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 434.41729736328125,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 435.71737670898438,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 438.11752319335938,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 439.31759643554688,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 442.91781616210938,
+								"band_id": 369,
+								"order": "attack",
+								"target_id": 364,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 12.112232459416246
+							},
+							{
+								"event": "removed",
+								"time_seconds": 447.31808471679688,
+								"band_id": 369,
+								"order": "attack",
+								"target_id": 364,
+								"channel_seconds": 0,
+								"hit_points": -10,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 364,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.2218412994005228
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 450.71829223632812,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 451.91836547851562,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 455.71859741210938,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 457.31869506835938,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 460.81890869140625,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 460.91891479492188,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 464.31912231445312,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 368,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "temple_of_the_land",
+								"target_distance": 3.308452816174055
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 464.51913452148438,
+								"band_id": 366,
+								"order": "raid",
+								"target_id": 340,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 368,
+								"previous_channel_seconds": 0,
+								"target_type": "fields_of_grain",
+								"target_distance": 13.905812115863384
+							},
+							{
+								"event": "channel_started",
+								"time_seconds": 466.11923217773438,
+								"band_id": 366,
+								"order": "raid",
+								"target_id": 340,
+								"channel_seconds": 0.10000000149011612,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "raid",
+								"previous_target_id": 340,
+								"previous_channel_seconds": 0,
+								"target_type": "fields_of_grain",
+								"target_distance": 5.7693844250820128
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 466.21923828125,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 466.31924438476562,
+								"band_id": 388,
+								"order": "attack",
+								"target_id": 335,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "laman",
+								"target_distance": 39.925665352529627
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 468.11935424804688,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "raid",
+								"previous_target_id": 340,
+								"previous_channel_seconds": 2.0000002384185791
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 470.91952514648438,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 340,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "fields_of_grain",
+								"target_distance": 7.6404756429401743
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 471.71957397460938,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 55,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 340,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 483.12026977539062,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": 16,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 7.3290402041155627
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 484.32034301757812,
+								"band_id": 366,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 3,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 382,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 486.72048950195312,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": 3,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 4.6122550628420989
+							},
+							{
+								"event": "removed",
+								"time_seconds": 487.12051391601562,
+								"band_id": 366,
+								"order": "idle",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": -10,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 382,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.6497595622378698
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 487.92056274414062,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 335,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 490.32070922851562,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 491.52078247070312,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 494.12094116210938,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 495.12100219726562,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 497.52114868164062,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 498.72122192382812,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 501.12136840820312,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 502.32144165039062,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 504.72158813476562,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 505.8216552734375,
+								"band_id": 397,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 505.92166137695312,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 505.92166137695312,
+								"band_id": 397,
+								"order": "attack",
+								"target_id": 380,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 21.844715903569504
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 508.32180786132812,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 509.52188110351562,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 511.92202758789062,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 513.22174072265625,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 517.82061767578125,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 390,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "slinger_of_stones",
+								"target_distance": 10.765790524603615
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 518.92034912109375,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 40,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 390,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 518.92034912109375,
+								"band_id": 397,
+								"order": "attack_move",
+								"target_id": 380,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 380,
+								"previous_channel_seconds": 0,
+								"target_type": "wilderness_spy",
+								"target_distance": 2.4514486062359078
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 521.51971435546875,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 378,
+								"channel_seconds": 0,
+								"hit_points": 40,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "slinger_of_stones",
+								"target_distance": 9.4362529332131153
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 522.71942138671875,
+								"band_id": 388,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 20,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 378,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 525.11883544921875,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 387,
+								"channel_seconds": 0,
+								"hit_points": 20,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 6.7886323577924159
+							},
+							{
+								"event": "removed",
+								"time_seconds": 525.81866455078125,
+								"band_id": 388,
+								"order": "idle",
+								"target_id": 387,
+								"channel_seconds": 0,
+								"hit_points": -8,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 387,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.4136508760775273
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 526.51849365234375,
+								"band_id": 397,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack_move",
+								"previous_target_id": 380,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 529.11785888671875,
+								"band_id": 397,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 530.31756591796875,
+								"band_id": 397,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 532.21710205078125,
+								"band_id": 397,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 532.81695556640625,
+								"band_id": 397,
+								"order": "idle",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 11.593233594701688
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 534.11663818359375,
+								"band_id": 397,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 47,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 382,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 536.51605224609375,
+								"band_id": 397,
+								"order": "idle",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": 47,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 4.8782822851547261
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 537.91571044921875,
+								"band_id": 397,
+								"order": "move",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 14,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 382,
+								"previous_channel_seconds": 0
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 539.81524658203125,
+								"band_id": 397,
+								"order": "attack",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": 14,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "move",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 3.9700567016381987
+							},
+							{
+								"event": "removed",
+								"time_seconds": 540.31512451171875,
+								"band_id": 397,
+								"order": "attack",
+								"target_id": 382,
+								"channel_seconds": 0,
+								"hit_points": -4,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 382,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.507841346345747
+							},
+							{
+								"event": "fielded",
+								"time_seconds": 544.41412353515625,
+								"band_id": 407,
+								"order": "idle",
+								"target_id": 0,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								}
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 544.51409912109375,
+								"band_id": 407,
+								"order": "idle",
+								"target_id": 389,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 0,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 8.9921333733074569
+							},
+							{
+								"event": "order_or_target_changed",
+								"time_seconds": 545.51385498046875,
+								"band_id": 407,
+								"order": "attack",
+								"target_id": 389,
+								"channel_seconds": 0,
+								"hit_points": 60,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "idle",
+								"previous_target_id": 389,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 3.2354387318171201
+							},
+							{
+								"event": "removed",
+								"time_seconds": 547.81329345703125,
+								"band_id": 407,
+								"order": "attack",
+								"target_id": 389,
+								"channel_seconds": 0,
+								"hit_points": -12,
+								"cargo":
+								{
+									"food": 0,
+									"timber": 0,
+									"precious": 0
+								},
+								"previous_order": "attack",
+								"previous_target_id": 389,
+								"previous_channel_seconds": 0,
+								"target_type": "cimeter_bearer",
+								"target_distance": 1.5880342705965549
+							}
+						],
+						"dropped_visibility_transitions": 0,
+						"dropped_band_events": 0
+					},
+					"support_events": [],
+					"dropped_support_events": 0,
+					"first_battle_contact":
+					{
+						"time_seconds": 351.21221923828125,
+						"age_before_step": 2,
+						"favor_before_step": 11.222448348999023,
+						"resources_before_step":
+						{
+							"food": 49.999983083456755,
+							"timber": 25.000000178813934,
+							"precious": 156.57139484025538
+						},
+						"workers": 12,
+						"army_units": 6,
+						"army_population": 9,
+						"army_cost":
+						{
+							"food": 370,
+							"timber": 0,
+							"precious": 325
+						},
+						"army_current_hp": 605,
+						"army_max_hp": 605,
+						"faith_buildings": 0,
+						"converters": 0,
+						"active_conversions": 0,
+						"ammonites": 0
+					}
+				},
+				{
+					"faction": "lamanites",
+					"slot": 1,
+					"team": 1,
+					"defeated": false,
+					"first_deposit_seconds": 10.200002670288086,
+					"first_construction_seconds": 21.800046920776367,
+					"age_2_seconds": 166.80097961425781,
+					"age_3_seconds": 527.11834716796875,
+					"age_4_seconds": -1,
+					"first_research_seconds": 192.60255432128906,
+					"first_faith_building_seconds": 381.31405639648438,
+					"first_camp_started_seconds": 167.70103454589844,
+					"first_camp_completed_seconds": 203.00318908691406,
+					"first_temple_started_seconds": 331.51101684570312,
+					"first_workshop_started_seconds": 272.10739135742188,
+					"first_workshop_completed_seconds": 317.71017456054688,
+					"first_converter_seconds": 496.62109375,
+					"first_conversion_channel_seconds": -1,
+					"first_military_seconds": 217.60408020019531,
+					"first_campaign_seconds": 408.91574096679688,
+					"first_attack_seconds": 351.21221923828125,
+					"last_attack_seconds": 625.59429931640625,
+					"first_damage_taken_seconds": 364.51303100585938,
+					"last_damage_taken_seconds": 592.40240478515625,
+					"first_seat_loss_seconds": -1,
+					"first_raid_seconds": -1,
+					"peak_raider_cargo": 0,
+					"attack_events": 919,
+					"damaged_victim_steps": 139,
+					"observed_damage_taken": 1146.9999933242798,
+					"observed_damage_dealt": 9308.2005788087845,
+					"observed_combat_losses": 10,
+					"observed_combat_kills": 43,
+					"worker_combat_losses": 0,
+					"military_combat_losses": 10,
+					"building_combat_losses": 0,
+					"economy_building_combat_losses": 0,
+					"seat_losses": 0,
+					"other_owned_removals": 0,
+					"converted_away": 0,
+					"converted_in": 0,
+					"peak_workers": 19,
+					"peak_army_units": 18,
+					"peak_army_population": 21,
+					"peak_population_with_reservations": 45,
+					"peak_capacity": 55,
+					"steps_above_remaining_capacity": 0,
+					"peak_army_resource_cost": 1152,
+					"ending_resources":
+					{
+						"food": 1037.7342282086611,
+						"timber": 964.82800287008286,
+						"precious": 461.87465332448483
+					},
+					"ending_army_cost":
+					{
+						"food": 665,
+						"timber": 90,
+						"precious": 340
+					},
+					"ending_army_cement_cost": 0,
+					"ending_cement": 0,
+					"ending_age": 3,
+					"ending_favor": 38.797828674316406,
+					"ending_workers": 19,
+					"ending_idle_workers": 0,
+					"ending_working_workers": 19,
+					"ending_army_units": 17,
+					"ending_army_population": 20,
+					"ending_population_with_reservations": 45,
+					"ending_capacity": 55,
+					"ending_seats": 1,
+					"ending_builder_beasts": 0,
+					"ending_economy_buildings": 9,
+					"ending_scout_visits": 60,
+					"ending_known_enemy_buildings": 0,
+					"ending_campaign": true,
+					"support_events": [
+						{
+							"time_seconds": 496.62109375,
+							"event": "first_observed",
+							"unit_id": 394,
+							"unit_type": "priestcrafter",
+							"order": "idle",
+							"position_x": 126.75000000000006,
+							"position_y": 136.00000113649614,
+							"rally_x": 131.75000000000006,
+							"rally_y": 141.00000113649614,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 497.12112426757812,
+							"event": "order_changed",
+							"unit_id": 394,
+							"unit_type": "priestcrafter",
+							"order": "occupy",
+							"position_x": 126.50000000000006,
+							"position_y": 136.00000113649614,
+							"rally_x": 123.00000000000006,
+							"rally_y": 136.00000113649614,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "idle",
+							"prior_channel_seconds": 0,
+							"target_id": 368,
+							"prior_target_id": 0,
+							"observed_target_id": 368,
+							"observed_target_owner": 1,
+							"observed_target_hp": 1398,
+							"observed_target_type": "temple_of_the_land",
+							"observed_target_distance": 3.5,
+							"observed_target_line_of_sight": true,
+							"observed_target_visible": true
+						},
+						{
+							"time_seconds": 526.81842041015625,
+							"event": "first_observed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "idle",
+							"position_x": 126.75000000000006,
+							"position_y": 136.00000113649614,
+							"rally_x": 131.75000000000006,
+							"rally_y": 141.00000113649614,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 528.61798095703125,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 126.8794686755699,
+							"position_y": 135.72768687788039,
+							"rally_x": 91.457247188250435,
+							"rally_y": 108.38010942001111,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "idle",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 592.00250244140625,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 37.814097339208779,
+							"position_y": 33.430328536929949,
+							"rally_x": 37.833839541655678,
+							"rally_y": 33.054396564780284,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 593.20220947265625,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 37.564229875247669,
+							"position_y": 33.438467975094952,
+							"rally_x": 30.818172153640113,
+							"rally_y": 33.658220954582966,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 595.70159912109375,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 33.265104369486799,
+							"position_y": 31.846270819979843,
+							"rally_x": 33.321484369835538,
+							"rally_y": 31.352397709010432,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 597.00128173828125,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 33.394496924250696,
+							"position_y": 31.632360636090269,
+							"rally_x": 34.139646383485783,
+							"rally_y": 30.400488693063554,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 597.40118408203125,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 33.912067143306288,
+							"position_y": 30.776719900531972,
+							"rally_x": 34.139646383485783,
+							"rally_y": 30.400488693063554,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 598.90081787109375,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 33.941387721629425,
+							"position_y": 30.528445246797851,
+							"rally_x": 34.343028851314365,
+							"rally_y": 27.127512587866196,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 600.10052490234375,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 34.293234661507029,
+							"position_y": 27.549149401988416,
+							"rally_x": 34.343028851314365,
+							"rally_y": 27.127512587866196,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 602.69989013671875,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 34.300233963769678,
+							"position_y": 27.299247401660615,
+							"rally_x": 34.32698600260985,
+							"rally_y": 26.344096764049063,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 602.89984130859375,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 34.314232568294976,
+							"position_y": 26.799443401005014,
+							"rally_x": 34.32698600260985,
+							"rally_y": 26.344096764049063,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 608.39849853515625,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 34.134018370781057,
+							"position_y": 26.972714411316648,
+							"rally_x": 27.609795429694564,
+							"rally_y": 33.245575906666282,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 621.19537353515625,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 18.792573472895114,
+							"position_y": 17.960422870613272,
+							"rally_x": 18.458881710652665,
+							"rally_y": 17.814185363088281,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 621.69525146484375,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 19.029057541368754,
+							"position_y": 17.879334737337466,
+							"rally_x": 28.220949443014131,
+							"rally_y": 14.727522607293338,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 624.39459228515625,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 22.642879602608939,
+							"position_y": 18.575946599638243,
+							"rally_x": 22.516770544959353,
+							"rally_y": 18.998904859105703,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 627.39385986328125,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 22.679554196335285,
+							"position_y": 18.823241917375977,
+							"rally_x": 23.884955683917163,
+							"rally_y": 26.951215906599685,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 631.99273681640625,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "hold",
+							"position_x": 16.498825074543507,
+							"position_y": 23.44635326601361,
+							"rally_x": 16.134804330780561,
+							"rally_y": 23.407129848567717,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "move",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						},
+						{
+							"time_seconds": 633.09246826171875,
+							"event": "order_changed",
+							"unit_id": 402,
+							"unit_type": "priestcrafter",
+							"order": "move",
+							"position_x": 16.742149241512632,
+							"position_y": 23.503740980454779,
+							"rally_x": 23.297073370654051,
+							"rally_y": 25.04971201486682,
+							"hp": 90,
+							"max_hp": 90,
+							"channel_seconds": 0,
+							"last_damage_seconds": -100,
+							"prior_order": "hold",
+							"prior_channel_seconds": 0,
+							"target_id": 0,
+							"prior_target_id": 0
+						}
+					],
+					"dropped_support_events": 0,
+					"first_battle_contact":
+					{
+						"time_seconds": 351.21221923828125,
+						"age_before_step": 2,
+						"favor_before_step": 11.222448348999023,
+						"resources_before_step":
+						{
+							"food": 543.23468153178692,
+							"timber": 86.827230386435986,
+							"precious": 296.70279141142964
+						},
+						"workers": 19,
+						"army_units": 8,
+						"army_population": 11,
+						"army_cost":
+						{
+							"food": 347,
+							"timber": 45,
+							"precious": 226
+						},
+						"army_current_hp": 770,
+						"army_max_hp": 770,
+						"faith_buildings": 0,
+						"converters": 0,
+						"active_conversions": 0,
+						"ammonites": 0
+					}
+				}
+			]
+		}
+	]
+}

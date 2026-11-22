@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-22T12:43:05.2484787Z",
+  "finished_utc": "2026-11-22T12:43:53.4854574Z",
+  "sha256": "DE3E20C7D5D9D1692BC278855A7D0E6B99A55897E9DD62C50604A2F622DFEF11",
+  "arguments": [
+    "-RTSInputTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\maps-final\\input-1600x900\\test.log\"",
+    "-d3d11",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=1600",
+    "-ResY=900"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

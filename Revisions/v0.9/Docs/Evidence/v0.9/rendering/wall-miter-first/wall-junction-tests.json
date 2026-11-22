@@ -1,0 +1,523 @@
+{
+	"passed": 102,
+	"failed": 0,
+	"measured_section_height_cm": 45,
+	"checks": [
+		{
+			"name": "nephites.0.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.junction_component_drawn",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.0.section",
+			"detail": "authored gap -0.000 cm, added triangles 0",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.section",
+			"detail": "authored gap 38.037 cm, largest remaining projected separation 0.0000 cm, triangles 416",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.section",
+			"detail": "authored gap 172.888 cm, largest remaining projected separation 0.0000 cm, triangles 416",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.miter_removes_unused_straight_stub",
+			"detail": "visible stub reach reduced by 172.887 cm to 34.613 cm; 130 original tip pixels tested",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.replacement_incoming_leg_preserves_corner_pick",
+			"detail": "146 integer pixels on retained incoming faces compared against the original wall",
+			"passed": true
+		},
+		{
+			"name": "nephites.submitted_mesh_matches_pick_geometry",
+			"detail": "2 junctions, 832 triangles",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.standard_camera.exact_integer_pick",
+			"detail": "pixel X=883 Y=382, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.standard_camera.exact_integer_pick",
+			"detail": "pixel X=498 Y=534, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "nephites.rotation_and_snapshot_order_reuse_geometry",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.rotated_camera.exact_integer_pick",
+			"detail": "pixel X=804 Y=406, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.rotated_camera.exact_integer_pick",
+			"detail": "pixel X=318 Y=340, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "nephites.third_branch_upgrades_to_gate",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.third_gate_branch_retains_full_corner",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.gate_jobs_complete_on_authority",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.new_gate_snapshot_immediately_suppresses_stale_joint_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.gate_corner_keeps_opening",
+			"detail": "214.516 cm rendered opening, junction count 0",
+			"passed": true
+		},
+		{
+			"name": "nephites.gate_neighbor_keeps_opening",
+			"detail": "214.516 cm rendered opening, junction count 0",
+			"passed": true
+		},
+		{
+			"name": "nephites.different_owner_and_type_stay_separate",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.partial.base_and_junction_height",
+			"detail": "joint height 69.0234 cm, expected 69.0234; corner 0.99, neighbor 0.35",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.partial.base_and_junction_height",
+			"detail": "joint height 69.0234 cm, expected 69.0234; corner 0.99, neighbor 0.35",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.near_complete.base_and_junction_height",
+			"detail": "joint height 170.1204 cm, expected 170.1204; corner 0.99, neighbor 0.99",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.near_complete.base_and_junction_height",
+			"detail": "joint height 170.1204 cm, expected 170.1204; corner 0.99, neighbor 0.99",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.complete.base_and_junction_height",
+			"detail": "joint height 171.7000 cm, expected 171.7000; corner 1.00, neighbor 1.00",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.complete.base_and_junction_height",
+			"detail": "joint height 171.7000 cm, expected 171.7000; corner 1.00, neighbor 1.00",
+			"passed": true
+		},
+		{
+			"name": "nephites.45.completed_camera.exact_integer_pick",
+			"detail": "pixel X=804 Y=406, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "nephites.90.completed_camera.exact_integer_pick",
+			"detail": "pixel X=318 Y=340, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "nephites.new_fog_snapshot_immediately_suppresses_stale_joint_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.remembered_snapshot_dims_and_disables_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.withheld_back_wall_restores_untrimmed_corner",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "nephites.withheld_neighbors_remove_client_junction_mesh_and_bounds",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.0.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.junction_component_drawn",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.0.section",
+			"detail": "authored gap -13.350 cm, added triangles 0",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.section",
+			"detail": "authored gap 35.745 cm, largest remaining projected separation -13.3499 cm, triangles 261",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.section",
+			"detail": "authored gap 175.216 cm, largest remaining projected separation -13.3499 cm, triangles 256",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.miter_removes_unused_straight_stub",
+			"detail": "visible stub reach reduced by 199.600 cm to 14.320 cm; 92 original tip pixels tested",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.replacement_incoming_leg_preserves_corner_pick",
+			"detail": "97 integer pixels on retained incoming faces compared against the original wall",
+			"passed": true
+		},
+		{
+			"name": "lamanites.submitted_mesh_matches_pick_geometry",
+			"detail": "2 junctions, 517 triangles",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.standard_camera.exact_integer_pick",
+			"detail": "pixel X=889 Y=347, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.standard_camera.exact_integer_pick",
+			"detail": "pixel X=528 Y=504, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "lamanites.rotation_and_snapshot_order_reuse_geometry",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.rotated_camera.exact_integer_pick",
+			"detail": "pixel X=813 Y=394, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.rotated_camera.exact_integer_pick",
+			"detail": "pixel X=349 Y=351, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "lamanites.third_branch_upgrades_to_gate",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.third_gate_branch_retains_full_corner",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.gate_jobs_complete_on_authority",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.new_gate_snapshot_immediately_suppresses_stale_joint_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.gate_corner_keeps_opening",
+			"detail": "214.516 cm rendered opening, junction count 0",
+			"passed": true
+		},
+		{
+			"name": "lamanites.gate_neighbor_keeps_opening",
+			"detail": "214.516 cm rendered opening, junction count 0",
+			"passed": true
+		},
+		{
+			"name": "lamanites.different_owner_and_type_stay_separate",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.partial.base_and_junction_height",
+			"detail": "joint height 69.5380 cm, expected 69.5380; corner 0.99, neighbor 0.35",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.partial.base_and_junction_height",
+			"detail": "joint height 69.5380 cm, expected 69.5380; corner 0.99, neighbor 0.35",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.near_complete.base_and_junction_height",
+			"detail": "joint height 171.3886 cm, expected 171.3886; corner 0.99, neighbor 0.99",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.near_complete.base_and_junction_height",
+			"detail": "joint height 171.3886 cm, expected 171.3886; corner 0.99, neighbor 0.99",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.complete.base_and_junction_height",
+			"detail": "joint height 172.9800 cm, expected 172.9800; corner 1.00, neighbor 1.00",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.complete.base_and_junction_height",
+			"detail": "joint height 172.9800 cm, expected 172.9800; corner 1.00, neighbor 1.00",
+			"passed": true
+		},
+		{
+			"name": "lamanites.45.completed_camera.exact_integer_pick",
+			"detail": "pixel X=813 Y=394, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "lamanites.90.completed_camera.exact_integer_pick",
+			"detail": "pixel X=349 Y=351, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "lamanites.new_fog_snapshot_immediately_suppresses_stale_joint_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.remembered_snapshot_dims_and_disables_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.withheld_back_wall_restores_untrimmed_corner",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "lamanites.withheld_neighbors_remove_client_junction_mesh_and_bounds",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.0.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.server_placed_five_segments",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.junction_component_drawn",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.0.section",
+			"detail": "authored gap -0.400 cm, added triangles 0",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.section",
+			"detail": "authored gap 10.508 cm, largest remaining projected separation -0.4000 cm, triangles 416",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.section",
+			"detail": "authored gap 75.887 cm, largest remaining projected separation -0.4000 cm, triangles 472",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.miter_removes_unused_straight_stub",
+			"detail": "visible stub reach reduced by 76.287 cm to 31.413 cm; 85 original tip pixels tested",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.replacement_incoming_leg_preserves_corner_pick",
+			"detail": "92 integer pixels on retained incoming faces compared against the original wall",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.submitted_mesh_matches_pick_geometry",
+			"detail": "2 junctions, 888 triangles",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.standard_camera.exact_integer_pick",
+			"detail": "pixel X=783 Y=326, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.standard_camera.exact_integer_pick",
+			"detail": "pixel X=424 Y=498, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.rotation_and_snapshot_order_reuse_geometry",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.rotated_camera.exact_integer_pick",
+			"detail": "pixel X=857 Y=285, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.rotated_camera.exact_integer_pick",
+			"detail": "pixel X=371 Y=230, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.third_branch_upgrades_to_gate",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.third_gate_branch_retains_full_corner",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.gate_jobs_complete_on_authority",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.new_gate_snapshot_immediately_suppresses_stale_joint_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.gate_corner_keeps_opening",
+			"detail": "111.034 cm rendered opening, junction count 0",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.gate_neighbor_keeps_opening",
+			"detail": "111.034 cm rendered opening, junction count 0",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.different_owner_and_type_stay_separate",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.partial.base_and_junction_height",
+			"detail": "joint height 68.6214 cm, expected 68.6214; corner 0.99, neighbor 0.35",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.partial.base_and_junction_height",
+			"detail": "joint height 68.6214 cm, expected 68.6214; corner 0.99, neighbor 0.35",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.near_complete.base_and_junction_height",
+			"detail": "joint height 169.1296 cm, expected 169.1296; corner 0.99, neighbor 0.99",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.near_complete.base_and_junction_height",
+			"detail": "joint height 169.1296 cm, expected 169.1296; corner 0.99, neighbor 0.99",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.complete.base_and_junction_height",
+			"detail": "joint height 170.7000 cm, expected 170.7000; corner 1.00, neighbor 1.00",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.complete.base_and_junction_height",
+			"detail": "joint height 170.7000 cm, expected 170.7000; corner 1.00, neighbor 1.00",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.45.completed_camera.exact_integer_pick",
+			"detail": "pixel X=857 Y=285, real corner ID 12",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.90.completed_camera.exact_integer_pick",
+			"detail": "pixel X=371 Y=230, real corner ID 18",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.new_fog_snapshot_immediately_suppresses_stale_joint_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.remembered_snapshot_dims_and_disables_picks",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.withheld_back_wall_restores_untrimmed_corner",
+			"detail": "",
+			"passed": true
+		},
+		{
+			"name": "coriantumr.withheld_neighbors_remove_client_junction_mesh_and_bounds",
+			"detail": "",
+			"passed": true
+		}
+	],
+	"screenshots": [
+		"wall-junction-nephites.png",
+		"wall-junction-lamanites.png",
+		"wall-junction-coriantumr.png"
+	],
+	"scope": "Standalone rendered viewport with server-placed wall lines and authoritative filtered snapshots. Construction values are pinned for comparison."
+}

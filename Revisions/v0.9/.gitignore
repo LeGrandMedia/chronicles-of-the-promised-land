@@ -1,0 +1,17 @@
+# Local build products and caches
+/Builds/
+/Tools/Toolchain/
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/__pycache__/
+*.pyc
+.vs/
+.env
+.env.*
+*.local.json
+*.local.ps1
+# Account credentials and private receipts belong outside this repository.
+**/steam_app_ticket*
+**/ssfn*

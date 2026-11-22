@@ -1,0 +1,11 @@
+# v0.9 final handoff status
+
+Updated November 22, 2026. The user ended the continuous goal and requested cleanup and deliverables. No ongoing background-development goal remains. Root completed integration and packaging; recommended model for integration/gameplay is GPT-6.2 Sol, with GPT-6 Luna for inventory and documentation. Earlier subtask assignments and actual models are recorded in their reports.
+
+The final Windows executable is `7F30C0F4543A16277C60D389162F7A609B0E79A5AB3494C7BB77F5E8F4BAB9D4`. It passed 4,234 map checks, all 19 native reports, 46 gate-navigation cases, 57 bot assertions and 17 entity-visibility checks. Scene tests passed 86 cases and input tests passed 67 cases at each of 1600x900 and 888x500. Windows touch preview passed 26 cases. The mixed host/client/bot Narrow Neck LAN run passed on the same computer. Android verified all 754 payload hashes, 259 model mappings and 147 mesh/skeleton pairs. These results do not establish physical-network, mobile-device or clean-install behavior.
+
+The playable build retains the opening/resource fairness, corrected entity visibility, opportunistic raids, first-pass faction tuning, rotated mesh selection, all 15 maps and the final readable HUD. The enlarged-gate/art/navigation experiment is archived outside compiled source because rendered trajectories found collisions. Normal bot openings remain unchanged; the two later opening experiments are diagnostic only.
+
+See [handoff and remaining work](Handoff-v0.9.md), [final artifact identities](Evidence/v0.9/platform/final-handoff-artifacts.json), [regression evidence](Evidence/v0.9/maps/final-handoff/), [LAN evidence](Evidence/v0.9/network/final-handoff/run.json), [HUD review](HUDReadability-v0.9.md), [raid/balance report](GadiantonRaids-v0.9.md), and [archived gate experiment](Experiments/GateClearance-20261122/README.md).
+
+No successful clean-machine install/launch/upgrade/uninstall is claimed. Android is an unlaunched Development sideload artifact. macOS and iPhone builds, physical cross-platform LAN/touch, naval bot strategy and external AI playtesting remain incomplete. Gadianton remains weak in the targeted bot sample. The paused task-owned clean-install VM was closed at handoff; its disk/evidence remain. v0.8 and unrelated user applications were preserved.

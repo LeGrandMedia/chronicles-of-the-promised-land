@@ -1,0 +1,46 @@
+1.  gadianton robbers should not be allowed to farm or gather flocks. They must gather resources by robbing other players.
+2.  house of laban laboreres should not be called industrious laborer. They should be called “henpecked gentile”
+3.  instead of farms, the house of laban should have vineyards, where henpecked gentiles can work, and wineries, which passively generate food.
+4. Slightly reduce the opacity of invisible units, so the player knws they are invisible.
+5. Rename gadianton robber military unit to “band of kishkumen” to avoid confusion, since the name of the faction is also gadianton robber.
+6. Allow tasking of the band of kishkumen from an enemy storehouse to your storehouse to enable them to automatically run back and forth steal the enemy’s resources without the player needing to micromanage them all the time.
+7. I change my mind about the lamanite temple name. It should be called the rameumpton from the beginning. It will start out as a normal religious building, but can be upgraded to act as a religious defensive strucutre that converts nearby enemies to zoramite captains.
+8. The house of laban’s temple will be called the great and spacious building. It will increase their units’ drunkenness, and train drunken concubines. Both the great and spacious buildings and the concubines will have an aoe effect that slows enemies and reduces their attack speed and hitpoints.
+9. Alow construction of building in area with no LOS, as long as the fog of war has been cleared
+10. Give enemies of the gadianton robbers a notification whenever they’ve been robbed.
+11. Reduce band of kishkumen HP and attack, but increase their speed and allow them to be trained from storehouses. Give them a little knife instead of a sword
+12. Give band of kishkumen a raid move, which works like attack move but they raid the first thing thast enters their LOS then return to the nearest resources drop off point
+13. Add UI that show how many resources each band of kishkumen are carrying when you click on them. 
+14. Add upgrades that multiply the resources stolen during raids, so that every 1 resource they steal actually gives them like 2 or 3 resources or something.
+15. The starting age-up heroes should be laman and lemuel for the lamanites, nephi and sam for the nephites, etc. It should be the progenitors of each faction.
+16. Construction has a bug where the laborer will be working on it without the progress bar going up. They’ll just keep “building” it indefinitely even though it’s not getting any closer to being finished.
+17. We should add an additional age for each faction, so we can fit more heroes in. The first ageup will be the progenitor of each civilization; Laman, nephi, kishkumen, etc. The second ageup will be a famous middle-era character, like king noah, alma, korihor, etc. The final ageup will be a late-stage character, like mormon, or coriantmr for the jaredites.
+18. Traders in precious things should have a galavant button, that works kind of like a patron button, but you can choose the route they take through your base and they passively generate precious things for every laborer that enters a certain distance from them
+19. I should be able to tab between the workers I have on each resource by clicking on the number of workers it shows gathering.
+20. There should be more variety in the buildings and units for each civilization. The house names should be different, the farm names should be different, etc. They should highlight the characteristics of the civilization. For example, a nephite house could be called “dwellings”, lamanite homes could be called “tents” or something like that.
+21. The king’s chariot is currently using the default “dude with a sword” asset. It should probably be a horse, and units should be able to garrison in it by right-clicking. Using E while selecting the chariot will ungarrison the units
+22. Heroes shouldn’t be a visible option in new seats fo the people once the ageup has already been researched somewhere else.
+23. Increase the favor decay rate for all factions. It should be pretty hard to get a favor rating over 70
+24. Jaredites should get unique livestock buffs. Lets change the curelom cumelom elephant mechanic. Now, instead of evolving the units, they are all separate units that are unlocked with each age, that can be trained from the gathering of flocks. Cureloms generate timber, can be trained from the seat of the people in the first age, and can build age i and ii structures. Cumeloms generate precious things, are trained from the gathering of flocks, and can build anything in age i, ii, and iii. Elephants generate cement,which is a unique jaredite resource, and can build anything, along with special, very powerful jaredite cement defensive structures. Elephants can also be used for siege, and to garrison units like the lamanite chariots.
+25. There should be a limit to five gatherings of flocks. Except for jaredites. They can have ten.
+26. The maps should have more trees in them
+27. Walls are currently only buildable as tiny dots. There should be a two-part UI where you click both endpoints and the laborers build the wall between both endpoints. You should be able to shiftclick to queue endpoints together.
+28. Laborers are getting stuck in the field of flocks
+29. You should be abel to circumvent the 10 sheep per gathering of flocks limit by scattering enemy flocks to steal their sheep
+30. I don’t see any of the lamanite priestcrafter upgrades i mentioned in the lamanite temple. You should fix that.
+31. I have no idea what the judgement seat is for. Just get rid of it.
+32. Encampment of war shouldn’t be avialbe until the second age
+33. The UI at the top of the screen still displays “favor”. It should display other factions’ multiplier stat. Drunkenness for house of laban, anger for lamanites, etc.
+34. Rename the seat of the people for house of laban to “laban’s crib”
+35. Change the drunken concubine “convert” ability to “seduce” where it turns the enemy unit into a henpecked gentile, which is just a regular house of laban villager. 
+36. Get rid of the faction-specific descriptions for units for factions that to which it doesn’t apply. For example, while playing the house of laban, the UI shouldn’t be giving me info about upgrades that only apply to lamanites. This issue is all over the place in the game UI, so thoroughly check and make sure it’s solved everywhere before continuing.
+37. I should be able to see units garrisoned inside a chariot in my bottom-screen UI by clicking on the chariot
+38. Wee’re going to need a counter-system in this game if we want the military to be dynamic. Ranged units should have multipliers against religious units. Religious units should convert melee units faster than normal, and melee units should have ranged resistance.
+39. I should be able to queue five of a unit at once by holding shift and clicking
+40. The idle building glitch effects cumeloms more strongly, for some reason. They have to be meticulously micromanaged otherwise they’ll just get stuck working on the same construction forever. It makes the jaredites borderline unusable. Perhaps the cureloms, cumeloms, and elephants make any construction site within a certain radius of them build itself with no workers needed.
+41. Cancelled units and technologies should grant a 100% refund. Half-built buildings should give a refund in proportion to how close the building was to being completed.
+42. Having a judgement seat buil;ding devoted for just antiinfiltration for the gadianton robbers is excessive. Instead, gadianton robbers should have upgrades that allow them to infiltrate and perfdorm sabotage on enemies as long as they maintain a certain level of lasciviousness. Over 30, and they get bonus resources from their raids. Over 50, and they can see anything their enemies can see. Over 70, and they gain the ability to compromise enemy drop-off points by camping a stealth unit there. Compromised drop-off points give half of every resource deposited to the Gadianton robbers. If you can get to 100 lasciviousness, you can take 100% of their resourcs drop-offs. Instead of having a judgement seat, players can use towers to spot stealthy units, and they can use their religious units to convert and keep their lasciviousness low.
+43. Secret combination lodges should be consolidated into temples of the lord for the gadianton robbers. They should simply train lawyers from their secret combination lodges, which generate lasciviousness until scouted.
+44. Gadianton laborers should be called “conspiring civilian”. When a gadianton lawyer converts an enemy unit, it should look from the enemy’s POV that the unit is still theirs. They only way they’ll know that it’s not their unit is if they try to order it to do stuff. The only way for them to kill the unit is for them to delete it manually. Make a “Signs and Symbols” upgrade that makes enemy laborers drop off resources at your storehouses, if they’re the closest drop-off point. Resources dropped off at these storehouses go to the gadianton robbers.
+
+  

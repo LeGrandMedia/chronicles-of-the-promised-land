@@ -1,0 +1,110 @@
+{
+	"passed": 26,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "food.base_rate_increased_to_1_2",
+			"passed": true
+		},
+		{
+			"name": "ore.hill_gathers_fifty_percent_faster",
+			"passed": true
+		},
+		{
+			"name": "worksite.accepts_ten_and_rejects_eleventh",
+			"passed": true
+		},
+		{
+			"name": "pathing.gatherers_have_distinct_walkable_approaches",
+			"passed": true
+		},
+		{
+			"name": "worksite.rejects_neutral_building",
+			"passed": true
+		},
+		{
+			"name": "build.group_creates_single_foundation_and_assists",
+			"passed": true
+		},
+		{
+			"name": "build.enclosed_builder_walks_out_without_teleporting",
+			"passed": true
+		},
+		{
+			"name": "build.assistants_accelerate_with_diminishing_returns",
+			"passed": true
+		},
+		{
+			"name": "build.completed_field_assigns_builder_to_gather",
+			"passed": true
+		},
+		{
+			"name": "orders.shift_preserves_current_order",
+			"passed": true
+		},
+		{
+			"name": "orders.queued_move_dispatches_after_completion",
+			"passed": true
+		},
+		{
+			"name": "orders.fresh_stop_clears_queue",
+			"passed": true
+		},
+		{
+			"name": "dropoff.right_click_hq_delivers_selected_cargo",
+			"passed": true
+		},
+		{
+			"name": "queue.cancel_middle_refunds_full_cost",
+			"passed": true
+		},
+		{
+			"name": "queue.invalid_index_is_rejected",
+			"passed": true
+		},
+		{
+			"name": "flocks.sheep_passive_food_and_builder_healing",
+			"passed": true
+		},
+		{
+			"name": "jaredites.hq_curelom_remains_available_with_flock",
+			"passed": true
+		},
+		{
+			"name": "flocks.ten_sheep_cap_includes_alive_animals",
+			"passed": true
+		},
+		{
+			"name": "resources.depleted_berries_are_removed",
+			"passed": true
+		},
+		{
+			"name": "trade.visits_laborer_and_generates_precious_things",
+			"passed": true
+		},
+		{
+			"name": "pathing.movement_never_teleports",
+			"passed": true
+		},
+		{
+			"name": "pathing.ten_clustered_workers_all_gather_and_deliver",
+			"passed": true
+		},
+		{
+			"name": "fog.visible_structure_enters_last_known_snapshot",
+			"passed": true
+		},
+		{
+			"name": "fog.hidden_damage_keeps_old_health_and_remembered_icon",
+			"passed": true
+		},
+		{
+			"name": "fog.hidden_deletion_preserves_remembered_structure",
+			"passed": true
+		},
+		{
+			"name": "fog.scout_return_removes_destroyed_structure_memory",
+			"passed": true
+		}
+	]
+}

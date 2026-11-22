@@ -1,0 +1,450 @@
+{
+  "revision": "v0.8",
+  "verified_at_utc": "2026-10-22T03:16:07.762455+00:00",
+  "native_checks": {
+    "combat-v05-tests.json": {
+      "passed": 30,
+      "failed": 0
+    },
+    "core-v04-tests.json": {
+      "passed": 27,
+      "failed": 0
+    },
+    "core-v07-tests.json": {
+      "passed": 46,
+      "failed": 0
+    },
+    "customization-tests.json": {
+      "passed": 74,
+      "failed": 0
+    },
+    "economy-v03-tests.json": {
+      "passed": 26,
+      "failed": 0
+    },
+    "economy-v04-tests.json": {
+      "passed": 33,
+      "failed": 0
+    },
+    "economy-v05-tests.json": {
+      "passed": 31,
+      "failed": 0
+    },
+    "rally-tests.json": {
+      "passed": 6,
+      "failed": 0
+    },
+    "religion-v03-tests.json": {
+      "passed": 43,
+      "failed": 0
+    },
+    "religion-v07-tests.json": {
+      "passed": 63,
+      "failed": 0
+    },
+    "religion-v08-tests.json": {
+      "passed": 49,
+      "failed": 0
+    },
+    "scenario-tests.json": {
+      "passed": 17,
+      "failed": 0
+    },
+    "self-tests.json": {
+      "passed": 26,
+      "failed": 0
+    },
+    "v07-economy-tests.json": {
+      "passed": 36,
+      "failed": 0
+    },
+    "v07-selection-tests.json": {
+      "passed": 30,
+      "failed": 0
+    },
+    "v08-economy-tests.json": {
+      "passed": 37,
+      "failed": 0
+    },
+    "v08-presentation-tests.json": {
+      "passed": 119,
+      "failed": 0
+    },
+    "visual-tests.json": {
+      "passed": true,
+      "failed": 0
+    },
+    "visual-v07-animation-tests.json": {
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "viewport_cases": {
+    "1600x900": 67,
+    "1280x720": 67
+  },
+  "network_reports": {
+    "host": {
+      "role": "host",
+      "slot": 0,
+      "faction": "gadianton",
+      "team": 0,
+      "players": 4,
+      "snapshots": 416,
+      "maximum_visible_entities": 1050,
+      "stress": true,
+      "largest_snapshot_bytes": 0,
+      "largest_compressed_bytes": 0,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "v08_features": true,
+      "passed": true
+    },
+    "client1": {
+      "role": "client1",
+      "slot": 3,
+      "faction": "coriantumr",
+      "team": 1,
+      "players": 4,
+      "snapshots": 409,
+      "maximum_visible_entities": 932,
+      "stress": true,
+      "largest_snapshot_bytes": 348146,
+      "largest_compressed_bytes": 11518,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "v08_features": true,
+      "passed": true
+    },
+    "client2": {
+      "role": "client2",
+      "slot": 1,
+      "faction": "lamanites",
+      "team": 1,
+      "players": 4,
+      "snapshots": 411,
+      "maximum_visible_entities": 932,
+      "stress": true,
+      "largest_snapshot_bytes": 348199,
+      "largest_compressed_bytes": 11562,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "v08_features": true,
+      "passed": true
+    },
+    "client3": {
+      "role": "client3",
+      "slot": 2,
+      "faction": "laban",
+      "team": 0,
+      "players": 4,
+      "snapshots": 410,
+      "maximum_visible_entities": 936,
+      "stress": true,
+      "largest_snapshot_bytes": 349740,
+      "largest_compressed_bytes": 11687,
+      "movement": true,
+      "training": true,
+      "queued_waypoints": true,
+      "construction": true,
+      "rally_replicated": true,
+      "liahona_failed": true,
+      "apology_restored": true,
+      "winner": 0,
+      "v04_features": true,
+      "v05_features": true,
+      "v07_features": true,
+      "v08_features": true,
+      "passed": true
+    },
+    "v08_slot0": {
+      "role": "host",
+      "slot": 0,
+      "faction": "gadianton",
+      "team": 0,
+      "route_rpc_round_trip": true,
+      "trader_training_supported": false,
+      "newborn_trader_inherits_and_visits_three_points": true,
+      "economic_rally_newborn_moves": true,
+      "gadianton_specific": true,
+      "storehouse_raid_rally_newborn_and_real_cargo": true,
+      "cargo_victim_observed_transfer": false,
+      "hideout_real_rpc_board_and_exterior_unload": true,
+      "bribe_channel_visible": true,
+      "bribe_owner_completion_recovery_and_stealth": true,
+      "reliable_death_without_prior_snapshot": true,
+      "hidden_death_server_fixture_confirmed": true,
+      "hidden_death_never_leaked": true,
+      "remote_cargo_routes_garrison_privacy": true,
+      "fixture_walkable_body_and_fog_cell_los": true,
+      "aura_entity_seen": true,
+      "observed_aura_radius": 5,
+      "public_innate_aura_radius": true,
+      "passed": true
+    },
+    "v08_slot1": {
+      "role": "client2",
+      "slot": 1,
+      "faction": "lamanites",
+      "team": 1,
+      "route_rpc_round_trip": true,
+      "trader_training_supported": true,
+      "newborn_trader_inherits_and_visits_three_points": true,
+      "economic_rally_newborn_moves": true,
+      "gadianton_specific": false,
+      "storehouse_raid_rally_newborn_and_real_cargo": false,
+      "cargo_victim_observed_transfer": true,
+      "hideout_real_rpc_board_and_exterior_unload": false,
+      "bribe_channel_visible": true,
+      "bribe_owner_completion_recovery_and_stealth": false,
+      "reliable_death_without_prior_snapshot": true,
+      "hidden_death_server_fixture_confirmed": true,
+      "hidden_death_never_leaked": true,
+      "remote_cargo_routes_garrison_privacy": true,
+      "fixture_walkable_body_and_fog_cell_los": true,
+      "aura_entity_seen": true,
+      "observed_aura_radius": 5,
+      "public_innate_aura_radius": true,
+      "passed": true
+    },
+    "v08_slot2": {
+      "role": "client3",
+      "slot": 2,
+      "faction": "laban",
+      "team": 0,
+      "route_rpc_round_trip": true,
+      "trader_training_supported": true,
+      "newborn_trader_inherits_and_visits_three_points": true,
+      "economic_rally_newborn_moves": true,
+      "gadianton_specific": false,
+      "storehouse_raid_rally_newborn_and_real_cargo": false,
+      "cargo_victim_observed_transfer": false,
+      "hideout_real_rpc_board_and_exterior_unload": false,
+      "bribe_channel_visible": true,
+      "bribe_owner_completion_recovery_and_stealth": false,
+      "reliable_death_without_prior_snapshot": true,
+      "hidden_death_server_fixture_confirmed": true,
+      "hidden_death_never_leaked": true,
+      "remote_cargo_routes_garrison_privacy": true,
+      "fixture_walkable_body_and_fog_cell_los": true,
+      "aura_entity_seen": true,
+      "observed_aura_radius": 5,
+      "public_innate_aura_radius": true,
+      "passed": true
+    },
+    "v08_slot3": {
+      "role": "client1",
+      "slot": 3,
+      "faction": "coriantumr",
+      "team": 1,
+      "route_rpc_round_trip": true,
+      "trader_training_supported": true,
+      "newborn_trader_inherits_and_visits_three_points": true,
+      "economic_rally_newborn_moves": true,
+      "gadianton_specific": false,
+      "storehouse_raid_rally_newborn_and_real_cargo": false,
+      "cargo_victim_observed_transfer": false,
+      "hideout_real_rpc_board_and_exterior_unload": false,
+      "bribe_channel_visible": true,
+      "bribe_owner_completion_recovery_and_stealth": false,
+      "reliable_death_without_prior_snapshot": true,
+      "hidden_death_server_fixture_confirmed": true,
+      "hidden_death_never_leaked": true,
+      "remote_cargo_routes_garrison_privacy": true,
+      "fixture_walkable_body_and_fog_cell_los": true,
+      "aura_entity_seen": true,
+      "observed_aura_radius": 5,
+      "public_innate_aura_radius": true,
+      "passed": true
+    },
+    "network-v07-audit-slot0-wall365": {
+      "slot": 0,
+      "faction": "gadianton",
+      "wall_id": 365,
+      "simulation_time": 11.400007247924805,
+      "action": "research",
+      "research": "gate_segment_upgrade",
+      "research_supported_by_faction": true,
+      "invalid_non_wall_producer": true,
+      "rejection_case": "non_wall_producer",
+      "resources_before": [
+        1100,
+        1060,
+        1050
+      ],
+      "resources_after": [
+        1100,
+        1060,
+        1050
+      ],
+      "resource_delta": [
+        0,
+        0,
+        0
+      ],
+      "cement_before": 100,
+      "cement_after": 100,
+      "cement_delta": 0,
+      "jobs_before": [],
+      "jobs_after": [],
+      "gate_before": false,
+      "gate_after": false,
+      "upgrade_before": false,
+      "upgrade_after": false,
+      "exactly_zero_cost": true,
+      "jobs_and_gate_unchanged": true,
+      "rejection_notice_evidence": "network-v07-slot0.json: unsupported_gate_research_notice and unsupported_gate_research_rejected, observed by the actual remote client",
+      "passed": true
+    },
+    "network-v07-audit-slot1-wall375": {
+      "slot": 1,
+      "faction": "lamanites",
+      "wall_id": 375,
+      "simulation_time": 11.500007629394531,
+      "action": "research",
+      "research": "gate_segment_upgrade",
+      "research_supported_by_faction": true,
+      "invalid_non_wall_producer": true,
+      "rejection_case": "non_wall_producer",
+      "resources_before": [
+        1134.4200000229475,
+        1060,
+        1050
+      ],
+      "resources_after": [
+        1134.4200000229475,
+        1060,
+        1050
+      ],
+      "resource_delta": [
+        0,
+        0,
+        0
+      ],
+      "cement_before": 100,
+      "cement_after": 100,
+      "cement_delta": 0,
+      "jobs_before": [],
+      "jobs_after": [],
+      "gate_before": false,
+      "gate_after": false,
+      "upgrade_before": false,
+      "upgrade_after": false,
+      "exactly_zero_cost": true,
+      "jobs_and_gate_unchanged": true,
+      "rejection_notice_evidence": "network-v07-slot1.json: unsupported_gate_research_notice and unsupported_gate_research_rejected, observed by the actual remote client",
+      "passed": true
+    },
+    "network-v07-audit-slot2-wall385": {
+      "slot": 2,
+      "faction": "laban",
+      "wall_id": 385,
+      "simulation_time": 11.500007629394531,
+      "action": "research",
+      "research": "gate_segment_upgrade",
+      "research_supported_by_faction": true,
+      "invalid_non_wall_producer": true,
+      "rejection_case": "non_wall_producer",
+      "resources_before": [
+        1100.4200000229475,
+        1060,
+        1050
+      ],
+      "resources_after": [
+        1100.4200000229475,
+        1060,
+        1050
+      ],
+      "resource_delta": [
+        0,
+        0,
+        0
+      ],
+      "cement_before": 100,
+      "cement_after": 100,
+      "cement_delta": 0,
+      "jobs_before": [],
+      "jobs_after": [],
+      "gate_before": false,
+      "gate_after": false,
+      "upgrade_before": false,
+      "upgrade_after": false,
+      "exactly_zero_cost": true,
+      "jobs_and_gate_unchanged": true,
+      "rejection_notice_evidence": "network-v07-slot2.json: unsupported_gate_research_notice and unsupported_gate_research_rejected, observed by the actual remote client",
+      "passed": true
+    },
+    "network-v07-audit-slot3-wall395": {
+      "slot": 3,
+      "faction": "coriantumr",
+      "wall_id": 395,
+      "simulation_time": 11.400007247924805,
+      "action": "research",
+      "research": "gate_segment_upgrade",
+      "research_supported_by_faction": true,
+      "invalid_non_wall_producer": true,
+      "rejection_case": "non_wall_producer",
+      "resources_before": [
+        1100.3900000213084,
+        1065.0800001513946,
+        1050
+      ],
+      "resources_after": [
+        1100.3900000213084,
+        1065.0800001513946,
+        1050
+      ],
+      "resource_delta": [
+        0,
+        0,
+        0
+      ],
+      "cement_before": 100,
+      "cement_after": 100,
+      "cement_delta": 0,
+      "jobs_before": [],
+      "jobs_after": [],
+      "gate_before": false,
+      "gate_after": false,
+      "upgrade_before": false,
+      "upgrade_after": false,
+      "exactly_zero_cost": true,
+      "jobs_and_gate_unchanged": true,
+      "rejection_notice_evidence": "network-v07-slot3.json: unsupported_gate_research_notice and unsupported_gate_research_rejected, observed by the actual remote client",
+      "passed": true
+    }
+  },
+  "active_png_images": 238,
+  "staged_data_files_matching_source": 494,
+  "packaged_executable_sha256": "9465ae6f16a46e5eddd22e1b93dbc4e3d2bf23bcacdf73df2a5f077b0026b318",
+  "protected_v07_files_unchanged": 551,
+  "physical_multi_computer_lan_tested": false,
+  "all_checks_passed": true
+}

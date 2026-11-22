@@ -1,0 +1,163 @@
+{
+	"passed": true,
+	"passed_count": 26,
+	"failed_count": 0,
+	"assertions": [
+		{
+			"name": "catalog.definition_count",
+			"passed": true,
+			"expected": "190",
+			"actual": "190"
+		},
+		{
+			"name": "catalog.faction_count",
+			"passed": true,
+			"expected": "6",
+			"actual": "6"
+		},
+		{
+			"name": "catalog.cimeter_bearer_base_cost",
+			"passed": true,
+			"expected": "(50,0,25)",
+			"actual": "X=50.000 Y=0.000 Z=25.000"
+		},
+		{
+			"name": "catalog.nephite_cimeter_bearer_price",
+			"passed": true,
+			"expected": "(63,0,32)",
+			"actual": "X=63.000 Y=0.000 Z=32.000"
+		},
+		{
+			"name": "catalog.lamanite_cimeter_bearer_price",
+			"passed": true,
+			"expected": "(33,0,17)",
+			"actual": "X=33.000 Y=0.000 Z=17.000"
+		},
+		{
+			"name": "economy.pay_rejects_unaffordable",
+			"passed": true,
+			"expected": "false",
+			"actual": "false"
+		},
+		{
+			"name": "economy.pay_failure_is_atomic",
+			"passed": true,
+			"expected": "X=10.000 Y=50.000 Z=50.000",
+			"actual": "X=10.000 Y=50.000 Z=50.000"
+		},
+		{
+			"name": "economy.pay_affordable_cost",
+			"passed": true,
+			"expected": "true; resources=(0,20,10)",
+			"actual": "true; resources=X=0.000 Y=20.000 Z=10.000"
+		},
+		{
+			"name": "favor.initial_nephite_hp",
+			"passed": true,
+			"expected": "180.000",
+			"actual": "180.000"
+		},
+		{
+			"name": "favor.zero_endpoint_hp",
+			"passed": true,
+			"expected": "1.000",
+			"actual": "1.000"
+		},
+		{
+			"name": "favor.zero_preserves_hp_fraction",
+			"passed": true,
+			"expected": "0.500",
+			"actual": "0.500"
+		},
+		{
+			"name": "favor.full_endpoint_hp",
+			"passed": true,
+			"expected": "18000.000",
+			"actual": "18000.000"
+		},
+		{
+			"name": "favor.full_preserves_hp_fraction",
+			"passed": true,
+			"expected": "0.500",
+			"actual": "0.500"
+		},
+		{
+			"name": "jaredite.tier_one_headquarters_hp",
+			"passed": true,
+			"expected": "9539.999",
+			"actual": "9539.999"
+		},
+		{
+			"name": "jaredite.tier_two_headquarters_hp",
+			"passed": true,
+			"expected": "12719.999",
+			"actual": "12719.999"
+		},
+		{
+			"name": "population.queue_reserves_population",
+			"passed": true,
+			"expected": "3",
+			"actual": "3"
+		},
+		{
+			"name": "population.completed_headquarters_capacity",
+			"passed": true,
+			"expected": "15",
+			"actual": "15"
+		},
+		{
+			"name": "population.cancelled_queue_releases_population",
+			"passed": true,
+			"expected": "1",
+			"actual": "1"
+		},
+		{
+			"name": "visibility.hidden_enemy_requires_detection",
+			"passed": true,
+			"expected": "hidden enemy not visible",
+			"actual": "hidden enemy not visible"
+		},
+		{
+			"name": "visibility.spy_detects_hidden_enemy",
+			"passed": true,
+			"expected": "hidden enemy visible to detector",
+			"actual": "hidden enemy visible to detector"
+		},
+		{
+			"name": "visibility.rock_blocks_line_of_sight",
+			"passed": true,
+			"expected": "blocked",
+			"actual": "blocked"
+		},
+		{
+			"name": "visibility.rock_hides_enemy",
+			"passed": true,
+			"expected": "enemy not visible",
+			"actual": "enemy not visible"
+		},
+		{
+			"name": "chat.profanity_detects_word_token",
+			"passed": true,
+			"expected": "true",
+			"actual": "true"
+		},
+		{
+			"name": "chat.profanity_does_not_match_substring",
+			"passed": true,
+			"expected": "false",
+			"actual": "false"
+		},
+		{
+			"name": "chat.apology_accepts_case_and_punctuation",
+			"passed": true,
+			"expected": "true",
+			"actual": "true"
+		},
+		{
+			"name": "chat.apology_requires_exact_phrase",
+			"passed": true,
+			"expected": "false",
+			"actual": "false"
+		}
+	]
+}

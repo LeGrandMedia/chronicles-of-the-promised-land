@@ -1,0 +1,56 @@
+[
+  {
+    "pair": 5,
+    "leg": 0,
+    "control_winner": "lamanites",
+    "trial_winner": "lamanites",
+    "control_seconds": 569.9078979492188,
+    "trial_seconds": 823.5459594726562,
+    "duration_delta": 253.64
+  },
+  {
+    "pair": 5,
+    "leg": 1,
+    "control_winner": "lamanites",
+    "trial_winner": "lamanites",
+    "control_seconds": 770.1589965820312,
+    "trial_seconds": 624.5945434570312,
+    "duration_delta": -145.56
+  },
+  {
+    "pair": 10,
+    "leg": 0,
+    "control_winner": "shiz",
+    "trial_winner": "shiz",
+    "control_seconds": 1182.958251953125,
+    "trial_seconds": 805.5503540039062,
+    "duration_delta": -377.41
+  },
+  {
+    "pair": 10,
+    "leg": 1,
+    "control_winner": "shiz",
+    "trial_winner": "shiz",
+    "control_seconds": 816.8475952148438,
+    "trial_seconds": 754.2628784179688,
+    "duration_delta": -62.58
+  },
+  {
+    "pair": 11,
+    "leg": 0,
+    "control_winner": "laban",
+    "trial_winner": "laban",
+    "control_seconds": 717.2719116210938,
+    "trial_seconds": 734.0678100585938,
+    "duration_delta": 16.8
+  },
+  {
+    "pair": 11,
+    "leg": 1,
+    "control_winner": "laban",
+    "trial_winner": "laban",
+    "control_seconds": 736.3672485351562,
+    "trial_seconds": 751.0636596679688,
+    "duration_delta": 14.7
+  }
+]

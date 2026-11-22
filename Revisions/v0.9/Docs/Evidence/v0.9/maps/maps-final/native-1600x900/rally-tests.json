@@ -1,0 +1,42 @@
+{
+	"passed": 6,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "catalog.exact_unit_producer_buildings",
+			"passed": true,
+			"expected": "encampment_of_war,gathering_of_flocks,place_of_many_waters,place_of_trade,seat_of_the_people,secret_combination_lodge,storehouse_of_provisions,temple_of_the_land,winery",
+			"actual": "encampment_of_war,gathering_of_flocks,place_of_many_waters,place_of_trade,seat_of_the_people,secret_combination_lodge,storehouse_of_provisions,temple_of_the_land,winery"
+		},
+		{
+			"name": "production.all_eight_buildings_train_and_apply_rally",
+			"passed": true,
+			"expected": "8 producers queue and spawn their valid unit at the selected rally point",
+			"actual": "winery/drunken_concubine=pass(order=move); encampment_of_war/cimeter_bearer=pass(order=move); gathering_of_flocks/sheep=pass(order=move); secret_combination_lodge/lawyer=pass(order=move); place_of_many_waters/jaredite_barge=pass(order=move); place_of_trade/trader_in_precious_things=pass(order=move); storehouse_of_provisions/gadianton_robber=pass(order=move); seat_of_the_people/industrious_laborer=pass(order=gather); temple_of_the_land/teacher_of_the_word=pass(order=move)"
+		},
+		{
+			"name": "hq.worker_rally_gathers_and_delivers",
+			"passed": true,
+			"expected": "trained Laborer is assigned to the resource and at least one cargo delivery reaches HQ",
+			"actual": "worker=gather target=2 food_delta=30.00 cargo=1.20"
+		},
+		{
+			"name": "production.nonworker_rally_moves_without_gathering",
+			"passed": true,
+			"expected": "non-worker reaches the selected rally point and never receives a gather job",
+			"actual": "order=idle worktarget=0 displacement=16.19 rally=X=65.000 Y=45.000 position=X=64.638 Y=45.000 distance_to_rally=0.36"
+		},
+		{
+			"name": "hq.stale_resource_target_falls_back_to_move",
+			"passed": true,
+			"expected": "worker moves to rally point without an invalid gather target",
+			"actual": "order=move target=0 work=0 destination=X=52.000 Y=52.000"
+		},
+		{
+			"name": "hq.full_worksite_falls_back_to_move",
+			"passed": true,
+			"expected": "eleventh worker moves to full field instead of being assigned beyond site capacity",
+			"actual": "order=move work=0 destination=X=50.000 Y=50.000"
+		}
+	]
+}

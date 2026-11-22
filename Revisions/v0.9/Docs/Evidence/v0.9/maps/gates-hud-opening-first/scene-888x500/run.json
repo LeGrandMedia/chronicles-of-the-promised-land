@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-22T14:28:00.9104552Z",
+  "finished_utc": "2026-11-22T14:28:17.7408418Z",
+  "sha256": "5DD0C8FC8851CE4F6C1F92E792E250F332B36EA61504D7038174DA1DA80654AC",
+  "arguments": [
+    "-RTSV09SceneTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\gates-hud-opening-first\\scene-888x500\\test.log\"",
+    "-d3d11",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=888",
+    "-ResY=500"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

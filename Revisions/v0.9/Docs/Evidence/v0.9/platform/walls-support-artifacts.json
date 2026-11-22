@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-22T08:02:16Z",
+  "scope": "Wall junctions, wall escape navigation, GPU meshes and bot support policy; Windows fixtures passed87/87 and43/43. Android archive verified but not launched. Installer compiled but not installed. Subsequent controlled-balance test switches are excluded from these artifacts.",
+  "artifacts": [
+    {
+      "path": "Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256512000,
+      "sha256": "733DEA1A502E5001DDF5C205DA22163BA017DD1A1017E59871544403466A9B35"
+    },
+    {
+      "path": "Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486632723,
+      "sha256": "7F6401F0B8E7C5EAD0E44F8F520A699241A75C95E6DEB58DF471DC070244D3B2"
+    },
+    {
+      "path": "Builds\\Installer\\Walls-Support-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524146252,
+      "sha256": "08A60BA8DB788C511D1527D775A2F536069512E649A5DEE772245F4D0875ABED"
+    }
+  ]
+}

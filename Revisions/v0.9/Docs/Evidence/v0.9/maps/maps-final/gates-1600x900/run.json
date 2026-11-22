@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T12:45:51.8011563Z",
+  "finished_utc": "2026-11-22T12:46:02.7186154Z",
+  "sha256": "DE3E20C7D5D9D1692BC278855A7D0E6B99A55897E9DD62C50604A2F622DFEF11",
+  "arguments": [
+    "-RTSV09GateTraversalTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\maps-final\\gates-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

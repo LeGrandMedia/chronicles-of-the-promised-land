@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-11-22T09:16:59Z",
+  "scope": "Friendly gate route fix, refined Laban landmark foundation and Gadianton Lodge, mitered walls, beginner UI and name-only lobby publication. Emergency Slinger remains balance-only opt-in; live bot policy unchanged. Windows source/build validated by scoped native, rendered district and controlled balance evidence. Android content archive verified; no device launch. Windows installer compiled; clean installation pending at VM credential setup.",
+  "artifacts": [
+    {
+      "path": "Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256638976,
+      "sha256": "012186FA30DC3C72B6C8B90B7A8A0352495B4922AD0EE68BE8ACD76252BBD85E"
+    },
+    {
+      "path": "Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486694827,
+      "sha256": "E3C338A7BEB6EC6C2B3FE1E0C7C98B496844568D0BDD75E9F728B0EA2A693BA2"
+    },
+    {
+      "path": "Builds\\Installer\\Gate-District-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524194472,
+      "sha256": "87484C4003291E4C7CD84100D005A6A3E2749770D7530B188B9ADEEA59896C32"
+    }
+  ]
+}

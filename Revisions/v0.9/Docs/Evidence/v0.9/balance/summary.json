@@ -1,0 +1,522 @@
+{
+  "matches": 30,
+  "pairs": 15,
+  "outcomes": {
+    "victory": 13,
+    "time_limit": 17
+  },
+  "slot_wins": {
+    "1": 5,
+    "0": 8
+  },
+  "pairs_decided_both_legs": 6,
+  "pairs_with_same_winner_both_legs": 5,
+  "games_with_no_attacks": 0,
+  "games_with_no_damage_in_last_180_seconds": 7,
+  "steps": 306406,
+  "performance_ms": {
+    "per_match_median_range": [
+      1.651,
+      4.508
+    ],
+    "per_match_p95_range": [
+      21.182,
+      29.832
+    ],
+    "max": 168.467,
+    "concurrent_shards": 5
+  },
+  "factions": [
+    {
+      "faction": "nephites",
+      "played": 10,
+      "wins": 0,
+      "losses": 6,
+      "timeouts": 4,
+      "mutual_defeats": 0,
+      "median_age_ii": 180.95,
+      "age_iii_games": 4,
+      "age_iv_games": 1,
+      "research_games": 10,
+      "attack_games": 10,
+      "median_first_hit_seconds": 357.01,
+      "median_peak_army_units": 10.0,
+      "median_peak_army_population": 12.5,
+      "median_peak_army_resource_cost": 1291.0,
+      "observed_worker_losses": 176,
+      "observed_army_losses": 257,
+      "observed_economy_building_losses": 92,
+      "observed_damage_dealt": 34083.9,
+      "games_with_raid_cargo": 0,
+      "max_raid_cargo": 0,
+      "conversion_in_total": 24
+    },
+    {
+      "faction": "lamanites",
+      "played": 10,
+      "wins": 7,
+      "losses": 0,
+      "timeouts": 3,
+      "mutual_defeats": 0,
+      "median_age_ii": 151.5,
+      "age_iii_games": 5,
+      "age_iv_games": 2,
+      "research_games": 10,
+      "attack_games": 10,
+      "median_first_hit_seconds": 315.01,
+      "median_peak_army_units": 41.0,
+      "median_peak_army_population": 44.0,
+      "median_peak_army_resource_cost": 2067.0,
+      "observed_worker_losses": 2,
+      "observed_army_losses": 264,
+      "observed_economy_building_losses": 2,
+      "observed_damage_dealt": 230729.8,
+      "games_with_raid_cargo": 0,
+      "max_raid_cargo": 0,
+      "conversion_in_total": 0
+    },
+    {
+      "faction": "gadianton",
+      "played": 10,
+      "wins": 0,
+      "losses": 0,
+      "timeouts": 10,
+      "mutual_defeats": 0,
+      "median_age_ii": 262.11,
+      "age_iii_games": 0,
+      "age_iv_games": 0,
+      "research_games": 10,
+      "attack_games": 10,
+      "median_first_hit_seconds": 339.51,
+      "median_peak_army_units": 8.0,
+      "median_peak_army_population": 11.0,
+      "median_peak_army_resource_cost": 870.0,
+      "observed_worker_losses": 117,
+      "observed_army_losses": 160,
+      "observed_economy_building_losses": 62,
+      "observed_damage_dealt": 8264.5,
+      "games_with_raid_cargo": 3,
+      "max_raid_cargo": 31.4,
+      "conversion_in_total": 0
+    },
+    {
+      "faction": "coriantumr",
+      "played": 10,
+      "wins": 1,
+      "losses": 3,
+      "timeouts": 6,
+      "mutual_defeats": 0,
+      "median_age_ii": 166.7,
+      "age_iii_games": 8,
+      "age_iv_games": 3,
+      "research_games": 10,
+      "attack_games": 10,
+      "median_first_hit_seconds": 334.71,
+      "median_peak_army_units": 11.5,
+      "median_peak_army_population": 24.5,
+      "median_peak_army_resource_cost": 1305.0,
+      "observed_worker_losses": 68,
+      "observed_army_losses": 259,
+      "observed_economy_building_losses": 41,
+      "observed_damage_dealt": 73350.7,
+      "games_with_raid_cargo": 0,
+      "max_raid_cargo": 0,
+      "conversion_in_total": 1
+    },
+    {
+      "faction": "shiz",
+      "played": 10,
+      "wins": 2,
+      "losses": 1,
+      "timeouts": 7,
+      "mutual_defeats": 0,
+      "median_age_ii": 166.7,
+      "age_iii_games": 9,
+      "age_iv_games": 2,
+      "research_games": 10,
+      "attack_games": 10,
+      "median_first_hit_seconds": 331.11,
+      "median_peak_army_units": 10.0,
+      "median_peak_army_population": 21.0,
+      "median_peak_army_resource_cost": 1150.0,
+      "observed_worker_losses": 51,
+      "observed_army_losses": 238,
+      "observed_economy_building_losses": 18,
+      "observed_damage_dealt": 100126.9,
+      "games_with_raid_cargo": 0,
+      "max_raid_cargo": 0,
+      "conversion_in_total": 3
+    },
+    {
+      "faction": "laban",
+      "played": 10,
+      "wins": 3,
+      "losses": 3,
+      "timeouts": 4,
+      "mutual_defeats": 0,
+      "median_age_ii": 169.55,
+      "age_iii_games": 8,
+      "age_iv_games": 6,
+      "research_games": 10,
+      "attack_games": 10,
+      "median_first_hit_seconds": 331.11,
+      "median_peak_army_units": 14.0,
+      "median_peak_army_population": 18.5,
+      "median_peak_army_resource_cost": 1537.5,
+      "observed_worker_losses": 85,
+      "observed_army_losses": 263,
+      "observed_economy_building_losses": 60,
+      "observed_damage_dealt": 103825.1,
+      "games_with_raid_cargo": 0,
+      "max_raid_cargo": 0,
+      "conversion_in_total": 10
+    }
+  ],
+  "pair_comparisons": [
+    {
+      "pair": 0,
+      "factions": [
+        "nephites",
+        "lamanites"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "lamanites",
+          "seconds": 594.4,
+          "last_damage_seconds": 551.4,
+          "attack_events": 1397
+        },
+        {
+          "leg": 1,
+          "winner": "lamanites",
+          "seconds": 520.9,
+          "last_damage_seconds": 493.6,
+          "attack_events": 1048
+        }
+      ]
+    },
+    {
+      "pair": 1,
+      "factions": [
+        "nephites",
+        "gadianton"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1191.3,
+          "attack_events": 715
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1199.5,
+          "attack_events": 1303
+        }
+      ]
+    },
+    {
+      "pair": 2,
+      "factions": [
+        "nephites",
+        "coriantumr"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1198.7,
+          "attack_events": 1515
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1199.9,
+          "attack_events": 2282
+        }
+      ]
+    },
+    {
+      "pair": 3,
+      "factions": [
+        "nephites",
+        "shiz"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "shiz",
+          "seconds": 839.4,
+          "last_damage_seconds": 821.6,
+          "attack_events": 1330
+        },
+        {
+          "leg": 1,
+          "winner": "shiz",
+          "seconds": 819.0,
+          "last_damage_seconds": 819.0,
+          "attack_events": 1422
+        }
+      ]
+    },
+    {
+      "pair": 4,
+      "factions": [
+        "nephites",
+        "laban"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "laban",
+          "seconds": 1108.4,
+          "last_damage_seconds": 1108.4,
+          "attack_events": 2159
+        },
+        {
+          "leg": 1,
+          "winner": "laban",
+          "seconds": 769.5,
+          "last_damage_seconds": 769.2,
+          "attack_events": 1877
+        }
+      ]
+    },
+    {
+      "pair": 5,
+      "factions": [
+        "lamanites",
+        "gadianton"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 432.4,
+          "attack_events": 336
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 858.2,
+          "attack_events": 494
+        }
+      ]
+    },
+    {
+      "pair": 6,
+      "factions": [
+        "lamanites",
+        "coriantumr"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "lamanites",
+          "seconds": 761.5,
+          "last_damage_seconds": 761.5,
+          "attack_events": 3964
+        },
+        {
+          "leg": 1,
+          "winner": "lamanites",
+          "seconds": 688.7,
+          "last_damage_seconds": 688.1,
+          "attack_events": 4028
+        }
+      ]
+    },
+    {
+      "pair": 7,
+      "factions": [
+        "lamanites",
+        "shiz"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "lamanites",
+          "seconds": 770.9,
+          "last_damage_seconds": 770.9,
+          "attack_events": 5184
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1199.1,
+          "attack_events": 3757
+        }
+      ]
+    },
+    {
+      "pair": 8,
+      "factions": [
+        "lamanites",
+        "laban"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "lamanites",
+          "seconds": 588.8,
+          "last_damage_seconds": 564.8,
+          "attack_events": 1658
+        },
+        {
+          "leg": 1,
+          "winner": "lamanites",
+          "seconds": 883.4,
+          "last_damage_seconds": 851.6,
+          "attack_events": 2564
+        }
+      ]
+    },
+    {
+      "pair": 9,
+      "factions": [
+        "gadianton",
+        "coriantumr"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 904.8,
+          "attack_events": 1141
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 850.2,
+          "attack_events": 636
+        }
+      ]
+    },
+    {
+      "pair": 10,
+      "factions": [
+        "gadianton",
+        "shiz"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 717.8,
+          "attack_events": 453
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1180.5,
+          "attack_events": 607
+        }
+      ]
+    },
+    {
+      "pair": 11,
+      "factions": [
+        "gadianton",
+        "laban"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 704.5,
+          "attack_events": 846
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 614.8,
+          "attack_events": 618
+        }
+      ]
+    },
+    {
+      "pair": 12,
+      "factions": [
+        "coriantumr",
+        "shiz"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1187.9,
+          "attack_events": 1195
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1198.8,
+          "attack_events": 2046
+        }
+      ]
+    },
+    {
+      "pair": 13,
+      "factions": [
+        "coriantumr",
+        "laban"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "coriantumr",
+          "seconds": 839.2,
+          "last_damage_seconds": 835.2,
+          "attack_events": 1692
+        },
+        {
+          "leg": 1,
+          "winner": "laban",
+          "seconds": 1055.9,
+          "last_damage_seconds": 1055.9,
+          "attack_events": 3997
+        }
+      ]
+    },
+    {
+      "pair": 14,
+      "factions": [
+        "shiz",
+        "laban"
+      ],
+      "outcomes": [
+        {
+          "leg": 0,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1199.1,
+          "attack_events": 1337
+        },
+        {
+          "leg": 1,
+          "winner": "time_limit",
+          "seconds": 1199.9,
+          "last_damage_seconds": 1178.3,
+          "attack_events": 1390
+        }
+      ]
+    }
+  ]
+}

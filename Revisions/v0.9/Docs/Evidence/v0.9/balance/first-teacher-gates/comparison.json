@@ -1,0 +1,159 @@
+{
+  "model": {
+    "recommended": "GPT-6.2 Sol",
+    "actual": "GPT-6.2 Sol"
+  },
+  "evidence": {
+    "trace_on": {
+      "report": "enabled/v09-bot-balance-04-of-15.json",
+      "run": "enabled/run.json",
+      "exit_code": 0,
+      "sha256": "01849280A0BC42FB668D1DEBF8FBB78DA0897872C2FA0926DC4F3CCDB238621C",
+      "trace": "enabled"
+    },
+    "trace_off": {
+      "report": "disabled/v09-bot-balance-04-of-15.json",
+      "run": "disabled/run.json",
+      "exit_code": 0,
+      "sha256": "01849280A0BC42FB668D1DEBF8FBB78DA0897872C2FA0926DC4F3CCDB238621C",
+      "trace": "disabled"
+    },
+    "prior_arrival_hold": {
+      "report": "../support-policy/arrival-hold/v09-bot-balance-04-of-15.json",
+      "sha256": "7DA5726001DD599F4E48DCFC4CD3D1B9E4F8AE15C9403DDA5D301838CF0B1016"
+    }
+  },
+  "comparison_method": {
+    "scope": "Exact recursive equality across report settings, matches, players and nested metrics. Ignore object key order and retain array order.",
+    "excluded_field_names": [
+      "dropped_support_events",
+      "first_teacher_eligibility",
+      "observer_inclusive_wall_seconds",
+      "step_ms_max",
+      "step_ms_median",
+      "step_ms_p95",
+      "support_events",
+      "support_trace"
+    ]
+  },
+  "comparisons": {
+    "trace_on_vs_trace_off": {
+      "exact_match": true,
+      "scalar_fields_compared": 388,
+      "differences": []
+    },
+    "trace_on_vs_prior_arrival_hold": {
+      "exact_match": true,
+      "scalar_fields_compared": 388,
+      "differences": []
+    },
+    "trace_off_vs_prior_arrival_hold": {
+      "exact_match": true,
+      "scalar_fields_compared": 388,
+      "differences": []
+    }
+  },
+  "trace_scope": {
+    "absent_when_trace_off": true,
+    "absent_for_non_nephites_when_trace_on": true
+  },
+  "nephite_teacher_decisions": [
+    {
+      "leg": 0,
+      "slot": 0,
+      "winner": "laban",
+      "steps": 7850,
+      "game_seconds": 784.9553833007812,
+      "first_combat": 346.81195068359375,
+      "first_temple": 417.61627197265625,
+      "first_teacher": 459.7188415527344,
+      "first_seat_loss": 724.9700317382812,
+      "first_attempt_seconds": 417.7162780761719,
+      "first_queued_seconds": 417.7162780761719,
+      "recorded_transitions": 1,
+      "dropped_transitions": 0,
+      "gate": "teacher_queued",
+      "decision_seconds": 417.7162780761719,
+      "army_units": 7,
+      "nearby_defenders": 6,
+      "visible_base_threat": true,
+      "age_reserve": false,
+      "before": {
+        "resources": {
+          "food": 273.5080208182335,
+          "timber": 68.00003741681576,
+          "precious": 170.99999046325684
+        },
+        "free_population": 15,
+        "temple_jobs": 0,
+        "military_jobs": 1,
+        "can_afford_teacher": true
+      },
+      "after": {
+        "resources": {
+          "food": 185.5080208182335,
+          "timber": 68.00003741681576,
+          "precious": 45.999990463256836
+        },
+        "free_population": 13,
+        "temple_jobs": 1,
+        "military_jobs": 1,
+        "can_afford_teacher": false
+      },
+      "queued_orders": [
+        "teacher_of_the_word"
+      ]
+    },
+    {
+      "leg": 1,
+      "slot": 1,
+      "winner": "laban",
+      "steps": 7321,
+      "game_seconds": 732.0682983398438,
+      "first_combat": 331.1109924316406,
+      "first_temple": 511.9220275878906,
+      "first_teacher": null,
+      "first_seat_loss": 672.0829467773438,
+      "first_attempt_seconds": null,
+      "first_queued_seconds": null,
+      "recorded_transitions": 1,
+      "dropped_transitions": 0,
+      "gate": "army_below_four",
+      "decision_seconds": 513.4216918945312,
+      "army_units": 1,
+      "nearby_defenders": 1,
+      "visible_base_threat": true,
+      "age_reserve": false,
+      "before": {
+        "resources": {
+          "food": 472.69642332196236,
+          "timber": 58.00003919750452,
+          "precious": 186.05501731485128
+        },
+        "free_population": 25,
+        "temple_jobs": 0,
+        "military_jobs": 1,
+        "can_afford_teacher": true
+      },
+      "after": {
+        "resources": {
+          "food": 472.69642332196236,
+          "timber": 58.00003919750452,
+          "precious": 186.05501731485128
+        },
+        "free_population": 25,
+        "temple_jobs": 0,
+        "military_jobs": 1,
+        "can_afford_teacher": true
+      },
+      "queued_orders": []
+    }
+  ],
+  "finding": {
+    "blocked_leg": 1,
+    "minimum_live_army": 4,
+    "observed_live_army": 1,
+    "funds_and_capacity_available": true,
+    "savings_change_supported_by_these_runs": false
+  }
+}

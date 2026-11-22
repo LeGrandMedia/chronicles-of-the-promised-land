@@ -1,0 +1,114 @@
+{
+	"passed": 27,
+	"failed": 0,
+	"assertions": [
+		{
+			"name": "catalog.unique_definition_ids",
+			"passed": true
+		},
+		{
+			"name": "ages.all_three_advancements_and_global_lock.nephites",
+			"passed": true
+		},
+		{
+			"name": "ages.all_three_advancements_and_global_lock.lamanites",
+			"passed": true
+		},
+		{
+			"name": "ages.all_three_advancements_and_global_lock.gadianton",
+			"passed": true
+		},
+		{
+			"name": "ages.all_three_advancements_and_global_lock.coriantumr",
+			"passed": true
+		},
+		{
+			"name": "ages.all_three_advancements_and_global_lock.shiz",
+			"passed": true
+		},
+		{
+			"name": "ages.all_three_advancements_and_global_lock.laban",
+			"passed": true
+		},
+		{
+			"name": "laban.aura_reduces_max_hp_preserving_health_fraction",
+			"passed": true
+		},
+		{
+			"name": "laban.aura_expires_without_healing_fraction",
+			"passed": true
+		},
+		{
+			"name": "laban.seduction_creates_regular_worker",
+			"passed": true
+		},
+		{
+			"name": "counters.ranged_50percent_bonus_against_religion",
+			"passed": true
+		},
+		{
+			"name": "counters.melee_25percent_ranged_resistance",
+			"passed": true
+		},
+		{
+			"name": "counters.melee_conversion_finishes_after_five_seconds",
+			"passed": true
+		},
+		{
+			"name": "infiltration.lawyer_transfers_real_owner_and_retains_disguise",
+			"passed": true
+		},
+		{
+			"name": "infiltration.former_owner_orders_ignored",
+			"passed": true
+		},
+		{
+			"name": "infiltration.former_owner_cannot_attack_disguise",
+			"passed": true
+		},
+		{
+			"name": "infiltration.delete_exception_is_limited_to_former_owner",
+			"passed": true
+		},
+		{
+			"name": "infiltration.shared_vision_requires_more_than_fifty",
+			"passed": true
+		},
+		{
+			"name": "infiltration.shared_vision_is_revoked_when_stat_falls",
+			"passed": true
+		},
+		{
+			"name": "infiltration.raid_multiplier_threshold_and_upgrade",
+			"passed": true
+		},
+		{
+			"name": "stealth.stationary_band_is_hidden",
+			"passed": true
+		},
+		{
+			"name": "stealth.tower_detects_band_without_judgment_seat",
+			"passed": true
+		},
+		{
+			"name": "carrier.regular_worker_boards_chariot",
+			"passed": true
+		},
+		{
+			"name": "carrier.chariot_unloads_regular_worker",
+			"passed": true
+		},
+		{
+			"name": "carrier.elephant_boards_worker",
+			"passed": true
+		},
+		{
+			"name": "carrier.elephant_unloads_worker",
+			"passed": true
+		},
+		{
+			"name": "devotion.high_values_decay_by_more_than_one_per_second",
+			"passed": true
+		}
+	]
+}

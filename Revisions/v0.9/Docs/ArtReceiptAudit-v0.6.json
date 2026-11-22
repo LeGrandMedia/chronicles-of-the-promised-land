@@ -1,0 +1,41 @@
+{
+  "revision": "v0.6",
+  "audit_date": "2026-10-21",
+  "result": "pass",
+  "scope": {
+    "inventory_entries": 225,
+    "png_files": 225,
+    "matched_production_receipts": 225,
+    "counts_by_category": {
+      "units": 71,
+      "buildings": 17,
+      "research_icons": 40,
+      "world_resource_art": 5,
+      "action_icons": 15,
+      "faction_emblems": 6,
+      "faction_name_variants": 62,
+      "resource_stat_icons": 9
+    },
+    "age_choice_icons_reuse_hero_art": 36
+  },
+  "file_receipt_checks": {
+    "missing_pngs": [],
+    "missing_receipts": [],
+    "missing_source_files": [],
+    "receipt_destination_path_mismatches": [],
+    "sha256_source_destination_mismatches": [],
+    "checked": 225
+  },
+  "png_checks": {
+    "decoded_files": 225,
+    "alpha_channel_files": 225,
+    "dimensions": "1254x1254",
+    "invalid_or_undecodable_files": [],
+    "dimension_failures": []
+  },
+  "receipt_directory": {
+    "json_files": 226,
+    "unreferenced_support_file": "structure-transfer-briefs.json"
+  },
+  "method": "Matched each inventory path to its production receipt, verified receipt source and destination paths, compared source/destination SHA-256 hashes, and decoded each destination PNG to inspect dimensions and alpha-channel support."
+}

@@ -14,3 +14,16 @@
 .env.*
 *.local.json
 *.local.ps1
+
+# v0.9 local artifacts and credentials
+**/Builds/
+**/Toolchain/
+**/.obsidian/
+**/*.log
+*.apk
+*.exe
+*.pdb
+*.keystore
+*.jks
+*.p12
+*.pfx

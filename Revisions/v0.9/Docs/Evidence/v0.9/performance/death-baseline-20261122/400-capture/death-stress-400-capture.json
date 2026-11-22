@@ -1,0 +1,57 @@
+{
+	"passed": true,
+	"failure": "",
+	"scope": "Development standalone rendered authority Kill and filtered snapshots, with simulation tick disabled. No transport, AI, or live-match frame-rate claim.",
+	"clocks": "Wall intervals and prior completed scene tick. UE stat unit engine counters can lag different frames, zero readings are excluded from summaries. Scene update includes pose, pose includes mesh submission, and initial death submission is a subset of mesh submission.",
+	"first_loss_wall_scope": "The first loss wall interval includes the authority kill loop and filtered snapshot. The scene profile begins after the fixture hook and excludes both operations.",
+	"memory_scope": "Process resident MiB at the named boundaries. Component registration and renderer keys separately establish cleanup.",
+	"capture_only": true,
+	"requested_visible_unit_losses": 400,
+	"requested_visible_building_losses": 8,
+	"effect_cap": 256,
+	"expected_local_effects": 256,
+	"expected_local_evictions": 152,
+	"initial_live_skeletal_meshes": 400,
+	"effect_triangles": 290608,
+	"representative_poses_changed": true,
+	"representative_effects_drew": true,
+	"authority_kill_ms": 2.4246000102721155,
+	"post_loss_snapshot_ms": 0.083799997810274363,
+	"rendered_component_count":
+	{
+		"live": 411,
+		"first_loss": 259,
+		"expiry": 3,
+		"clean": 3
+	},
+	"process_resident_mib":
+	{
+		"live": 734.4609375,
+		"first_loss": 916.31640625,
+		"expiry": 893.15625,
+		"clean": 850.0625
+	},
+	"screenshots": [
+		"Screenshots/death-stress-400-20261122-093041/live.png",
+		"Screenshots/death-stress-400-20261122-093041/collapse.png",
+		"Screenshots/death-stress-400-20261122-093041/expired.png"
+	],
+	"config":
+	{
+		"platform": "Windows",
+		"engine": "5.3.2-29314046+++UE5+Release-5.3",
+		"cpu": "AMD Ryzen 5 5600X 6-Core Processor             ",
+		"gpu": "NVIDIA GeForce RTX 4070",
+		"rhi": "D3D12",
+		"width": 1600,
+		"height": 900,
+		"vsync": 0,
+		"max_fps": 0,
+		"screen_percentage": 0,
+		"shadow_quality": 3,
+		"frame_smoothing_disabled": true,
+		"offscreen": true,
+		"gpu_skinning_requested": true
+	},
+	"frames": []
+}

@@ -10,11 +10,13 @@ Common simulation contract; see [[Design Contract]] for authority and [[Data and
 - HP changes preserve fractional current-health ratio; never resurrect, erase damage or grant rounding heals. HUD rounds live HP upward. [[Favor of the Lord]] defines religious rescaling.
 - Support units answer attack orders with their documented support action or contextual refusal. Workers do not automatically fight like military units; military auto-acquisition skips workers and passive noncombatants. Attack Move is available to units, not structures. Stop, hold, patrol and move remain available where applicable.
 
+This page describes the v0.8 source baseline unless a version override is linked. Current v0.9 civilization multipliers are summarized in [[v0.9 Retained Civilization Rules]].
+
 ## Production and progression
 
 - Population cap 200; queues immediately reserve resources and population. One queue per producer; research once per player, never queued twice. Require completed owned prerequisites. A finished unit waits in queue if no legal spawn space exists.
 - Cancel units/research for a full refund, including active jobs. Cancel a foundation for the unbuilt fraction of paid resources; destroyed foundations refund nothing. Producer destruction loses its active job and fully refunds waiting jobs. No general structure capture system is exposed.
-- Normal new-unit cost/time modifiers: Nephites 1.25×/1.20×; Lamanites 0.65×/0.60×; others 1×, rounded up per nonzero resource. Include workers, religious units, heroes and ships; exclude buildings, research, age choices, conversions and worker job changes.
+- v0.8 baseline new-unit cost/time modifiers: Nephites 1.25×/1.20×; Lamanites 0.65×/0.60×; others 1×, rounded up per nonzero resource. In v0.9, Nephites retain 1.25×/1.20× and Lamanites use 0.75×/0.75× before Anger; see [[v0.9 Retained Civilization Rules]]. The scope is workers, religious units, heroes and ships; not buildings, research, age choices, conversions or worker job changes.
 - Ages I–IV: no military in I; weak units in II, most in III, remaining/elite in IV. Locked unit and building buttons show the required Roman numeral. Chief Captains and King's Chariots unlock in III; One of the Fifty unlocks in IV. Exact gates are catalog fields. Encampment of War begins in II. Builder beasts have separate economic gates.
 - Age advancement selects a hero/permanent perk and grants that hero. Only that chosen hero can be retrained after death; no free-standing initial hero recruitment. One alive/queued copy per named hero; original death cooldown is 90 seconds and life-specific bonuses reset. See [[Upgrade Catalog]].
 - Laborer, Tiller, Keeper and Miner are job states of one worker, preserving identity, cargo and damage; not four recruitment buttons.

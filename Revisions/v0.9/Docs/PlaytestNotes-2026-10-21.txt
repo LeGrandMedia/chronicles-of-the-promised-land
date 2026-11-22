@@ -1,0 +1,52 @@
+1. The resource gathering sound is annoying.
+2. A unit’s hotkey should be visible in the corner next to their icon
+3. For the UI, an icon should be a square instead of a rectangle. Add a placeholder box where the unit icon png will go later.
+4. Remove abilities, options, and hotkeys for units that obviously dont need them. For example, the seat of the people has “attack move” set to q, even though, as a structure, it can’t move.
+5. Make the building descriptions faction-specific. Right now, the nephite building desciprtions talk about upgrades the lamanites can get. It’s irrelevant info.
+6. Enable shift-clicking to que multiple actions.
+7. Enable “drop off” action by right clicking on a seat of the people or a storehouse while having selected a villager
+8. Make a different sound for when a villager has been tasked to a resource. Make the ping a slightly different color, so it’s easier to tell when you didn’t successfully click on the resource. Make the resource click-boxes a little bigger so they’re easier to click on.
+9. Right now, villagers can gather ore without needing a hill of ore, making the hill of ore redundant. Either get rid of it, make it increase ore gather speed, or make it passively gather ore, or give it upgrades that increase precious things gather rate, or something. Right now its redundant.
+10. Enable map rotation by holding shift + using the scroll wheel
+11. Show the number of workers tasked to each resource
+12. Make the field of grain LEFT CLICK box smaller, but the RIGHT CLICK box a little biger, so its easier to task laborers to it, while being harder to click on accidentally
+13. Make it so laborers automatically start gathering from economic buildings like fields of grain after completing them
+14. increase the food gather rate by 1.5x
+15. Enable multiple laborers to build structures at an increased speed. 
+16. Enable SHIFT + [number] to be used to add something to a control group, instead of overwriting the previous control group
+17. Make fields and flocks 4x bigger, and allow 10 villagers to gather from each one. Above each flock and field, show the number of laborers currently using it
+18. Show an icon in the bottom right corner, just above the UI. Make the icon be whatever the unit’s future icon will be, so for now just an empty placeholder. Allow the unit’s training to be cancelled by right-clicking on the queue icon.
+19. Make the left-click box of all structures smaller.
+20. Make an idle-military banner, next to the idle workers
+21. Panning up on the screen by pushing the mouse against the top border is currently difficult and unresponsive. Make panning north easier.
+22. The clickbox on structures is placed a bit higher than the visual would make it seem. Lower it a little bit.
+23. For flocks, make a mechanic where you train sheep, which passively generate food. Make the flocks only available in the second age, and make them more expensive. Enemies can steal the sheep by destroying the building, AKA “scattering the flock” if that happens, all the sheep convert to the enemy.
+24. Add racial slurs to the profanity trigger that breaks the liahona. Add ass and hell to the profanity list
+25. Enable building/unit deletion by holding the delete key for 2 seconds
+26. Make it so no military units are available in the first age.
+27. The LAN connection is a little unintuitive, since the full code is listed in the lobby, but you don’t need to type the last 4 digits 
+28. Unit pathing is awkward when you right click on the minimap.
+29. Increase unit movement speed across the board
+30. Make it so cureloms, cumeloms, and elephants recover hitpoints when next to a gathering of flocks
+31. Make the berry bushes disappear when their food reserves have been depleted
+32. Allow cumeloms to be trained from the seat of the people, even after curelom husbandry has been researched.
+33. Make the jaredite soldiers different from the nephite and lamanite ones. Find some book of mormon scriptures to inspire those differences
+34. Add a decay rate to the favor of the lord for the nephites. Temples of the land and its units passively generate favor, but the higher the favor goes, the faster the decay rate becomes. Make starting nephite favor 20, and make the decay rate very slow at 20. Converting units boosts their favor, but having their units converted takes favor away.
+35. For tiered upgrades, such as “pickets” and “works of timbers” don’t show the unavailable upgrade in the UI. The player shouldn’t be able to see one upgrade until its prerequisite has been researched.
+36. Briefly show a hovering little icon over a laborer’s head whenever a unit generates resources. This includes sheep, laborers dropping off resources, temple units generating favor, gadianton units plundering, etc.
+37. Show unit population cost when you hover over their icon
+38. Allow jaredites and nephites to construct walls if they get an upgrade.
+39. Allow structures to stay on the minimap once the area has been scouted, even if they aren’t in LOS
+40. Every faction should have some type of religion/conversion component. Every faction should have some equivalent of favor, that boosts their stats. Religious units/structures boosts that number, and they all have the same type of decay rate. For the lamanites, it should be “anger”. Their priests should stir the people up to anger, which increases their gather rate/attack speed. For the house of laban, it should be “drunkenness”, which is increased by “drunken concubines” and it gives the “one of the fifty” units an aoe to their melee attack. For the gadianton robbers, it should be “lasciviousness” and increased by lawyers, who increase the plunder bonus of the robbers. In stealth, they can compromise resource storage facilities, and siphon resources from players. I don’t know what the jaredite religious thing should be. I’ll let you figure that one out.
+41. Big groups of villagers have a hard time with pathing when tasked to gather resources, particularly from hills of ore
+42. Villagers will bug out when clustered, and not gather any resources, even though they don’t seem to be idle.
+43. Idle traders should count as idle workers. Instead of running back and forth between markets, they should galavant between laborers, showing off their fine goods to generate precious things.
+44. Lamanite priests shouldn’t be called “teachers of the word”. They should be called priestcrafters. And the temple should be a “great and spacious building”. Their upgrades should be “the order of the nehors” which allow priestcrafters to passively generate precious things in addition to “anger”. They should also have an upgrade called “by the pride of their hearts” which allow priestcrafters to construct rameumptoms, which are a religious tower that slowly convert nearby enemy units into zoramite captains.
+45. When selecting multiple unit types, you should be able to see the icon of each unit type in your UI and click between them.
+46. Right now, the lamanite priests have the ability to perform 
+47. Nephite teachers of the word should automatically start converting enemy units near them, in the same way military units automatically attack each other
+48. Lamoni and samuel the lamanite are lame heroes, because the lamanites are supposed to be wicked, and those two people both repent. It’d be way cooler to have people like tubaloth. Or Laman and Lemeul as a duo. I dunno, find some wicked lamanites from the book of mormon and throw them in as trainable heroes in the game.
+49. All heroes shouldn’t be trainable from the seat of the people. They should be different age-up options, give the civilization different perks, and only be retrainable once they’ve died. For example, you could choose between the moroni option or the pahoran option, for different military or economic upgrades, or something like that.
+50. Give the ammonites a cooldown ability called “prostrate before the earth”. While this ability has been activated, any military unit who kills an ammonite will be converted to an ammonite.
+51. Add a placeholder animation for when laborers are gathering each resource, and building structures. It can be the same placeholder, but it should be coded so that separate animations can go into each one, for when we have improved assets.
+52. It’s cool that killing things damages nephite favor. I like that. Lamanites should gain anger when their units or buildings get killed. Gadianton robbers should have secret structures that increase their lasciviousness, but the structures stop working when they get scouted.

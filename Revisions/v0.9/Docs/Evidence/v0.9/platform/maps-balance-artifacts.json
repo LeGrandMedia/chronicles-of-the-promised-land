@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-11-22T12:48:52.5721692Z",
+  "scope": "15 maps, shared shoreline navigation, rotated selection and terrain occlusion, unit/ability copy, and second-pass civilization tuning. Experimental death batching remains opt-in and disabled by default. Installer compiled; Android archive verified. No fresh-install or physical-device launch claim.",
+  "artifacts": {
+    "windows_executable": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256845312,
+      "sha256": "DE3E20C7D5D9D1692BC278855A7D0E6B99A55897E9DD62C50604A2F622DFEF11"
+    },
+    "android_apk": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486811659,
+      "sha256": "268C075F88E0173EEC0A7F29BB7E1B788B33A20C4396423E03E0BED386AC3902"
+    },
+    "windows_installer": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Installer\\Maps-Balance-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524285111,
+      "sha256": "4AFA58F1A91649658D6E7C651CA795CEE999EA4516A9D3E013288A5A6B5857B9"
+    }
+  },
+  "evidence": {
+    "regression": "Docs/Evidence/v0.9/maps/maps-final",
+    "touch": "Docs/Evidence/v0.9/maps/maps-final-touch",
+    "balance": "Docs/CivilizationBalance-v0.9.md",
+    "android_payload": "Docs/Evidence/v0.9/android/maps-balance-20261122/payload-verification.json"
+  }
+}

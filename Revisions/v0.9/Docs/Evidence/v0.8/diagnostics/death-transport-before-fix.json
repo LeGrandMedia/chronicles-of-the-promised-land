@@ -1,0 +1,4 @@
+{
+  "executable_sha256": "53f0c038bae6616a10487c95fc93c6f8b81b185dc22798feed07186fa15f4a7f",
+  "finding": "Per-death reliable RPCs overflowed during mass resignation. Host passed; clients disconnected. Superseded by bounded compact batches; final evidence is separate."
+}

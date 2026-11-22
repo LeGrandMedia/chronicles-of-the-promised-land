@@ -1,0 +1,6 @@
+{
+  "scope": "Four-human loopback lobby startup",
+  "result": "Timed out in lobby before gameplay",
+  "binary_sha256": "7DA5726001DD599F4E48DCFC4CD3D1B9E4F8AE15C9403DDA5D301838CF0B1016",
+  "diagnosis": "Automatic full lobby name update can overwrite Ready from a stale client snapshot; name-only server correction pending"
+}

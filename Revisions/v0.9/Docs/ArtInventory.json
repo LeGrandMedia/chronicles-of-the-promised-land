@@ -1,0 +1,2045 @@
+{
+  "schema_version": 1,
+  "revision": "v0.7",
+  "runtime_paths": {
+    "manifest": "Game/Content/Data/visuals.json",
+    "art_root": "Game/Content/Data/Art",
+    "manifest_sprite_key": "stable catalog ID",
+    "texture_path_rule": "relative to Game/Content/Data/Art",
+    "default_unit_path": "units/{id}.png",
+    "default_building_path": "buildings/{id}.png",
+    "research_icon_path": "icons/{id}.png",
+    "resource_icon_path": "resources/{id}.png",
+    "action_icon_path": "icons/actions/{id}.png",
+    "faction_variant_key": "definition_id@faction_id",
+    "faction_variant_path_rule": "buildings/{id}@{faction_id}.png; units/{id}@{faction_id}.png for worker aliases",
+    "resource_stat_icon_path": "icons/stats/{id}.png"
+  },
+  "asset_counts": {
+    "unit_full_body_sprites": 74,
+    "building_sprites": 17,
+    "non_age_choice_research_icons": 50,
+    "resource_icons": 5,
+    "action_icons": 15,
+    "faction_emblems": 6,
+    "faction_specific_name_variant_sprites": 62,
+    "age_choice_icons_reused": 42,
+    "unique_images_total": 238,
+    "resource_stat_icons": 9
+  },
+  "notes": [
+    "71 unit full-body sprites double as unit-card thumbnails.",
+    "17 structure sprites double as construction and building thumbnails.",
+    "Each of the 42 age-choice research cards reuses the associated hero art; it does not need another image.",
+    "Unique image total counts each faction-specific display-name alias as its own sprite and includes resource/action/faction icons.",
+    "Nine resource and religious-stat badges are planned separately from the five world resource source sprites: Food, Timber, Precious Things, Cement, Favor, Anger, Lasciviousness, Drunkenness, and Glowing Stones.",
+    "Faction-specific visuals use stable variant key {definition_id}@{faction_id}; 60 building aliases use buildings/{id}@{faction_id}.png and two laborer aliases use units/{id}@{faction_id}.png.",
+    "Research icons are saved directly in icons/{upgrade_id}.png. Resource/devotion badges use icons/stats/{id}.png.",
+    "Runtime faction visual aliases resolve stable variant keys in the form <definition_id>@<faction_id>.",
+    "Research and definition cards use the corresponding stable IDs; the runtime icon map also accepts actions/<id>, stats/<id>, factions/<id>, and <definition_id>@<faction_id> keys.",
+    "v0.7 adds portraits for Lehi, Amulek, and Teancum plus 10 research icons. Six new age-choice icons reuse hero portraits; no extra image files are counted for those aliases."
+  ],
+  "units": [
+    {
+      "id": "aaron",
+      "display_name": "Aaron",
+      "kind": "hero",
+      "art_key": "aaron",
+      "path": "units/aaron.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "akish",
+      "display_name": "Akish",
+      "kind": "hero",
+      "art_key": "akish",
+      "path": "units/akish.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "alma",
+      "display_name": "Alma",
+      "kind": "hero",
+      "art_key": "alma",
+      "path": "units/alma.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "amalickiah",
+      "display_name": "Amalickiah",
+      "kind": "hero",
+      "art_key": "amalickiah",
+      "path": "units/amalickiah.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "ammon",
+      "display_name": "Ammon",
+      "kind": "hero",
+      "art_key": "ammon",
+      "path": "units/ammon.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "ammonite_covenant_keeper",
+      "display_name": "Ammonite Covenant Keeper",
+      "kind": "ammonite",
+      "art_key": "ammonite_covenant_keeper",
+      "path": "units/ammonite_covenant_keeper.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "ammoron",
+      "display_name": "Ammoron",
+      "kind": "hero",
+      "art_key": "ammoron",
+      "path": "units/ammoron.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "band_captain",
+      "display_name": "Band Captain",
+      "kind": "hero",
+      "art_key": "band_captain",
+      "path": "units/band_captain.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "bowman",
+      "display_name": "Bowman",
+      "kind": "ranged",
+      "art_key": "bowman",
+      "path": "units/bowman.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "brother_of_jared",
+      "display_name": "Brother of Jared",
+      "kind": "hero",
+      "art_key": "brother_of_jared",
+      "path": "units/brother_of_jared.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "captain_moroni",
+      "display_name": "Captain Moroni",
+      "kind": "hero",
+      "art_key": "captain_moroni",
+      "path": "units/captain_moroni.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "chief_captain",
+      "display_name": "Chief Captain",
+      "kind": "infantry",
+      "art_key": "chief_captain",
+      "path": "units/chief_captain.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "cimeter_bearer",
+      "display_name": "Cimeter Bearer",
+      "kind": "infantry",
+      "art_key": "cimeter_bearer",
+      "path": "units/cimeter_bearer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "coriantumr",
+      "display_name": "Coriantumr",
+      "kind": "hero",
+      "art_key": "coriantumr",
+      "path": "units/coriantumr.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "cumelom",
+      "display_name": "Cumelom",
+      "kind": "beast",
+      "art_key": "cumelom",
+      "path": "units/cumelom.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "curelom",
+      "display_name": "Curelom",
+      "kind": "beast",
+      "art_key": "curelom",
+      "path": "units/curelom.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "drunken_concubine",
+      "display_name": "Drunken Concubine",
+      "kind": "priest",
+      "art_key": "drunken_concubine",
+      "path": "units/drunken_concubine.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "elephant",
+      "display_name": "Elephant",
+      "kind": "beast",
+      "art_key": "elephant",
+      "path": "units/elephant.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "emer",
+      "display_name": "Emer",
+      "kind": "hero",
+      "art_key": "emer",
+      "path": "units/emer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "gadianton",
+      "display_name": "Gadianton",
+      "kind": "hero",
+      "art_key": "gadianton",
+      "path": "units/gadianton.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "gadianton_robber",
+      "display_name": "Band of Kishkumen",
+      "kind": "infantry",
+      "art_key": "gadianton_robber",
+      "path": "units/gadianton_robber.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "giddianhi",
+      "display_name": "Giddianhi",
+      "kind": "hero",
+      "art_key": "giddianhi",
+      "path": "units/giddianhi.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "gilead",
+      "display_name": "Gilead",
+      "kind": "hero",
+      "art_key": "gilead",
+      "path": "units/gilead.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "hagoths_vessel",
+      "display_name": "Hagoth's Vessel",
+      "kind": "ship",
+      "art_key": "hagoths_vessel",
+      "path": "units/hagoths_vessel.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "helaman",
+      "display_name": "Helaman",
+      "kind": "hero",
+      "art_key": "helaman",
+      "path": "units/helaman.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "industrious_laborer",
+      "display_name": "Industrious Laborer",
+      "kind": "worker",
+      "art_key": "industrious_laborer",
+      "path": "units/industrious_laborer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "jacob_gadianton",
+      "display_name": "Jacob",
+      "kind": "hero",
+      "art_key": "jacob_gadianton",
+      "path": "units/jacob_gadianton.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "jared",
+      "display_name": "Jared",
+      "kind": "hero",
+      "art_key": "jared",
+      "path": "units/jared.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "jaredite_archer",
+      "display_name": "Jaredite Archer",
+      "kind": "ranged",
+      "art_key": "jaredite_archer",
+      "path": "units/jaredite_archer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "jaredite_barge",
+      "display_name": "Jaredite Barge",
+      "kind": "ship",
+      "art_key": "jaredite_barge",
+      "path": "units/jaredite_barge.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "jaredite_shield_bearer",
+      "display_name": "Jaredite Shield Bearer",
+      "kind": "infantry",
+      "art_key": "jaredite_shield_bearer",
+      "path": "units/jaredite_shield_bearer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "jaredite_warrior",
+      "display_name": "Jaredite Warrior",
+      "kind": "infantry",
+      "art_key": "jaredite_warrior",
+      "path": "units/jaredite_warrior.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "keeper_of_flocks",
+      "display_name": "Keeper of Flocks",
+      "kind": "job",
+      "art_key": "keeper_of_flocks",
+      "path": "units/keeper_of_flocks.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "king_noah",
+      "display_name": "King Noah",
+      "kind": "hero",
+      "art_key": "king_noah",
+      "path": "units/king_noah.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "kings_chariot",
+      "display_name": "King's Chariot",
+      "kind": "chariot",
+      "art_key": "kings_chariot",
+      "path": "units/kings_chariot.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "kishkumen",
+      "display_name": "Kishkumen",
+      "kind": "hero",
+      "art_key": "kishkumen",
+      "path": "units/kishkumen.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "korihor",
+      "display_name": "Korihor",
+      "kind": "hero",
+      "art_key": "korihor",
+      "path": "units/korihor.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "laban",
+      "display_name": "Laban",
+      "kind": "hero",
+      "art_key": "laban",
+      "path": "units/laban.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "laman",
+      "display_name": "Laman",
+      "kind": "hero",
+      "art_key": "laman",
+      "path": "units/laman.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "laman_and_lemuel",
+      "display_name": "Laman and Lemuel",
+      "kind": "hero",
+      "art_key": "laman_and_lemuel",
+      "path": "units/laman_and_lemuel.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "lawyer",
+      "display_name": "Lawyer",
+      "kind": "lawyer",
+      "art_key": "lawyer",
+      "path": "units/lawyer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "lemuel",
+      "display_name": "Lemuel",
+      "kind": "hero",
+      "art_key": "lemuel",
+      "path": "units/lemuel.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "lib",
+      "display_name": "Lib",
+      "kind": "hero",
+      "art_key": "lib",
+      "path": "units/lib.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "man_of_moroni",
+      "display_name": "Man of Moroni",
+      "kind": "infantry",
+      "art_key": "man_of_moroni",
+      "path": "units/man_of_moroni.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "man_of_the_sword",
+      "display_name": "Man of the Sword",
+      "kind": "infantry",
+      "art_key": "man_of_the_sword",
+      "path": "units/man_of_the_sword.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "morianton",
+      "display_name": "Morianton",
+      "kind": "hero",
+      "art_key": "morianton",
+      "path": "units/morianton.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "mormon",
+      "display_name": "Mormon",
+      "kind": "hero",
+      "art_key": "mormon",
+      "path": "units/mormon.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "moroni_son",
+      "display_name": "Moroni",
+      "kind": "hero",
+      "art_key": "moroni_son",
+      "path": "units/moroni_son.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "nehor",
+      "display_name": "Nehor",
+      "kind": "hero",
+      "art_key": "nehor",
+      "path": "units/nehor.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "nephi",
+      "display_name": "Nephi",
+      "kind": "hero",
+      "art_key": "nephi",
+      "path": "units/nephi.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "oath_keeper",
+      "display_name": "Oath Keeper",
+      "kind": "priest",
+      "art_key": "oath_keeper",
+      "path": "units/oath_keeper.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "omer",
+      "display_name": "Omer",
+      "kind": "hero",
+      "art_key": "omer",
+      "path": "units/omer.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "one_of_the_fifty",
+      "display_name": "One of the Fifty",
+      "kind": "infantry",
+      "art_key": "one_of_the_fifty",
+      "path": "units/one_of_the_fifty.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "pahoran",
+      "display_name": "Pahoran",
+      "kind": "hero",
+      "art_key": "pahoran",
+      "path": "units/pahoran.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "priestcrafter",
+      "display_name": "Priestcrafter",
+      "kind": "priest",
+      "art_key": "priestcrafter",
+      "path": "units/priestcrafter.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "sam",
+      "display_name": "Sam",
+      "kind": "hero",
+      "art_key": "sam",
+      "path": "units/sam.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "shared",
+      "display_name": "Shared",
+      "kind": "hero",
+      "art_key": "shared",
+      "path": "units/shared.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "sheep",
+      "display_name": "Sheep",
+      "kind": "sheep",
+      "art_key": "sheep",
+      "path": "units/sheep.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "shiz",
+      "display_name": "Shiz",
+      "kind": "hero",
+      "art_key": "shiz",
+      "path": "units/shiz.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "slinger_of_stones",
+      "display_name": "Slinger of Stones",
+      "kind": "ranged",
+      "art_key": "slinger_of_stones",
+      "path": "units/slinger_of_stones.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "stripling_warrior",
+      "display_name": "Stripling Warrior",
+      "kind": "infantry",
+      "art_key": "stripling_warrior",
+      "path": "units/stripling_warrior.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "teacher_of_the_word",
+      "display_name": "Teacher of the Word",
+      "kind": "priest",
+      "art_key": "teacher_of_the_word",
+      "path": "units/teacher_of_the_word.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "tiller_of_the_earth",
+      "display_name": "Tiller of the Earth",
+      "kind": "job",
+      "art_key": "tiller_of_the_earth",
+      "path": "units/tiller_of_the_earth.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "trader_in_precious_things",
+      "display_name": "Trader in Precious Things",
+      "kind": "trader",
+      "art_key": "trader_in_precious_things",
+      "path": "units/trader_in_precious_things.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "tubaloth",
+      "display_name": "Tubaloth",
+      "kind": "hero",
+      "art_key": "tubaloth",
+      "path": "units/tubaloth.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "wilderness_spy",
+      "display_name": "Wilderness Spy",
+      "kind": "ranged",
+      "art_key": "wilderness_spy",
+      "path": "units/wilderness_spy.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "worker_in_ore",
+      "display_name": "Worker in Ore",
+      "kind": "job",
+      "art_key": "worker_in_ore",
+      "path": "units/worker_in_ore.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "zemnarihah",
+      "display_name": "Zemnarihah",
+      "kind": "hero",
+      "art_key": "zemnarihah",
+      "path": "units/zemnarihah.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "zerahemnah",
+      "display_name": "Zerahemnah",
+      "kind": "hero",
+      "art_key": "zerahemnah",
+      "path": "units/zerahemnah.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "zoram",
+      "display_name": "Zoram",
+      "kind": "hero",
+      "art_key": "zoram",
+      "path": "units/zoram.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "zoramite_captain",
+      "display_name": "Zoramite Captain",
+      "kind": "infantry",
+      "art_key": "zoramite_captain",
+      "path": "units/zoramite_captain.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "lehi",
+      "display_name": "Lehi",
+      "kind": "hero",
+      "art_key": "lehi",
+      "path": "units/lehi.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "amulek",
+      "display_name": "Amulek",
+      "kind": "hero",
+      "art_key": "amulek",
+      "path": "units/amulek.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "teancum",
+      "display_name": "Teancum",
+      "kind": "hero",
+      "art_key": "teancum",
+      "path": "units/teancum.png",
+      "use_as_thumbnail": true
+    }
+  ],
+  "buildings": [
+    {
+      "id": "cement_tower",
+      "display_name": "Cement Tower",
+      "art_key": "cement_tower",
+      "path": "buildings/cement_tower.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "cement_wall",
+      "display_name": "Cement Wall",
+      "art_key": "cement_wall",
+      "path": "buildings/cement_wall.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "encampment_of_war",
+      "display_name": "Encampment of War",
+      "art_key": "encampment_of_war",
+      "path": "buildings/encampment_of_war.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "fields_of_grain",
+      "display_name": "Fields of Grain",
+      "art_key": "fields_of_grain",
+      "path": "buildings/fields_of_grain.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "gathering_of_flocks",
+      "display_name": "Gathering of Flocks",
+      "art_key": "gathering_of_flocks",
+      "path": "buildings/gathering_of_flocks.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "hill_of_ore",
+      "display_name": "Hill of Ore",
+      "art_key": "hill_of_ore",
+      "path": "buildings/hill_of_ore.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "display_name": "House of Curious Workmanship",
+      "art_key": "house_of_curious_workmanship",
+      "path": "buildings/house_of_curious_workmanship.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "place_of_many_waters",
+      "display_name": "Place of Many Waters",
+      "art_key": "place_of_many_waters",
+      "path": "buildings/place_of_many_waters.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "place_of_trade",
+      "display_name": "Place of Trade",
+      "art_key": "place_of_trade",
+      "path": "buildings/place_of_trade.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "seat_of_the_people",
+      "display_name": "Seat of the People",
+      "art_key": "seat_of_the_people",
+      "path": "buildings/seat_of_the_people.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "secret_combination_lodge",
+      "display_name": "Secret Combination Lodge",
+      "art_key": "secret_combination_lodge",
+      "path": "buildings/secret_combination_lodge.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "display_name": "Storehouse of Provisions",
+      "art_key": "storehouse_of_provisions",
+      "path": "buildings/storehouse_of_provisions.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "temple_of_the_land",
+      "display_name": "Temple of the Land",
+      "art_key": "temple_of_the_land",
+      "path": "buildings/temple_of_the_land.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "tents_and_habitations",
+      "display_name": "Tents and Habitations",
+      "art_key": "tents_and_habitations",
+      "path": "buildings/tents_and_habitations.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "tower_of_watchmen",
+      "display_name": "Tower of Watchmen",
+      "art_key": "tower_of_watchmen",
+      "path": "buildings/tower_of_watchmen.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "winery",
+      "display_name": "Winery",
+      "art_key": "winery",
+      "path": "buildings/winery.png",
+      "use_as_thumbnail": true
+    },
+    {
+      "id": "works_of_defense",
+      "display_name": "Works of Defense",
+      "art_key": "works_of_defense",
+      "path": "buildings/works_of_defense.png",
+      "use_as_thumbnail": true
+    }
+  ],
+  "research_icons": [
+    {
+      "id": "breastplates_and_arm_shields",
+      "display_name": "Breastplates and Arm-Shields",
+      "art_key": "breastplates_and_arm_shields",
+      "path": "icons/breastplates_and_arm_shields.png"
+    },
+    {
+      "id": "by_the_pride_of_their_hearts",
+      "display_name": "By the Pride of Their Hearts",
+      "art_key": "by_the_pride_of_their_hearts",
+      "path": "icons/by_the_pride_of_their_hearts.png"
+    },
+    {
+      "id": "compromised_storehouses",
+      "display_name": "Compromised Storehouses",
+      "art_key": "compromised_storehouses",
+      "path": "icons/compromised_storehouses.png"
+    },
+    {
+      "id": "exceedingly_industrious",
+      "display_name": "Exceedingly Industrious",
+      "art_key": "exceedingly_industrious",
+      "path": "icons/exceedingly_industrious.png"
+    },
+    {
+      "id": "exceedingly_large_in_stature",
+      "display_name": "Exceedingly Large in Stature",
+      "art_key": "exceedingly_large_in_stature",
+      "path": "icons/exceedingly_large_in_stature.png"
+    },
+    {
+      "id": "fight_like_dragons",
+      "display_name": "Fight Like Dragons",
+      "art_key": "fight_like_dragons",
+      "path": "icons/fight_like_dragons.png"
+    },
+    {
+      "id": "glowing_stones",
+      "display_name": "Glowing Stones",
+      "art_key": "glowing_stones",
+      "path": "icons/glowing_stones.png"
+    },
+    {
+      "id": "heaps_of_earth",
+      "display_name": "Heaps of Earth",
+      "art_key": "heaps_of_earth",
+      "path": "icons/heaps_of_earth.png"
+    },
+    {
+      "id": "laban_and_his_fifty",
+      "display_name": "Laban and His Fifty",
+      "art_key": "laban_and_his_fifty",
+      "path": "icons/laban_and_his_fifty.png"
+    },
+    {
+      "id": "metallurgy",
+      "display_name": "Metallurgy",
+      "art_key": "metallurgy",
+      "path": "icons/metallurgy.png"
+    },
+    {
+      "id": "mighty_change_of_heart",
+      "display_name": "Mighty Change of Heart",
+      "art_key": "mighty_change_of_heart",
+      "path": "icons/mighty_change_of_heart.png"
+    },
+    {
+      "id": "network_of_secrets",
+      "display_name": "Network of Secrets",
+      "art_key": "network_of_secrets",
+      "path": "icons/network_of_secrets.png"
+    },
+    {
+      "id": "order_of_the_nehors",
+      "display_name": "Order of the Nehors",
+      "art_key": "order_of_the_nehors",
+      "path": "icons/order_of_the_nehors.png"
+    },
+    {
+      "id": "pickets",
+      "display_name": "Pickets",
+      "art_key": "pickets",
+      "path": "icons/pickets.png"
+    },
+    {
+      "id": "plunder_hoard",
+      "display_name": "Plunder Hoard",
+      "art_key": "plunder_hoard",
+      "path": "icons/plunder_hoard.png"
+    },
+    {
+      "id": "plunder_share",
+      "display_name": "Plunder Share",
+      "art_key": "plunder_share",
+      "path": "icons/plunder_share.png"
+    },
+    {
+      "id": "seeds_of_every_kind",
+      "display_name": "Seeds of Every Kind",
+      "art_key": "seeds_of_every_kind",
+      "path": "icons/seeds_of_every_kind.png"
+    },
+    {
+      "id": "seven_years_of_provisions",
+      "display_name": "Seven Years of Provisions",
+      "art_key": "seven_years_of_provisions",
+      "path": "icons/seven_years_of_provisions.png"
+    },
+    {
+      "id": "signs_and_symbols",
+      "display_name": "Signs and Symbols",
+      "art_key": "signs_and_symbols",
+      "path": "icons/signs_and_symbols.png"
+    },
+    {
+      "id": "their_mothers_knew",
+      "display_name": "Their Mothers Knew",
+      "art_key": "their_mothers_knew",
+      "path": "icons/their_mothers_knew.png"
+    },
+    {
+      "id": "thick_clothing",
+      "display_name": "Thick Clothing",
+      "art_key": "thick_clothing",
+      "path": "icons/thick_clothing.png"
+    },
+    {
+      "id": "works_of_timbers",
+      "display_name": "Works of Timbers",
+      "art_key": "works_of_timbers",
+      "path": "icons/works_of_timbers.png"
+    },
+    {
+      "id": "nephites_storehouse_food",
+      "display_name": "Storehouse Tables",
+      "art_key": "nephites_storehouse_food",
+      "path": "icons/nephites_storehouse_food.png"
+    },
+    {
+      "id": "nephites_storehouse_timber",
+      "display_name": "Timber Tallies",
+      "art_key": "nephites_storehouse_timber",
+      "path": "icons/nephites_storehouse_timber.png"
+    },
+    {
+      "id": "nephites_storehouse_precious",
+      "display_name": "Precious Accounts",
+      "art_key": "nephites_storehouse_precious",
+      "path": "icons/nephites_storehouse_precious.png"
+    },
+    {
+      "id": "lamanites_storehouse_food",
+      "display_name": "Camp Rations",
+      "art_key": "lamanites_storehouse_food",
+      "path": "icons/lamanites_storehouse_food.png"
+    },
+    {
+      "id": "lamanites_storehouse_carry",
+      "display_name": "Caravan Loads",
+      "art_key": "lamanites_storehouse_carry",
+      "path": "icons/lamanites_storehouse_carry.png"
+    },
+    {
+      "id": "lamanites_storehouse_timber",
+      "display_name": "Timber Stores",
+      "art_key": "lamanites_storehouse_timber",
+      "path": "icons/lamanites_storehouse_timber.png"
+    },
+    {
+      "id": "gadianton_storehouse_wild_food",
+      "display_name": "Forest Foraging",
+      "art_key": "gadianton_storehouse_wild_food",
+      "path": "icons/gadianton_storehouse_wild_food.png"
+    },
+    {
+      "id": "gadianton_storehouse_carry",
+      "display_name": "Hidden Loads",
+      "art_key": "gadianton_storehouse_carry",
+      "path": "icons/gadianton_storehouse_carry.png"
+    },
+    {
+      "id": "gadianton_storehouse_raid_yield",
+      "display_name": "Spoils Ledger",
+      "art_key": "gadianton_storehouse_raid_yield",
+      "path": "icons/gadianton_storehouse_raid_yield.png"
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income",
+      "display_name": "Herd Accounts",
+      "art_key": "coriantumr_storehouse_beast_income",
+      "path": "icons/coriantumr_storehouse_beast_income.png"
+    },
+    {
+      "id": "coriantumr_storehouse_build_speed",
+      "display_name": "Builders' Measures",
+      "art_key": "coriantumr_storehouse_build_speed",
+      "path": "icons/coriantumr_storehouse_build_speed.png"
+    },
+    {
+      "id": "coriantumr_storehouse_carry",
+      "display_name": "Caravan Loads",
+      "art_key": "coriantumr_storehouse_carry",
+      "path": "icons/coriantumr_storehouse_carry.png"
+    },
+    {
+      "id": "shiz_storehouse_beast_income",
+      "display_name": "Herd Accounts",
+      "art_key": "shiz_storehouse_beast_income",
+      "path": "icons/shiz_storehouse_beast_income.png"
+    },
+    {
+      "id": "shiz_storehouse_build_speed",
+      "display_name": "Builders' Measures",
+      "art_key": "shiz_storehouse_build_speed",
+      "path": "icons/shiz_storehouse_build_speed.png"
+    },
+    {
+      "id": "shiz_storehouse_carry",
+      "display_name": "Caravan Loads",
+      "art_key": "shiz_storehouse_carry",
+      "path": "icons/shiz_storehouse_carry.png"
+    },
+    {
+      "id": "laban_storehouse_food",
+      "display_name": "Household Stores",
+      "art_key": "laban_storehouse_food",
+      "path": "icons/laban_storehouse_food.png"
+    },
+    {
+      "id": "laban_storehouse_trade_income",
+      "display_name": "Precious Routes",
+      "art_key": "laban_storehouse_trade_income",
+      "path": "icons/laban_storehouse_trade_income.png"
+    },
+    {
+      "id": "laban_storehouse_precious",
+      "display_name": "Precious Accounts",
+      "art_key": "laban_storehouse_precious",
+      "path": "icons/laban_storehouse_precious.png"
+    },
+    {
+      "id": "winery_double_food",
+      "display_name": "Winery Abundance",
+      "art_key": "winery_double_food",
+      "path": "icons/winery_double_food.png"
+    },
+    {
+      "id": "winery_drunkness",
+      "display_name": "Fermented Reserves",
+      "art_key": "winery_drunkness",
+      "path": "icons/winery_drunkness.png"
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_2",
+      "display_name": "Herd Accounts II",
+      "art_key": "coriantumr_storehouse_beast_income_2",
+      "path": "icons/coriantumr_storehouse_beast_income_2.png"
+    },
+    {
+      "id": "coriantumr_storehouse_beast_income_3",
+      "display_name": "Herd Accounts III",
+      "art_key": "coriantumr_storehouse_beast_income_3",
+      "path": "icons/coriantumr_storehouse_beast_income_3.png"
+    },
+    {
+      "id": "shiz_storehouse_beast_income_2",
+      "display_name": "Herd Accounts II",
+      "art_key": "shiz_storehouse_beast_income_2",
+      "path": "icons/shiz_storehouse_beast_income_2.png"
+    },
+    {
+      "id": "shiz_storehouse_beast_income_3",
+      "display_name": "Herd Accounts III",
+      "art_key": "shiz_storehouse_beast_income_3",
+      "path": "icons/shiz_storehouse_beast_income_3.png"
+    },
+    {
+      "id": "enlarge_the_flocks",
+      "display_name": "Enlarge the Flocks",
+      "art_key": "enlarge_the_flocks",
+      "path": "icons/enlarge_the_flocks.png"
+    },
+    {
+      "id": "wrath_of_the_fallen",
+      "display_name": "Wrath of the Fallen",
+      "art_key": "wrath_of_the_fallen",
+      "path": "icons/wrath_of_the_fallen.png"
+    },
+    {
+      "id": "lofty_rameumptom",
+      "display_name": "Lofty Rameumptom",
+      "art_key": "lofty_rameumptom",
+      "path": "icons/lofty_rameumptom.png"
+    },
+    {
+      "id": "gate_segment_upgrade",
+      "display_name": "Gate Segment",
+      "art_key": "gate_segment_upgrade",
+      "path": "icons/gate_segment_upgrade.png"
+    }
+  ],
+  "age_choice_aliases": [
+    {
+      "id": "age2_coriantumr_brother_of_jared",
+      "display_name": "Brother of Jared Age Choice",
+      "hero_id": "brother_of_jared",
+      "art_key": "brother_of_jared",
+      "path": "units/brother_of_jared.png"
+    },
+    {
+      "id": "age2_coriantumr_jared",
+      "display_name": "Jared Age Choice",
+      "hero_id": "jared",
+      "art_key": "jared",
+      "path": "units/jared.png"
+    },
+    {
+      "id": "age2_gadianton_gadianton",
+      "display_name": "Gadianton Age Choice",
+      "hero_id": "gadianton",
+      "art_key": "gadianton",
+      "path": "units/gadianton.png"
+    },
+    {
+      "id": "age2_gadianton_kishkumen",
+      "display_name": "Kishkumen Age Choice",
+      "hero_id": "kishkumen",
+      "art_key": "kishkumen",
+      "path": "units/kishkumen.png"
+    },
+    {
+      "id": "age2_laban_laban",
+      "display_name": "Laban Age Choice",
+      "hero_id": "laban",
+      "art_key": "laban",
+      "path": "units/laban.png"
+    },
+    {
+      "id": "age2_laban_zoram",
+      "display_name": "Zoram Age Choice",
+      "hero_id": "zoram",
+      "art_key": "zoram",
+      "path": "units/zoram.png"
+    },
+    {
+      "id": "age2_lamanites_laman",
+      "display_name": "Laman Age Choice",
+      "hero_id": "laman",
+      "art_key": "laman",
+      "path": "units/laman.png"
+    },
+    {
+      "id": "age2_lamanites_lemuel",
+      "display_name": "Lemuel Age Choice",
+      "hero_id": "lemuel",
+      "art_key": "lemuel",
+      "path": "units/lemuel.png"
+    },
+    {
+      "id": "age2_nephites_nephi",
+      "display_name": "Nephi Age Choice",
+      "hero_id": "nephi",
+      "art_key": "nephi",
+      "path": "units/nephi.png"
+    },
+    {
+      "id": "age2_nephites_sam",
+      "display_name": "Sam Age Choice",
+      "hero_id": "sam",
+      "art_key": "sam",
+      "path": "units/sam.png"
+    },
+    {
+      "id": "age2_shiz_brother_of_jared",
+      "display_name": "Brother of Jared Age Choice",
+      "hero_id": "brother_of_jared",
+      "art_key": "brother_of_jared",
+      "path": "units/brother_of_jared.png"
+    },
+    {
+      "id": "age2_shiz_jared",
+      "display_name": "Jared Age Choice",
+      "hero_id": "jared",
+      "art_key": "jared",
+      "path": "units/jared.png"
+    },
+    {
+      "id": "age3_coriantumr_emer",
+      "display_name": "Emer Age Choice",
+      "hero_id": "emer",
+      "art_key": "emer",
+      "path": "units/emer.png"
+    },
+    {
+      "id": "age3_coriantumr_morianton",
+      "display_name": "Morianton Age Choice",
+      "hero_id": "morianton",
+      "art_key": "morianton",
+      "path": "units/morianton.png"
+    },
+    {
+      "id": "age3_gadianton_giddianhi",
+      "display_name": "Giddianhi Age Choice",
+      "hero_id": "giddianhi",
+      "art_key": "giddianhi",
+      "path": "units/giddianhi.png"
+    },
+    {
+      "id": "age3_gadianton_zemnarihah",
+      "display_name": "Zemnarihah Age Choice",
+      "hero_id": "zemnarihah",
+      "art_key": "zemnarihah",
+      "path": "units/zemnarihah.png"
+    },
+    {
+      "id": "age3_laban_king_noah",
+      "display_name": "King Noah Age Choice",
+      "hero_id": "king_noah",
+      "art_key": "king_noah",
+      "path": "units/king_noah.png"
+    },
+    {
+      "id": "age3_laban_nehor",
+      "display_name": "Nehor Age Choice",
+      "hero_id": "nehor",
+      "art_key": "nehor",
+      "path": "units/nehor.png"
+    },
+    {
+      "id": "age3_lamanites_amalickiah",
+      "display_name": "Amalickiah Age Choice",
+      "hero_id": "amalickiah",
+      "art_key": "amalickiah",
+      "path": "units/amalickiah.png"
+    },
+    {
+      "id": "age3_lamanites_king_noah",
+      "display_name": "King Noah Age Choice",
+      "hero_id": "king_noah",
+      "art_key": "king_noah",
+      "path": "units/king_noah.png"
+    },
+    {
+      "id": "age3_nephites_alma",
+      "display_name": "Alma Age Choice",
+      "hero_id": "alma",
+      "art_key": "alma",
+      "path": "units/alma.png"
+    },
+    {
+      "id": "age3_nephites_captain_moroni",
+      "display_name": "Captain Moroni Age Choice",
+      "hero_id": "captain_moroni",
+      "art_key": "captain_moroni",
+      "path": "units/captain_moroni.png"
+    },
+    {
+      "id": "age3_shiz_akish",
+      "display_name": "Akish Age Choice",
+      "hero_id": "akish",
+      "art_key": "akish",
+      "path": "units/akish.png"
+    },
+    {
+      "id": "age3_shiz_omer",
+      "display_name": "Omer Age Choice",
+      "hero_id": "omer",
+      "art_key": "omer",
+      "path": "units/omer.png"
+    },
+    {
+      "id": "age4_coriantumr_coriantumr",
+      "display_name": "Coriantumr Age Choice",
+      "hero_id": "coriantumr",
+      "art_key": "coriantumr",
+      "path": "units/coriantumr.png"
+    },
+    {
+      "id": "age4_coriantumr_lib",
+      "display_name": "Lib Age Choice",
+      "hero_id": "lib",
+      "art_key": "lib",
+      "path": "units/lib.png"
+    },
+    {
+      "id": "age4_gadianton_band_captain",
+      "display_name": "Band Captain Age Choice",
+      "hero_id": "band_captain",
+      "art_key": "band_captain",
+      "path": "units/band_captain.png"
+    },
+    {
+      "id": "age4_gadianton_jacob_gadianton",
+      "display_name": "Jacob Age Choice",
+      "hero_id": "jacob_gadianton",
+      "art_key": "jacob_gadianton",
+      "path": "units/jacob_gadianton.png"
+    },
+    {
+      "id": "age4_laban_jacob_gadianton",
+      "display_name": "Jacob Age Choice",
+      "hero_id": "jacob_gadianton",
+      "art_key": "jacob_gadianton",
+      "path": "units/jacob_gadianton.png"
+    },
+    {
+      "id": "age4_laban_korihor",
+      "display_name": "Korihor Age Choice",
+      "hero_id": "korihor",
+      "art_key": "korihor",
+      "path": "units/korihor.png"
+    },
+    {
+      "id": "age4_lamanites_aaron",
+      "display_name": "Aaron Age Choice",
+      "hero_id": "aaron",
+      "art_key": "aaron",
+      "path": "units/aaron.png"
+    },
+    {
+      "id": "age4_lamanites_tubaloth",
+      "display_name": "Tubaloth Age Choice",
+      "hero_id": "tubaloth",
+      "art_key": "tubaloth",
+      "path": "units/tubaloth.png"
+    },
+    {
+      "id": "age4_nephites_mormon",
+      "display_name": "Mormon Age Choice",
+      "hero_id": "mormon",
+      "art_key": "mormon",
+      "path": "units/mormon.png"
+    },
+    {
+      "id": "age4_nephites_moroni_son",
+      "display_name": "Moroni Age Choice",
+      "hero_id": "moroni_son",
+      "art_key": "moroni_son",
+      "path": "units/moroni_son.png"
+    },
+    {
+      "id": "age4_shiz_gilead",
+      "display_name": "Gilead Age Choice",
+      "hero_id": "gilead",
+      "art_key": "gilead",
+      "path": "units/gilead.png"
+    },
+    {
+      "id": "age4_shiz_shiz",
+      "display_name": "Shiz Age Choice",
+      "hero_id": "shiz",
+      "art_key": "shiz",
+      "path": "units/shiz.png"
+    },
+    {
+      "id": "age2_nephites_lehi",
+      "display_name": "Lehi Age Choice",
+      "hero_id": "lehi",
+      "art_key": "lehi",
+      "path": "units/lehi.png"
+    },
+    {
+      "id": "age3_nephites_amulek",
+      "display_name": "Amulek Age Choice",
+      "hero_id": "amulek",
+      "art_key": "amulek",
+      "path": "units/amulek.png"
+    },
+    {
+      "id": "age4_nephites_teancum",
+      "display_name": "Teancum Age Choice",
+      "hero_id": "teancum",
+      "art_key": "teancum",
+      "path": "units/teancum.png"
+    },
+    {
+      "id": "age2_lamanites_laman_and_lemuel",
+      "display_name": "Laman and Lemuel Age Choice",
+      "hero_id": "laman_and_lemuel",
+      "art_key": "laman_and_lemuel",
+      "path": "units/laman_and_lemuel.png"
+    },
+    {
+      "id": "age3_lamanites_ammoron",
+      "display_name": "Ammoron Age Choice",
+      "hero_id": "ammoron",
+      "art_key": "ammoron",
+      "path": "units/ammoron.png"
+    },
+    {
+      "id": "age4_lamanites_zerahemnah",
+      "display_name": "Zerahemnah Age Choice",
+      "hero_id": "zerahemnah",
+      "art_key": "zerahemnah",
+      "path": "units/zerahemnah.png"
+    }
+  ],
+  "resources": [
+    {
+      "path": "resources/tree.png",
+      "id": "tree",
+      "display_name": "Forest / Timber"
+    },
+    {
+      "path": "resources/ore.png",
+      "id": "ore",
+      "display_name": "Ore deposit / Precious Things"
+    },
+    {
+      "path": "resources/berries.png",
+      "id": "berries",
+      "display_name": "Wild provisions / Food"
+    },
+    {
+      "path": "resources/crate.png",
+      "id": "crate",
+      "display_name": "Dropped cargo"
+    },
+    {
+      "path": "resources/wild_game.png",
+      "id": "wild_game",
+      "display_name": "Wild Game / Food"
+    }
+  ],
+  "action_icons": [
+    {
+      "subject": "A spearhead pointing toward a distant target",
+      "id": "attack_move",
+      "path": "icons/actions/attack_move.png"
+    },
+    {
+      "subject": "A closed hand above a halted bootprint",
+      "id": "stop",
+      "path": "icons/actions/stop.png"
+    },
+    {
+      "subject": "A shield planted firmly in soil",
+      "id": "hold",
+      "path": "icons/actions/hold.png"
+    },
+    {
+      "subject": "Two bootprints joined by a looping path",
+      "id": "patrol",
+      "path": "icons/actions/patrol.png"
+    },
+    {
+      "subject": "A bright geometric spark above a hand",
+      "id": "ability",
+      "path": "icons/actions/ability.png"
+    },
+    {
+      "subject": "Two opposing figures linked by a luminous thread",
+      "id": "convert",
+      "path": "icons/actions/convert.png"
+    },
+    {
+      "subject": "A masked runner carrying a small sack toward a route marker",
+      "id": "raid_move",
+      "path": "icons/actions/raid_move.png"
+    },
+    {
+      "subject": "A trader pack animal following three waypoints",
+      "id": "galavant",
+      "path": "icons/actions/galavant.png"
+    },
+    {
+      "subject": "A hand lifting a resource bundle from a storehouse",
+      "id": "raid",
+      "path": "icons/actions/raid.png"
+    },
+    {
+      "subject": "A battle standard planted beside a formation",
+      "id": "rally",
+      "path": "icons/actions/rally.png"
+    },
+    {
+      "subject": "A worker carrying grain toward a marked drop-off",
+      "id": "rally_economic",
+      "path": "icons/actions/rally_economic.png"
+    },
+    {
+      "subject": "A market table with a looping route and trade pack",
+      "id": "market_galavant",
+      "path": "icons/actions/market_galavant.png"
+    },
+    {
+      "subject": "A worker placing gathered goods at a storehouse",
+      "id": "deliver",
+      "path": "icons/actions/deliver.png"
+    },
+    {
+      "subject": "A queue token lifted away from a production line",
+      "id": "cancel",
+      "path": "icons/actions/cancel.png"
+    },
+    {
+      "subject": "A builder holding a simple wooden plan beside a hut",
+      "id": "build_toggle",
+      "path": "icons/actions/build_toggle.png"
+    }
+  ],
+  "faction_emblems": [
+    {
+      "path": "icons/factions/nephites.png",
+      "subject": "Gold sunburst over a blue shield",
+      "id": "nephites"
+    },
+    {
+      "path": "icons/factions/lamanites.png",
+      "subject": "Red sunburst over a dark shield",
+      "id": "lamanites"
+    },
+    {
+      "path": "icons/factions/gadianton.png",
+      "subject": "Black hooded raven over a muted green shield",
+      "id": "gadianton"
+    },
+    {
+      "path": "icons/factions/coriantumr.png",
+      "subject": "Bronze horned helmet over a teal shield",
+      "id": "coriantumr"
+    },
+    {
+      "path": "icons/factions/shiz.png",
+      "subject": "Ivory spearhead over a crimson shield",
+      "id": "shiz"
+    },
+    {
+      "path": "icons/factions/laban.png",
+      "subject": "Ivory palace gate over a deep violet shield",
+      "id": "laban"
+    }
+  ],
+  "faction_name_variants": [
+    {
+      "id": "temple_of_the_land",
+      "faction_id": "lamanites",
+      "display_name": "Rameumptom",
+      "base_name": "Temple of the Land",
+      "visual_key": "temple_of_the_land@lamanites",
+      "path": "buildings/temple_of_the_land@lamanites.png"
+    },
+    {
+      "id": "temple_of_the_land",
+      "faction_id": "laban",
+      "display_name": "Great and Spacious Building",
+      "base_name": "Temple of the Land",
+      "visual_key": "temple_of_the_land@laban",
+      "path": "buildings/temple_of_the_land@laban.png"
+    },
+    {
+      "id": "seat_of_the_people",
+      "faction_id": "laban",
+      "display_name": "Laban's Crib",
+      "base_name": "Seat of the People",
+      "visual_key": "seat_of_the_people@laban",
+      "path": "buildings/seat_of_the_people@laban.png"
+    },
+    {
+      "id": "fields_of_grain",
+      "faction_id": "laban",
+      "display_name": "Vineyards",
+      "base_name": "Fields of Grain",
+      "visual_key": "fields_of_grain@laban",
+      "path": "buildings/fields_of_grain@laban.png"
+    },
+    {
+      "id": "industrious_laborer",
+      "faction_id": "laban",
+      "display_name": "Henpecked Gentile",
+      "base_name": "Industrious Laborer",
+      "visual_key": "industrious_laborer@laban",
+      "path": "units/industrious_laborer@laban.png"
+    },
+    {
+      "id": "industrious_laborer",
+      "faction_id": "gadianton",
+      "display_name": "Conspiring Civilian",
+      "base_name": "Industrious Laborer",
+      "visual_key": "industrious_laborer@gadianton",
+      "path": "units/industrious_laborer@gadianton.png"
+    },
+    {
+      "id": "tents_and_habitations",
+      "faction_id": "nephites",
+      "display_name": "Dwellings",
+      "base_name": "Tents and Habitations",
+      "visual_key": "tents_and_habitations@nephites",
+      "path": "buildings/tents_and_habitations@nephites.png"
+    },
+    {
+      "id": "tents_and_habitations",
+      "faction_id": "lamanites",
+      "display_name": "Tents",
+      "base_name": "Tents and Habitations",
+      "visual_key": "tents_and_habitations@lamanites",
+      "path": "buildings/tents_and_habitations@lamanites.png"
+    },
+    {
+      "id": "tents_and_habitations",
+      "faction_id": "gadianton",
+      "display_name": "Hideouts",
+      "base_name": "Tents and Habitations",
+      "visual_key": "tents_and_habitations@gadianton",
+      "path": "buildings/tents_and_habitations@gadianton.png"
+    },
+    {
+      "id": "tents_and_habitations",
+      "faction_id": "coriantumr",
+      "display_name": "Jaredite Dwellings",
+      "base_name": "Tents and Habitations",
+      "visual_key": "tents_and_habitations@coriantumr",
+      "path": "buildings/tents_and_habitations@coriantumr.png"
+    },
+    {
+      "id": "tents_and_habitations",
+      "faction_id": "shiz",
+      "display_name": "Shizite Dwellings",
+      "base_name": "Tents and Habitations",
+      "visual_key": "tents_and_habitations@shiz",
+      "path": "buildings/tents_and_habitations@shiz.png"
+    },
+    {
+      "id": "tents_and_habitations",
+      "faction_id": "laban",
+      "display_name": "Labanite Quarters",
+      "base_name": "Tents and Habitations",
+      "visual_key": "tents_and_habitations@laban",
+      "path": "buildings/tents_and_habitations@laban.png"
+    },
+    {
+      "id": "fields_of_grain",
+      "faction_id": "lamanites",
+      "display_name": "Cultivated Fields",
+      "base_name": "Fields of Grain",
+      "visual_key": "fields_of_grain@lamanites",
+      "path": "buildings/fields_of_grain@lamanites.png"
+    },
+    {
+      "id": "fields_of_grain",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Fields",
+      "base_name": "Fields of Grain",
+      "visual_key": "fields_of_grain@coriantumr",
+      "path": "buildings/fields_of_grain@coriantumr.png"
+    },
+    {
+      "id": "fields_of_grain",
+      "faction_id": "shiz",
+      "display_name": "Shizite Fields",
+      "base_name": "Fields of Grain",
+      "visual_key": "fields_of_grain@shiz",
+      "path": "buildings/fields_of_grain@shiz.png"
+    },
+    {
+      "id": "seat_of_the_people",
+      "faction_id": "lamanites",
+      "display_name": "Lamanite Council",
+      "base_name": "Seat of the People",
+      "visual_key": "seat_of_the_people@lamanites",
+      "path": "buildings/seat_of_the_people@lamanites.png"
+    },
+    {
+      "id": "seat_of_the_people",
+      "faction_id": "gadianton",
+      "display_name": "Secret Assembly",
+      "base_name": "Seat of the People",
+      "visual_key": "seat_of_the_people@gadianton",
+      "path": "buildings/seat_of_the_people@gadianton.png"
+    },
+    {
+      "id": "seat_of_the_people",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Hall",
+      "base_name": "Seat of the People",
+      "visual_key": "seat_of_the_people@coriantumr",
+      "path": "buildings/seat_of_the_people@coriantumr.png"
+    },
+    {
+      "id": "seat_of_the_people",
+      "faction_id": "shiz",
+      "display_name": "Shizite Hall",
+      "base_name": "Seat of the People",
+      "visual_key": "seat_of_the_people@shiz",
+      "path": "buildings/seat_of_the_people@shiz.png"
+    },
+    {
+      "id": "temple_of_the_land",
+      "faction_id": "coriantumr",
+      "display_name": "Jaredite Temple",
+      "base_name": "Temple of the Land",
+      "visual_key": "temple_of_the_land@coriantumr",
+      "path": "buildings/temple_of_the_land@coriantumr.png"
+    },
+    {
+      "id": "temple_of_the_land",
+      "faction_id": "shiz",
+      "display_name": "Shizite Temple",
+      "base_name": "Temple of the Land",
+      "visual_key": "temple_of_the_land@shiz",
+      "path": "buildings/temple_of_the_land@shiz.png"
+    },
+    {
+      "id": "gathering_of_flocks",
+      "faction_id": "lamanites",
+      "display_name": "Lamanite Flock",
+      "base_name": "Gathering of Flocks",
+      "visual_key": "gathering_of_flocks@lamanites",
+      "path": "buildings/gathering_of_flocks@lamanites.png"
+    },
+    {
+      "id": "gathering_of_flocks",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Flock",
+      "base_name": "Gathering of Flocks",
+      "visual_key": "gathering_of_flocks@coriantumr",
+      "path": "buildings/gathering_of_flocks@coriantumr.png"
+    },
+    {
+      "id": "gathering_of_flocks",
+      "faction_id": "shiz",
+      "display_name": "Shizite Flock",
+      "base_name": "Gathering of Flocks",
+      "visual_key": "gathering_of_flocks@shiz",
+      "path": "buildings/gathering_of_flocks@shiz.png"
+    },
+    {
+      "id": "gathering_of_flocks",
+      "faction_id": "laban",
+      "display_name": "Laban’s Flock",
+      "base_name": "Gathering of Flocks",
+      "visual_key": "gathering_of_flocks@laban",
+      "path": "buildings/gathering_of_flocks@laban.png"
+    },
+    {
+      "id": "hill_of_ore",
+      "faction_id": "lamanites",
+      "display_name": "Precious Things Hill",
+      "base_name": "Hill of Ore",
+      "visual_key": "hill_of_ore@lamanites",
+      "path": "buildings/hill_of_ore@lamanites.png"
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "faction_id": "lamanites",
+      "display_name": "Armory of the Lamanites",
+      "base_name": "House of Curious Workmanship",
+      "visual_key": "house_of_curious_workmanship@lamanites",
+      "path": "buildings/house_of_curious_workmanship@lamanites.png"
+    },
+    {
+      "id": "place_of_trade",
+      "faction_id": "lamanites",
+      "display_name": "Lamanite Market",
+      "base_name": "Place of Trade",
+      "visual_key": "place_of_trade@lamanites",
+      "path": "buildings/place_of_trade@lamanites.png"
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "faction_id": "lamanites",
+      "display_name": "Lamanite Storehouse",
+      "base_name": "Storehouse of Provisions",
+      "visual_key": "storehouse_of_provisions@lamanites",
+      "path": "buildings/storehouse_of_provisions@lamanites.png"
+    },
+    {
+      "id": "tower_of_watchmen",
+      "faction_id": "lamanites",
+      "display_name": "Watchtower",
+      "base_name": "Tower of Watchmen",
+      "visual_key": "tower_of_watchmen@lamanites",
+      "path": "buildings/tower_of_watchmen@lamanites.png"
+    },
+    {
+      "id": "hill_of_ore",
+      "faction_id": "gadianton",
+      "display_name": "Hidden Cache",
+      "base_name": "Hill of Ore",
+      "visual_key": "hill_of_ore@gadianton",
+      "path": "buildings/hill_of_ore@gadianton.png"
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "faction_id": "gadianton",
+      "display_name": "Smithy of the Combination",
+      "base_name": "House of Curious Workmanship",
+      "visual_key": "house_of_curious_workmanship@gadianton",
+      "path": "buildings/house_of_curious_workmanship@gadianton.png"
+    },
+    {
+      "id": "place_of_trade",
+      "faction_id": "gadianton",
+      "display_name": "Robbers’ Exchange",
+      "base_name": "Place of Trade",
+      "visual_key": "place_of_trade@gadianton",
+      "path": "buildings/place_of_trade@gadianton.png"
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "faction_id": "gadianton",
+      "display_name": "Secret Storehouse",
+      "base_name": "Storehouse of Provisions",
+      "visual_key": "storehouse_of_provisions@gadianton",
+      "path": "buildings/storehouse_of_provisions@gadianton.png"
+    },
+    {
+      "id": "encampment_of_war",
+      "faction_id": "gadianton",
+      "display_name": "Secret Place",
+      "base_name": "Encampment of War",
+      "visual_key": "encampment_of_war@gadianton",
+      "path": "buildings/encampment_of_war@gadianton.png"
+    },
+    {
+      "id": "tower_of_watchmen",
+      "faction_id": "gadianton",
+      "display_name": "Lookout Tower",
+      "base_name": "Tower of Watchmen",
+      "visual_key": "tower_of_watchmen@gadianton",
+      "path": "buildings/tower_of_watchmen@gadianton.png"
+    },
+    {
+      "id": "works_of_defense",
+      "faction_id": "gadianton",
+      "display_name": "Hidden Works",
+      "base_name": "Works of Defense",
+      "visual_key": "works_of_defense@gadianton",
+      "path": "buildings/works_of_defense@gadianton.png"
+    },
+    {
+      "id": "place_of_many_waters",
+      "faction_id": "gadianton",
+      "display_name": "Secret Landing",
+      "base_name": "Place of Many Waters",
+      "visual_key": "place_of_many_waters@gadianton",
+      "path": "buildings/place_of_many_waters@gadianton.png"
+    },
+    {
+      "id": "hill_of_ore",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Ore Hill",
+      "base_name": "Hill of Ore",
+      "visual_key": "hill_of_ore@coriantumr",
+      "path": "buildings/hill_of_ore@coriantumr.png"
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Armory",
+      "base_name": "House of Curious Workmanship",
+      "visual_key": "house_of_curious_workmanship@coriantumr",
+      "path": "buildings/house_of_curious_workmanship@coriantumr.png"
+    },
+    {
+      "id": "place_of_trade",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Trade Post",
+      "base_name": "Place of Trade",
+      "visual_key": "place_of_trade@coriantumr",
+      "path": "buildings/place_of_trade@coriantumr.png"
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Storehouse",
+      "base_name": "Storehouse of Provisions",
+      "visual_key": "storehouse_of_provisions@coriantumr",
+      "path": "buildings/storehouse_of_provisions@coriantumr.png"
+    },
+    {
+      "id": "encampment_of_war",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Encampment",
+      "base_name": "Encampment of War",
+      "visual_key": "encampment_of_war@coriantumr",
+      "path": "buildings/encampment_of_war@coriantumr.png"
+    },
+    {
+      "id": "tower_of_watchmen",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Watchtower",
+      "base_name": "Tower of Watchmen",
+      "visual_key": "tower_of_watchmen@coriantumr",
+      "path": "buildings/tower_of_watchmen@coriantumr.png"
+    },
+    {
+      "id": "works_of_defense",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Works",
+      "base_name": "Works of Defense",
+      "visual_key": "works_of_defense@coriantumr",
+      "path": "buildings/works_of_defense@coriantumr.png"
+    },
+    {
+      "id": "place_of_many_waters",
+      "faction_id": "coriantumr",
+      "display_name": "Coriantumr Harbor",
+      "base_name": "Place of Many Waters",
+      "visual_key": "place_of_many_waters@coriantumr",
+      "path": "buildings/place_of_many_waters@coriantumr.png"
+    },
+    {
+      "id": "hill_of_ore",
+      "faction_id": "shiz",
+      "display_name": "Shizite Ore Hill",
+      "base_name": "Hill of Ore",
+      "visual_key": "hill_of_ore@shiz",
+      "path": "buildings/hill_of_ore@shiz.png"
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "faction_id": "shiz",
+      "display_name": "Shizite Armory",
+      "base_name": "House of Curious Workmanship",
+      "visual_key": "house_of_curious_workmanship@shiz",
+      "path": "buildings/house_of_curious_workmanship@shiz.png"
+    },
+    {
+      "id": "place_of_trade",
+      "faction_id": "shiz",
+      "display_name": "Shizite Trade Post",
+      "base_name": "Place of Trade",
+      "visual_key": "place_of_trade@shiz",
+      "path": "buildings/place_of_trade@shiz.png"
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "faction_id": "shiz",
+      "display_name": "Shizite Storehouse",
+      "base_name": "Storehouse of Provisions",
+      "visual_key": "storehouse_of_provisions@shiz",
+      "path": "buildings/storehouse_of_provisions@shiz.png"
+    },
+    {
+      "id": "encampment_of_war",
+      "faction_id": "shiz",
+      "display_name": "Shizite War Camp",
+      "base_name": "Encampment of War",
+      "visual_key": "encampment_of_war@shiz",
+      "path": "buildings/encampment_of_war@shiz.png"
+    },
+    {
+      "id": "tower_of_watchmen",
+      "faction_id": "shiz",
+      "display_name": "Shizite Watchtower",
+      "base_name": "Tower of Watchmen",
+      "visual_key": "tower_of_watchmen@shiz",
+      "path": "buildings/tower_of_watchmen@shiz.png"
+    },
+    {
+      "id": "works_of_defense",
+      "faction_id": "shiz",
+      "display_name": "Shizite Works",
+      "base_name": "Works of Defense",
+      "visual_key": "works_of_defense@shiz",
+      "path": "buildings/works_of_defense@shiz.png"
+    },
+    {
+      "id": "place_of_many_waters",
+      "faction_id": "shiz",
+      "display_name": "Shizite Harbor",
+      "base_name": "Place of Many Waters",
+      "visual_key": "place_of_many_waters@shiz",
+      "path": "buildings/place_of_many_waters@shiz.png"
+    },
+    {
+      "id": "hill_of_ore",
+      "faction_id": "laban",
+      "display_name": "Laban’s Precious Things Mine",
+      "base_name": "Hill of Ore",
+      "visual_key": "hill_of_ore@laban",
+      "path": "buildings/hill_of_ore@laban.png"
+    },
+    {
+      "id": "house_of_curious_workmanship",
+      "faction_id": "laban",
+      "display_name": "Laban’s Armory",
+      "base_name": "House of Curious Workmanship",
+      "visual_key": "house_of_curious_workmanship@laban",
+      "path": "buildings/house_of_curious_workmanship@laban.png"
+    },
+    {
+      "id": "place_of_trade",
+      "faction_id": "laban",
+      "display_name": "Laban’s Market",
+      "base_name": "Place of Trade",
+      "visual_key": "place_of_trade@laban",
+      "path": "buildings/place_of_trade@laban.png"
+    },
+    {
+      "id": "storehouse_of_provisions",
+      "faction_id": "laban",
+      "display_name": "Laban’s Storehouse",
+      "base_name": "Storehouse of Provisions",
+      "visual_key": "storehouse_of_provisions@laban",
+      "path": "buildings/storehouse_of_provisions@laban.png"
+    },
+    {
+      "id": "encampment_of_war",
+      "faction_id": "laban",
+      "display_name": "Laban’s Guard Camp",
+      "base_name": "Encampment of War",
+      "visual_key": "encampment_of_war@laban",
+      "path": "buildings/encampment_of_war@laban.png"
+    },
+    {
+      "id": "tower_of_watchmen",
+      "faction_id": "laban",
+      "display_name": "Laban’s Watchtower",
+      "base_name": "Tower of Watchmen",
+      "visual_key": "tower_of_watchmen@laban",
+      "path": "buildings/tower_of_watchmen@laban.png"
+    },
+    {
+      "id": "works_of_defense",
+      "faction_id": "laban",
+      "display_name": "Laban’s Defenses",
+      "base_name": "Works of Defense",
+      "visual_key": "works_of_defense@laban",
+      "path": "buildings/works_of_defense@laban.png"
+    },
+    {
+      "id": "place_of_many_waters",
+      "faction_id": "laban",
+      "display_name": "Laban’s Harbor",
+      "base_name": "Place of Many Waters",
+      "visual_key": "place_of_many_waters@laban",
+      "path": "buildings/place_of_many_waters@laban.png"
+    }
+  ],
+  "resource_stat_icons": [
+    {
+      "subject": "Golden grain sheaf with a small red fruit",
+      "id": "resource.food",
+      "display_name": "Food",
+      "path": "icons/stats/food.png"
+    },
+    {
+      "subject": "Two cross-cut logs with visible wood grain",
+      "id": "resource.timber",
+      "display_name": "Timber",
+      "path": "icons/stats/timber.png"
+    },
+    {
+      "subject": "Three faceted gemstones beside a small gold ingot",
+      "id": "resource.wealth",
+      "display_name": "Precious Things",
+      "path": "icons/stats/wealth.png"
+    },
+    {
+      "subject": "Pale stone block and a bowl of mortar",
+      "id": "resource.cement",
+      "display_name": "Cement",
+      "path": "icons/stats/cement.png"
+    },
+    {
+      "subject": "Radiant gold sun above an open hand",
+      "id": "resource.favor",
+      "display_name": "Favor",
+      "path": "icons/stats/favor.png"
+    },
+    {
+      "subject": "Red sun disk behind a forward-pointing spear",
+      "id": "resource.anger",
+      "display_name": "Anger",
+      "path": "icons/stats/anger.png"
+    },
+    {
+      "subject": "Dark hooded mask beside a concealed coin pouch",
+      "id": "resource.lasciviousness",
+      "display_name": "Lasciviousness",
+      "path": "icons/stats/lasciviousness.png"
+    },
+    {
+      "subject": "Tilted bronze cup with a grape cluster",
+      "id": "resource.drunkenness",
+      "display_name": "Drunkenness",
+      "path": "icons/stats/drunkenness.png"
+    },
+    {
+      "subject": "Bronze crown above a shield and two simple stars",
+      "id": "resource.dominion",
+      "display_name": "Dominion",
+      "path": "icons/stats/dominion.png"
+    }
+  ]
+}

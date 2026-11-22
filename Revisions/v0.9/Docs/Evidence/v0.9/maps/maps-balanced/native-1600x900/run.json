@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T12:57:54.4281925Z",
+  "finished_utc": "2026-11-22T12:58:47.0878286Z",
+  "sha256": "B1F5EA28ACBD61972088CB128BB90D28A60793C5C670045DE142411E935DCF2A",
+  "arguments": [
+    "-RTSSelfTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\maps-balanced\\native-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

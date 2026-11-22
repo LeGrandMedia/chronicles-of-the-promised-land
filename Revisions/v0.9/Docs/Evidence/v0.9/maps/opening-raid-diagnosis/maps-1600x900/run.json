@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-11-22T13:20:27.3042564Z",
+  "finished_utc": "2026-11-22T13:20:28.8027304Z",
+  "sha256": "528173BC46F901E3A46701584F108ACD4F43FDED1BEE96FBE13F2AC9AF1D5CDC",
+  "arguments": [
+    "-RTSV09MapTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\opening-raid-diagnosis\\maps-1600x900\\test.log\"",
+    "-nullrhi"
+  ],
+  "exit_code": 1,
+  "timed_out": false
+}

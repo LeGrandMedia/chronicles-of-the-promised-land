@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-22T13:43:25.8359133Z",
+  "finished_utc": "2026-11-22T13:43:36.4567191Z",
+  "sha256": "CFEC2FF3CB447035C883385733E30314225E0E812199FC587EE5D5361E339B81",
+  "arguments": [
+    "-RTSV09TouchTest",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\maps\\opening-visibility-raids\\touch-1600x900\\test.log\"",
+    "-RTSTouchPreview",
+    "-d3d11",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=1600",
+    "-ResY=900"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

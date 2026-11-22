@@ -17,11 +17,11 @@ Spendable global stockpiles: **Food, Timber, Precious Things** (legacy key Wealt
 | --- | --- |
 | Nephites | Expensive/slower recruitment; faster-gathering Ammonites; genuine Food deliveries can award Favor |
 | Lamanites | Cheaper/faster recruitment; Anger improves gathering/training |
-| Gadianton Robbers | Conspiring Civilians gather at 35% of ordinary rate; no own farms/productive flocks or traders. They gather Timber/Precious Things, hunt/forage and take foreign farm/flock Food. Main income: [[Gadianton Plunder and Stealth]] |
+| Gadianton Robbers | v0.8 baseline: 35% gathering. v0.9: 45% for permitted manual gathering. No own farms/productive flocks or traders. They gather Timber/Precious Things, hunt/forage and take foreign farm/flock Food. Main income: [[Gadianton Plunder and Stealth]] · [[v0.9 Retained Civilization Rules]] |
 | Coriantumr Jaredites | Precious Things gathering bonus; [[Jaredite Cement Construction]] |
 | Shiz Jaredites | Shared Jaredite beast/Cement economy |
 | House of Laban | Precious Things bonus; Vineyards, a Winery that generates Drunkenness, Age-III Food research, traders and Concubine laborer auras |
 
 Gathering combines base rate, faction/unit factors and additive applicable research; permanent age bonuses/documented auras apply independently. Bonuses never turn non-gatherers into workers. Lobby starting reserves, speed and natural-reserve fruitfulness: [[Game Overview]]. Keep HQ recovery viable, especially Curelom recruitment.
 
-Gadianton workers retain the requested 35% gathering rate, including when gathering Timber, Precious Things or eligible foreign farms/flocks. The v0.8 rate passed native validation; see [[Validation Report]].
+The v0.8 rate of 35% passed native validation; it remains a historical baseline. Current v0.9 permitted manual gathering is 45%, including Timber, Precious Things or eligible foreign farms/flocks. See [[v0.9 Retained Civilization Rules]].

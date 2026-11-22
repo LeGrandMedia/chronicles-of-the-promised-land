@@ -1,8 +1,10 @@
 # Developer Handoff
 
+Active work: `Revisions/v0.9`; follow its `AGENTS.md` and [development ledger](../../Revisions/v0.9/Docs/Development-v0.9.md). The latest user authorizes unattended project work without follow-up questions. After each primary objective run visual, performance, balance, interaction, intended-function and bounded Antigravity/Gemini/Claude review passes. Repeat refinements while useful work remains; do not claim unbuilt Apple/mobile targets are complete.
+
 Read [[Design Contract]], [[Data and Assets]], then only task-relevant notes. Preserve playtest copies; work in the selected revision. Retired phase gates and the 407-action plan are not a current execution schedule.
 
-Current source baseline: `Revisions/v0.8`; Unreal 5.3 Windows C++. Launch the revision's `Play.cmd`. All 21 latest requests and eight recovered design gaps are implemented. The packaged build passed 693 native assertions, 67 rendered-input checks at each of two resolutions, and four-process localhost multiplayer; see [[Validation Report]]. v0.7 results remain historical. Physical multi-PC LAN, Steam/internet, save/reconnect, and human balance remain unverified or absent.
+Current source baseline: `D:/book of mormon RTS/Revisions/v0.8`; Unreal 5.3 Windows C++. Launch the revision's `Play.cmd`. All 21 latest requests and eight recovered design gaps are implemented. The packaged build passed 693 native assertions, 67 rendered-input checks at each of two resolutions, and four-process localhost multiplayer; see [[Validation Report]]. v0.7 results remain historical. Physical multi-PC LAN, Steam/internet, save/reconnect, and human balance remain unverified or absent.
 
 ## Work loop
 

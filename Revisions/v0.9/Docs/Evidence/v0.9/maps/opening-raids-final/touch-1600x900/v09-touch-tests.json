@@ -1,0 +1,136 @@
+{
+	"passed": true,
+	"route": "FSceneViewport touch handlers to UGameViewportClient to ARTSController",
+	"cases": [
+		{
+			"name": "touch_layout_enabled",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "drag_off_button_does_not_activate",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "second_finger_cancels_button",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "focus_loss_cancels_buffered_release",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "button_activates_on_release",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "solo_touch_opens_lobby",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "ready_tap_ignores_synthesized_mouse_click",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "touch_starts_authoritative_match_and_default_zoom",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "selects_visible_worker",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "orders_button_arms_context",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "one_finger_pan_anchors_world_in_orders_mode",
+			"passed": true,
+			"detail": "anchor_drift=0.00000"
+		},
+		{
+			"name": "orders_ground_target_available",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "orders_tap_dispatches_authoritative_move",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "patrol_target_card_visible",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "patrol_card_arms_over_orders",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "select_button_visible",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "battlefield_drag_cannot_dispatch_hud_button",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "patrol_ground_target_available",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "targeted_card_overrides_context_order",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "box_button_visible",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "box_mode_arms_owned_group_selection",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "box_drag_has_live_rectangle",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "focus_flush_cancels_box_drag",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "box_release_selects_owned_workers",
+			"passed": true,
+			"detail": ""
+		},
+		{
+			"name": "two_fingers_pan_pinch_and_twist",
+			"passed": true,
+			"detail": "zoom=1.6500->2.7720 rotation=0.0000->0.2783 anchor_drift=0.00000"
+		},
+		{
+			"name": "remaining_finger_after_pinch_never_taps_or_drags",
+			"passed": true,
+			"detail": ""
+		}
+	]
+}

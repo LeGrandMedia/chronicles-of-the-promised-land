@@ -1,0 +1,8978 @@
+{
+  "schema_version": 1,
+  "art_root": "Art",
+  "art_revision": "v0.7",
+  "sprites": {
+    "aaron": {
+      "texture": "units/aaron.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "akish": {
+      "texture": "units/akish.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "alma": {
+      "texture": "units/alma.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "amalickiah": {
+      "texture": "units/amalickiah.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "ammon": {
+      "texture": "units/ammon.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "ammonite_covenant_keeper": {
+      "texture": "units/ammonite_covenant_keeper.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "ammoron": {
+      "texture": "units/ammoron.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "band_captain": {
+      "texture": "units/band_captain.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "bowman": {
+      "texture": "units/bowman.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "brother_of_jared": {
+      "texture": "units/brother_of_jared.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "captain_moroni": {
+      "texture": "units/captain_moroni.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "chief_captain": {
+      "texture": "units/chief_captain.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "cimeter_bearer": {
+      "texture": "units/cimeter_bearer.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "coriantumr": {
+      "texture": "units/coriantumr.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "cumelom": {
+      "texture": "units/cumelom.png",
+      "size": [
+        76,
+        76
+      ],
+      "pivot": [
+        0.52,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "curelom": {
+      "texture": "units/curelom.png",
+      "size": [
+        76,
+        76
+      ],
+      "pivot": [
+        0.52,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "drunken_concubine": {
+      "texture": "units/drunken_concubine.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "elephant": {
+      "texture": "units/elephant.png",
+      "size": [
+        82,
+        82
+      ],
+      "pivot": [
+        0.52,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "emer": {
+      "texture": "units/emer.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gadianton": {
+      "texture": "units/gadianton.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gadianton_robber": {
+      "texture": "units/gadianton_robber.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "giddianhi": {
+      "texture": "units/giddianhi.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gilead": {
+      "texture": "units/gilead.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hagoths_vessel": {
+      "texture": "units/hagoths_vessel.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.72
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "helaman": {
+      "texture": "units/helaman.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "industrious_laborer": {
+      "texture": "units/industrious_laborer.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "jacob_gadianton": {
+      "texture": "units/jacob_gadianton.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "jared": {
+      "texture": "units/jared.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "jaredite_archer": {
+      "texture": "units/jaredite_archer.png",
+      "size": [
+        54,
+        54
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "jaredite_barge": {
+      "texture": "units/jaredite_barge.png",
+      "size": [
+        100,
+        100
+      ],
+      "pivot": [
+        0.5,
+        0.72
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "jaredite_shield_bearer": {
+      "texture": "units/jaredite_shield_bearer.png",
+      "size": [
+        56,
+        56
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "jaredite_warrior": {
+      "texture": "units/jaredite_warrior.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "keeper_of_flocks": {
+      "texture": "units/keeper_of_flocks.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "king_noah": {
+      "texture": "units/king_noah.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "kings_chariot": {
+      "texture": "units/kings_chariot.png",
+      "size": [
+        88,
+        88
+      ],
+      "pivot": [
+        0.52,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "kishkumen": {
+      "texture": "units/kishkumen.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "korihor": {
+      "texture": "units/korihor.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "laban": {
+      "texture": "units/laban.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "laman": {
+      "texture": "units/laman.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "laman_and_lemuel": {
+      "texture": "units/laman_and_lemuel.png",
+      "size": [
+        62,
+        62
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "lawyer": {
+      "texture": "units/lawyer.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "lemuel": {
+      "texture": "units/lemuel.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "lib": {
+      "texture": "units/lib.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "man_of_moroni": {
+      "texture": "units/man_of_moroni.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "man_of_the_sword": {
+      "texture": "units/man_of_the_sword.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "morianton": {
+      "texture": "units/morianton.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "mormon": {
+      "texture": "units/mormon.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "moroni_son": {
+      "texture": "units/moroni_son.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "nehor": {
+      "texture": "units/nehor.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "nephi": {
+      "texture": "units/nephi.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "oath_keeper": {
+      "texture": "units/oath_keeper.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "omer": {
+      "texture": "units/omer.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "one_of_the_fifty": {
+      "texture": "units/one_of_the_fifty.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "pahoran": {
+      "texture": "units/pahoran.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "priestcrafter": {
+      "texture": "units/priestcrafter.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "sam": {
+      "texture": "units/sam.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "shared": {
+      "texture": "units/shared.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "sheep": {
+      "texture": "units/sheep.png",
+      "size": [
+        38,
+        38
+      ],
+      "pivot": [
+        0.52,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "shiz": {
+      "texture": "units/shiz.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "slinger_of_stones": {
+      "texture": "units/slinger_of_stones.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "stripling_warrior": {
+      "texture": "units/stripling_warrior.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "teacher_of_the_word": {
+      "texture": "units/teacher_of_the_word.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tiller_of_the_earth": {
+      "texture": "units/tiller_of_the_earth.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "trader_in_precious_things": {
+      "texture": "units/trader_in_precious_things.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tubaloth": {
+      "texture": "units/tubaloth.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "wilderness_spy": {
+      "texture": "units/wilderness_spy.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "worker_in_ore": {
+      "texture": "units/worker_in_ore.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "zemnarihah": {
+      "texture": "units/zemnarihah.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "zerahemnah": {
+      "texture": "units/zerahemnah.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "zoram": {
+      "texture": "units/zoram.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "zoramite_captain": {
+      "texture": "units/zoramite_captain.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "cement_tower": {
+      "texture": "buildings/cement_tower.png",
+      "size": [
+        94,
+        94
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "cement_wall": {
+      "texture": "buildings/cement_wall.png",
+      "size": [
+        82,
+        82
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "encampment_of_war": {
+      "texture": "buildings/encampment_of_war.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "fields_of_grain": {
+      "texture": "buildings/fields_of_grain.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gathering_of_flocks": {
+      "texture": "buildings/gathering_of_flocks.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hill_of_ore": {
+      "texture": "buildings/hill_of_ore.png",
+      "size": [
+        86,
+        86
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "house_of_curious_workmanship": {
+      "texture": "buildings/house_of_curious_workmanship.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_many_waters": {
+      "texture": "buildings/place_of_many_waters.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_trade": {
+      "texture": "buildings/place_of_trade.png",
+      "size": [
+        116,
+        116
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "seat_of_the_people": {
+      "texture": "buildings/seat_of_the_people.png",
+      "size": [
+        172,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "secret_combination_lodge": {
+      "texture": "buildings/secret_combination_lodge.png",
+      "size": [
+        104,
+        104
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "storehouse_of_provisions": {
+      "texture": "buildings/storehouse_of_provisions.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "temple_of_the_land": {
+      "texture": "buildings/temple_of_the_land.png",
+      "size": [
+        126,
+        126
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations": {
+      "texture": "buildings/tents_and_habitations.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tower_of_watchmen": {
+      "texture": "buildings/tower_of_watchmen.png",
+      "size": [
+        92,
+        92
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "winery": {
+      "texture": "buildings/winery_v08.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "works_of_defense": {
+      "texture": "buildings/works_of_defense.png",
+      "size": [
+        90,
+        90
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tree": {
+      "texture": "resources/tree.png",
+      "size": [
+        60,
+        60
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "ore": {
+      "texture": "resources/ore.png",
+      "size": [
+        52,
+        52
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "berries": {
+      "texture": "resources/berries.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "crate": {
+      "texture": "resources/crate.png",
+      "size": [
+        36,
+        36
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "wild_game": {
+      "texture": "resources/wild_game.png",
+      "size": [
+        46,
+        46
+      ],
+      "pivot": [
+        0.52,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "temple_of_the_land@lamanites": {
+      "texture": "buildings/temple_of_the_land@lamanites.png",
+      "size": [
+        126,
+        126
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "temple_of_the_land@laban": {
+      "texture": "buildings/great_spacious_v08.png",
+      "size": [
+        228,
+        228
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "seat_of_the_people@laban": {
+      "texture": "buildings/headquarters_v08.png",
+      "size": [
+        172,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "fields_of_grain@laban": {
+      "texture": "buildings/fields_of_grain@laban.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "industrious_laborer@laban": {
+      "texture": "units/industrious_laborer@laban.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "industrious_laborer@gadianton": {
+      "texture": "units/industrious_laborer@gadianton.png",
+      "size": [
+        48,
+        48
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations@nephites": {
+      "texture": "buildings/tents_and_habitations@nephites.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations@lamanites": {
+      "texture": "buildings/tents_and_habitations@lamanites.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations@gadianton": {
+      "texture": "buildings/tents_and_habitations@gadianton.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations@coriantumr": {
+      "texture": "buildings/tents_and_habitations@coriantumr.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations@shiz": {
+      "texture": "buildings/tents_and_habitations@shiz.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tents_and_habitations@laban": {
+      "texture": "buildings/homes_v08.png",
+      "size": [
+        65,
+        65
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "fields_of_grain@lamanites": {
+      "texture": "buildings/fields_of_grain@lamanites.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "fields_of_grain@coriantumr": {
+      "texture": "buildings/fields_of_grain@coriantumr.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "fields_of_grain@shiz": {
+      "texture": "buildings/fields_of_grain@shiz.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "seat_of_the_people@lamanites": {
+      "texture": "buildings/seat_of_the_people@lamanites.png",
+      "size": [
+        172,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "seat_of_the_people@gadianton": {
+      "texture": "buildings/seat_of_the_people@gadianton.png",
+      "size": [
+        172,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "seat_of_the_people@coriantumr": {
+      "texture": "buildings/seat_of_the_people@coriantumr.png",
+      "size": [
+        172,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "seat_of_the_people@shiz": {
+      "texture": "buildings/seat_of_the_people@shiz.png",
+      "size": [
+        172,
+        172
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "temple_of_the_land@coriantumr": {
+      "texture": "buildings/temple_of_the_land@coriantumr.png",
+      "size": [
+        126,
+        126
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "temple_of_the_land@shiz": {
+      "texture": "buildings/temple_of_the_land@shiz.png",
+      "size": [
+        126,
+        126
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gathering_of_flocks@lamanites": {
+      "texture": "buildings/gathering_of_flocks@lamanites.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gathering_of_flocks@coriantumr": {
+      "texture": "buildings/gathering_of_flocks@coriantumr.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gathering_of_flocks@shiz": {
+      "texture": "buildings/gathering_of_flocks@shiz.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "gathering_of_flocks@laban": {
+      "texture": "buildings/gathering_of_flocks@laban.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hill_of_ore@lamanites": {
+      "texture": "buildings/hill_of_ore@lamanites.png",
+      "size": [
+        86,
+        86
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "house_of_curious_workmanship@lamanites": {
+      "texture": "buildings/house_of_curious_workmanship@lamanites.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_trade@lamanites": {
+      "texture": "buildings/place_of_trade@lamanites.png",
+      "size": [
+        116,
+        116
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "storehouse_of_provisions@lamanites": {
+      "texture": "buildings/storehouse_of_provisions@lamanites.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tower_of_watchmen@lamanites": {
+      "texture": "buildings/tower_of_watchmen@lamanites.png",
+      "size": [
+        92,
+        92
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hill_of_ore@gadianton": {
+      "texture": "buildings/hill_of_ore@gadianton.png",
+      "size": [
+        86,
+        86
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "house_of_curious_workmanship@gadianton": {
+      "texture": "buildings/house_of_curious_workmanship@gadianton.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_trade@gadianton": {
+      "texture": "buildings/place_of_trade@gadianton.png",
+      "size": [
+        116,
+        116
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "storehouse_of_provisions@gadianton": {
+      "texture": "buildings/storehouse_of_provisions@gadianton.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "encampment_of_war@gadianton": {
+      "texture": "buildings/encampment_of_war@gadianton.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tower_of_watchmen@gadianton": {
+      "texture": "buildings/tower_of_watchmen@gadianton.png",
+      "size": [
+        92,
+        92
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "works_of_defense@gadianton": {
+      "texture": "buildings/works_of_defense@gadianton.png",
+      "size": [
+        90,
+        90
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_many_waters@gadianton": {
+      "texture": "buildings/place_of_many_waters@gadianton.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hill_of_ore@coriantumr": {
+      "texture": "buildings/hill_of_ore@coriantumr.png",
+      "size": [
+        86,
+        86
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "house_of_curious_workmanship@coriantumr": {
+      "texture": "buildings/house_of_curious_workmanship@coriantumr.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_trade@coriantumr": {
+      "texture": "buildings/place_of_trade@coriantumr.png",
+      "size": [
+        116,
+        116
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "storehouse_of_provisions@coriantumr": {
+      "texture": "buildings/storehouse_of_provisions@coriantumr.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "encampment_of_war@coriantumr": {
+      "texture": "buildings/encampment_of_war@coriantumr.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tower_of_watchmen@coriantumr": {
+      "texture": "buildings/tower_of_watchmen@coriantumr.png",
+      "size": [
+        92,
+        92
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "works_of_defense@coriantumr": {
+      "texture": "buildings/works_of_defense@coriantumr.png",
+      "size": [
+        90,
+        90
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_many_waters@coriantumr": {
+      "texture": "buildings/place_of_many_waters@coriantumr.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hill_of_ore@shiz": {
+      "texture": "buildings/hill_of_ore@shiz.png",
+      "size": [
+        86,
+        86
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "house_of_curious_workmanship@shiz": {
+      "texture": "buildings/house_of_curious_workmanship@shiz.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_trade@shiz": {
+      "texture": "buildings/place_of_trade@shiz.png",
+      "size": [
+        116,
+        116
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "storehouse_of_provisions@shiz": {
+      "texture": "buildings/storehouse_of_provisions@shiz.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "encampment_of_war@shiz": {
+      "texture": "buildings/encampment_of_war@shiz.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tower_of_watchmen@shiz": {
+      "texture": "buildings/tower_of_watchmen@shiz.png",
+      "size": [
+        92,
+        92
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "works_of_defense@shiz": {
+      "texture": "buildings/works_of_defense@shiz.png",
+      "size": [
+        90,
+        90
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_many_waters@shiz": {
+      "texture": "buildings/place_of_many_waters@shiz.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "hill_of_ore@laban": {
+      "texture": "buildings/hill_of_ore@laban.png",
+      "size": [
+        86,
+        86
+      ],
+      "pivot": [
+        0.5,
+        0.77
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "house_of_curious_workmanship@laban": {
+      "texture": "buildings/armory_v08.png",
+      "size": [
+        108,
+        108
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_trade@laban": {
+      "texture": "buildings/market_v08.png",
+      "size": [
+        116,
+        116
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "storehouse_of_provisions@laban": {
+      "texture": "buildings/storehouse_v08.png",
+      "size": [
+        106,
+        106
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "encampment_of_war@laban": {
+      "texture": "buildings/guard_camp_v08.png",
+      "size": [
+        112,
+        112
+      ],
+      "pivot": [
+        0.5,
+        0.91
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.4
+        ],
+        "max": [
+          0.82,
+          0.96
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.12,
+          0.3
+        ],
+        "max": [
+          0.88,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "tower_of_watchmen@laban": {
+      "texture": "buildings/tower_of_watchmen@laban.png",
+      "size": [
+        92,
+        92
+      ],
+      "pivot": [
+        0.5,
+        0.88
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "works_of_defense@laban": {
+      "texture": "buildings/works_of_defense@laban.png",
+      "size": [
+        90,
+        90
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "place_of_many_waters@laban": {
+      "texture": "buildings/place_of_many_waters@laban.png",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        0.5,
+        0.68
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "lehi": {
+      "texture": "units/lehi.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "amulek": {
+      "texture": "units/amulek.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    },
+    "teancum": {
+      "texture": "units/teancum.png",
+      "size": [
+        58,
+        58
+      ],
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "tint_mode": "none",
+      "color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "hitbox": {
+        "min": [
+          0.18,
+          0.22
+        ],
+        "max": [
+          0.82,
+          0.98
+        ]
+      },
+      "context_hitbox": {
+        "min": [
+          0.06,
+          0.08
+        ],
+        "max": [
+          0.94,
+          0.98
+        ]
+      },
+      "animations": {}
+    }
+  },
+  "icons": {
+    "aaron": {
+      "texture": "units/aaron.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "akish": {
+      "texture": "units/akish.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "alma": {
+      "texture": "units/alma.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "amalickiah": {
+      "texture": "units/amalickiah.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "ammon": {
+      "texture": "units/ammon.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "ammonite_covenant_keeper": {
+      "texture": "units/ammonite_covenant_keeper.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "ammoron": {
+      "texture": "units/ammoron.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "band_captain": {
+      "texture": "units/band_captain.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "bowman": {
+      "texture": "units/bowman.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "brother_of_jared": {
+      "texture": "units/brother_of_jared.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "captain_moroni": {
+      "texture": "units/captain_moroni.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "chief_captain": {
+      "texture": "units/chief_captain.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "cimeter_bearer": {
+      "texture": "units/cimeter_bearer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "coriantumr": {
+      "texture": "units/coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "cumelom": {
+      "texture": "units/cumelom.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "curelom": {
+      "texture": "units/curelom.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "drunken_concubine": {
+      "texture": "units/drunken_concubine.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "elephant": {
+      "texture": "units/elephant.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "emer": {
+      "texture": "units/emer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gadianton": {
+      "texture": "units/gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gadianton_robber": {
+      "texture": "units/gadianton_robber.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "giddianhi": {
+      "texture": "units/giddianhi.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gilead": {
+      "texture": "units/gilead.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hagoths_vessel": {
+      "texture": "units/hagoths_vessel.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "helaman": {
+      "texture": "units/helaman.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "industrious_laborer": {
+      "texture": "units/industrious_laborer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "jacob_gadianton": {
+      "texture": "units/jacob_gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "jared": {
+      "texture": "units/jared.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "jaredite_archer": {
+      "texture": "units/jaredite_archer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "jaredite_barge": {
+      "texture": "units/jaredite_barge.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "jaredite_shield_bearer": {
+      "texture": "units/jaredite_shield_bearer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "jaredite_warrior": {
+      "texture": "units/jaredite_warrior.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "keeper_of_flocks": {
+      "texture": "units/keeper_of_flocks.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "king_noah": {
+      "texture": "units/king_noah.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "kings_chariot": {
+      "texture": "units/kings_chariot.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "kishkumen": {
+      "texture": "units/kishkumen.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "korihor": {
+      "texture": "units/korihor.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "laban": {
+      "texture": "units/laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "laman": {
+      "texture": "units/laman.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "laman_and_lemuel": {
+      "texture": "units/laman_and_lemuel.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "lawyer": {
+      "texture": "units/lawyer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "lemuel": {
+      "texture": "units/lemuel.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "lib": {
+      "texture": "units/lib.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "man_of_moroni": {
+      "texture": "units/man_of_moroni.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "man_of_the_sword": {
+      "texture": "units/man_of_the_sword.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "morianton": {
+      "texture": "units/morianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "mormon": {
+      "texture": "units/mormon.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "moroni_son": {
+      "texture": "units/moroni_son.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "nehor": {
+      "texture": "units/nehor.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "nephi": {
+      "texture": "units/nephi.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "oath_keeper": {
+      "texture": "units/oath_keeper.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "omer": {
+      "texture": "units/omer.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "one_of_the_fifty": {
+      "texture": "units/one_of_the_fifty.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "pahoran": {
+      "texture": "units/pahoran.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "priestcrafter": {
+      "texture": "units/priestcrafter.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "sam": {
+      "texture": "units/sam.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "shared": {
+      "texture": "units/shared.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "sheep": {
+      "texture": "units/sheep.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "shiz": {
+      "texture": "units/shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "slinger_of_stones": {
+      "texture": "units/slinger_of_stones.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "stripling_warrior": {
+      "texture": "units/stripling_warrior.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "teacher_of_the_word": {
+      "texture": "units/teacher_of_the_word.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tiller_of_the_earth": {
+      "texture": "units/tiller_of_the_earth.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "trader_in_precious_things": {
+      "texture": "units/trader_in_precious_things.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tubaloth": {
+      "texture": "units/tubaloth.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "wilderness_spy": {
+      "texture": "units/wilderness_spy.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "worker_in_ore": {
+      "texture": "units/worker_in_ore.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "zemnarihah": {
+      "texture": "units/zemnarihah.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "zerahemnah": {
+      "texture": "units/zerahemnah.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "zoram": {
+      "texture": "units/zoram.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "zoramite_captain": {
+      "texture": "units/zoramite_captain.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "cement_tower": {
+      "texture": "buildings/cement_tower.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "cement_wall": {
+      "texture": "buildings/cement_wall.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "encampment_of_war": {
+      "texture": "buildings/encampment_of_war.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "fields_of_grain": {
+      "texture": "buildings/fields_of_grain.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gathering_of_flocks": {
+      "texture": "buildings/gathering_of_flocks.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hill_of_ore": {
+      "texture": "buildings/hill_of_ore.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "house_of_curious_workmanship": {
+      "texture": "buildings/house_of_curious_workmanship.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_many_waters": {
+      "texture": "buildings/place_of_many_waters.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_trade": {
+      "texture": "buildings/place_of_trade.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "seat_of_the_people": {
+      "texture": "buildings/seat_of_the_people.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "secret_combination_lodge": {
+      "texture": "buildings/secret_combination_lodge.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "storehouse_of_provisions": {
+      "texture": "buildings/storehouse_of_provisions.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "temple_of_the_land": {
+      "texture": "buildings/temple_of_the_land.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations": {
+      "texture": "buildings/tents_and_habitations.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tower_of_watchmen": {
+      "texture": "buildings/tower_of_watchmen.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "winery": {
+      "texture": "buildings/winery_v08.png"
+    },
+    "works_of_defense": {
+      "texture": "buildings/works_of_defense.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tree": {
+      "texture": "resources/tree.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "ore": {
+      "texture": "resources/ore.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "berries": {
+      "texture": "resources/berries.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "crate": {
+      "texture": "resources/crate.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "wild_game": {
+      "texture": "resources/wild_game.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "temple_of_the_land@lamanites": {
+      "texture": "buildings/temple_of_the_land@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "temple_of_the_land@laban": {
+      "texture": "buildings/great_spacious_v08.png"
+    },
+    "seat_of_the_people@laban": {
+      "texture": "buildings/headquarters_v08.png"
+    },
+    "fields_of_grain@laban": {
+      "texture": "buildings/fields_of_grain@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "industrious_laborer@laban": {
+      "texture": "units/industrious_laborer@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "industrious_laborer@gadianton": {
+      "texture": "units/industrious_laborer@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations@nephites": {
+      "texture": "buildings/tents_and_habitations@nephites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations@lamanites": {
+      "texture": "buildings/tents_and_habitations@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations@gadianton": {
+      "texture": "buildings/tents_and_habitations@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations@coriantumr": {
+      "texture": "buildings/tents_and_habitations@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations@shiz": {
+      "texture": "buildings/tents_and_habitations@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tents_and_habitations@laban": {
+      "texture": "buildings/homes_v08.png"
+    },
+    "fields_of_grain@lamanites": {
+      "texture": "buildings/fields_of_grain@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "fields_of_grain@coriantumr": {
+      "texture": "buildings/fields_of_grain@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "fields_of_grain@shiz": {
+      "texture": "buildings/fields_of_grain@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "seat_of_the_people@lamanites": {
+      "texture": "buildings/seat_of_the_people@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "seat_of_the_people@gadianton": {
+      "texture": "buildings/seat_of_the_people@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "seat_of_the_people@coriantumr": {
+      "texture": "buildings/seat_of_the_people@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "seat_of_the_people@shiz": {
+      "texture": "buildings/seat_of_the_people@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "temple_of_the_land@coriantumr": {
+      "texture": "buildings/temple_of_the_land@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "temple_of_the_land@shiz": {
+      "texture": "buildings/temple_of_the_land@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gathering_of_flocks@lamanites": {
+      "texture": "buildings/gathering_of_flocks@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gathering_of_flocks@coriantumr": {
+      "texture": "buildings/gathering_of_flocks@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gathering_of_flocks@shiz": {
+      "texture": "buildings/gathering_of_flocks@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gathering_of_flocks@laban": {
+      "texture": "buildings/gathering_of_flocks@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hill_of_ore@lamanites": {
+      "texture": "buildings/hill_of_ore@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "house_of_curious_workmanship@lamanites": {
+      "texture": "buildings/house_of_curious_workmanship@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_trade@lamanites": {
+      "texture": "buildings/place_of_trade@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "storehouse_of_provisions@lamanites": {
+      "texture": "buildings/storehouse_of_provisions@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tower_of_watchmen@lamanites": {
+      "texture": "buildings/tower_of_watchmen@lamanites.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hill_of_ore@gadianton": {
+      "texture": "buildings/hill_of_ore@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "house_of_curious_workmanship@gadianton": {
+      "texture": "buildings/house_of_curious_workmanship@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_trade@gadianton": {
+      "texture": "buildings/place_of_trade@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "storehouse_of_provisions@gadianton": {
+      "texture": "buildings/storehouse_of_provisions@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "encampment_of_war@gadianton": {
+      "texture": "buildings/encampment_of_war@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tower_of_watchmen@gadianton": {
+      "texture": "buildings/tower_of_watchmen@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "works_of_defense@gadianton": {
+      "texture": "buildings/works_of_defense@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_many_waters@gadianton": {
+      "texture": "buildings/place_of_many_waters@gadianton.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hill_of_ore@coriantumr": {
+      "texture": "buildings/hill_of_ore@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "house_of_curious_workmanship@coriantumr": {
+      "texture": "buildings/house_of_curious_workmanship@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_trade@coriantumr": {
+      "texture": "buildings/place_of_trade@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "storehouse_of_provisions@coriantumr": {
+      "texture": "buildings/storehouse_of_provisions@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "encampment_of_war@coriantumr": {
+      "texture": "buildings/encampment_of_war@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tower_of_watchmen@coriantumr": {
+      "texture": "buildings/tower_of_watchmen@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "works_of_defense@coriantumr": {
+      "texture": "buildings/works_of_defense@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_many_waters@coriantumr": {
+      "texture": "buildings/place_of_many_waters@coriantumr.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hill_of_ore@shiz": {
+      "texture": "buildings/hill_of_ore@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "house_of_curious_workmanship@shiz": {
+      "texture": "buildings/house_of_curious_workmanship@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_trade@shiz": {
+      "texture": "buildings/place_of_trade@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "storehouse_of_provisions@shiz": {
+      "texture": "buildings/storehouse_of_provisions@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "encampment_of_war@shiz": {
+      "texture": "buildings/encampment_of_war@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "tower_of_watchmen@shiz": {
+      "texture": "buildings/tower_of_watchmen@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "works_of_defense@shiz": {
+      "texture": "buildings/works_of_defense@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_many_waters@shiz": {
+      "texture": "buildings/place_of_many_waters@shiz.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "hill_of_ore@laban": {
+      "texture": "buildings/hill_of_ore@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "house_of_curious_workmanship@laban": {
+      "texture": "buildings/armory_v08.png"
+    },
+    "place_of_trade@laban": {
+      "texture": "buildings/market_v08.png"
+    },
+    "storehouse_of_provisions@laban": {
+      "texture": "buildings/storehouse_v08.png"
+    },
+    "encampment_of_war@laban": {
+      "texture": "buildings/guard_camp_v08.png"
+    },
+    "tower_of_watchmen@laban": {
+      "texture": "buildings/tower_of_watchmen@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "works_of_defense@laban": {
+      "texture": "buildings/works_of_defense@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "place_of_many_waters@laban": {
+      "texture": "buildings/place_of_many_waters@laban.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "breastplates_and_arm_shields": {
+      "texture": "icons/breastplates_and_arm_shields.png"
+    },
+    "by_the_pride_of_their_hearts": {
+      "texture": "icons/by_the_pride_of_their_hearts.png"
+    },
+    "compromised_storehouses": {
+      "texture": "icons/compromised_storehouses.png"
+    },
+    "exceedingly_industrious": {
+      "texture": "icons/exceedingly_industrious.png"
+    },
+    "exceedingly_large_in_stature": {
+      "texture": "icons/exceedingly_large_in_stature.png"
+    },
+    "fight_like_dragons": {
+      "texture": "icons/fight_like_dragons.png"
+    },
+    "glowing_stones": {
+      "texture": "icons/glowing_stones.png"
+    },
+    "heaps_of_earth": {
+      "texture": "icons/heaps_of_earth.png"
+    },
+    "laban_and_his_fifty": {
+      "texture": "icons/laban_and_his_fifty.png"
+    },
+    "metallurgy": {
+      "texture": "icons/metallurgy.png"
+    },
+    "mighty_change_of_heart": {
+      "texture": "icons/mighty_change_of_heart.png"
+    },
+    "network_of_secrets": {
+      "texture": "icons/network_of_secrets.png"
+    },
+    "order_of_the_nehors": {
+      "texture": "icons/order_of_the_nehors.png"
+    },
+    "pickets": {
+      "texture": "icons/pickets.png"
+    },
+    "plunder_hoard": {
+      "texture": "icons/plunder_hoard.png"
+    },
+    "plunder_share": {
+      "texture": "icons/plunder_share.png"
+    },
+    "seeds_of_every_kind": {
+      "texture": "icons/seeds_of_every_kind.png"
+    },
+    "seven_years_of_provisions": {
+      "texture": "icons/seven_years_of_provisions.png"
+    },
+    "signs_and_symbols": {
+      "texture": "icons/signs_and_symbols.png"
+    },
+    "their_mothers_knew": {
+      "texture": "icons/their_mothers_knew.png"
+    },
+    "thick_clothing": {
+      "texture": "icons/thick_clothing.png"
+    },
+    "works_of_timbers": {
+      "texture": "icons/works_of_timbers.png"
+    },
+    "nephites_storehouse_food": {
+      "texture": "icons/nephites_storehouse_food.png"
+    },
+    "nephites_storehouse_timber": {
+      "texture": "icons/nephites_storehouse_timber.png"
+    },
+    "nephites_storehouse_precious": {
+      "texture": "icons/nephites_storehouse_precious.png"
+    },
+    "lamanites_storehouse_food": {
+      "texture": "icons/lamanites_storehouse_food.png"
+    },
+    "lamanites_storehouse_carry": {
+      "texture": "icons/lamanites_storehouse_carry.png"
+    },
+    "lamanites_storehouse_timber": {
+      "texture": "icons/lamanites_storehouse_timber.png"
+    },
+    "gadianton_storehouse_wild_food": {
+      "texture": "icons/gadianton_storehouse_wild_food.png"
+    },
+    "gadianton_storehouse_carry": {
+      "texture": "icons/gadianton_storehouse_carry.png"
+    },
+    "gadianton_storehouse_raid_yield": {
+      "texture": "icons/gadianton_storehouse_raid_yield.png"
+    },
+    "coriantumr_storehouse_beast_income": {
+      "texture": "icons/coriantumr_storehouse_beast_income.png"
+    },
+    "coriantumr_storehouse_build_speed": {
+      "texture": "icons/coriantumr_storehouse_build_speed.png"
+    },
+    "coriantumr_storehouse_carry": {
+      "texture": "icons/coriantumr_storehouse_carry.png"
+    },
+    "shiz_storehouse_beast_income": {
+      "texture": "icons/shiz_storehouse_beast_income.png"
+    },
+    "shiz_storehouse_build_speed": {
+      "texture": "icons/shiz_storehouse_build_speed.png"
+    },
+    "shiz_storehouse_carry": {
+      "texture": "icons/shiz_storehouse_carry.png"
+    },
+    "laban_storehouse_food": {
+      "texture": "icons/laban_storehouse_food.png"
+    },
+    "laban_storehouse_trade_income": {
+      "texture": "icons/laban_storehouse_trade_income.png"
+    },
+    "laban_storehouse_precious": {
+      "texture": "icons/laban_storehouse_precious.png"
+    },
+    "age2_coriantumr_brother_of_jared": {
+      "texture": "units/brother_of_jared.png"
+    },
+    "age2_coriantumr_jared": {
+      "texture": "units/jared.png"
+    },
+    "age2_gadianton_gadianton": {
+      "texture": "units/gadianton.png"
+    },
+    "age2_gadianton_kishkumen": {
+      "texture": "units/kishkumen.png"
+    },
+    "age2_laban_laban": {
+      "texture": "units/laban.png"
+    },
+    "age2_laban_zoram": {
+      "texture": "units/zoram.png"
+    },
+    "age2_lamanites_laman": {
+      "texture": "units/laman.png"
+    },
+    "age2_lamanites_lemuel": {
+      "texture": "units/lemuel.png"
+    },
+    "age2_nephites_nephi": {
+      "texture": "units/nephi.png"
+    },
+    "age2_nephites_sam": {
+      "texture": "units/sam.png"
+    },
+    "age2_shiz_brother_of_jared": {
+      "texture": "units/brother_of_jared.png"
+    },
+    "age2_shiz_jared": {
+      "texture": "units/jared.png"
+    },
+    "age3_coriantumr_emer": {
+      "texture": "units/emer.png"
+    },
+    "age3_coriantumr_morianton": {
+      "texture": "units/morianton.png"
+    },
+    "age3_gadianton_giddianhi": {
+      "texture": "units/giddianhi.png"
+    },
+    "age3_gadianton_zemnarihah": {
+      "texture": "units/zemnarihah.png"
+    },
+    "age3_laban_king_noah": {
+      "texture": "units/king_noah.png"
+    },
+    "age3_laban_nehor": {
+      "texture": "units/nehor.png"
+    },
+    "age3_lamanites_amalickiah": {
+      "texture": "units/amalickiah.png"
+    },
+    "age3_lamanites_king_noah": {
+      "texture": "units/king_noah.png"
+    },
+    "age3_nephites_alma": {
+      "texture": "units/alma.png"
+    },
+    "age3_nephites_captain_moroni": {
+      "texture": "units/captain_moroni.png"
+    },
+    "age3_shiz_akish": {
+      "texture": "units/akish.png"
+    },
+    "age3_shiz_omer": {
+      "texture": "units/omer.png"
+    },
+    "age4_coriantumr_coriantumr": {
+      "texture": "units/coriantumr.png"
+    },
+    "age4_coriantumr_lib": {
+      "texture": "units/lib.png"
+    },
+    "age4_gadianton_band_captain": {
+      "texture": "units/band_captain.png"
+    },
+    "age4_gadianton_jacob_gadianton": {
+      "texture": "units/jacob_gadianton.png"
+    },
+    "age4_laban_jacob_gadianton": {
+      "texture": "units/jacob_gadianton.png"
+    },
+    "age4_laban_korihor": {
+      "texture": "units/korihor.png"
+    },
+    "age4_lamanites_aaron": {
+      "texture": "units/aaron.png"
+    },
+    "age4_lamanites_tubaloth": {
+      "texture": "units/tubaloth.png"
+    },
+    "age4_nephites_mormon": {
+      "texture": "units/mormon.png"
+    },
+    "age4_nephites_moroni_son": {
+      "texture": "units/moroni_son.png"
+    },
+    "age4_shiz_gilead": {
+      "texture": "units/gilead.png"
+    },
+    "age4_shiz_shiz": {
+      "texture": "units/shiz.png"
+    },
+    "actions/attack_move": {
+      "texture": "icons/actions/attack_move.png"
+    },
+    "actions/stop": {
+      "texture": "icons/actions/stop.png"
+    },
+    "actions/hold": {
+      "texture": "icons/actions/hold.png"
+    },
+    "actions/patrol": {
+      "texture": "icons/actions/patrol.png"
+    },
+    "actions/ability": {
+      "texture": "icons/actions/ability.png"
+    },
+    "actions/convert": {
+      "texture": "icons/actions/convert.png"
+    },
+    "actions/raid_move": {
+      "texture": "icons/actions/raid_move.png"
+    },
+    "actions/galavant": {
+      "texture": "icons/actions/galavant.png"
+    },
+    "actions/raid": {
+      "texture": "icons/actions/raid.png"
+    },
+    "actions/rally": {
+      "texture": "icons/actions/rally.png"
+    },
+    "actions/rally_economic": {
+      "texture": "icons/actions/rally_economic.png"
+    },
+    "actions/market_galavant": {
+      "texture": "icons/actions/market_galavant.png"
+    },
+    "actions/deliver": {
+      "texture": "icons/actions/deliver.png"
+    },
+    "actions/cancel": {
+      "texture": "icons/actions/cancel.png"
+    },
+    "actions/build_toggle": {
+      "texture": "icons/actions/build_toggle.png"
+    },
+    "stats/food": {
+      "texture": "icons/stats/food.png"
+    },
+    "stats/timber": {
+      "texture": "icons/stats/timber.png"
+    },
+    "stats/wealth": {
+      "texture": "icons/stats/wealth.png"
+    },
+    "stats/cement": {
+      "texture": "icons/stats/cement.png"
+    },
+    "stats/favor": {
+      "texture": "icons/stats/favor.png"
+    },
+    "stats/anger": {
+      "texture": "icons/stats/anger.png"
+    },
+    "stats/lasciviousness": {
+      "texture": "icons/stats/lasciviousness.png"
+    },
+    "stats/drunkenness": {
+      "texture": "icons/stats/drunkenness.png"
+    },
+    "stats/dominion": {
+      "texture": "icons/stats/dominion.png"
+    },
+    "factions/nephites": {
+      "texture": "icons/factions/nephites.png"
+    },
+    "factions/lamanites": {
+      "texture": "icons/factions/lamanites.png"
+    },
+    "factions/gadianton": {
+      "texture": "icons/factions/gadianton.png"
+    },
+    "factions/coriantumr": {
+      "texture": "icons/factions/coriantumr.png"
+    },
+    "factions/shiz": {
+      "texture": "icons/factions/shiz.png"
+    },
+    "factions/laban": {
+      "texture": "icons/factions/laban.png"
+    },
+    "lehi": {
+      "texture": "units/lehi.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "amulek": {
+      "texture": "units/amulek.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "teancum": {
+      "texture": "units/teancum.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "age2_nephites_lehi": {
+      "texture": "units/lehi.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "age3_nephites_amulek": {
+      "texture": "units/amulek.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "age4_nephites_teancum": {
+      "texture": "units/teancum.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "age2_lamanites_laman_and_lemuel": {
+      "texture": "units/laman_and_lemuel.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "age3_lamanites_ammoron": {
+      "texture": "units/ammoron.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "age4_lamanites_zerahemnah": {
+      "texture": "units/zerahemnah.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "winery_double_food": {
+      "texture": "icons/winery_double_food.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "winery_drunkness": {
+      "texture": "icons/winery_drunkness.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "coriantumr_storehouse_beast_income_2": {
+      "texture": "icons/coriantumr_storehouse_beast_income_2.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "coriantumr_storehouse_beast_income_3": {
+      "texture": "icons/coriantumr_storehouse_beast_income_3.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "shiz_storehouse_beast_income_2": {
+      "texture": "icons/shiz_storehouse_beast_income_2.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "shiz_storehouse_beast_income_3": {
+      "texture": "icons/shiz_storehouse_beast_income_3.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "enlarge_the_flocks": {
+      "texture": "icons/enlarge_the_flocks.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "wrath_of_the_fallen": {
+      "texture": "icons/wrath_of_the_fallen.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "lofty_rameumptom": {
+      "texture": "icons/lofty_rameumptom.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "gate_segment_upgrade": {
+      "texture": "icons/gate_segment_upgrade.png",
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "actions/storehouse_raid": {
+      "texture": "icons/actions/raid_move.png"
+    }
+  },
+  "runtime_animation": {
+    "mode": "weighted_uv_mesh",
+    "grid_columns": 4,
+    "grid_rows": 6,
+    "human_and_beast_world_scale": 0.66,
+    "ship_world_scale": 0.7,
+    "attack_pose_seconds": 0.55,
+    "states": [
+      "idle",
+      "move",
+      "attack",
+      "build",
+      "gather_food",
+      "gather_timber",
+      "gather_ore",
+      "convert"
+    ],
+    "picking": "inverse_mesh_alpha",
+    "note": "Runtime defaults in RTSVisualAssets; PNGs and UI icon dimensions stay unchanged."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-11-22T13:06:28.4543469Z",
+  "scope": "15 maps; rotated geometric selection with terrain occlusion; unit/ability copy; retained first-pass Nephite HP, Lamanite recruitment and Gadianton gathering tuning. Nephite price/time premiums remain 1.25/1.2. Rejected recruitment discount and death batching are opt-in diagnostics only. Installer compiled, APK statically verified; no clean-install or physical-device launch claim.",
+  "artifacts": {
+    "windows_executable": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+      "bytes": 256845824,
+      "sha256": "B1F5EA28ACBD61972088CB128BB90D28A60793C5C670045DE142411E935DCF2A"
+    },
+    "android_apk": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Android\\Chronicles-Android-arm64-ETC2-v0.9.apk",
+      "bytes": 486804359,
+      "sha256": "6BB0F4583020F83C6975A3EFBAC82ED45DAD38C0EA9F29978382A9E533DD3FF5"
+    },
+    "windows_installer": {
+      "path": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Installer\\Maps-Balance-Final-20261122\\Chronicles-Setup-v0.9.0-Windows-x64.exe",
+      "bytes": 524284657,
+      "sha256": "EFED9DE1D9DAA6DEEDC952BABE6BC510035C4D60B548C261DF1C0A090AE7DF88"
+    }
+  },
+  "evidence": {
+    "regression": "Docs/Evidence/v0.9/maps/maps-balanced",
+    "balance": "Docs/CivilizationBalance-v0.9.md",
+    "android_payload": "Docs/Evidence/v0.9/android/maps-balanced-final-20261122/payload-verification.json",
+    "installer_log": "Game/Saved/BuildLogs/Installer-Maps-Balance-Final-20261122.log"
+  }
+}

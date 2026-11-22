@@ -1,0 +1,20 @@
+{
+  "method": "Read-only triangle slices at common elevations. Per-part interiors are filled by horizontal ray parity and unioned per building on a 0.025 m grid with a 0.0137 m XY offset. The placements are from the initial authoritative district report.",
+  "comparison_order": ["Laban's Crib", "Labanite Quarters", "Laban's Armory"],
+  "intersection_area_m2": [
+    {"height_m": 0.075, "initial": [1.1944, 1.0806, 0.315], "refined": [0, 0, 0]},
+    {"height_m": 0.125, "initial": [1.1688, 0.6981, 0.2306], "refined": [0, 0, 0]},
+    {"height_m": 0.29, "initial": [0.9244, 0.0419, 0], "refined": [0, 0, 0]},
+    {"height_m": 0.42, "initial": [0.0563, 0, 0], "refined": [0, 0, 0]},
+    {"height_m": 0.475, "initial": [0.0225, 0, 0], "refined": [0, 0, 0]}
+  ],
+  "landmark_height_m": 5.5988,
+  "landmark_balcony_roofs": 3,
+  "furthest_landmark_vertex_at_or_below_15_cm_m": 2.7931933338027286,
+  "catalog_placement_radius_m": 2.8,
+  "porch_feet_within_first_terrace_at_0_548_m": true,
+  "masonry_base_within_first_terrace_at_0_555_m": true,
+  "first_stair_meets_terrace_at_0_55_m": true,
+  "validated_model_count": 259,
+  "changed_model_keys": ["secret_combination_lodge", "secret_combination_lodge:gadianton", "temple_of_the_land:laban"]
+}

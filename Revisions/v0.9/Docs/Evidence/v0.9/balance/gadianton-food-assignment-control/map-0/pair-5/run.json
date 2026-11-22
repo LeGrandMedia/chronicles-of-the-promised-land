@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-22T14:38:35.5085484Z",
+  "finished_utc": "2026-11-22T14:39:46.4658824Z",
+  "sha256": "2BB3A2E0696F9D46C2EE6777615B64FF72CD8FBA974C0746C5635646C0FED89D",
+  "arguments": [
+    "-RTSV09BotBalance",
+    "-RTSV09BotSupportTrace",
+    "-RTSBalanceShards=15",
+    "-RTSBalanceShard=5",
+    "-RTSBalanceMap=0",
+    "-RTSBalanceStepLimit=12000",
+    "-nullrhi",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\balance\\gadianton-food-assignment-control\\map-0\\pair-5\\balance.log\"",
+    "-RTSV09BotRaidTrace"
+  ],
+  "exit_code": 0,
+  "timed_out": false
+}

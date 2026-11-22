@@ -1,0 +1,16 @@
+{
+	"role": "host",
+	"map": 3,
+	"map_id": "bountiful",
+	"terrain_signature": "16147bc5",
+	"role_slot": 0,
+	"snapshots": 221,
+	"largest_packed_snapshot_bytes": 0,
+	"passed": true,
+	"host_configured_roster_after_guest_commands": true,
+	"bot_gathered": true,
+	"bot_built": true,
+	"bot_trained": true,
+	"host_enemy_resources_and_units_filtered": true,
+	"bot_runs_on_authority_without_controller": true
+}

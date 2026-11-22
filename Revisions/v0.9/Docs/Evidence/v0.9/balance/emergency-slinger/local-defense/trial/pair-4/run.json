@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "sha256": "4F7777E9670E221AAF596BBD008E5231E10AC7B5359BCA8E86EAEA512A998DBD",
+  "arm": "trial",
+  "shard": 4,
+  "arguments": [
+    "-RTSV09BotBalance",
+    "-RTSV09BotSupportTrace",
+    "-RTSBalanceShards=15",
+    "-RTSBalanceShard=4",
+    "-nullrhi",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\balance\\emergency-slinger\\local-defense\\trial\\pair-4\\balance.log\"",
+    "-RTSV09BotEmergencySlinger"
+  ]
+}

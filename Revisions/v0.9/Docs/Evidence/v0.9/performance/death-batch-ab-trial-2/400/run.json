@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-11-22T10:10:53.6539621Z",
+  "finished_utc": "2026-11-22T10:11:09.5652298Z",
+  "executable": "D:\\book of mormon RTS\\Revisions\\v0.9\\Builds\\Windows\\Chronicles\\Binaries\\Win64\\Chronicles.exe",
+  "sha256": "BDCE5AD59E1D19C30561AF15EC9302070AD05C62125880F3392525408BEBA297",
+  "source_sha256": {
+    "RTSDeathStressTests.cpp": "67D8780905ABF4010ADFD2162FB0ADB90A22D1294A6E580AE060A0B4DD7B0DF3",
+    "RTSScene3D.cpp": "D58E347C86666C83708E07300A12F5DD588481A3EC788CD5BD9399C179EF851C",
+    "RTSDeathStressTests.h": "200C75B7ED388667319B027638560208EC516AD7D72DA43CE32079D229C27B59",
+    "RTSDeathBatches3D.cpp": "50F03A4E6831CE1470AA64B7A68472BF276A6DE924B9DA63F94A7F9B6B850008",
+    "RTSScene3D.h": "BCFACD9CD10FFB79904F3AFB77E0D6FDDB547638ADC93017FC2177061E620192"
+  },
+  "arguments": [
+    "-RTSV09DeathStress",
+    "-RTSDeathStressUnits=400",
+    "-d3d12",
+    "-RenderOffscreen",
+    "-windowed",
+    "-ForceRes",
+    "-ResX=1600",
+    "-ResY=900",
+    "-unattended",
+    "-nosound",
+    "-abslog=\"D:\\book of mormon RTS\\Revisions\\v0.9\\Docs\\Evidence\\v0.9\\performance\\death-batch-ab-trial-2\\400\\death-stress.log\"",
+    "-RTSBatchUnitDeaths"
+  ],
+  "pid": 43256,
+  "timed_out": false,
+  "exit_code": 0
+}

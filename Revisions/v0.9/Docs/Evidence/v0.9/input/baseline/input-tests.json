@@ -1,0 +1,141 @@
+{
+	"schema_version": 1,
+	"suite": "viewport_mouse_input",
+	"passed": false,
+	"elapsed_seconds": 16.356469601392746,
+	"stage": 56,
+	"cases": [
+		{
+			"name": "menu_solo_single_click",
+			"passed": true,
+			"detail": "One mouse down/up through SceneViewport entered the lobby."
+		},
+		{
+			"name": "lobby_ready_single_click",
+			"passed": true,
+			"detail": "The lobby snapshot confirms ready after a pointer click."
+		},
+		{
+			"name": "v07.lobby_settings_pointer_roundtrip",
+			"passed": true,
+			"detail": "Viewport clicks changed all four settings, reset readiness, replicated values, and restored Standard / 1x / Normal / Fog On."
+		},
+		{
+			"name": "lobby_ready_single_click",
+			"passed": true,
+			"detail": "The lobby snapshot confirms ready after a pointer click."
+		},
+		{
+			"name": "lobby_start_single_click",
+			"passed": true,
+			"detail": "The authoritative world and client snapshot both entered the match."
+		},
+		{
+			"name": "separate_selection_context_hitboxes",
+			"passed": true,
+			"detail": "Resource and structure right-click targets are larger than their compact selection bounds."
+		},
+		{
+			"name": "unit_single_click_selection",
+			"passed": true,
+			"detail": "Selected worker 7."
+		},
+		{
+			"name": "v07.target_ping_center",
+			"passed": true,
+			"detail": "Actual resource right-click placed the order indicator at the target center."
+		},
+		{
+			"name": "resource_right_click_gather",
+			"passed": true,
+			"detail": "Worker 7 is gathering from resource 8."
+		},
+		{
+			"name": "gather_cargo_and_delivery",
+			"passed": true,
+			"detail": "Observed food cargo, then 10.00 Food delivered to the settlement."
+		},
+		{
+			"name": "drag_box_owned_workers",
+			"passed": true,
+			"detail": "Mouse down/move/move/up selected all 6 owned workers."
+		},
+		{
+			"name": "v07.portrait_shift_remove",
+			"passed": true,
+			"detail": "Viewport Shift+click removed one member of the actual drag selection."
+		},
+		{
+			"name": "v07.portrait_ctrl_isolate",
+			"passed": true,
+			"detail": "Viewport Ctrl+click isolated exactly the clicked entity."
+		},
+		{
+			"name": "idle_worker_button",
+			"passed": true,
+			"detail": "Viewport click selected exactly one idle villager."
+		},
+		{
+			"name": "next_idle_keyboard_chord",
+			"passed": true,
+			"detail": "Viewport keyboard chord cycled to another idle worker: ."
+		},
+		{
+			"name": "all_idle_keyboard_chord",
+			"passed": true,
+			"detail": "Selected all idle workers using the saved modifier chord: Ctrl+."
+		},
+		{
+			"name": "build_card_single_click",
+			"passed": true,
+			"detail": "A single viewport down/up on the build card armed Tents and Habitations."
+		},
+		{
+			"name": "build_keyboard_shortcut",
+			"passed": true,
+			"detail": "Saved construction-menu key then habitation shortcut (defaults Q then D) armed Tents and Habitations without changing preferences."
+		},
+		{
+			"name": "headquarters_single_click",
+			"passed": true,
+			"detail": "Selected only the headquarters after selecting an army."
+		},
+		{
+			"name": "building_context_commands",
+			"passed": true,
+			"detail": "Headquarters exposes no attack-move or patrol command."
+		},
+		{
+			"name": "headquarters_right_click_economic_rally",
+			"passed": true,
+			"detail": "Right-click set the economic rally on server and client."
+		},
+		{
+			"name": "headquarters_split_economic_military_rallies",
+			"passed": true,
+			"detail": "Viewport Economic Rally targeted a resource while the original military destination remained unchanged."
+		},
+		{
+			"name": "probe_completion",
+			"passed": false,
+			"detail": "Shift+wheel did not rotate the map with a matching inverse and stable pointer anchor."
+		}
+	],
+	"input_route": "FSceneViewport mouse handlers -> UGameViewportClient -> ARTSController",
+	"mouse_down_events": 31,
+	"mouse_up_events": 31,
+	"mouse_move_events": 34,
+	"keyboard_down_events": 10,
+	"keyboard_up_events": 10,
+	"worker_id": 7,
+	"resource_id": 8,
+	"headquarters_id": 1,
+	"gather_cargo_observed": true,
+	"food_delivered": 10,
+	"gameplay_screenshot": "Screenshots/input-gameplay.png",
+	"hotkeys_screenshot": "Screenshots/input-hotkeys.png",
+	"mouse_capture_mode": 3,
+	"viewport_width": 1600,
+	"viewport_height": 900,
+	"geometry_scale": 1
+}

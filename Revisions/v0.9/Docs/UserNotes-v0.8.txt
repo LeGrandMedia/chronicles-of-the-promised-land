@@ -1,0 +1,21 @@
+1. Winery is House of Laban primary religious building and trains Drunken Concubines. Generates Drunkenness instead of Food; Age III upgrade adds 3 Food/s.
+2. Great and Spacious Building unlocks Age IV, build limit1, Concubine aura, 5x Winery Drunkenness.
+3. Concubines speed nearby laborer gathering.
+4. Every Concubine has visible aura showing affected area.
+5. Chief Captains and King’s Chariots Age III; One of the Fifty Age IV.
+6. Age-locked unit/structure icons show required Roman numeral.
+7. Minimap rotates with camera.
+8. Fix Traders in Precious Things income.
+9. Seat of the People largest building except even-larger Great and Spacious Building.
+10. Smaller homes.
+11. Distinct Laban building silhouettes readable far zoom.
+12. Set raid routes from Gadianton Storehouse.
+13. Attack move only for units, not structures.
+14. Raid steals laborer cargo before dropoff.
+15. Gadianton Robber line: I loooooove precious things
+16. Clean concise useful UI info blurbs.
+17. Fix Gadianton units garrisoning hideouts.
+18. Signs and Symbols: enemy laborers will mistakenly drop resources off at your storehouses, if they are the closest dropoff point.
+19. Lawyer bribery reveals lawyer from stealth; name action Bribe.
+20. Death animations every unit, destruction animations every building.
+21. Implement necessary changes identified in vault cleanup: nonlinear Nephite HP curve; 60s hostility + channel-start conversion capacity; Gadianton35% gathering; Gadianton HQ/camp concealment; Jaredite locked foundation tier/any-beast completed repairs; Laban gate access; current Priestcrafter occupancy/outside aura; Teancum Night Raid reachability.

@@ -1,0 +1,497 @@
+{
+  "model": {
+    "recommended": "GPT-6.2 Sol",
+    "actual": "GPT-6.2 Sol"
+  },
+  "executable_sha256": "012186FA30DC3C72B6C8B90B7A8A0352495B4922AD0EE68BE8ACD76252BBD85E",
+  "run_metadata": {
+    "baseline0meta": {
+      "exit_code": 0,
+      "sha256": "012186FA30DC3C72B6C8B90B7A8A0352495B4922AD0EE68BE8ACD76252BBD85E",
+      "arm": "baseline",
+      "shard": 0
+    },
+    "baseline4meta": {
+      "exit_code": 0,
+      "sha256": "012186FA30DC3C72B6C8B90B7A8A0352495B4922AD0EE68BE8ACD76252BBD85E",
+      "arm": "baseline",
+      "shard": 4
+    },
+    "trial0meta": {
+      "exit_code": 0,
+      "sha256": "012186FA30DC3C72B6C8B90B7A8A0352495B4922AD0EE68BE8ACD76252BBD85E",
+      "arm": "trial",
+      "shard": 0
+    },
+    "trial4meta": {
+      "exit_code": 0,
+      "sha256": "012186FA30DC3C72B6C8B90B7A8A0352495B4922AD0EE68BE8ACD76252BBD85E",
+      "arm": "trial",
+      "shard": 4
+    }
+  },
+  "method": {
+    "fixed_step_seconds": 0.1,
+    "baseline_excluded_fields": [
+      "dropped_support_events",
+      "first_teacher_eligibility",
+      "observer_inclusive_wall_seconds",
+      "step_ms_max",
+      "step_ms_median",
+      "step_ms_p95",
+      "support_events",
+      "support_trace",
+      "emergency_slinger",
+      "emergency_slinger_fixture"
+    ],
+    "baseline_exact_match_scope": "Exact nested values and array order. The older Lamanite report encodes both active support planners as support_policy=enabled and omits the two redundant per-slot booleans.",
+    "matched_horizon_scope": "The earlier match finish in each pair. The trial understrength sample count at that step is bounded by the full trial count minus the maximum possible samples in its extra steps, through the full trial count. Negative lower bounds clamp to zero. Worker combat losses are cumulative and lack individual timestamps."
+  },
+  "baseline_reproduction": {
+    "lamanites_vs_prior": {
+      "exact_match": false,
+      "scalar_fields_compared": 388,
+      "differences": [
+        {
+          "path": "$.slot_0_support_enabled",
+          "left": true,
+          "right": null
+        },
+        {
+          "path": "$.slot_1_support_enabled",
+          "left": true,
+          "right": null
+        }
+      ],
+      "exact_on_shared_fields": true,
+      "shared_scalar_fields_compared": 386,
+      "current_only_metadata": [
+        "$.slot_0_support_enabled",
+        "$.slot_1_support_enabled"
+      ],
+      "prior_report": "../support-policy/controlled/enabled/v09-bot-balance-00-of-15.json"
+    },
+    "laban_vs_teacher_gates": {
+      "exact_match": true,
+      "scalar_fields_compared": 388,
+      "differences": [],
+      "prior_report": "../first-teacher-gates/enabled/v09-bot-balance-04-of-15.json"
+    },
+    "laban_vs_arrival_hold": {
+      "exact_match": true,
+      "scalar_fields_compared": 388,
+      "differences": [],
+      "prior_report": "../support-policy/arrival-hold/v09-bot-balance-04-of-15.json"
+    }
+  },
+  "trial_fixtures": {
+    "pair0": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "slinger_precedes_bowman",
+          "expected": "slinger_of_stones",
+          "queued": "slinger_of_stones",
+          "passed": true
+        },
+        {
+          "name": "blocked_slinger_falls_back_to_swordsman",
+          "expected": "man_of_the_sword",
+          "queued": "man_of_the_sword",
+          "passed": true
+        }
+      ]
+    },
+    "pair4": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "slinger_precedes_bowman",
+          "expected": "slinger_of_stones",
+          "queued": "slinger_of_stones",
+          "passed": true
+        },
+        {
+          "name": "blocked_slinger_falls_back_to_swordsman",
+          "expected": "man_of_the_sword",
+          "queued": "man_of_the_sword",
+          "passed": true
+        }
+      ]
+    }
+  },
+  "paired_matches": [
+    {
+      "pair": 0,
+      "nephite_slot": 0,
+      "opponent": "lamanites",
+      "baseline": {
+        "winner": "lamanites",
+        "match_steps": 5921,
+        "match_seconds": 592.1024780273438,
+        "last_seat_loss_seconds": 532.1171264648438,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.9853515625,
+        "army_peak_units": 7,
+        "army_peak_population": 10,
+        "worker_combat_losses": 23,
+        "eligible_camp_decisions": 33,
+        "slinger_attempts": 0,
+        "slingers_queued": 0,
+        "first_eligible_seconds": 460.9189147949219,
+        "first_slinger_queued_seconds": null,
+        "age_ii_understrength_threat_steps": 1292,
+        "teacher": {
+          "temple_ready_seconds": 394.01483154296875,
+          "first_gate": "teacher_queued",
+          "defenders_at_first_gate": 5,
+          "first_attempt_seconds": 394.3148498535156,
+          "first_queued_seconds": 394.3148498535156,
+          "first_unit_seconds": 436.3174133300781,
+          "first_channel_seconds": null,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "trial": {
+        "winner": "lamanites",
+        "match_steps": 5953,
+        "match_seconds": 595.3016967773438,
+        "last_seat_loss_seconds": 535.3163452148438,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.9853515625,
+        "army_peak_units": 7,
+        "army_peak_population": 10,
+        "worker_combat_losses": 24,
+        "eligible_camp_decisions": 21,
+        "slinger_attempts": 21,
+        "slingers_queued": 2,
+        "first_eligible_seconds": 460.9189147949219,
+        "first_slinger_queued_seconds": 460.9189147949219,
+        "age_ii_understrength_threat_steps": 1235,
+        "teacher": {
+          "temple_ready_seconds": 394.01483154296875,
+          "first_gate": "teacher_queued",
+          "defenders_at_first_gate": 5,
+          "first_attempt_seconds": 394.3148498535156,
+          "first_queued_seconds": 394.3148498535156,
+          "first_unit_seconds": 436.3174133300781,
+          "first_channel_seconds": null,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "first_combat_exact_match": true,
+      "first_combat_seconds": 320.5103454589844,
+      "first_combat_nephite_army_units": 4,
+      "first_combat_nephite_max_hp": 129,
+      "seat_loss_delay_seconds": 3.2,
+      "trial_conversion_completion_seconds": [],
+      "matched_horizon": {
+        "finish_step": 5921,
+        "finish_seconds": 592.1024780273438,
+        "baseline_understrength_seconds": 129.2,
+        "trial_understrength_seconds_bounds": [
+          120.3,
+          123.5
+        ],
+        "trial_minus_baseline_seconds_bounds": [
+          -8.9,
+          -5.7
+        ],
+        "baseline_worker_losses": 23,
+        "trial_worker_losses_upper_bound": 24,
+        "worker_losses_proven_lower": false,
+        "trial_conversions": 0
+      }
+    },
+    {
+      "pair": 0,
+      "nephite_slot": 1,
+      "opponent": "lamanites",
+      "baseline": {
+        "winner": "lamanites",
+        "match_steps": 5209,
+        "match_seconds": 520.9198608398438,
+        "last_seat_loss_seconds": 460.9189147949219,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 60.000946044921875,
+        "army_peak_units": 5,
+        "army_peak_population": 8,
+        "worker_combat_losses": 20,
+        "eligible_camp_decisions": 3,
+        "slinger_attempts": 0,
+        "slingers_queued": 0,
+        "first_eligible_seconds": 372.9135437011719,
+        "first_slinger_queued_seconds": null,
+        "age_ii_understrength_threat_steps": 1311,
+        "teacher": {
+          "temple_ready_seconds": null,
+          "first_gate": null,
+          "defenders_at_first_gate": null,
+          "first_attempt_seconds": null,
+          "first_queued_seconds": null,
+          "first_unit_seconds": null,
+          "first_channel_seconds": null,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "trial": {
+        "winner": "lamanites",
+        "match_steps": 5329,
+        "match_seconds": 532.9169311523438,
+        "last_seat_loss_seconds": 472.9196472167969,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.997283935546875,
+        "army_peak_units": 5,
+        "army_peak_population": 8,
+        "worker_combat_losses": 17,
+        "eligible_camp_decisions": 5,
+        "slinger_attempts": 5,
+        "slingers_queued": 2,
+        "first_eligible_seconds": 372.9135437011719,
+        "first_slinger_queued_seconds": 372.9135437011719,
+        "age_ii_understrength_threat_steps": 1455,
+        "teacher": {
+          "temple_ready_seconds": null,
+          "first_gate": null,
+          "defenders_at_first_gate": null,
+          "first_attempt_seconds": null,
+          "first_queued_seconds": null,
+          "first_unit_seconds": null,
+          "first_channel_seconds": null,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "first_combat_exact_match": true,
+      "first_combat_seconds": 309.5096740722656,
+      "first_combat_nephite_army_units": 3,
+      "first_combat_nephite_max_hp": 92,
+      "seat_loss_delay_seconds": 12,
+      "trial_conversion_completion_seconds": [],
+      "matched_horizon": {
+        "finish_step": 5209,
+        "finish_seconds": 520.9198608398438,
+        "baseline_understrength_seconds": 131.1,
+        "trial_understrength_seconds_bounds": [
+          133.5,
+          145.5
+        ],
+        "trial_minus_baseline_seconds_bounds": [
+          2.4,
+          14.4
+        ],
+        "baseline_worker_losses": 20,
+        "trial_worker_losses_upper_bound": 17,
+        "worker_losses_proven_lower": true,
+        "trial_conversions": 0
+      }
+    },
+    {
+      "pair": 4,
+      "nephite_slot": 0,
+      "opponent": "laban",
+      "baseline": {
+        "winner": "laban",
+        "match_steps": 7850,
+        "match_seconds": 784.9553833007812,
+        "last_seat_loss_seconds": 724.9700317382812,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.9853515625,
+        "army_peak_units": 10,
+        "army_peak_population": 13,
+        "worker_combat_losses": 26,
+        "eligible_camp_decisions": 18,
+        "slinger_attempts": 0,
+        "slingers_queued": 0,
+        "first_eligible_seconds": 589.2031860351562,
+        "first_slinger_queued_seconds": null,
+        "age_ii_understrength_threat_steps": 2110,
+        "teacher": {
+          "temple_ready_seconds": 417.61627197265625,
+          "first_gate": "teacher_queued",
+          "defenders_at_first_gate": 6,
+          "first_attempt_seconds": 417.7162780761719,
+          "first_queued_seconds": 417.7162780761719,
+          "first_unit_seconds": 459.7188415527344,
+          "first_channel_seconds": 564.5092163085938,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "trial": {
+        "winner": "laban",
+        "match_steps": 8002,
+        "match_seconds": 800.1516723632812,
+        "last_seat_loss_seconds": 740.1663208007812,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.9853515625,
+        "army_peak_units": 10,
+        "army_peak_population": 13,
+        "worker_combat_losses": 23,
+        "eligible_camp_decisions": 44,
+        "slinger_attempts": 44,
+        "slingers_queued": 7,
+        "first_eligible_seconds": 589.2031860351562,
+        "first_slinger_queued_seconds": 589.2031860351562,
+        "age_ii_understrength_threat_steps": 2262,
+        "teacher": {
+          "temple_ready_seconds": 417.61627197265625,
+          "first_gate": "teacher_queued",
+          "defenders_at_first_gate": 6,
+          "first_attempt_seconds": 417.7162780761719,
+          "first_queued_seconds": 417.7162780761719,
+          "first_unit_seconds": 459.7188415527344,
+          "first_channel_seconds": 564.5092163085938,
+          "conversions": 4,
+          "first_conversion_seconds": 752.2633666992188,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "first_combat_exact_match": true,
+      "first_combat_seconds": 346.81195068359375,
+      "first_combat_nephite_army_units": 5,
+      "first_combat_nephite_max_hp": 149,
+      "seat_loss_delay_seconds": 15.2,
+      "trial_conversion_completion_seconds": [
+        752.2633666992188,
+        759.3616333007812,
+        765.1602172851562,
+        770.1589965820312
+      ],
+      "matched_horizon": {
+        "finish_step": 7850,
+        "finish_seconds": 784.9553833007812,
+        "baseline_understrength_seconds": 211,
+        "trial_understrength_seconds_bounds": [
+          211,
+          226.2
+        ],
+        "trial_minus_baseline_seconds_bounds": [
+          0,
+          15.2
+        ],
+        "baseline_worker_losses": 26,
+        "trial_worker_losses_upper_bound": 23,
+        "worker_losses_proven_lower": true,
+        "trial_conversions": 4
+      }
+    },
+    {
+      "pair": 4,
+      "nephite_slot": 1,
+      "opponent": "laban",
+      "baseline": {
+        "winner": "laban",
+        "match_steps": 7321,
+        "match_seconds": 732.0682983398438,
+        "last_seat_loss_seconds": 672.0829467773438,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.9853515625,
+        "army_peak_units": 8,
+        "army_peak_population": 11,
+        "worker_combat_losses": 22,
+        "eligible_camp_decisions": 22,
+        "slinger_attempts": 0,
+        "slingers_queued": 0,
+        "first_eligible_seconds": 506.1216735839844,
+        "first_slinger_queued_seconds": null,
+        "age_ii_understrength_threat_steps": 2292,
+        "teacher": {
+          "temple_ready_seconds": 511.9220275878906,
+          "first_gate": "army_below_four",
+          "defenders_at_first_gate": 1,
+          "first_attempt_seconds": null,
+          "first_queued_seconds": null,
+          "first_unit_seconds": null,
+          "first_channel_seconds": null,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "trial": {
+        "winner": "laban",
+        "match_steps": 8986,
+        "match_seconds": 898.5276489257812,
+        "last_seat_loss_seconds": 838.5422973632812,
+        "seat_loss_count": 1,
+        "ending_seats": 0,
+        "defeat_countdown_seconds": 59.9853515625,
+        "army_peak_units": 8,
+        "army_peak_population": 11,
+        "worker_combat_losses": 31,
+        "eligible_camp_decisions": 34,
+        "slinger_attempts": 34,
+        "slingers_queued": 16,
+        "first_eligible_seconds": 506.1216735839844,
+        "first_slinger_queued_seconds": 506.1216735839844,
+        "age_ii_understrength_threat_steps": 3661,
+        "teacher": {
+          "temple_ready_seconds": 511.9220275878906,
+          "first_gate": "army_below_four",
+          "defenders_at_first_gate": 1,
+          "first_attempt_seconds": null,
+          "first_queued_seconds": null,
+          "first_unit_seconds": null,
+          "first_channel_seconds": null,
+          "conversions": 0,
+          "first_conversion_seconds": null,
+          "dropped_gate_transitions": 0,
+          "dropped_support_events": 0
+        }
+      },
+      "first_combat_exact_match": true,
+      "first_combat_seconds": 331.1109924316406,
+      "first_combat_nephite_army_units": 4,
+      "first_combat_nephite_max_hp": 118,
+      "seat_loss_delay_seconds": 166.46,
+      "trial_conversion_completion_seconds": [],
+      "matched_horizon": {
+        "finish_step": 7321,
+        "finish_seconds": 732.0682983398438,
+        "baseline_understrength_seconds": 229.2,
+        "trial_understrength_seconds_bounds": [
+          199.6,
+          366.1
+        ],
+        "trial_minus_baseline_seconds_bounds": [
+          -29.6,
+          136.9
+        ],
+        "baseline_worker_losses": 22,
+        "trial_worker_losses_upper_bound": 31,
+        "worker_losses_proven_lower": false,
+        "trial_conversions": 0
+      }
+    }
+  ],
+  "aggregate": {
+    "baseline_eligible_camp_decisions": 76,
+    "trial_attempts": 104,
+    "trial_slingers_queued": 27,
+    "nephite_trial_wins": 0,
+    "recommendation": "retain_opt_in"
+  }
+}

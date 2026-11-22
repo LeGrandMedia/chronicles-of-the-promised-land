@@ -1,0 +1,27 @@
+{
+	"schema_version": 1,
+	"passed": false,
+	"scope": "Rendered client presentation from deterministic synthetic snapshots. Authoritative simulation, pathfinding, bots, network and population limits are outside this probe.",
+	"failure": "Unable to obtain first-pick samples inside the gameplay viewport.",
+	"cases": [],
+	"elapsed_seconds": 19.033994302153587,
+	"screenshot_directory": "Screenshots/RenderStress-20261122-060047",
+	"config":
+	{
+		"platform": "Windows",
+		"engine": "5.3.2-29314046+++UE5+Release-5.3",
+		"cpu": "AMD Ryzen 5 5600X 6-Core Processor             ",
+		"gpu": "NVIDIA GeForce RTX 4070",
+		"rhi": "D3D12",
+		"ram_gib": 127.88394927978516,
+		"width": 1600,
+		"height": 900,
+		"vsync": 0,
+		"max_fps": 0,
+		"screen_percentage": 0,
+		"shadow_quality": 3,
+		"render_offscreen": true,
+		"frame_smoothing_disabled": true,
+		"snapshot_hz": 10
+	}
+}

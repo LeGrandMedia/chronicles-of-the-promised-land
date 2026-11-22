@@ -1,0 +1,7 @@
+{
+  "id": "lamanites",
+  "generator": "built-in image_gen",
+  "full_prompt": "Use case: stylized-concept. Asset type: square transparent faction emblem for an RTS, immediately readable at 32 pixels. Primary request: Red sunburst over a dark shield. Render the subject as: Red sunburst over a dark shield. Style/medium: original low-poly toon 3D, chunky monumental shapes with crisp faceted planes, sculpted high-contrast silhouette, ancient-world heraldic craft. Composition: single centered emblem, close crop with breathing room, no text, no shield border unless integral to the subject. Lighting: warm upper-left key light and cool soft shadows. Palette: distinctive faction colors matching this design: Red sunburst over a dark shield. Background: genuinely transparent. Constraints: no words, letters, numerals, labels, watermark, UI, pedestal, unrelated clutter, or cropped emblem.",
+  "source_png_path": "C:\\Users\\thmsl\\.codex\\generated_images\\01a15cb9-a761-7d93-974b-b6321fcaeb2b\\exec-0d0fcea9-7136-4f28-bcdb-a89554d84676.png",
+  "project_png_path": "Game/Content/Data/Art/icons/factions/lamanites.png"
+}

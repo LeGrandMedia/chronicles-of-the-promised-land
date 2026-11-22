@@ -1,6 +1,6 @@
 # Design Contract
 
-An entertaining, readable Book of Mormon RTS for Mormon male RTS players, understandable without scriptural familiarity. Tone: affectionate scriptural absurdity; recognizable names, asymmetric strategy, plain-language mechanics.
+An entertaining, readable Book of Mormon RTS for Mormon and ex-Mormon gamers, including beginners with little RTS experience. Tone: affectionate scriptural absurdity; recognizable names, asymmetric strategy, plain-language mechanics. Subtle optional lore discoveries should reward recognition without interrupting play.
 
 ## Authority
 
@@ -18,8 +18,8 @@ An entertaining, readable Book of Mormon RTS for Mormon male RTS players, unders
 - Jaredite beasts build/repair cement structures. Later revisions replace individual beast evolution with separately trained, age-gated livestock and spendable Cement.
 - Gadiantons center on robbery, stealth and sabotage, with later gathering exceptions in [[Gadianton Plunder and Stealth]].
 - The Liahona breaks on locally typed profanity and recovers through submitted `sorry`; preserve draft privacy.
-- Windows/Unreal, multiplayer first: playable LAN, then Steam/internet. Optional opponent AI must not block human multiplayer.
-- Original low-poly toon art, heroic silhouettes and warm dramatic light inspired by Arnold Friberg; replaceable names/art/animation. Describe the current 2D implementation accurately.
+- Unreal, multiplayer first: preserve playable LAN and add bots for solo or mixed human/bot play. Requested targets are Windows with an automatic dependency installer, macOS, Android, and iPhone, interoperable over LAN. Distinguish requested builds from verified artifacts.
+- Original low-poly toon art, heroic silhouettes and warm dramatic light inspired by Arnold Friberg; replaceable names/art/animation. v0.9 must use actual 3D models and articulated animations for all world units, structures and map objects; 2D art remains appropriate for icons and interface. v0.8 remains the preserved 2D playtest.
 - No seventh faction, modern LDS organizational jokes, skin-color bonuses, or record-preservation victory. Cross-period heroes/ages, mechanics and dialogue are creative adaptation, not historical or scriptural claims.
 
 Preserve usable playtest copies. Purchases, publication, accounts and hosting require their own authorization. Cumulative asset/generation ceiling: $200; track actual charges separately from operating costs.
